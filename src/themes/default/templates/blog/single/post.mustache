@@ -1,0 +1,58 @@
+{{<html}}
+{{$main}}
+<article class="post">
+    
+    <header>
+        {{#page.imageUrl}}<img src="{{page.imageUrl}}" alt="{{page.title}}">{{/page.imageUrl}}
+        <br><br>
+        <time datetime="{{page.date}}">{{page.date}}</time>
+        <h1>{{page.title}}</h1>
+        <hr>
+        <p class="excerpt">{{page.description}}</p>
+        
+        
+    </header>
+
+    <section>
+    
+    {{& page.contents}}
+        
+    </section>
+    
+    <footer class="grid grid-221">
+        <div class="author-list">
+        {{#page.authors}}
+            <a href="{{permalink}}">
+            {{#imageUrl}}<img class="medium rounded" src="{{imageUrl}}" alt="{{title}}">{{/imageUrl}}
+            </a>
+        {{/page.authors}}
+        </div>
+        <div class="tag-list">
+        {{#page.tags}}
+            <a href="{{permalink}}"><small>{{title}}</small></a>
+        {{/page.tags}}
+        </div>
+    </footer>
+    
+    <section>
+    {{#empty(page.related)}}
+    {{/empty(page.related)}}
+    {{^empty(page.related)}}
+    <h4>Related articles</h4>
+    <br>
+    <div class="grid grid-221">
+    {{#page.related}}
+        {{> blog.blocks.post}}
+    {{/page.related}}
+    </div>
+    {{/empty(page.related)}}
+    </section>
+
+</article>
+
+<div class="fixed-toc">
+{{> blocks.toc }}
+</div>
+
+{{/main}}
+{{/html}}
