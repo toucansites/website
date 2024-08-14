@@ -213,10 +213,12 @@ article footer {
     line-height: 1.5rem;
     border: 4px solid var(--primary-text-color);
 }
-time {
-    font-size: 14px;
+.meta {
     font-weight: bold;
-    color: var(--primary-text-color);
+    color: var(--text-color-3);
+}
+.card h2 {
+    margin-top: 0;
 }
 .card .featured {
     position: absolute;

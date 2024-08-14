@@ -88,6 +88,8 @@ pre code a {
     border-bottom: 1px dotted var(--text-color);
 }
 li {
+    font-size: 1.5rem;
+    color: var(--text-color-2);
     margin-bottom: 16px;
 }
 p code, li code {

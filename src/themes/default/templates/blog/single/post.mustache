@@ -4,8 +4,10 @@
     
     <header>
         {{#page.imageUrl}}<img src="{{page.imageUrl}}" alt="{{page.title}}">{{/page.imageUrl}}
-        <br><br>
-        <time datetime="{{page.date}}">{{page.date}}</time>
+        <div class="meta">
+            <time datetime="{{page.publication.html}}">{{page.publication.html}}</time>
+            {{#page.readingTime}} &middot; <span class="reading-time">{{page.readingTime}} min read</span>{{/page.readingTime}}
+        </div>
         <h1>{{page.title}}</h1>
         <hr>
         <p class="excerpt">{{page.description}}</p>
