@@ -9,7 +9,7 @@ order: 1
 # Basics
 ---
 
-Toucan is a static site generator written in Swift that converts Markdown files into HTML files using a theme. No additional dependencies or plugins are required; everything is bundled into the Toucan binary, which can be installed by following the provided installation guides.
+Toucan is a static site generator written in Swift that converts Markdown files into HTML files using a theme. No additional dependencies or plugins are required; everything is bundled into the Toucan binary, which can be installed by following the provided [installation](/docs/installation/) guides.
 
 ## Directory structure
 

@@ -9,66 +9,11 @@ order: 1
 # macOS
 ---
 
-Toucan can be installed on macOS using the Brew or Mint package managers, or by compiling from source.
-
-## Using Brew
-
-It is possible to install Toucan using the Brew package manager.
-
-### Prerequisites
-
-Ensure the Brew package manager is installed and configured on your system. Brew is a popular package manager for macOS that simplifies the installation of software. For installation instructions, visit the [Brew homepage](https://brew.sh/).
-
-### Installation Steps
-
-Follow these steps to install Toucan using Brew.
-
-#### Tap into the Binary Birds kegs
-
-Open your terminal and run the command: 
-
-```sh
-brew tap binarybirds
-```
-
-This command adds the Binary Birds repository to your Brew configuration, allowing you to access their packages.
-
-#### Install Toucan
-
-After tapping into the Binary Birds kegs, install Toucan by running:
-
-```sh
-
-brew install binarybirds/toucan
-```
-
-This command fetches and installs the Toucan binary on your system. After installation, the Toucan executable will be available for use.
-
-## Using Mint
-
-It is possible to install Toucan using the Mint package manager.
-
-### Prerequisites
-
-Ensure the Mint package manager is installed and configured on your system. Mint is a Swift-based package manager that makes it easy to install and manage Swift command-line tools. For installation instructions, visit the [Mint GitHub page](https://github.com/yonaskolb/Mint).
-
-### Installation Steps
-
-Follow these steps to install Toucan using Mint.
-
-#### Install Toucan
-
-Open your terminal and run the command:
-
-```sh
-mint install binarybirds/toucan
-```
-
-This command installs the Toucan binary using Mint. Once the installation is complete, the Toucan executable will be ready to use.
+During the alpha release, Toucan can be installed on macOS by compiling from source. Support for [Brew](https://brew.sh/) and [Mint](https://github.com/yonaskolb/Mint) package managers is coming soon.
 
 ## Compile from source
 
-It is possible to install Toucan by compiling it from source.
+It is possible to install Toucan by compiling it from [source](https://github.com/binarybirds/toucan).
 
 ### Prerequisites
 
@@ -76,7 +21,7 @@ Before installing Toucan, ensure Swift 5.10 or a later version is installed on y
 
 ### Installation Steps
 
-Follow these steps to install Toucan by compiling it from source.
+Follow these steps to install Toucan.
 
 #### Clone the Toucan Repository
 
