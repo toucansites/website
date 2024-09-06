@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="canonical" href="http://localhost:3000/docs/content-management/asset-management/">
+    <link rel="prev" href="[&quot;hreflang&quot;: [], &quot;description&quot;: &quot;Mustache&quot;, &quot;title&quot;: &quot;Mustache&quot;, &quot;css&quot;: [], &quot;imageUrl&quot;: false, &quot;lastModification&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.07.31.&quot;, rss: &quot;Wed, 31 Jul 2024 18:46:56 +0000&quot;, sitemap: &quot;2024-07-31&quot;), &quot;slug&quot;: &quot;docs/themes/mustache-templates&quot;, &quot;noindex&quot;: false, &quot;permalink&quot;: &quot;http://localhost:3000/docs/themes/mustache-templates/&quot;, &quot;canonical&quot;: &quot;http://localhost:3000/docs/themes/mustache-templates/&quot;, &quot;js&quot;: [], &quot;publication&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.09.06.&quot;, rss: &quot;Fri, 06 Sep 2024 12:53:37 +0000&quot;, sitemap: &quot;2024-09-06&quot;), &quot;expiration&quot;: false]">
+    <link rel="next" href="[&quot;expiration&quot;: false, &quot;publication&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.09.06.&quot;, rss: &quot;Fri, 06 Sep 2024 12:53:37 +0000&quot;, sitemap: &quot;2024-09-06&quot;), &quot;js&quot;: [], &quot;imageUrl&quot;: false, &quot;title&quot;: &quot;Content types&quot;, &quot;css&quot;: [], &quot;slug&quot;: &quot;docs/content-management/content-types&quot;, &quot;noindex&quot;: false, &quot;permalink&quot;: &quot;http://localhost:3000/docs/content-management/content-types/&quot;, &quot;canonical&quot;: &quot;http://localhost:3000/docs/content-management/content-types/&quot;, &quot;lastModification&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.07.31.&quot;, rss: &quot;Wed, 31 Jul 2024 18:46:56 +0000&quot;, sitemap: &quot;2024-07-31&quot;), &quot;description&quot;: &quot;Content types&quot;, &quot;hreflang&quot;: []]">
+    
+    <title>Assets - Toucan</title>
+    <meta name="description" content="Assets">
+    
+    <meta property="og:url" content="http://localhost:3000/docs/content-management/asset-management/">
+    <meta property="og:title" content="Assets - Toucan">
+    <meta property="og:description" content="Assets">
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Assets - Toucan">
+    <meta name="twitter:description" content="Assets">
+    
+    
+    <link rel="stylesheet" href="http://localhost:3000/css/modern-normalize.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/modern-base.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/variables.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/base.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/grid.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/navigation.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/footer.css">
+    <link rel="stylesheet" href="http://localhost:3000/css/style.css">
+
+    
+    
+    
+    <link rel="shortcut icon" href="http://localhost:3000/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://localhost:3000/icons/icon-320.png" type="image/png">
+    
+    <link rel="apple-touch-icon" href="http://localhost:3000/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:3000/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:3000/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:3000/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:3000/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:3000/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:3000/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:3000/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:3000/icons/apple-touch-icon-180x180.png">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+        media="(prefers-color-scheme: dark)"
+    >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</head>
+
+<body>
+
+    <header id="navigation">
+        <a href="/">
+            <picture>
+                <img
+                    src="http://localhost:3000/images/logos/logo.png"
+                    alt="Logo of Toucan"
+                    title="Toucan"
+                >
+            </picture>
+        </a>
+        <nav>
+            <input type="checkbox" id="primary-menu-button" name="menu-button" class="menu-button">
+            <label for="primary-menu-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </label>
+            <div class="menu-items">
+                <a href="/news/">News</a>
+                <a href="/docs/">Docs</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/showcases/">Showcases</a>
+                <a href="/contact/">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="page-container">
+    
+    <div id="docs">
+        <div class="left">
+            <aside>
+            
+                <ul>
+                    <li class="category">
+                        <a href="http://localhost:3000/docs/installation/">Installation</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/installation/macos/">macOS</a></li>
+                <li><a href="http://localhost:3000/docs/installation/linux/">Linux</a></li>
+                <li><a href="http://localhost:3000/docs/installation/windows/">Windows</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/getting-started/">Getting started</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/configuration/">Configuration</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/contents/">Contents</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/themes/">Themes</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/content-management/">Content Management</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/content-management/directory-structure/">Directory structure</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/asset-management/">Assets</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/content-types/">Content types</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/transformers/">Transformers</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown-editors/">Markdown editors</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/themes/">Themes</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/themes/directory-structure/">Directory structure</a></li>
+                <li><a href="http://localhost:3000/docs/themes/asset-management/">Assets</a></li>
+                <li><a href="http://localhost:3000/docs/themes/mustache-templates/">Mustache</a></li>
+                <li><a href="http://localhost:3000/docs/themes/context-reference/">Context reference</a></li>
+                <li><a href="http://localhost:3000/docs/themes/custom-templates/">Custom templates</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/integrations/">Integrations</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
+                <li><a href="http://localhost:3000/docs/integrations/alalytics/">Analytics</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/deployment/">Deployment</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/deployment/github-pages/">GitHub Pages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="center">
+            <article>
+                
+                <h1>Assets</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae. Lacus sed turpis tincidunt id aliquet risus. Faucibus turpis in eu mi bibendum neque egestas congue. Parturient montes nascetur ridiculus mus mauris vitae. Facilisis leo vel fringilla est ullamcorper eget. Lectus nulla at volutpat diam ut venenatis. Tempor orci eu lobortis elementum nibh. Scelerisque mauris pellentesque pulvinar pellentesque. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Lobortis scelerisque fermentum dui faucibus in. Sed felis eget velit aliquet sagittis id consectetur purus. Blandit libero volutpat sed cras. Arcu felis bibendum ut tristique et egestas quis ipsum. Faucibus purus in massa tempor nec feugiat nisl. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.</p>
+    
+    
+                <section>
+                <div class="grid grid-2">
+                <div></div>
+                    
+                <div></div>
+                </div>
+                </section>
+    
+            </article>
+        </div>
+        <div class="right">
+            <aside>
+            </aside>
+        </div>
+    </div>
+    </main>
+
+    <footer id="site-footer">
+        <div class="grid grid-421">
+    
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="/news/">News</a></li>
+                    <li><a href="/docs/">Docs</a></li>
+                    <li><a href="/faq/">FAQ</a></li>
+                    <li><a href="/showcases/">Showcases</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </p>
+            </div>
+            
+            <div>
+                <h4>Links</h4>
+                <li><a href="https://github.com/binarybirds/">GitHub</a></li>
+                <li><a href="https://binarybirds.com/">Binary Birds</a></li>
+                <li><a href="https://x.com/tiborbodecs">tiborbodecs</a></li>
+                <li><a href="http://localhost:3000/rss.xml" target="_blank">RSS</a></li>
+                <li><a href="http://localhost:3000/sitemap.xml" target="_blank">Sitemap</a></li>
+            </div>
+            
+            
+            <div>
+                <picture>
+                    <img
+                        id="logo-image"
+                        src="http://localhost:3000/images/logos/logo.png"
+                        alt="Logo of Toucan"
+                        title="Toucan"
+                    >
+                </picture>
+            </div>
+            
+            <div>
+                <h4>Toucan</h4>
+                <p><small>This site was generated<br>using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/binarybirds/toucan/" target="_blank">Toucan</a>.</small></p>
+                <small><br>
+                    Binary Birds Kft.<br>
+                    &copy; 2023 - 2024<br>
+                    <a href="https://github.com/toucansites/website/blob/main/LICENSE" target="_blank">MIT License</a></small>
+            </div>
+            
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
