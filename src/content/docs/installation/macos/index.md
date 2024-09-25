@@ -58,7 +58,7 @@ This command will build the Toucan project, creating the necessary executable fi
 Install the compiled Toucan binary to /usr/local/bin:
 
 ```sh
-install ./.build/release/toucan /usr/local/bin/toucan
+install ./.build/release/toucan-cli /usr/local/bin/toucan
 ```
 
 This step places the Toucan executable in a directory included in your system’s PATH, making it easy to run.
@@ -72,3 +72,8 @@ which toucan
 ```
 
 This should output the path to the toucan executable, confirming that the installation was successful.
+
+```sh
+# tib@~: which toucan
+/usr/local/bin/toucan
+```
