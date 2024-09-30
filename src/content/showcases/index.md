@@ -8,11 +8,12 @@ description: Toucan is used by the following websites. Feel free to contact us i
 
 Toucan is used by the following websites. Feel free to [contact us](/contact/) if you’d like to feature your site.
 
-@Grid(
-    desktop: 2,
-    tablet: 2,
-    mobile: 1
-) {
+@Grid {
+    @Column {
+        [
+            ![Binary Birds](./assets/binarybirds.jpg)
+        ](https://binarybirds.com/)
+    }
     @Column {
         [
             ![Swift on Server](./assets/swiftonserver.jpg)
