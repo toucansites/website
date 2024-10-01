@@ -70,9 +70,7 @@ pre {
     font-size: 1rem;
     line-height: 1.5rem;
     background: var(--background-color);
-    padding: 1rem;
     margin: 2rem auto;
-    border-radius: 16px;
     border: 8px solid var(--background-color-1);
     margin-bottom: 32px;
 }

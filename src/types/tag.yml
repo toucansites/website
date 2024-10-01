@@ -18,8 +18,8 @@ context:
         posts:
             references: post
             foreignKey: tags
-            sort: title
-            order: asc
-            limit: 10
+            sort: publication
+            order: desc
+            limit: 12
 
 template: blog.single.tag
