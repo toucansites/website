@@ -61,7 +61,7 @@ The first thing you need is a source folder where you can store all the themes, 
 
 Feel free to grab one of our themes to get started. We also have a minimal starter project available under the [toucansites](https://github.com/toucansites) GitHub organization.
 
-Make sure to place the theme in the `themes/default`folder. Alternatively, you can set the `theme.use` value to use a custom folder.
+Make sure to place the theme in the `themes/default` folder. Alternatively, you can set the `theme.use` value in the site's configuration YAML to use a custom folder.
 
 Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:
 
@@ -118,11 +118,11 @@ If you want to omit a folder from the hierarchy, just add a `noindex.yml` file t
 
 The following pages will be available:
 
-- `/ `
-- `404 `
+- `/`
+- `404`
 - `blog`
 - `blog/authors/alan-turing`
-- `blog/posts/turings-legacy-in-modern-computing `
+- `blog/posts/turings-legacy-in-modern-computing`
 - `blog/tags/technology`
 - `my-page`
 

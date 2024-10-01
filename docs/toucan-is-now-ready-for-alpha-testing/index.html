@@ -5,14 +5,14 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="canonical" href="https://toucansites.com/toucan-is-now-ready-for-apha-testing/">
+    <link rel="canonical" href="https://toucansites.com/toucan-is-now-ready-for-alpha-testing/">
     
-    <link rel="next" href="[&quot;expiration&quot;: false, &quot;js&quot;: [], &quot;permalink&quot;: &quot;https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/&quot;, &quot;description&quot;: &quot;We\&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift.&quot;, &quot;title&quot;: &quot;Introducing Toucan: a new Markdown-based static site senerator&quot;, &quot;css&quot;: [], &quot;imageUrl&quot;: false, &quot;hreflang&quot;: [], &quot;noindex&quot;: false, &quot;canonical&quot;: &quot;https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/&quot;, &quot;slug&quot;: &quot;introducing-toucan-a-new-markdown-based-static-site-generator&quot;, &quot;publication&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.08.12.&quot;, rss: &quot;Mon, 12 Aug 2024 12:00:00 +0000&quot;, sitemap: &quot;2024-08-12&quot;), &quot;lastModification&quot;: ToucanSDK.PageBundle.Context.DateValue(html: &quot;2024.08.13.&quot;, rss: &quot;Tue, 13 Aug 2024 11:56:21 +0000&quot;, sitemap: &quot;2024-08-13&quot;)]">
+    <link rel="next" href="https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/">
     
     <title>Toucan is now ready for alpha testing - Toucan</title>
     <meta name="description" content="Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.">
     
-    <meta property="og:url" content="https://toucansites.com/toucan-is-now-ready-for-apha-testing/">
+    <meta property="og:url" content="https://toucansites.com/toucan-is-now-ready-for-alpha-testing/">
     <meta property="og:title" content="Toucan is now ready for alpha testing - Toucan">
     <meta property="og:description" content="Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.">
     
@@ -120,7 +120,7 @@ which toucan
 toucan generate ./src ./docs --base-url "http://localhost:3000/"
 </code></pre><p>It is also possible to quickly start a local file/web server by running the <code>toucan serve</code> command. This will launch a Hummingbird server, using the <code>docs</code> directory and port <code>3000</code> as defaults, but you can override these settings. For example:</p><pre><code class="language-sh">toucan serve ./docs --port 3000
 </code></pre><p>Now, if you open your browser, you should be able to preview the website by entering <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p><p>During development, it’s useful to rebuild the site automatically when changes occur in the source directory. For this purpose, we’ve implemented a <code>watch</code> command, but currently, it only works on macOS. You can try watching a directory; the command is very similar to the generate subcommand:</p><pre><code class="language-sh">toucan watch ./src ./docs --base-url 'http://localhost:3000/' 
-</code></pre><p>That’s all about the toucan command. Now, let’s focus on building a simple website.</p><h2 id="getting-started-with-toucan-based-websites">Getting started with Toucan-based websites</h2><p>The first thing you need is a source folder where you can store all the themes, assets, and content for your website.</p><p>Feel free to grab one of our themes to get started. We also have a minimal starter project available under the <a href="https://github.com/toucansites" target="_blank">toucansites</a> GitHub organization.</p><p>Make sure to place the theme in the <code>themes/default</code>folder. Alternatively, you can set the <code>theme.use</code> value to use a custom folder.</p><p>Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:</p><pre><code class="language-yaml">site:
+</code></pre><p>That’s all about the toucan command. Now, let’s focus on building a simple website.</p><h2 id="getting-started-with-toucan-based-websites">Getting started with Toucan-based websites</h2><p>The first thing you need is a source folder where you can store all the themes, assets, and content for your website.</p><p>Feel free to grab one of our themes to get started. We also have a minimal starter project available under the <a href="https://github.com/toucansites" target="_blank">toucansites</a> GitHub organization.</p><p>Make sure to place the theme in the <code>themes/default</code> folder. Alternatively, you can set the <code>theme.use</code> value in the site’s configuration YAML to use a custom folder.</p><p>Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:</p><pre><code class="language-yaml">site:
     baseUrl: "http://localhost:3000/"
     title: "Minimal example"
     description: "This is a minimal Toucan example"
@@ -150,7 +150,7 @@ Welcome to the home page.
 ├── index.md
 └── my-page
     └── index.md
-</code></pre><p>The following pages will be available:</p><ul><li><code>/ </code></li><li><code>404 </code></li><li><code>blog</code></li><li><code>blog/authors/alan-turing</code></li><li><code>blog/posts/turings-legacy-in-modern-computing </code></li><li><code>blog/tags/technology</code></li><li><code>my-page</code></li></ul><p>Notice the <code>noindex.yml</code>file in the 2024 folder, which is omitted from the slug.</p><p>Now that you understand the basics, feel free to create your own structure and experiment with Toucan. You can find working examples by checking the source code of <a href="https://github.com/toucansites/website" target="_blank">this</a> website or the <a href="https://github.com/theswiftdev/blog" target="_blank">theswiftdev.com</a> site, both available on GitHub.</p><p>That’s all you need to know to get started with Toucan. 😊</p>
+</code></pre><p>The following pages will be available:</p><ul><li><code>/</code></li><li><code>404</code></li><li><code>blog</code></li><li><code>blog/authors/alan-turing</code></li><li><code>blog/posts/turings-legacy-in-modern-computing</code></li><li><code>blog/tags/technology</code></li><li><code>my-page</code></li></ul><p>Notice the <code>noindex.yml</code>file in the 2024 folder, which is omitted from the slug.</p><p>Now that you understand the basics, feel free to create your own structure and experiment with Toucan. You can find working examples by checking the source code of <a href="https://github.com/toucansites/website" target="_blank">this</a> website or the <a href="https://github.com/theswiftdev/blog" target="_blank">theswiftdev.com</a> site, both available on GitHub.</p><p>That’s all you need to know to get started with Toucan. 😊</p>
             
         </section>
         
@@ -176,7 +176,7 @@ Welcome to the home page.
                     <time datetime="2024.08.12.">2024.08.12.</time>
                     
                 </div>
-                <h2 class="title"><a href="https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/" target="">Introducing Toucan: a new Markdown-based static site senerator</a></h2>
+                <h2 class="title"><a href="https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/" target="">Introducing Toucan: a new Markdown-based static site generator</a></h2>
                 <hr>
                 <p>We&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift.</p>
                 

@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Introducing Toucan: a new Markdown-based static site senerator"
+title: "Introducing Toucan: a new Markdown-based static site generator"
 description: "We're thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift."
 publication: 2024-08-12 12:00:00
 tags: 
