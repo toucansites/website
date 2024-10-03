@@ -1,24 +1,20 @@
 site:
-    baseUrl: https://toucansites.com/
-    language: en-US
-    title: Toucan
-    description: The Markdown-based static site generator written in Swift
+    baseUrl: "https://toucansites.com/"
+    language: "en-US"
+    title: "Toucan"
+    description: "The Markdown-based static site generator written in Swift"
     dateFormat: "yyyy.MM.dd."
+    navigation:
+        - label: "News"
+          url: "/news/"
+        - label: "Docs"
+          url: "/docs/"
+        - label: "FAQ"
+          url: "/faq/"
+        - label: "Showcases"
+          url: "/showcases/"
+        - label: "Contact"
+          url: "/contact/"
 
 themes:
     use: "default"
-    folder: "themes"
-    templates:
-        folder: "templates"
-    assets:
-        folder: "assets"
-    overrides:
-        folder: "theme_overrides"
-
-types:
-    folder: "types"
-
-content:
-    folder: "content"
-    assets:
-        folder: "assets"
