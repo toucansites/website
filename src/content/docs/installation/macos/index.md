@@ -11,6 +11,21 @@ order: 1
 
 During the alpha release, Toucan can be installed on macOS by compiling from source. Support for [Brew](https://brew.sh/) and [Mint](https://github.com/yonaskolb/Mint) package managers is coming soon.
 
+## Quick install
+
+Here’s a quick snippet to install Toucan on macOS. Simply run the following commands. Please note that both Swift and Xcode must be installed on your machine before executing the commands.
+
+```swift
+# clone the repository & install toucan
+git clone https://github.com/toucansites/toucan.git
+cd toucan
+make install
+# verify installation
+which toucan
+```
+
+That’s it, the `toucan` command should now be ready to use.
+
 ## Compile from source
 
 It is possible to install Toucan by compiling it from [source](https://github.com/binarybirds/toucan).
@@ -28,7 +43,7 @@ Follow these steps to install Toucan.
 Open your terminal and run the following command to clone the Toucan repository from [GitHub](https://github.com/binarybirds/toucan):
 
 ```sh
-git clone https://github.com/BinaryBirds/Toucan.git
+git clone https://github.com/toucansites/toucan.git
 ```
 
 This command will download the Toucan repository from GitHub to your local machine.
@@ -38,7 +53,7 @@ This command will download the Toucan repository from GitHub to your local machi
 Change to the Toucan directory by running:
 
 ```sh
-cd Toucan
+cd toucan
 ```
 
 This will set your current directory to the Toucan project directory.
