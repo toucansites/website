@@ -1,4 +1,5 @@
 id: guide
+template: docs.single.guide
 
 properties:
     order:
@@ -31,4 +32,4 @@ context:
             order: asc
         
 
-template: docs.single.guide
+

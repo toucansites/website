@@ -28,7 +28,7 @@ That’s it, the `toucan` command should now be ready to use.
 
 ## Compile from source
 
-It is possible to install Toucan by compiling it from [source](https://github.com/binarybirds/toucan).
+It is possible to install Toucan by compiling it from [source](https://github.com/toucansites/toucan).
 
 ### Prerequisites
 
@@ -40,7 +40,7 @@ Follow these steps to install Toucan.
 
 #### Clone the Toucan Repository
 
-Open your terminal and run the following command to clone the Toucan repository from [GitHub](https://github.com/binarybirds/toucan):
+Open your terminal and run the following command to clone the Toucan repository from [GitHub](https://github.com/toucansites/toucan):
 
 ```sh
 git clone https://github.com/toucansites/toucan.git

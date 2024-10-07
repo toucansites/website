@@ -6,5 +6,5 @@ order: 3
 ---
 
 # Content Management
-
-lorem ipsum dolor sit amet
+---
+Coming soon.

@@ -7,3 +7,5 @@ order: 5
 ---
 
 # Custom templates
+---
+Coming soon.

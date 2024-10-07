@@ -7,4 +7,4 @@ order: 10
 
 # Integrations
 
-lorem ipsum dolor sit amet
+This section provides useful guides on integrations and third-party services with Toucan.

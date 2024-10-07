@@ -1,4 +1,5 @@
 id: category
+template: docs.single.category
 
 properties:
     order:
@@ -21,4 +22,4 @@ context:
             order: asc
             limit: 10
 
-template: docs.single.category
+

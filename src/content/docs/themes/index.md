@@ -6,5 +6,5 @@ order: 8
 ---
 
 # Themes
-
-lorem ipsum dolor sit amet
+---
+Coming soon.

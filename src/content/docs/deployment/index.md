@@ -6,5 +6,5 @@ order: 20
 ---
 
 # Deployment
-
-Hosting & deployment 
+---
+This section provides useful guides on deploying and hosting your Toucan-based static site using various platforms and providers.

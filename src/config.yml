@@ -15,6 +15,3 @@ site:
           url: "/showcases/"
         - label: "Contact"
           url: "/contact/"
-
-themes:
-    use: "default"
