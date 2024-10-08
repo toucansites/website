@@ -3,7 +3,7 @@ type: guide
 title: Commands
 description: Commands
 category: getting-started
-order: 5
+order: 2
 ---
 
 # Commands

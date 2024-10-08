@@ -4,6 +4,7 @@ title: Assets
 description: Assets
 category: content-management
 order: 4
+draft: true
 ---
 
 # Assets

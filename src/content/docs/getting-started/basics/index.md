@@ -9,99 +9,201 @@ order: 1
 # Basics
 ---
 
-Toucan is a static site generator written in Swift that converts Markdown files into HTML files using a theme. No additional dependencies or plugins are required; everything is bundled into the Toucan binary, which can be installed by following the provided [installation](/docs/installation/) guides.
+Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.  
 
-## Directory structure
+## Prerequisites
 
-To start using Toucan, a source (`src`) directory is required for the site. This directory should contain all the assets, contents, and theme files. This guide will explore a minimal setup using the default theme.
+Before you start this guide you must install the Toucan binary by following the provided [installation](/docs/installation/) guide.
 
-### A minimal example
-
-Below is an example of a minimal directory structure:
-
-```sh
-.
-├── assets
-├── config.yml
-├── contents
-│   └── pages
-│       ├── 404.md
-│       └── home.md
-└── themes
-    └── default
-        ├── assets
-        └── templates
-```
-
-## Assets folder
-
-The contents of the assets folder in the `src` directory are copied to the `dist` folder unchanged. A different location can be set by modifying the `input.folder` variable in the assets configuration. The destination folder can be specified by overriding `output.folder` in the assets section of the configuration file. 
+You should also be comfortable using the command line.
 
 ## Configuration
 
-The configuration file defines the structure of the content. It allows changes to folder names, slug prefixes, and various site settings.
+To begin using Toucan, a source directory is required for the site. This directory will contain all assets, content, and theme files. This guide provides a quick setup using a minimal starter theme.
 
-A minimal site configuration (`config.yml`) is provided below. For more configuration options, refer to the complete [configuration](/docs/getting-started/configuration/) reference.
+The first step is to start a new project for the website and create the source directory:
+
+```sh
+# The directory for the website
+mkdir my-website
+cd my-website
+# The location of the source files
+mkdir src
+cd src
+```
+
+The next step involves creating a configuration file in YAML format. A `config.yml` file should be created inside the `src` directory with the following contents:
 
 ```yml
+# FILE: src/config.yml
 site:
-    baseUrl: http://localhost:3000/
-    title: Minimal example
-    description: This is a minimal toucan example
-
+    baseUrl: "http://localhost:3000/"
+    title: "My website"
 ```
- 
-## Contents
 
-The contents folder contains the main contents of the website. The contents are separated into two categories: static pages and regular contents.
+The base URL refers to the site's final domain where it will be available. In this case, a development environment is being used, which is why `http://localhost:3000` was set. For production, the URL should match the site's domain without the port, and the protocol should be HTTPS.
 
-- Static pages are predefined pages with special capabilities and purposes, such as the home page and the not found page. These usually represent a single page within the site.
-- Regular contents can be part of a collection, such as blog posts, documentation guides, or similar.
-    
-Other content types will be explored in the content management section. Now, let’s meet the first two static pages.
+The site title will be appended to every page as a suffix, with a dash character used as a separator.
 
+With the basic configuration in place, the next step is to create the homepage for the website. Create a `content` directory inside the `src` folder:
 
-### The home page
+```sh
+# The location of the Markdown content, inside the src folder
+mkdir content
+```
 
-The home page is the main page of the website. Its contents can be updated by altering the `home.md` file:
+Next, create an `index.md` file to serve as the homepage for the website. Place the Markdown file in the `src/content/` directory with the following contents:
 
 ```md
 ---
-title: Home title
-description: Home description 
+title: "Home"
+description: "Welcome to the home page."
+template: "index"
 ---
 
-Welcome to the home page.
+# Hello
 
+This is the home page.
 ```
 
-### The 404 page
+The first part of the Markdown, located between the `---` characters, is called the front matter. This section defines additional properties for the content, such as the title, description, or the name of the template file used during the site generation process.
 
-A 404 page is an error page displayed when a web server cannot find the requested resource. This typically happens when a user tries to access a page that does not exist or has been moved without updating the links. The number 404 is the HTTP status code for "Not Found." The page informs users that the URL they requested is not available.
+Now that we have a simple home page, we still need a theme to render the website. For this purpose we can grab the minimal-theme from [GitHub](https://github.com/toucansites/minimal-theme/).
 
-A sample 404 page file (`404.md`) is shown below:
+```sh
+# Run this snippet inside the src/content folder
+mkdir themes
+curl -L -O https://github.com/toucansites/minimal-theme/archive/refs/heads/main.zip 
+unzip main.zip 
+mv minimal-theme-main default
+rm main.zip
+```
 
-```md
+The snippet above retrieves the minimal theme and places it inside the `content/themes/default` directory. Toucan will automatically use the theme in this folder by default to render the website. With the minimal theme set as default, the website is now ready for generation.
+
+The final website is generated by running the `generate` command. The generated files will be placed inside the docs folder, which is located next to the src folder.
+
+> During development, monitoring the source files for changes can be helpful, which can be done using the watch command. More information can be found in the [commands](/docs/getting-started/commands/) section.
+
+```sh
+# Run this inside the my-website folder
+toucan generate
+```
+
+To preview the website, run the serve command. This will start a basic web server using the [Hummingbird](https://hummingbird.codes/) framework and host the website locally on port 3000. The contents will be served from the docs folder.
+
+```sh
+# Run this inside the my-website folder
+toucan serve
+```
+
+To preview the site, navigate to [http://localhost:3000/](http://localhost:3000/) in a web browser. 
+
+The site logo might appear to be missing. Let's address this issue quickly and take a moment to explain how asset management works.
+
+## Basic assets
+
+Global website assets are stored in the `src/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
+
+```sh
+# Inside the src/content directory
+mkdir assets
+cd assets
+mkdir images
+cd images
+# Pick a logo and copy to the images directory
+cp ~/my-logo.png ./logo.png
+```
+
+The minimal theme uses the `logo.png` file as the main image for the website. This file must be placed inside the `images` folder. 
+
+It is also possible to create additional directories and place images, JavaScript, CSS, and other files in the `assets` folder. These files will be available as global assets when the website is built.
+
+Toucan differentiates between page assets and global assets. Each subpage can have its own assets directory, and together, the subpage and its assets are referred to as page bundles.
+
+## The 404 page
+
+Creating a custom "Not Found" page is a common use case for a website. To do this, create a special `404` directory inside the `contents` folder:
+
+```sh
+# Inside the src/content directory
+mkdir 404
+cd 404
+```
+
+The starting point for the 404 page is an `index.md` Markdown file. Create this file with the following contents:
+
+```markdown
 ---
-title: Not found
-description: Page not found
+title: "Not found"
+description: "Page not found"
 ---
+
+# Not found
+
+![Not Found](./assets/not-found.png)
 
 This page does not exists.
 
+[Take me home](/)
 ```
 
-
-## Themes
-
-The themes folder contains the website’s themes. Multiple themes can be copied to this folder, and switching between them is done by altering the `themes.use` value in the configuration.​ By default, the theme located in the `default` folder will be loaded. More information about the themes can be found [here](/docs/getting-started/themes/).
-
-
-## Site generation
-
-
-To generate the site, run the following command. The generated website will be located inside the dist folder.
+This page includes a "not found" image, which needs to be placed inside the `404/assets` directory. As mentioned earlier, pages can have their own assets stored within the page bundle, which, in this case, is the `404` directory.
 
 ```sh
-toucan generate ./src ./dist
+# Inside the src/content/404 directory
+mkdir assets
+cp ~/not-found.png ./not-found.png
 ```
+
+Regenerate the website and refresh the browser window. Ensure that the browser cache is disabled to view the changes properly. Enter an invalid URL to verify that the system redirects to the custom 404 page.
+
+## Page bundles
+
+Like the 404 page, every subpage of the website can be defined as a page bundle. Page bundles are simple directories where the slug of the subpage matches the folder name containing the `index.md` file.
+
+Create a new `about` subpage by setting up a directory named `about` and placing an `index.md` file inside it.
+
+```sh
+# Inside the src/content directory
+mkdir about
+```
+
+Create an `index.md` file inside the `about` directory with the following contents:
+
+```markdown
+---
+title: "About"
+description: "About my website"
+---
+
+# About
+
+This page is all about my website.
+```
+
+Customize the contents of the about page as desired. Regenerate the site or use the `watch` command to monitor for changes and preview the updates in the browser.
+
+
+## Site navigation
+
+The final step of this tutorial is setting up a basic menu for the website. The minimal theme supports navigation, and new menu items can be added by defining them in the site's configuration file as shown below:
+
+```yml
+site:
+    baseUrl: "http://localhost:3000/"
+    title: "My website"
+    navigation:
+        - label: "Home"
+          url: "/"
+        - label: "Abut"
+          url: "/about/"
+```
+
+The `navigation` key should include all the menu items, with each item containing its URL and label.
+
+## Page templates
+
+To fully customize the look and feel of a subpage, create a custom [Mustache](https://mustache.github.io/mustache.5.html) file and reference it in the `template` front matter key, as done for the homepage. The value should match the location of the template file without the `.mustache` extension.
+
+This concludes the basics. To learn more about how Toucan works, check out the open-source reference projects. More documentation and tutorials will be available soon. For any questions, feel free to contact us.
