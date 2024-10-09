@@ -73,6 +73,7 @@ Now that we have a simple home page, we still need a theme to render the website
 ```sh
 # Run this snippet inside the src/content folder
 mkdir themes
+cd themes
 curl -L -O https://github.com/toucansites/minimal-theme/archive/refs/heads/main.zip 
 unzip main.zip 
 mv minimal-theme-main default
