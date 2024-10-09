@@ -104,7 +104,7 @@ The site logo might appear to be missing. Let's address this issue quickly and t
 
 ## Basic assets
 
-Global website assets are stored in the `src/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
+Global website assets are stored in the `src/content/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
 
 ```sh
 # Inside the src/content directory
