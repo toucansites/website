@@ -198,7 +198,7 @@ site:
     navigation:
         - label: "Home"
           url: "/"
-        - label: "Abut"
+        - label: "About"
           url: "/about/"
 ```
 
