@@ -71,7 +71,7 @@ The first part of the Markdown, located between the `---` characters, is called 
 Now that we have a simple home page, we still need a theme to render the website. For this purpose we can grab the minimal-theme from [GitHub](https://github.com/toucansites/minimal-theme/).
 
 ```sh
-# Run this snippet inside the src/content folder
+# Run this snippet inside the src folder
 mkdir themes
 cd themes
 curl -L -O https://github.com/toucansites/minimal-theme/archive/refs/heads/main.zip 
