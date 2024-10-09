@@ -124,7 +124,7 @@ Toucan differentiates between page assets and global assets. Each subpage can ha
 
 ## The 404 page
 
-Creating a custom "Not Found" page is a common use case for a website. To do this, create a special `404` directory inside the `contents` folder:
+Creating a custom "Not Found" page is a common use case for a website. To do this, create a special `404` directory inside the `content` folder:
 
 ```sh
 # Inside the src/content directory
