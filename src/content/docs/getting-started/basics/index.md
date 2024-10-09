@@ -154,6 +154,7 @@ This page includes a "not found" image, which needs to be placed inside the `404
 ```sh
 # Inside the src/content/404 directory
 mkdir assets
+cd assets
 cp ~/not-found.png ./not-found.png
 ```
 
