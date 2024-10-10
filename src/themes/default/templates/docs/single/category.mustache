@@ -9,13 +9,16 @@
             <a href="/docs/">Docs</a>
             {{& page.contents}}
         
+            {{#empty(page.guides)}}
+            {{/empty(page.guides)}}
+            {{^empty(page.guides)}}
             <h2>Guides</h2>
+            <ul>
             {{#page.guides}}
-                <li>
-                    <a href="{{permalink}}">{{title}}</a>
-                </li>
+                <li><a href="{{permalink}}">{{title}}</a></li>
             {{/page.guides}}
-
+            </ul>
+            {{/empty(page.guides)}}
         </article>
     </div>
     <div class="right">

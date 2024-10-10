@@ -1,10 +1,10 @@
 id: tag
+template: blog.single.tag
 
 properties:
     order:
         type: int
         required: true
-
 
 context:
     site:
@@ -22,4 +22,4 @@ context:
             order: desc
             limit: 12
 
-template: blog.single.tag
+

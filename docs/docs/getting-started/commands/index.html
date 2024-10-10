@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="canonical" href="https://toucansites.com/docs/getting-started/commands/">
+    <link rel="prev" href="https://toucansites.com/docs/installation/macos/">
+    <link rel="next" href="https://toucansites.com/docs/installation/linux/">
+    
+    <title>Commands - Toucan</title>
+    <meta name="description" content="Commands">
+    
+    <meta property="og:url" content="https://toucansites.com/docs/getting-started/commands/">
+    <meta property="og:title" content="Commands - Toucan">
+    <meta property="og:description" content="Commands">
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Commands - Toucan">
+    <meta name="twitter:description" content="Commands">
+    
+    
+    <link rel="stylesheet" href="/css/modern-normalize.css">
+    <link rel="stylesheet" href="/css/modern-base.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    
+    
+    
+    <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/icons/icon-320.png" type="image/png">
+    
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+        media="(prefers-color-scheme: dark)"
+    >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</head>
+
+<body>
+
+    <header id="navigation">
+        <a href="/">
+            <picture>
+                <img
+                    src="/images/logos/logo.png"
+                    alt="Logo of Toucan"
+                    title="Toucan"
+                >
+            </picture>
+        </a>
+        <nav>
+            <input type="checkbox" id="primary-menu-button" name="menu-button" class="menu-button">
+            <label for="primary-menu-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </label>
+            <div class="menu-items">
+                <a href="/news/">News</a>
+            <a href="/docs/">Docs</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/showcases/">Showcases</a>
+            <a href="/contact/">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="page-container">
+    
+    <div id="docs">
+        <div class="left">
+            <aside>
+            
+                <ul>
+                    <li class="category">
+                        <a href="https://toucansites.com/docs/installation/">Installation</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/installation/macos/">macOS</a></li>
+                <li><a href="https://toucansites.com/docs/installation/linux/">Linux</a></li>
+                <li><a href="https://toucansites.com/docs/installation/windows/">Windows</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/configuration/">Configuration</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="center">
+            <article>
+                <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
+                
+                <h1>Commands</h1><hr><p>Toucan includes three built-in subcommands to generate static sites: <em>generate</em>, <em>watch</em>, and <em>serve</em>.</p><h2 id="generate">Generate</h2><p>The <code>generate</code> command builds static files from the source folder. The static site will be available in a destination directory, which can be customized. Additionally, the site’s base URL can be overridden, which is useful for local development.</p><pre><code class="language-sh">toucan generate ./src ./docs --base-url http://localhost:3000/
+</code></pre><h2 id="watch">Watch</h2><p>The <code>watch</code> command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.</p><blockquote><p>Please note that the <code>watch</code> command is only available on macOS during the alpha release.​</p></blockquote><pre><code class="language-sh">toucan watch ./src ./docs --base-url http://localhost:3000/
+</code></pre><h2 id="serve">Serve</h2><p>The serve command starts a web server to serve a specified directory. It allows serving a folder with an optional port number. By default, your site will be accessible at <code>http://localhost:3000/</code> if run as follows:</p><pre><code class="language-sh">toucan serve ./docs -h localhost -p 3000
+toucan serve ./docs --host localhost --port 3000
+</code></pre><p>You can specify a hostname and port parameter to bind your web server to a given address. This allows you to preview your website at http://localhost:3000/.</p>
+    
+    
+                <section>
+                <div class="grid grid-2">
+                <div></div>
+                    
+                <div></div>
+                </div>
+                </section>
+    
+            </article>
+        </div>
+        <div class="right">
+            <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="first-level">
+                        <a href="#generate">Generate</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#watch">Watch</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#serve">Serve</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    </main>
+
+    <footer id="site-footer">
+        <div class="grid grid-421">
+    
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="/news/">News</a></li>
+                    <li><a href="/docs/">Docs</a></li>
+                    <li><a href="/faq/">FAQ</a></li>
+                    <li><a href="/showcases/">Showcases</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </p>
+            </div>
+            
+            <div>
+                <h4>Links</h4>
+                <li><a href="https://github.com/binarybirds/">GitHub</a></li>
+                <li><a href="https://binarybirds.com/">Binary Birds</a></li>
+                <li><a href="https://x.com/tiborbodecs">tiborbodecs</a></li>
+                <li><a href="/rss.xml" target="_blank">RSS</a></li>
+                <li><a href="/sitemap.xml" target="_blank">Sitemap</a></li>
+            </div>
+            
+            
+            <div>
+                <picture>
+                    <img
+                        id="logo-image"
+                        src="/images/logos/logo.png"
+                        alt="Logo of Toucan"
+                        title="Toucan"
+                    >
+                </picture>
+            </div>
+            
+            <div>
+                <h4>Toucan</h4>
+                <p><small>This site was generated<br>using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/binarybirds/toucan/" target="_blank">Toucan</a>.</small></p>
+                <small><br>
+                    Binary Birds Kft.<br>
+                    &copy; 2023 - 2024<br>
+                    <a href="https://github.com/toucansites/website/blob/main/LICENSE" target="_blank">MIT License</a></small>
+            </div>
+            
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
