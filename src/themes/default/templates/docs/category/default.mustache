@@ -1,0 +1,29 @@
+{{<html}}
+{{$main}}
+<div id="docs">
+    <div class="left">
+        {{> partials.docs.categories }}
+    </div>
+    <div class="center">
+        <article>
+            <a href="/docs/">Docs</a>
+            {{& page.contents}}
+        
+            {{#empty(page.guides)}}
+            {{/empty(page.guides)}}
+            {{^empty(page.guides)}}
+            <h2>Guides</h2>
+            <ul>
+            {{#page.guides}}
+                <li><a href="{{permalink}}">{{title}}</a></li>
+            {{/page.guides}}
+            </ul>
+            {{/empty(page.guides)}}
+        </article>
+    </div>
+    <div class="right">
+        {{> partials.toc }}
+    </div>
+</div>
+{{/main}}
+{{/html}}

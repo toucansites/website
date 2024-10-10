@@ -1,0 +1,25 @@
+id: category
+template: docs.category.default
+
+properties:
+    order:
+        type: int
+        required: true
+
+context:
+    site:
+        categories:
+            sort: order
+            order: asc
+            pagination:
+                limit: 10
+
+    local:
+        guides:
+            references: guide
+            foreignKey: category
+            sort: order
+            order: asc
+            limit: 10
+
+
