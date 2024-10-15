@@ -2,25 +2,25 @@
 <channel>
     <title>Toucan</title>
     <description>The Markdown-based static site generator written in Swift</description>
-    <link>https://toucansites.com/</link>
+    <link>http://localhost:3000/</link>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Oct 2024 22:02:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 13:11:48 +0000</lastBuildDate>
     <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
     <ttl>250</ttl>
-    <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
 
 <item>
-    <guid isPermaLink="true">https://toucansites.com/toucan-is-now-ready-for-alpha-testing/</guid>
+    <guid isPermaLink="true">http://localhost:3000/toucan-is-now-ready-for-alpha-testing/</guid>
     <title><![CDATA[ Toucan is now ready for alpha testing ]]></title>
     <description><![CDATA[ Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift. ]]></description>
-    <link>https://toucansites.com/toucan-is-now-ready-for-alpha-testing/</link>
+    <link>http://localhost:3000/toucan-is-now-ready-for-alpha-testing/</link>
     <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
-    <guid isPermaLink="true">https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</guid>
+    <guid isPermaLink="true">http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</guid>
     <title><![CDATA[ Introducing Toucan: a new Markdown-based static site generator ]]></title>
     <description><![CDATA[ We&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift. ]]></description>
-    <link>https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</link>
+    <link>http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</link>
     <pubDate>Mon, 12 Aug 2024 12:00:00 +0000</pubDate>
 </item>
 

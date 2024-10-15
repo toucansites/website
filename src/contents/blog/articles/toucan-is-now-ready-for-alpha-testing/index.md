@@ -4,7 +4,7 @@ title: "Toucan is now ready for alpha testing"
 description: "Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift."
 publication: "2024-09-30 00:00:00"
 tags: 
-    - news
+    - releases
 authors:
     - tibor-bodecs
 featured: true
