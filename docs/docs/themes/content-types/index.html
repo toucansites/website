@@ -5,21 +5,21 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="canonical" href="https://toucansites.com/showcases/">
+    <link rel="canonical" href="https://toucansites.com/docs/themes/content-types/">
+    <link rel="prev" href="https://toucansites.com/docs/themes/toucan-templates/">
     
     
+    <title>Content types - Toucan</title>
+    <meta name="description" content="Content types">
     
-    <title>Showcases - Toucan</title>
-    <meta name="description" content="Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site.">
-    
-    <meta property="og:url" content="https://toucansites.com/showcases/">
-    <meta property="og:title" content="Showcases - Toucan">
-    <meta property="og:description" content="Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site.">
+    <meta property="og:url" content="https://toucansites.com/docs/themes/content-types/">
+    <meta property="og:title" content="Content types - Toucan">
+    <meta property="og:description" content="Content types">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Showcases - Toucan">
-    <meta name="twitter:description" content="Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site.">
+    <meta name="twitter:title" content="Content types - Toucan">
+    <meta name="twitter:description" content="Content types">
     
     
     <link rel="stylesheet" href="/css/modern-normalize.css">
@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
     
-    <link rel="stylesheet" href="/assets/showcases/style.css">
+    
     
     <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/icons/icon-320.png" type="image/png">
@@ -95,8 +95,93 @@
 
     <main id="page-container">
     
-    <h1>Showcases</h1><p>Toucan is used by the following websites. Feel free to <a href="/contact/">contact us</a> if you’d like to feature your site.</p><div class="grid grid-221 "><div class="column "><p><a href="https://binarybirds.com/" target="_blank"><br>    <img src="/assets/showcases/binarybirds.jpg" alt="Binary Birds"><br></a></p></div><div class="column "><p><a href="https://swiftonserver.com/" target="_blank"><br>    <img src="/assets/showcases/swiftonserver.jpg" alt="Swift on Server"><br></a></p></div><div class="column "><p><a href="https://theswiftdev.com/" target="_blank"><br>    <img src="/assets/showcases/theswiftdev.jpg" alt="The.Swift.Dev"><br></a></p></div></div>
+    <div id="docs">
+        <div class="left">
+            <aside>
+            
+                <ul>
+                    <li class="category">
+                        <a href="https://toucansites.com/docs/installation/">Installation</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/installation/macos/">macOS</a></li>
+                <li><a href="https://toucansites.com/docs/installation/linux/">Linux</a></li>
+                <li><a href="https://toucansites.com/docs/installation/windows/">Windows</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/site-index/">Site index</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/themes/">Themes</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/themes/basics/">Basics</a></li>
+                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/content-types/">Content types</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="center">
+            <article>
+                <a href="https://toucansites.com/docs/themes/">Themes</a>
+                
+                <h1>Content types</h1><hr><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>A content type can have a specific location where Markdown files under that path are recognized as that type, or the type can be specified in the front matter.</p><p>A content type may also have a custom template, allowing the system to use the appropriate <a href="/docs/themes/mustache-templates/">Mustache</a> file when rendering specific content, such as a blog post.</p><p>Here’s an example:</p><pre><code class="language-yaml">id: post
+rss: true
+template: blog.post.default
+
+pagination:
+    bundle: blog/posts/pagination
+    limit: 9
+    sort: publication
+    order: desc
+
+properties:
+    featured:
+        type: bool
+        required: true
+
+context:
+    site:
+        posts:
+            sort: publication
+            order: desc
+            limit: 12
+        
+        featured:
+            sort: publication
+            order: desc
+            limit: 12
+            filter:
+                field: featured
+                method: equals
+                value: true
+
+</code></pre><p>Content types, including pagination and property validation, are still subject to change during the alpha and beta release cycles.</p><p>Additional documentation will be provided once this feature is stabilized.</p>
     
+    
+                <section>
+                <div class="grid grid-2">
+                <div></div>
+                    
+                <div></div>
+                </div>
+                </section>
+    
+            </article>
+        </div>
+        <div class="right">
+            <aside>
+            </aside>
+        </div>
+    </div>
     </main>
 
     <footer id="site-footer">
