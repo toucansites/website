@@ -31,7 +31,6 @@ pagination:
 properties:
     featured:
         type: bool
-        required: true
 
 context:
     site:
