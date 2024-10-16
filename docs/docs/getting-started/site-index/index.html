@@ -123,16 +123,17 @@
             <article>
                 <a href="http://localhost:3000/docs/getting-started/">Getting started</a>
                 
-                <h1>Site index</h1><hr><p>This site index defines key settings for the website. The site index for Toucan is stored in the <code>index.yml</code> file, inside the <code>src/contents</code> directory, though the <code>.yaml</code> extension can also be used.</p><p>An example site index file looks like this:</p><pre><code class="language-yaml">baseUrl: "https://mywebsite.com/"
-language: "en-US" 
-title: "My website" 
+                <h1>Site index</h1><hr><p>This site index defines key settings for the website. The site index for Toucan is stored in the <code>index.yml</code> file, inside the <code>src/contents</code> directory, though the <code>.yaml</code> extension can also be used.</p><h3 id="example">Example</h3><p>An example site index file looks like this:</p><pre><code class="language-yaml">baseUrl: "https://mywebsite.com/"
+language: "en-US"
+title: "My website"
+description: "This is my personal website."
 dateFormat: "yyyy.MM.dd."
 navigation:
     - label: "Home"
       url: "/"
     - label: "About"
       url: "/docs/"
-</code></pre><p>The following keys are available to use:</p><details><summary><strong><code>baseUrl</code></strong>* - The base URL of the website.</summary><div><p>Specifies the base URL of the website, in this case, “https://mywebsite.com/”.</p></div></details><details><summary><strong><code>title</code></strong>* - The title of the website.</summary><div><p>Sets the title of the website, e.g. “My website”.</p></div></details><details><summary><strong><code>dateFormat</code></strong> - Sets the date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site, using the “yyyy.MM.dd.” format.</p></div></details><details><summary><strong><code>language</code></strong> - The language of the website.</summary><div><p>Defines the language of the website, set to “en-US” (English, US).</p></div></details><details><summary><strong><code>navigation</code></strong> - Sets the main navigation for the website.</summary><div><p>Defines the menu items for site navigation. In this case:</p><ul><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li></ul></div></details>
+</code></pre><p>The following properties are available to use:</p><h3 id="required-keys">Required keys</h3><details><summary><strong><code>baseUrl</code></strong> - The base URL of the website.</summary><div><p>Specifies the base URL of the website, e.g. “https://mywebsite.com/”.</p></div></details><details><summary><strong><code>title</code></strong> - The title of the website.</summary><div><p>Sets the title of the website, e.g. “My website”.</p></div></details><h3 id="optional-keys">Optional keys</h3><details><summary><strong><code>description</code></strong> - The description of the website.</summary><div><p>The description of the website, used for the RSS feed.</p></div></details><details><summary><strong><code>dateFormat</code></strong> - Sets the date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site.</p><p><strong>Date format symbols</strong></p><ul><li>yyyy: Year (e.g., 2023)</li><li>MM: Month (e.g., 09 for September)</li><li>dd: Day (e.g., 28)</li><li>HH: Hour (e.g., 14 for 2 PM)</li><li>mm: Minute (e.g., 05)</li><li>ss: Second (e.g., 37)</li></ul><p><strong>Example</strong></p><ul><li>“yyyy.MM.dd.”</li></ul></div></details><details><summary><strong><code>language</code></strong> - The language of the website.</summary><div><p>Defines the language of the website, e.g. “en-US” (English, US).</p><p>See ISO <a href="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">language codes</a> & <a href="https://www.w3schools.com/tags/ref_country_codes.asp" target="_blank">country codes</a> for more info.</p></div></details><details><summary><strong><code>navigation</code></strong> - Sets the main navigation for the website.</summary><div><p>Defines the menu items for site navigation. In this case:</p><ul><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li></ul></div></details>
     
     
                 <section>
@@ -147,6 +148,24 @@ navigation:
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="first-level">
+                        <a href="#example">Example</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#required-keys">Required keys</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#optional-keys">Optional keys</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>
