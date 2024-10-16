@@ -123,7 +123,7 @@
             <article>
                 <a href="http://localhost:3000/docs/getting-started/">Getting started</a>
                 
-                <h1>Basics</h1><hr><p>Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.</p><h2 id="prerequisites">Prerequisites</h2><p>Before you start this guide you must install the Toucan binary by following the provided <a href="/docs/installation/">installation</a> guide.</p><p>You should also be comfortable using the command line.</p><h2 id="site-settings">Site settings</h2><p>To begin using Toucan, a source directory is required for the site. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme.</p><p>The first step is to start a new project for the website and create the source directory with the <code>contents</code> and <code>themes</code> folders:</p><pre><code class="language-sh"># The directory for the website
+                <h1>Basics</h1><hr><p>Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.</p><h2 id="prerequisites">Prerequisites</h2><p>Before you start this guide you must install the Toucan binary by following the provided <a href="/docs/installation/">installation</a> guide.</p><p>You should also be comfortable using the command line.</p><h2 id="site-index">Site index</h2><p>To begin using Toucan, a source directory is required for the site. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme.</p><p>The first step is to start a new project for the website and create the source directory with the <code>contents</code> and <code>themes</code> folders:</p><pre><code class="language-sh"># The directory for the website
 mkdir my-website
 cd my-website
 # The location of the source files
@@ -132,7 +132,7 @@ cd src
 # The location of the site contents
 mkdir contents
 cd contents
-</code></pre><p>The next step involves creating a site settings file in YAML format. A <code>index.yml</code> file should be created inside the <code>src/contents</code> directory with the following contents:</p><pre><code class="language-yml"># FILE: src/contents/index.yml
+</code></pre><p>The next step involves creating a site index file in YAML format. A <code>index.yml</code> file should be created inside the <code>src/contents</code> directory with the following contents:</p><pre><code class="language-yml"># FILE: src/contents/index.yml
 baseUrl: "http://localhost:3000/"
 title: "My website"
 </code></pre><p>The base URL refers to the site’s final domain where it will be available. In this case, a development environment is being used, which is why <code>http://localhost:3000</code> was set. For production, the URL should match the site’s domain without the port, and the protocol should be HTTPS.</p><p>The site title will be appended to every page as a suffix, with a dash character used as a separator.</p><p>With the basic settings in place, the next step is to create the homepage for the website. Create a <code>home</code> directory inside the <code>src/contents</code> folder:</p><pre><code class="language-sh"># The location of the Markdown content, inside the src/contents folder
@@ -223,7 +223,7 @@ navigation:
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#site-settings">Site settings</a>
+                        <a href="#site-index">Site index</a>
                         <ul>
                         </ul>
                     </li>

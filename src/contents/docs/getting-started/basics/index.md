@@ -17,7 +17,7 @@ Before you start this guide you must install the Toucan binary by following the 
 
 You should also be comfortable using the command line.
 
-## Site settings
+## Site index
 
 To begin using Toucan, a source directory is required for the site. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme.
 
@@ -35,7 +35,7 @@ mkdir contents
 cd contents
 ```
 
-The next step involves creating a site settings file in YAML format. A `index.yml` file should be created inside the `src/contents` directory with the following contents:
+The next step involves creating a site index file in YAML format. A `index.yml` file should be created inside the `src/contents` directory with the following contents:
 
 ```yml
 # FILE: src/contents/index.yml
