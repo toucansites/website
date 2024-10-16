@@ -17,11 +17,11 @@ Before you start this guide you must install the Toucan binary by following the 
 
 You should also be comfortable using the command line.
 
-## Configuration
+## Site settings
 
-To begin using Toucan, a source directory is required for the site. This directory will contain all assets, content, and theme files. This guide provides a quick setup using a minimal starter theme.
+To begin using Toucan, a source directory is required for the site. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme.
 
-The first step is to start a new project for the website and create the source directory:
+The first step is to start a new project for the website and create the source directory with the `contents` and `themes` folders:
 
 ```sh
 # The directory for the website
@@ -30,35 +30,37 @@ cd my-website
 # The location of the source files
 mkdir src
 cd src
+# The location of the site contents
+mkdir contents
+cd contents
 ```
 
-The next step involves creating a configuration file in YAML format. A `config.yml` file should be created inside the `src` directory with the following contents:
+The next step involves creating a site settings file in YAML format. A `index.yml` file should be created inside the `src/contents` directory with the following contents:
 
 ```yml
-# FILE: src/config.yml
-site:
-    baseUrl: "http://localhost:3000/"
-    title: "My website"
+# FILE: src/contents/index.yml
+baseUrl: "http://localhost:3000/"
+title: "My website"
 ```
 
 The base URL refers to the site's final domain where it will be available. In this case, a development environment is being used, which is why `http://localhost:3000` was set. For production, the URL should match the site's domain without the port, and the protocol should be HTTPS.
 
 The site title will be appended to every page as a suffix, with a dash character used as a separator.
 
-With the basic configuration in place, the next step is to create the homepage for the website. Create a `content` directory inside the `src` folder:
+With the basic settings in place, the next step is to create the homepage for the website. Create a `home` directory inside the `src/contents` folder:
 
 ```sh
-# The location of the Markdown content, inside the src folder
-mkdir content
+# The location of the Markdown content, inside the src/contents folder
+mkdir home
+cd home
 ```
 
-Next, create an `index.md` file to serve as the homepage for the website. Place the Markdown file in the `src/content/` directory with the following contents:
+Next, create an `index.md` file to serve as the homepage for the website. Place the Markdown file in the `src/content/home` directory with the following contents:
 
 ```md
 ---
 title: "Home"
 description: "Welcome to the home page."
-template: "pages.home"
 ---
 
 # Hello
@@ -104,10 +106,10 @@ The site logo might appear to be missing. Let's address this issue quickly and t
 
 ## Basic assets
 
-Global website assets are stored in the `src/content/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
+Global website assets are stored in the `src/contents/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
 
 ```sh
-# Inside the src/content directory
+# Inside the src/contents directory
 mkdir assets
 cd assets
 mkdir images
@@ -124,10 +126,10 @@ Toucan differentiates between page assets and global assets. Each subpage can ha
 
 ## The 404 page
 
-Creating a custom "Not Found" page is a common use case for a website. To do this, create a special `404` directory inside the `content` folder:
+Creating a custom "Not Found" page is a common use case for a website. To do this, create a special `404` directory inside the `contents` folder:
 
 ```sh
-# Inside the src/content directory
+# Inside the src/contents directory
 mkdir 404
 cd 404
 ```
@@ -189,17 +191,16 @@ Customize the contents of the about page as desired. Regenerate the site or use 
 
 ## Site navigation
 
-The final step of this tutorial is setting up a basic menu for the website. The minimal theme supports navigation, and new menu items can be added by defining them in the site's configuration file as shown below:
+The final step of this tutorial is setting up a basic menu for the website. The minimal theme supports navigation, and new menu items can be added by defining them in the site's index file as shown below:
 
 ```yml
-site:
-    baseUrl: "http://localhost:3000/"
-    title: "My website"
-    navigation:
-        - label: "Home"
-          url: "/"
-        - label: "About"
-          url: "/about/"
+baseUrl: "http://localhost:3000/"
+title: "My website"
+navigation:
+    - label: "Home"
+      url: "/"
+    - label: "About"
+      url: "/about/"
 ```
 
 The `navigation` key should include all the menu items, with each item containing its URL and label.
