@@ -5,21 +5,21 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="canonical" href="">
+    <link rel="canonical" href="http://localhost:3000/docs/getting-started/site-index/">
     <link rel="prev" href="http://localhost:3000/docs/installation/linux/">
     <link rel="next" href="http://localhost:3000/docs/installation/windows/">
     
-    <title>Configuration - Toucan</title>
-    <meta name="description" content="Configuration">
+    <title>Site index - Toucan</title>
+    <meta name="description" content="Site index">
     
-    <meta property="og:url" content="http://localhost:3000/docs/getting-started/configuration/">
-    <meta property="og:title" content="Configuration - Toucan">
-    <meta property="og:description" content="Configuration">
+    <meta property="og:url" content="http://localhost:3000/docs/getting-started/site-index/">
+    <meta property="og:title" content="Site index - Toucan">
+    <meta property="og:description" content="Site index">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Configuration - Toucan">
-    <meta name="twitter:description" content="Configuration">
+    <meta name="twitter:title" content="Site index - Toucan">
+    <meta name="twitter:description" content="Site index">
     
     
     <link rel="stylesheet" href="/css/modern-normalize.css">
@@ -113,7 +113,7 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/configuration/">Configuration</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/site-index/">Site index</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -123,23 +123,16 @@
             <article>
                 <a href="http://localhost:3000/docs/getting-started/">Getting started</a>
                 
-                <h1>Configuration</h1><hr><p>The site configuration for Toucan is stored in a config.yaml file, though the .yml extension can also be used.</p><p>An example configuration file:</p><pre><code class="language-yaml">site:
-    baseUrl: "https://mywebsite.com/"
-    language: "en-US" 
-    title: "My website" 
-    dateFormat: "yyyy.MM.dd."
-    navigation:
-        - label: "Home"
-          url: "/"
-        - label: "About"
-          url: "/docs/"
-
-content:
-    dateFormat: "yyyy-MM-dd" 
-
-themes:
-    use: "minimal" 
-</code></pre><p>This configuration defines key settings for the website:</p><ul><li><code>site</code>: This section contains general site settings.</li><li><code>baseUrl</code>: Specifies the base URL of the website, in this case, “https://mywebsite.com/”.</li><li><code>language</code>: Defines the language of the website, set to “en-US” (English, US).</li><li><code>title</code>: Sets the title of the website, “My website”.</li><li><code>dateFormat</code>: Determines the format in which dates are displayed on the site, using the “yyyy.MM.dd.” format.</li><li><code>navigation</code>: Defines the menu items for site navigation. In this case:</li><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li><li><code>content</code>: This section contains settings related to the website’s content.</li><li><code>dateFormat</code>: Sets the date format used for content, in this case “yyyy-MM-dd”.</li><li><code>themes</code>: Specifies the theme settings for the website.</li><li><code>use</code>: Indicates that the “minimal” theme is being used to render the website.</li></ul>
+                <h1>Site index</h1><hr><p>This site index defines key settings for the website. The site index for Toucan is stored in the <code>index.yml</code> file, inside the <code>src/contents</code> directory, though the <code>.yaml</code> extension can also be used.</p><p>An example site index file looks like this:</p><pre><code class="language-yaml">baseUrl: "https://mywebsite.com/"
+language: "en-US" 
+title: "My website" 
+dateFormat: "yyyy.MM.dd."
+navigation:
+    - label: "Home"
+      url: "/"
+    - label: "About"
+      url: "/docs/"
+</code></pre><p>The following keys are available to use:</p><details><summary><strong><code>baseUrl</code></strong>* - The base URL of the website.</summary><div><p>Specifies the base URL of the website, in this case, “https://mywebsite.com/”.</p></div></details><details><summary><strong><code>title</code></strong>* - The title of the website.</summary><div><p>Sets the title of the website, e.g. “My website”.</p></div></details><details><summary><strong><code>dateFormat</code></strong> - Sets the date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site, using the “yyyy.MM.dd.” format.</p></div></details><details><summary><strong><code>language</code></strong> - The language of the website.</summary><div><p>Defines the language of the website, set to “en-US” (English, US).</p></div></details><details><summary><strong><code>navigation</code></strong> - Sets the main navigation for the website.</summary><div><p>Defines the menu items for site navigation. In this case:</p><ul><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li></ul></div></details>
     
     
                 <section>

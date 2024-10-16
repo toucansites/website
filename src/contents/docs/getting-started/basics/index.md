@@ -47,6 +47,8 @@ The base URL refers to the site's final domain where it will be available. In th
 
 The site title will be appended to every page as a suffix, with a dash character used as a separator.
 
+## The home page 
+
 With the basic settings in place, the next step is to create the homepage for the website. Create a `home` directory inside the `src/contents` folder:
 
 ```sh
@@ -104,7 +106,7 @@ To preview the site, navigate to [http://localhost:3000/](http://localhost:3000/
 
 The site logo might appear to be missing. Let's address this issue quickly and take a moment to explain how asset management works.
 
-## Basic assets
+## Site assets
 
 Global website assets are stored in the `src/contents/assets` folder. Any files placed in this folder will be recursively copied to the root directory of the final website.
 
