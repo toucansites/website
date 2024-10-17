@@ -4,9 +4,14 @@ params:
     default: ""
   - label: class
     default: ""
+  - label: target
+    default: "_blank"
+removesChildParagraph: true
 tag: a
 attributes:
   - name: href
     value: "{{url}}"
+  - name: target
+    value: "{{target}}"
   - name: class
     value: "{{class}}"

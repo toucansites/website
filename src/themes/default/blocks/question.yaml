@@ -1,3 +1,4 @@
 name: question
 tag: summary
 requiresParentDirective: faq
+removesChildParagraph: true
