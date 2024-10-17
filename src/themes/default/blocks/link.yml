@@ -1,0 +1,12 @@
+name: link
+params:
+  - label: url
+    default: ""
+  - label: class
+    default: ""
+tag: a
+attributes:
+  - name: href
+    value: "{{url}}"
+  - name: class
+    value: "{{class}}"
