@@ -1,6 +1,10 @@
 id: post
 rss: true
 template: blog.post.default
+# css:
+#     - /css/post.css
+# js:
+#     - /js/post.js
 
 pagination:
     bundle: blog/articles/pagination

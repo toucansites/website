@@ -3,7 +3,6 @@ title: "FAQ"
 description: "Frequently Asked Questions about Static Site Generators for complete beginners."
 ---
 
-
 # FAQ 
 
 Frequently Asked Questions about Static Site Generators for complete beginners.
