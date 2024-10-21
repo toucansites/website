@@ -4,15 +4,6 @@
     <meta charset="utf-8">
     {{#page.noindex}}<meta name="robots" content="noindex">{{/page.noindex}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="canonical" href="{{page.canonical}}">
-    {{#page.hreflang}}
-    <link rel="alternate" hreflang="{{lang}}" href="{{url}}">
-    {{/page.hreflang}}
-    {{#page.prev}}<link rel="prev" href="{{permalink}}">{{/page.prev}}
-    {{#page.next}}<link rel="next" href="{{permalink}}">{{/page.next}}
-    
-    <title>{{page.title}} - {{site.title}}</title>
     <meta name="description" content="{{page.description}}">
     
     <meta property="og:url" content="{{page.permalink}}">
@@ -25,17 +16,6 @@
     <meta name="twitter:description" content="{{page.description}}">
     {{#page.imageUrl}}<meta name="twitter:image" content="{{.}}">{{/page.imageUrl}}
     
-    <link rel="stylesheet" href="/css/modern-normalize.css">
-    <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/grid.css">
-    <link rel="stylesheet" href="/css/navigation.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/style.css">
-    
-    {{#page.css}}<link rel="stylesheet" href="{{.}}">{{/page.css}}
-
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
 
@@ -47,10 +27,30 @@
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
-    
+
+    <title>{{page.title}} - {{site.title}}</title>
+
+    <link rel="canonical" href="{{page.canonical}}">
+    {{#page.hreflang}}
+    <link rel="alternate" hreflang="{{lang}}" href="{{url}}">
+    {{/page.hreflang}}
+    {{#page.prev}}<link rel="prev" href="{{permalink}}">{{/page.prev}}
+    {{#page.next}}<link rel="next" href="{{permalink}}">{{/page.next}}
+
     <link rel="manifest" href="/manifest.json" />
 
-    {{> partials.icons}}
+    <link rel="stylesheet" href="/css/modern-normalize.css">
+    <link rel="stylesheet" href="/css/modern-base.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    {{#page.css}}<link rel="stylesheet" href="{{.}}">{{/page.css}}
+
+    {{> partials.links}}
 
     <link
         rel="stylesheet"
