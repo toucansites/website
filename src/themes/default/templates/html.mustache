@@ -33,10 +33,23 @@
     <link rel="stylesheet" href="/css/navigation.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/style.css">
-
     
     {{#page.css}}<link rel="stylesheet" href="{{.}}">{{/page.css}}
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="{{site.title}}">
+    <meta name="apple-mobile-web-app-orientations" content="portrait-any">
     
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
+    
+    <link rel="manifest" href="/manifest.json" />
+
     {{> partials.icons}}
 
     <link

@@ -9,7 +9,7 @@ params:
   - label: class
     default: ""
 #requiresParentDirective: faq
-# output: "<div></div>" 
+#output: "<div>{{contents}} - {{desktop}}</div>" 
 tag: div
 attributes:
   - name: class
