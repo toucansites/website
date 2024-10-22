@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mustache templates">
+    <meta name="description" content="Markdown">
     
-    <meta property="og:url" content="https://toucansites.com/docs/themes/mustache-templates/">
-    <meta property="og:title" content="Mustache templates - Toucan">
-    <meta property="og:description" content="Mustache templates">
+    <meta property="og:url" content="https://toucansites.com/docs/content-management/markdown/">
+    <meta property="og:title" content="Markdown - Toucan">
+    <meta property="og:description" content="Markdown">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mustache templates - Toucan">
-    <meta name="twitter:description" content="Mustache templates">
+    <meta name="twitter:title" content="Markdown - Toucan">
+    <meta name="twitter:description" content="Markdown">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,11 +28,11 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>Mustache templates - Toucan</title>
+    <title>Markdown - Toucan</title>
 
-    <link rel="canonical" href="https://toucansites.com/docs/themes/mustache-templates/">
-    <link rel="prev" href="https://toucansites.com/docs/installation/windows/">
-    <link rel="next" href="https://toucansites.com/docs/themes/toucan-templates/">
+    <link rel="canonical" href="https://toucansites.com/docs/content-management/markdown/">
+    <link rel="prev" href="https://toucansites.com/docs/themes/basics/">
+    <link rel="next" href="https://toucansites.com/docs/getting-started/commands/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -210,90 +210,19 @@
         </div>
         <div class="center">
             <article>
-                <a href="https://toucansites.com/docs/themes/">Themes</a>
+                <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Mustache templates</h1><hr><p><a href="https://mustache.github.io/mustache.5.html" target="_blank">Mustache</a> is a logic-less template system. Toucan uses Mustache templates to render Markdown files and generate the final HTML content.</p><p>This is a basic guide on how to use Mustache for creating templates.</p><h2 id="context-variables">Context variables</h2><p>Mustache context variables are placeholders within a template that get replaced with actual values when rendering.</p><p>For example, given a Mustache template:</p><pre><code class="language-html">&lt;h1&gt;Hello, {{name}}!&lt;/h1&gt;
-</code></pre><p>And a context object:</p><pre><code class="language-yaml">name: "Tibor"
-</code></pre><p>The rendered output would be:</p><pre><code class="language-html">&lt;h1&gt;Hello, Tibor!&lt;/h1&gt;
-</code></pre><p>Context variables can be dictionaries or hash maps, allowing key-value pairs to be accessed within a Mustache file using dot notation.</p><h2 id="blocks">Blocks</h2><p>A block begins with a dollar and ends with a slash. Mustache has no concept of if-else statements, but it’s possible to check for <code>false</code> / <code>nil</code> values using blocks:</p><pre><code class="language-html">&lt;html{{#site.language}} lang="{{.}}"{{/site.language}}&gt;
-</code></pre><p>Given the following context:</p><pre><code class="language-yaml">site:
-    language: null
-</code></pre><p>The rendered output would be:</p><pre><code class="language-html">&lt;html&gt;
-</code></pre><p>The current value in a block can be accessed using <code>{{.}}</code>.</p><h2 id="loops">Loops</h2><p>Here’s a simple example of how to loop through a posts array in Mustache to render the title and excerpt, the snippet also handles an empty case:</p><pre><code class="language-html">{{#posts}}
-    &lt;h2&gt;{{title}}&lt;/h2&gt;
-    &lt;p&gt;{{excerpt}}&lt;/p&gt;
-{{/posts}}
-{{^posts}}
-    &lt;p&gt;No posts available.&lt;/p&gt;
-{{/posts}}
-</code></pre><p>The context as an array of dictionaries:</p><pre><code class="language-yaml">posts:
-  - title: "First Post"
-    excerpt: "This is the first post excerpt."
-  - title: "Second Post"
-    excerpt: "This is the second post excerpt."
-</code></pre><p>The rendered output:</p><pre><code class="language-html">&lt;h2&gt;First Post&lt;/h2&gt;
-&lt;p&gt;This is the first post excerpt.&lt;/p&gt;
+                <h1>Markdown</h1><hr><p>Toucan processes markdown files to render HTML content. These markdown files can include front matter to define additional properties that control how the content is rendered.</p><h2 id="front-matter">Front Matter</h2><p>Front matter is a section at the beginning of a markdown file, where key-value pairs can be defined to influence the rendering process. This provides flexibility for setting metadata or custom properties.</p><p>Example:</p><pre><code class="language-md">---
+title: "My Page"
+description: "This is my page"
+custom: "This is a custom front matter value"
+---
 
-&lt;h2&gt;Second Post&lt;/h2&gt;
-&lt;p&gt;This is the second post excerpt.&lt;/p&gt;
-</code></pre><h2 id="partials">Partials</h2><p>Mustache partial templates are reusable template fragments that can be included within other Mustache templates. Partials are referenced using the <code>{{> partialName}}</code> syntax.</p><p>A template can include another one, using the partial syntax:</p><pre><code class="language-html">&lt;h1&gt;Hello, World!&lt;/h1&gt;
-{{&gt; reusableParagraph}}
-</code></pre><p>This is the <code>reusableParagraph.mustache</code> template file:</p><pre><code class="language-html">&lt;p&gt;This is a reusable paragraph&lt;/p&gt;
-</code></pre><p>This is the rendered output:</p><pre><code class="language-html">&lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;p&gt;This is a reusable paragraph&lt;/p&gt;
-</code></pre><p>Partials help modularize and organize code by allowing common elements, such as headers or footers, to be defined once and used across multiple templates.</p><h2 id="parents">Parents</h2><p>Using a parent template in Mustache promotes consistency and reusability by providing a common structure, allowing blocks within the parent to be overridden by other templates.</p><p>Here’s a simple example of using a Mustache parent template to define a <code>main</code> block, that can be overridden from a child template:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;{{title}}&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;header&gt;
-        &lt;h1&gt;{{header}}&lt;/h1&gt;
-    &lt;/header&gt;
-    &lt;main&gt;
-        {{$main}}
-            &lt;p&gt;No content.&lt;/p&gt;
-        {{/main}}
-    &lt;/main&gt;
-    &lt;footer&gt;
-        &lt;p&gt;{{footer}}&lt;/p&gt;
-    &lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><p>The child template for the page:</p><pre><code>{{&lt;html}}
-{{$main}}
+## My page
 
-&lt;p&gt;{{contents}}&lt;/p&gt;
-
-{{/main}}
-{{/html}}
-
-</code></pre><p>The context:</p><pre><code class="language-yaml">title: "My Website"
-header: "Welcome to My Website"
-contents: "This is the main content of the page."
-footer: "© 2024 My Website"
-</code></pre><p>The rendered output, when using the child template:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;My Website&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;header&gt;
-        &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
-    &lt;/header&gt;
-    &lt;main&gt;
-        &lt;p&gt;This is the main content of the page.&lt;/p&gt;
-    &lt;/main&gt;
-    &lt;footer&gt;
-        &lt;p&gt;© 2024 My Website&lt;/p&gt;
-    &lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><p>That was a brief introduction to the Mustache template engine. For more detailed information, refer to <a href="https://mustache.github.io/mustache.5.html" target="_blank">the official manuals</a>. To learn about Toucan themes, proceed to the <a href="/docs/themes/toucan-templates/">Toucan templates</a> section.</p>
+This is my page
+</code></pre><p>Every user-defined front matter property is accessible as a <a href="/docs/themes/mustache-templates/">context variable</a> within your page template.</p><h2 id="content">Content</h2><p>Content is written using markdown syntax. For more details, please refer to the <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">official markdown syntax guide</a>.</p><h2 id="block-directives">Block Directives</h2><p>Markdown in Toucan can be extended with <a href="/docs/themes/block-directives/">custom block directives</a>, allowing the integration of custom UI components. These directives are defined in the theme configuration and offer a way to enrich the user interface by embedding custom elements directly into the content.</p><p>Example:</p><pre><code class="language-md">@Button(label: "Click Me") { This is a button }
+</code></pre><p>By leveraging front matter and block directives, Toucan enables enhanced control and flexibility in generating dynamic HTML content.</p>
     
     
                 <section>
@@ -311,27 +240,17 @@ footer: "© 2024 My Website"
                 <h4>On this page</h4>
                 <ul>
                     <li class="first-level">
-                        <a href="#context-variables">Context variables</a>
+                        <a href="#front-matter">Front Matter</a>
                         <ul>
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#blocks">Blocks</a>
+                        <a href="#content">Content</a>
                         <ul>
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#loops">Loops</a>
-                        <ul>
-                        </ul>
-                    </li>
-        <li class="first-level">
-                        <a href="#partials">Partials</a>
-                        <ul>
-                        </ul>
-                    </li>
-        <li class="first-level">
-                        <a href="#parents">Parents</a>
+                        <a href="#block-directives">Block Directives</a>
                         <ul>
                         </ul>
                     </li>
