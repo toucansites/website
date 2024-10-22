@@ -20,7 +20,7 @@ Toucan-based websites can be hosted for free using GitHub Pages. Follow these st
 
 Once done, your site should be live on GitHub Pages.
 
-Fore more information, visit the following guides:
+For more information, visit the following guides:
 
 - [Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart)
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
