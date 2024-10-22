@@ -2,12 +2,12 @@
 type: post
 title: "Last alpha release"
 description: "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2."
-publication: "2024-10-15 00:00:00"
+publication: "2024-10-17 00:00:00"
 tags: 
     - releases
 authors:
     - tibor-bodecs
-featured: true
+featured: false
 ---
 
 The alpha testing phase for Toucan is now finished with the release of the final alpha version, [1.0.0-alpha.3](https://github.com/toucansites/toucan/releases). We are preparing to begin the beta release cycle shortly.

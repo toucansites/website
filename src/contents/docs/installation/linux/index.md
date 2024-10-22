@@ -9,7 +9,7 @@ order: 2
 # Linux
 ---
 
-During the alpha release, Toucan can be installed on Linux by compiling from source. 
+During the beta release, Toucan can be installed on Linux by compiling from source. 
 
 Please note that the `watch` command is not fully supported yet, but this feature will be available on Linux in a future release.
 

@@ -9,7 +9,7 @@ order: 1
 # macOS
 ---
 
-During the alpha release, Toucan can be installed on macOS by compiling from source. Support for [Brew](https://brew.sh/) and [Mint](https://github.com/yonaskolb/Mint) package managers is coming soon.
+During the beta release, Toucan can be installed on macOS by compiling from source. Support for [Brew](https://brew.sh/) and [Mint](https://github.com/yonaskolb/Mint) package managers is coming soon.
 
 ## Quick install
 

@@ -9,7 +9,7 @@ order: 5
 # Toucan templates
 ---
 
-The templates are being standardized in preparation for the 1.0.0 release. This document outlines the structure of the template files used during the alpha and beta release cycles.
+The templates are being standardized in preparation for the 1.0.0 release. This document outlines the structure of the template files used during the beta release cycle.
 
 ## Top-level templates
 

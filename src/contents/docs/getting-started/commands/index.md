@@ -23,7 +23,7 @@ toucan generate ./src ./docs --base-url http://localhost:3000/
 
 The `watch` command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.
 
-> Please note that the `watch` command is only available on macOS during the alpha release.​
+> Please note that the `watch` command is only available on macOS during the beta release.​
 
 ```sh
 toucan watch ./src ./docs --base-url http://localhost:3000/

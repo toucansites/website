@@ -50,6 +50,6 @@ context:
 
 ```
 
-Content types, including pagination and property validation, are still subject to change during the alpha and beta release cycles. 
+Content types, including pagination and property validation, are still subject to change during beta release cycle. 
 
 Additional documentation will be provided once this feature is stabilized.

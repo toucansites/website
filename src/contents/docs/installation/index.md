@@ -7,4 +7,4 @@ order: 1
 
 # Installation
 
-During the alpha release, Toucan is available only for macOS and Linux. Windows support will be coming soon.
+During the beta release, Toucan is available only for macOS and Linux. Windows support will be coming soon.
