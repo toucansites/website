@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Content types">
+    <meta name="description" content="Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.">
     
-    <meta property="og:url" content="https://toucansites.com/docs/themes/content-types/">
-    <meta property="og:title" content="Content types - Toucan">
-    <meta property="og:description" content="Content types">
+    <meta property="og:url" content="https://toucansites.com/first-beta-release/">
+    <meta property="og:title" content="First beta release - Toucan">
+    <meta property="og:description" content="Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Content types - Toucan">
-    <meta name="twitter:description" content="Content types">
+    <meta name="twitter:title" content="First beta release - Toucan">
+    <meta name="twitter:description" content="Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,11 +28,11 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>Content types - Toucan</title>
+    <title>First beta release - Toucan</title>
 
-    <link rel="canonical" href="https://toucansites.com/docs/themes/content-types/">
-    <link rel="prev" href="https://toucansites.com/docs/themes/toucan-templates/">
-    <link rel="next" href="https://toucansites.com/docs/themes/block-directives/">
+    <link rel="canonical" href="https://toucansites.com/first-beta-release/">
+    
+    <link rel="next" href="https://toucansites.com/last-alpha-release/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -153,113 +153,98 @@
     </header>
 
     <main id="page-container">
-    
-    <div id="docs">
-        <div class="left">
-            <aside>
-            
-                <ul>
-                    <li class="category">
-                        <a href="https://toucansites.com/docs/installation/">Installation</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/installation/macos/">macOS</a></li>
-                <li><a href="https://toucansites.com/docs/installation/linux/">Linux</a></li>
-                <li><a href="https://toucansites.com/docs/installation/windows/">Windows</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/site-index/">Site index</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/content-management/">Content Management</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/page-bundles/">Page bundles</a></li>
-                <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/themes/">Themes</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/themes/basics/">Basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/content-types/">Content types</a></li>
-                <li><a href="https://toucansites.com/docs/themes/block-directives/">Block directives</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/integrations/">Integrations</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/deployment/">Deployment</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </aside>
-        </div>
-        <div class="center">
-            <article>
-                <a href="https://toucansites.com/docs/themes/">Themes</a>
-                
-                <h1>Content types</h1><hr><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>A content type can have a specific location where Markdown files under that path are recognized as that type, or the type can be specified in the front matter.</p><p>A content type may also have a custom template, allowing the system to use the appropriate <a href="/docs/themes/mustache-templates/">Mustache</a> file when rendering specific content, such as a blog post.</p><p>Here’s an example:</p><pre><code class="language-yaml">id: post
-rss: true
-template: blog.post.default
-
-pagination:
-    bundle: blog/posts/pagination
-    limit: 9
-    sort: publication
-    order: desc
-
-properties:
-    featured:
-        type: bool
-
-context:
-    site:
-        posts:
-            sort: publication
-            order: desc
-            limit: 12
+    <article class="post">
         
-        featured:
-            sort: publication
-            order: desc
-            limit: 12
-            filter:
-                field: featured
-                method: equals
-                value: true
-
-</code></pre><p>Content types, including pagination and property validation, are still subject to change during beta release cycle.</p><p>Additional documentation will be provided once this feature is stabilized.</p>
+        <header>
+            
+            <div class="meta">
+                <time datetime="2024.10.22.">2024.10.22.</time>
+                 &middot; <span class="reading-time">1 min read</span>
+            </div>
+            <h1>First beta release</h1>
+            <hr>
+            <p class="excerpt">Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.</p>
+            
+            
+        </header>
     
-    
-                <section>
-                <div class="grid grid-2">
-                <div></div>
-                    
-                <div></div>
+        <section>
+        
+        <p>Toucan is now ready for <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1" target="_blank">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href="/docs/themes/block-directives/">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href="https://github.com/theswiftdev/blog" target="_blank">The.Swift.Dev</a></li><li><a href="https://github.com/toucansites/website" target="_blank">toucansites.com</a></li><li><a href="https://github.com/toucansites/minimal-example" target="_blank">Minimal example</a></li><li><a href="https://github.com/swift-on-server/site/" target="_blank">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>
+            
+        </section>
+        
+        <footer class="grid grid-221">
+            <div class="author-list">
+                <a href="https://toucansites.com/authors/tibor-bodecs/">
+                <img class="medium rounded" src="/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
+                </a>
+            </div>
+            <div class="tag-list">
+                <a href="https://toucansites.com/tags/releases/"><small>Releases</small></a>
+            </div>
+        </footer>
+        
+        <section>
+        <h4>Related articles</h4>
+        <br>
+        <div class="grid grid-221">
+            <div class="post card">
+                
+            
+                <div class="meta">
+                    <time datetime="2024.10.17.">2024.10.17.</time>
+                     &middot; <span class="reading-time">1 min read</span>
                 </div>
-                </section>
+                <h2 class="title"><a href="https://toucansites.com/last-alpha-release/" target="">Last alpha release</a></h2>
+                <hr>
+                <p>Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.</p>
+                
+                <div class="grid grid-221">
+                    <div class="author-list">
+                        <a href="https://toucansites.com/authors/tibor-bodecs/">
+                        <img class="small rounded" src="/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
+                        </a>
+                    </div>
+                    
+                    <div class="tag-list">
+                        <a href="https://toucansites.com/tags/releases/"><small>Releases</small></a>
+                    </div>
+                </div>
+            </div>
+        <div class="post card">
+                
+            
+                <div class="meta">
+                    <time datetime="2024.09.30.">2024.09.30.</time>
+                     &middot; <span class="reading-time">2 min read</span>
+                </div>
+                <h2 class="title"><a href="https://toucansites.com/toucan-is-now-ready-for-alpha-testing/" target="">Toucan is now ready for alpha testing</a></h2>
+                <hr>
+                <p>Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.</p>
+                
+                <div class="grid grid-221">
+                    <div class="author-list">
+                        <a href="https://toucansites.com/authors/tibor-bodecs/">
+                        <img class="small rounded" src="/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
+                        </a>
+                    </div>
+                    
+                    <div class="tag-list">
+                        <a href="https://toucansites.com/tags/releases/"><small>Releases</small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
     
-            </article>
-        </div>
-        <div class="right">
-            <aside>
-            </aside>
-        </div>
+    </article>
+    
+    <div class="fixed-toc">
+    <aside>
+    </aside>
     </div>
+    
     </main>
 
     <footer id="site-footer">

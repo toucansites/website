@@ -4,17 +4,24 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com/</link>
     <language>en-US</language>
-    <lastBuildDate>Tue, 22 Oct 2024 13:33:02 +0000</lastBuildDate>
-    <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Oct 2024 18:36:43 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
 
+<item>
+    <guid isPermaLink="true">https://toucansites.com/first-beta-release/</guid>
+    <title><![CDATA[ First beta release ]]></title>
+    <description><![CDATA[ Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements. ]]></description>
+    <link>https://toucansites.com/first-beta-release/</link>
+    <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+</item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/last-alpha-release/</guid>
     <title><![CDATA[ Last alpha release ]]></title>
     <description><![CDATA[ Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2. ]]></description>
     <link>https://toucansites.com/last-alpha-release/</link>
-    <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/toucan-is-now-ready-for-alpha-testing/</guid>

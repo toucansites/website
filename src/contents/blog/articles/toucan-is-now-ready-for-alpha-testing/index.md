@@ -7,7 +7,7 @@ tags:
     - releases
 authors:
     - tibor-bodecs
-featured: true
+featured: false
 ---
 
 ## What is Toucan?
