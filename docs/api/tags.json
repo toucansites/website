@@ -1,0 +1,325 @@
+[
+  {
+    "canonical" : "http://localhost:3000/tags/news/",
+    "contents" : "",
+    "css" : [
+
+    ],
+    "description" : "Latest static site generator news.",
+    "imageUrl" : false,
+    "js" : [
+
+    ],
+    "order" : 10,
+    "permalink" : "http://localhost:3000/tags/news/",
+    "posts" : [
+      {
+        "authors" : [
+          {
+            "canonical" : "http://localhost:3000/authors/andris-sipos/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "Marketing @ Binary Birds",
+            "imageUrl" : "http://localhost:3000/assets/authors/andris-sipos/andris-sipos.webp",
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/authors/andris-sipos/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "authors/andris-sipos",
+            "title" : "Andris Sipos",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "canonical" : "http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/",
+        "contents" : "<p>This exciting project is set to revolutionize the way you create and deploy websites, making the process faster, easier, and more secure than ever before. Here’s a closer look at what makes Toucan the perfect choice for your web development needs.</p><h2 id=\"what-is-toucan\">What is Toucan?</h2><p>Toucan is a cutting-edge static site generator designed to help you build fast, secure websites with minimal effort. Leveraging the power of Swift, Toucan allows you to create and deploy beautiful, high-performance sites effortlessly.</p><p>Here’s what sets Toucan apart:</p><h2 id=\"markdown-based\">Markdown-based</h2><p>Toucan makes content creation a breeze with its seamless Markdown integration. Markdown’s simple syntax allows you to focus on writing content without getting bogged down in complex HTML. Whether you’re a seasoned developer or just starting out, Markdown’s intuitive format makes it easy to create and edit your site’s content.</p><h2 id=\"built-using-swift\">Built using Swift</h2><p>At the heart of Toucan is Swift, a modern programming language known for its speed and efficiency. By building Toucan with Swift, we’ve ensured that our static site generator runs efficiently and reliably, allowing you to create static sites quickly and safely.</p><h2 id=\"custom-themes\">Custom Themes</h2><p><strong>Professional theme store is coming soon later this year.</strong></p><p>With Toucan, you will have access to a range of customizable themes that make designing your website straightforward and enjoyable. Our templates are built with modern web standards in mind, ensuring that your site looks great on all devices and platforms. You can easily modify and adapt these templates to suit your specific needs, giving you full control over your site’s design and layout. Templates are built using the Mustache format.</p><h2 id=\"free-hosting-on-github-pages\">Free Hosting on GitHub Pages</h2><p>One of the most exciting features of Toucan is its seamless integration with GitHub Pages, providing you with a completely hosting-free solution. Once your site is ready, you can deploy it directly from your GitHub repository with just a few commands (<strong>coming soon later this year</strong>). This eliminates the need for costly hosting services and simplifies the deployment process, allowing you to focus on creating great content.</p><h2 id=\"why-choose-toucan\">Why Choose Toucan?</h2><ul><li><strong>Speed and Efficiency</strong>: Thanks to Swift, Toucan offers fast performance, making site generation and deployment quick and easy.</li><li><strong>Ease of Use</strong>: With Markdown for content creation and customizable templates, via Mustache, building your website is straightforward and intuitive.</li><li><strong>Cost-Effective</strong>: By leveraging the free GitHub Pages hosting, Toucan helps you save on costs without compromising on quality or performance.</li><li><strong>Modern and Scalable</strong>: Toucan is designed to keep pace with the latest web technologies and trends, ensuring your site remains modern and scalable.</li></ul><h2 id=\"stay-tuned-for-updates\">Stay Tuned for Updates</h2><p>We’re excited to bring Toucan to the web development community and can’t wait to share more updates with you.</p><p>Follow us on X (Twitter) and stay tuned for more news and updates as we continue to develop and refine Toucan.</p><p>Get ready to experience the future of static site generation with Toucan! 🦜✨</p>",
+        "css" : [
+
+        ],
+        "description" : "We're thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift.",
+        "featured" : false,
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "permalink" : "http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/",
+        "publication" : null,
+        "readingTime" : 1,
+        "slug" : "introducing-toucan-a-new-markdown-based-static-site-generator",
+        "tags" : [
+          {
+            "canonical" : "http://localhost:3000/tags/news/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "Latest static site generator news.",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/tags/news/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "tags/news",
+            "title" : "News",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "title" : "Introducing Toucan: a new Markdown-based static site generator",
+        "toc" : [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "publication" : null,
+    "readingTime" : 1,
+    "slug" : "tags/news",
+    "title" : "News",
+    "toc" : [
+
+    ]
+  },
+  {
+    "canonical" : "http://localhost:3000/tags/releases/",
+    "contents" : "",
+    "css" : [
+
+    ],
+    "description" : "Toucan updates and releases.",
+    "imageUrl" : false,
+    "js" : [
+
+    ],
+    "order" : 10,
+    "permalink" : "http://localhost:3000/tags/releases/",
+    "posts" : [
+      {
+        "authors" : [
+          {
+            "canonical" : "http://localhost:3000/authors/tibor-bodecs/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "CEO @ Binary Birds",
+            "imageUrl" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "authors/tibor-bodecs",
+            "title" : "Tibor Bödecs",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "canonical" : "http://localhost:3000/first-beta-release/",
+        "contents" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+        "css" : [
+
+        ],
+        "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
+        "featured" : true,
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "permalink" : "http://localhost:3000/first-beta-release/",
+        "publication" : null,
+        "readingTime" : 1,
+        "slug" : "first-beta-release",
+        "tags" : [
+          {
+            "canonical" : "http://localhost:3000/tags/releases/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "Toucan updates and releases.",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/tags/releases/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "tags/releases",
+            "title" : "Releases",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "title" : "First beta release",
+        "toc" : [
+
+        ]
+      },
+      {
+        "authors" : [
+          {
+            "canonical" : "http://localhost:3000/authors/tibor-bodecs/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "CEO @ Binary Birds",
+            "imageUrl" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "authors/tibor-bodecs",
+            "title" : "Tibor Bödecs",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "canonical" : "http://localhost:3000/last-alpha-release/",
+        "contents" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+        "css" : [
+
+        ],
+        "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
+        "featured" : false,
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "permalink" : "http://localhost:3000/last-alpha-release/",
+        "publication" : null,
+        "readingTime" : 1,
+        "slug" : "last-alpha-release",
+        "tags" : [
+          {
+            "canonical" : "http://localhost:3000/tags/releases/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "Toucan updates and releases.",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/tags/releases/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "tags/releases",
+            "title" : "Releases",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "title" : "Last alpha release",
+        "toc" : [
+          null
+        ]
+      },
+      {
+        "authors" : [
+          {
+            "canonical" : "http://localhost:3000/authors/tibor-bodecs/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "CEO @ Binary Birds",
+            "imageUrl" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "authors/tibor-bodecs",
+            "title" : "Tibor Bödecs",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "canonical" : "http://localhost:3000/toucan-is-now-ready-for-alpha-testing/",
+        "contents" : "<h2 id=\"what-is-toucan\">What is Toucan?</h2><p>Toucan is a brand-new static site generator, developed entirely in Swift. The <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-alpha.1\" target=\"_blank\">first alpha</a> version is now available on the project’s GitHub page.</p><h2 id=\"how-to-install-toucan\">How to install Toucan?</h2><p>To install Toucan, you can compile it from source. Ensure that Swift and Xcode are installed on your Mac. While it is possible to install Toucan on Linux, using macOS is highly recommended during the alpha release.</p><pre><code class=\"language-sh\">git clone https://github.com/toucansites/toucan.git\n# install the toucan binary\nmake install\n# verify the installation\nwhich toucan\n</code></pre><h2 id=\"how-does-the-toucan-command-work\">How does the Toucan command work?</h2><p>Every Toucan project operates within the current directory, so when building and running the project using Xcode, you will need to set up a custom working directory.</p><p>You can generate a new website using the <code>generate</code> subcommand, which accepts two arguments: the input directory (default is <code>src</code>) and the output directory (default is <code>docs</code>). Optionally, you can override the base URL if you need to generate the site for local development.</p><p>For example, if you have a site folder with the <code>src</code> inside, you can run the following command to generate the HTML files into a docs folder:</p><pre><code class=\"language-sh\">cd my-site\ntoucan generate ./src ./docs --base-url \"http://localhost:3000/\"\n</code></pre><p>It is also possible to quickly start a local file/web server by running the <code>toucan serve</code> command. This will launch a Hummingbird server, using the <code>docs</code> directory and port <code>3000</code> as defaults, but you can override these settings. For example:</p><pre><code class=\"language-sh\">toucan serve ./docs --port 3000\n</code></pre><p>Now, if you open your browser, you should be able to preview the website by entering <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</p><p>During development, it’s useful to rebuild the site automatically when changes occur in the source directory. For this purpose, we’ve implemented a <code>watch</code> command, but currently, it only works on macOS. You can try watching a directory; the command is very similar to the generate subcommand:</p><pre><code class=\"language-sh\">toucan watch ./src ./docs --base-url 'http://localhost:3000/' \n</code></pre><p>That’s all about the toucan command. Now, let’s focus on building a simple website.</p><h2 id=\"getting-started-with-toucan-based-websites\">Getting started with Toucan-based websites</h2><p>The first thing you need is a source folder where you can store all the themes, assets, and content for your website.</p><p>Feel free to grab one of our themes to get started. We also have a minimal starter project available under the <a href=\"https://github.com/toucansites\" target=\"_blank\">toucansites</a> GitHub organization.</p><p>Make sure to place the theme in the <code>themes/default</code> folder. Alternatively, you can set the <code>theme.use</code> value in the site’s configuration YAML to use a custom folder.</p><p>Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:</p><pre><code class=\"language-yaml\">site:\n    baseUrl: \"http://localhost:3000/\"\n    title: \"Minimal example\"\n    description: \"This is a minimal Toucan example\"\n</code></pre><p>Next, create a content folder and add some Markdown documents.</p><p>The <code>index.md</code> will serve as the homepage for your website. Feel free to modify this file as needed.</p><pre><code class=\"language-markdown\">---\ntitle: \"Home title\"\ndescription: \"Home description\"\n---\n\nWelcome to the home page.\n</code></pre><p>The section between the <code>---</code> characters is called the front matter, where you can customize the properties of your page.</p><p>The homepage and 404 page are a bit different. The homepage has no slug, and the 404 page will always be named <code>404.html</code> when the final content is generated.</p><p>Every page will use a slug based on the folder structure you create. For example, if you need a subpage called <code>about</code>, simply create a folder named about and place an <code>index.md</code> file inside it.</p><p>If you want to omit a folder from the hierarchy, just add a <code>noindex.yml</code> file to that directory. For example, consider the following structure:</p><pre><code class=\"language-sh\">.\n├── 404\n│   └── index.md\n├── assets\n├── blog\n│   ├── authors\n│   │   └── alan-turing\n│   │       └── index.md\n│   ├── index.md\n│   ├── posts\n│   │   └── 2024\n│   │       ├── noindex.yml\n│   │       └── turings-legacy-in-modern-computing\n│   │           └── index.md\n│   └── tags\n│       └── technology\n│           └── index.md\n├── index.md\n└── my-page\n    └── index.md\n</code></pre><p>The following pages will be available:</p><ul><li><code>/</code></li><li><code>404</code></li><li><code>blog</code></li><li><code>blog/authors/alan-turing</code></li><li><code>blog/posts/turings-legacy-in-modern-computing</code></li><li><code>blog/tags/technology</code></li><li><code>my-page</code></li></ul><p>Notice the <code>noindex.yml</code>file in the 2024 folder, which is omitted from the slug.</p><p>Now that you understand the basics, feel free to create your own structure and experiment with Toucan. You can find working examples by checking the source code of <a href=\"https://github.com/toucansites/website\" target=\"_blank\">this</a> website or the <a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">theswiftdev.com</a> site, both available on GitHub.</p><p>That’s all you need to know to get started with Toucan. 😊</p>",
+        "css" : [
+
+        ],
+        "description" : "Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.",
+        "featured" : false,
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "permalink" : "http://localhost:3000/toucan-is-now-ready-for-alpha-testing/",
+        "publication" : null,
+        "readingTime" : 2,
+        "slug" : "toucan-is-now-ready-for-alpha-testing",
+        "tags" : [
+          {
+            "canonical" : "http://localhost:3000/tags/releases/",
+            "contents" : "",
+            "css" : [
+
+            ],
+            "description" : "Toucan updates and releases.",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 10,
+            "permalink" : "http://localhost:3000/tags/releases/",
+            "publication" : null,
+            "readingTime" : 1,
+            "slug" : "tags/releases",
+            "title" : "Releases",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "title" : "Toucan is now ready for alpha testing",
+        "toc" : [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "publication" : null,
+    "readingTime" : 1,
+    "slug" : "tags/releases",
+    "title" : "Releases",
+    "toc" : [
+
+    ]
+  }
+]
