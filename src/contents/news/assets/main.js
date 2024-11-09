@@ -12,8 +12,11 @@ async function postFormDataAsJson({ url }) {
         const errorMessage = await response.text();
         throw new Error(errorMessage);
     }
-
-    return response.json();
+    const contentType = response.headers.get("content-type");
+    if (contentType && contentType.indexOf("application/json") !== -1) {
+        return response.json();
+    } 
+    throw new Error("Invalid response, not a valid JSON object.");
 }
 
 async function handleFormSubmit(event) {
@@ -43,7 +46,6 @@ async function handleFormSubmit(event) {
                 name: item.title,
                 link: item.permalink,
             }));
-            console.warn(item);
             const html = createPostCard({
                 featured: item.featured,
                 date: item.publication,
@@ -67,7 +69,7 @@ async function handleFormSubmit(event) {
         }
     } 
     catch (error) {
-        console.error(error);
+        alert(`Something went wrong.\n${error}`);
     }
 }
 
