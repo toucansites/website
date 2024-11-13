@@ -28,7 +28,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/andris-sipos/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "authors/andris-sipos",
             "title" : "Andris Sipos",
@@ -49,7 +53,11 @@
 
         ],
         "permalink" : "http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.08.12.",
+          "rss" : "Mon, 12 Aug 2024 12:00:00 +0000",
+          "sitemap" : "2024-08-12"
+        },
         "readingTime" : 1,
         "slug" : "introducing-toucan-a-new-markdown-based-static-site-generator",
         "tags" : [
@@ -66,7 +74,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/news/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "tags/news",
             "title" : "News",
@@ -87,7 +99,11 @@
         ]
       }
     ],
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "tags/news",
     "title" : "News",
@@ -124,7 +140,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs",
@@ -145,7 +165,11 @@
 
         ],
         "permalink" : "http://localhost:3000/first-beta-release/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.10.22.",
+          "rss" : "Tue, 22 Oct 2024 00:00:00 +0000",
+          "sitemap" : "2024-10-22"
+        },
         "readingTime" : 1,
         "slug" : "first-beta-release",
         "tags" : [
@@ -162,7 +186,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "tags/releases",
             "title" : "Releases",
@@ -191,7 +219,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs",
@@ -212,7 +244,11 @@
 
         ],
         "permalink" : "http://localhost:3000/last-alpha-release/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.10.17.",
+          "rss" : "Thu, 17 Oct 2024 00:00:00 +0000",
+          "sitemap" : "2024-10-17"
+        },
         "readingTime" : 1,
         "slug" : "last-alpha-release",
         "tags" : [
@@ -229,7 +265,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "tags/releases",
             "title" : "Releases",
@@ -258,7 +298,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs",
@@ -279,7 +323,11 @@
 
         ],
         "permalink" : "http://localhost:3000/toucan-is-now-ready-for-alpha-testing/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.09.30.",
+          "rss" : "Mon, 30 Sep 2024 00:00:00 +0000",
+          "sitemap" : "2024-09-30"
+        },
         "readingTime" : 2,
         "slug" : "toucan-is-now-ready-for-alpha-testing",
         "tags" : [
@@ -296,7 +344,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "tags/releases",
             "title" : "Releases",
@@ -314,7 +366,11 @@
         ]
       }
     ],
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "tags/releases",
     "title" : "Releases",

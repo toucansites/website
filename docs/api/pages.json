@@ -11,7 +11,11 @@
       "http://localhost:3000/assets/home/main.js"
     ],
     "permalink" : "http://localhost:3000/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "",
     "title" : "The Markdown-based static site generator written in Swift",
@@ -31,7 +35,11 @@
 
     ],
     "permalink" : "http://localhost:3000/404/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "404",
     "title" : "Not found",
@@ -51,7 +59,11 @@
 
     ],
     "permalink" : "http://localhost:3000/authors/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "authors",
     "title" : "Authors",
@@ -71,7 +83,11 @@
 
     ],
     "permalink" : "http://localhost:3000/contact/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "contact",
     "title" : "Contact",
@@ -91,7 +107,11 @@
 
     ],
     "permalink" : "http://localhost:3000/docs/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs",
     "title" : "Docs",
@@ -111,7 +131,11 @@
 
     ],
     "permalink" : "http://localhost:3000/faq/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 3,
     "slug" : "faq",
     "title" : "FAQ",
@@ -137,7 +161,11 @@
       "http://localhost:3000/assets/news/main.js"
     ],
     "permalink" : "http://localhost:3000/news/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "news",
     "title" : "News",
@@ -157,7 +185,11 @@
 
     ],
     "permalink" : "http://localhost:3000/showcases/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "showcases",
     "title" : "Showcases",
@@ -177,7 +209,11 @@
 
     ],
     "permalink" : "http://localhost:3000/tags/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "tags",
     "title" : "Tags",

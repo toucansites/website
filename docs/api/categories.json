@@ -23,7 +23,11 @@
             ],
             "order" : 3,
             "permalink" : "http://localhost:3000/docs/content-management/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/content-management",
             "title" : "Content Management",
@@ -43,7 +47,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/content-management/page-bundles/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/content-management/page-bundles",
         "title" : "Page bundles",
@@ -69,7 +77,11 @@
             ],
             "order" : 3,
             "permalink" : "http://localhost:3000/docs/content-management/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/content-management",
             "title" : "Content Management",
@@ -89,7 +101,11 @@
         ],
         "order" : 2,
         "permalink" : "http://localhost:3000/docs/content-management/markdown/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/content-management/markdown",
         "title" : "Markdown",
@@ -106,7 +122,11 @@
     ],
     "order" : 3,
     "permalink" : "http://localhost:3000/docs/content-management/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/content-management",
     "title" : "Content Management",
@@ -138,7 +158,11 @@
             ],
             "order" : 20,
             "permalink" : "http://localhost:3000/docs/deployment/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/deployment",
             "title" : "Deployment",
@@ -158,7 +182,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/deployment/github-pages/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/deployment/github-pages",
         "title" : "GitHub Pages",
@@ -173,7 +201,11 @@
     ],
     "order" : 20,
     "permalink" : "http://localhost:3000/docs/deployment/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/deployment",
     "title" : "Deployment",
@@ -205,7 +237,11 @@
             ],
             "order" : 2,
             "permalink" : "http://localhost:3000/docs/getting-started/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
             "title" : "Getting started",
@@ -225,7 +261,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/getting-started/basics/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 4,
         "slug" : "docs/getting-started/basics",
         "title" : "Basics",
@@ -256,7 +296,11 @@
             ],
             "order" : 2,
             "permalink" : "http://localhost:3000/docs/getting-started/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
             "title" : "Getting started",
@@ -276,7 +320,11 @@
         ],
         "order" : 2,
         "permalink" : "http://localhost:3000/docs/getting-started/commands/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/getting-started/commands",
         "title" : "Commands",
@@ -302,7 +350,11 @@
             ],
             "order" : 2,
             "permalink" : "http://localhost:3000/docs/getting-started/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
             "title" : "Getting started",
@@ -322,7 +374,11 @@
         ],
         "order" : 3,
         "permalink" : "http://localhost:3000/docs/getting-started/site-index/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/getting-started/site-index",
         "title" : "Site index",
@@ -339,7 +395,11 @@
     ],
     "order" : 2,
     "permalink" : "http://localhost:3000/docs/getting-started/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/getting-started",
     "title" : "Getting started",
@@ -371,7 +431,11 @@
             ],
             "order" : 1,
             "permalink" : "http://localhost:3000/docs/installation/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/installation",
             "title" : "Installation",
@@ -391,7 +455,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/installation/macos/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/installation/macos",
         "title" : "macOS",
@@ -417,7 +485,11 @@
             ],
             "order" : 1,
             "permalink" : "http://localhost:3000/docs/installation/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/installation",
             "title" : "Installation",
@@ -437,7 +509,11 @@
         ],
         "order" : 2,
         "permalink" : "http://localhost:3000/docs/installation/linux/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/installation/linux",
         "title" : "Linux",
@@ -463,7 +539,11 @@
             ],
             "order" : 1,
             "permalink" : "http://localhost:3000/docs/installation/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/installation",
             "title" : "Installation",
@@ -483,7 +563,11 @@
         ],
         "order" : 3,
         "permalink" : "http://localhost:3000/docs/installation/windows/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/installation/windows",
         "title" : "Windows",
@@ -498,7 +582,11 @@
     ],
     "order" : 1,
     "permalink" : "http://localhost:3000/docs/installation/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/installation",
     "title" : "Installation",
@@ -530,7 +618,11 @@
             ],
             "order" : 10,
             "permalink" : "http://localhost:3000/docs/integrations/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/integrations",
             "title" : "Integrations",
@@ -550,7 +642,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/integrations/syntax-highlight/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/integrations/syntax-highlight",
         "title" : "Syntax highlight",
@@ -565,7 +661,11 @@
     ],
     "order" : 10,
     "permalink" : "http://localhost:3000/docs/integrations/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/integrations",
     "title" : "Integrations",
@@ -597,7 +697,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -617,7 +721,11 @@
         ],
         "order" : 1,
         "permalink" : "http://localhost:3000/docs/themes/basics/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/basics",
         "title" : "Basics",
@@ -643,7 +751,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -663,7 +775,11 @@
         ],
         "order" : 2,
         "permalink" : "http://localhost:3000/docs/themes/theme-assets/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/theme-assets",
         "title" : "Theme assets",
@@ -687,7 +803,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -707,7 +827,11 @@
         ],
         "order" : 3,
         "permalink" : "http://localhost:3000/docs/themes/mustache-templates/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/mustache-templates",
         "title" : "Mustache templates",
@@ -735,7 +859,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -755,7 +883,11 @@
         ],
         "order" : 5,
         "permalink" : "http://localhost:3000/docs/themes/toucan-templates/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/toucan-templates",
         "title" : "Toucan templates",
@@ -781,7 +913,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -801,7 +937,11 @@
         ],
         "order" : 6,
         "permalink" : "http://localhost:3000/docs/themes/content-types/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/content-types",
         "title" : "Content types",
@@ -825,7 +965,11 @@
             ],
             "order" : 8,
             "permalink" : "http://localhost:3000/docs/themes/",
-            "publication" : null,
+            "publication" : {
+              "html" : "2024.11.13.",
+              "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+              "sitemap" : "2024-11-13"
+            },
             "readingTime" : 1,
             "slug" : "docs/themes",
             "title" : "Themes",
@@ -845,7 +989,11 @@
         ],
         "order" : 7,
         "permalink" : "http://localhost:3000/docs/themes/block-directives/",
-        "publication" : null,
+        "publication" : {
+          "html" : "2024.11.13.",
+          "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+          "sitemap" : "2024-11-13"
+        },
         "readingTime" : 1,
         "slug" : "docs/themes/block-directives",
         "title" : "Block directives",
@@ -861,7 +1009,11 @@
     ],
     "order" : 8,
     "permalink" : "http://localhost:3000/docs/themes/",
-    "publication" : null,
+    "publication" : {
+      "html" : "2024.11.13.",
+      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "sitemap" : "2024-11-13"
+    },
     "readingTime" : 1,
     "slug" : "docs/themes",
     "title" : "Themes",

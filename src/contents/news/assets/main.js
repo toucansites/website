@@ -29,6 +29,11 @@ async function handleFormSubmit(event) {
         const formData = new FormData(form);
         const plainFormData = Object.fromEntries(formData.entries());
         const term = plainFormData.term.toLowerCase();
+
+        if (typeof term === "string" && term.length === 0) {
+            return;
+        }
+
         const responseData = await postFormDataAsJson({ url });
 
         const innerHTML = responseData
@@ -48,7 +53,7 @@ async function handleFormSubmit(event) {
             }));
             const html = createPostCard({
                 featured: item.featured,
-                date: item.publication,
+                date: item.publication.html,
                 readingTime: `${item.readingTime} min read`,
                 title: item.title,
                 link: item.permalink,
