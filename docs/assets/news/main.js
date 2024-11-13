@@ -31,6 +31,7 @@ async function handleFormSubmit(event) {
         const term = plainFormData.term.toLowerCase();
 
         if (typeof term === "string" && term.length === 0) {
+            window.location.href = "/news/";
             return;
         }
 

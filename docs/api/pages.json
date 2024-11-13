@@ -13,7 +13,7 @@
     "permalink" : "http://localhost:3000/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -37,7 +37,7 @@
     "permalink" : "http://localhost:3000/404/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -61,7 +61,7 @@
     "permalink" : "http://localhost:3000/authors/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -85,7 +85,7 @@
     "permalink" : "http://localhost:3000/contact/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -109,7 +109,7 @@
     "permalink" : "http://localhost:3000/docs/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -133,7 +133,7 @@
     "permalink" : "http://localhost:3000/faq/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 3,
@@ -163,7 +163,7 @@
     "permalink" : "http://localhost:3000/news/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -187,7 +187,7 @@
     "permalink" : "http://localhost:3000/showcases/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
@@ -211,7 +211,7 @@
     "permalink" : "http://localhost:3000/tags/",
     "publication" : {
       "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:42:33 +0000",
+      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
       "sitemap" : "2024-11-13"
     },
     "readingTime" : 1,
