@@ -1,6 +1,6 @@
 [
   {
-    "canonical" : "http://localhost:3000/",
+    "canonical" : "https://toucansites.com/",
     "contents" : "",
     "css" : [
 
@@ -8,13 +8,13 @@
     "description" : "The Markdown-based static site generator written in Swift",
     "imageUrl" : "/images/defaults/default.jpg",
     "js" : [
-      "http://localhost:3000/assets/home/main.js"
+      "https://toucansites.com/assets/home/main.js"
     ],
-    "permalink" : "http://localhost:3000/",
+    "permalink" : "https://toucansites.com/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/404/",
+    "canonical" : "https://toucansites.com/404/",
     "contents" : "<h1>Not found</h1><p>This page does not exists.</p><pre><code class=\"language-swift\">func main() {\n    \"Hello, world!\"\n}\n</code></pre><p>Ouch something went wrong…</p>",
     "css" : [
 
@@ -34,11 +34,11 @@
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/404/",
+    "permalink" : "https://toucansites.com/404/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "404",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/authors/",
+    "canonical" : "https://toucansites.com/authors/",
     "contents" : "<h1>Authors</h1><p>Browse articles by authors.</p>",
     "css" : [
 
@@ -58,11 +58,11 @@
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/authors/",
+    "permalink" : "https://toucansites.com/authors/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "authors",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/contact/",
+    "canonical" : "https://toucansites.com/contact/",
     "contents" : "<h1>Contact us</h1><p>Reach out to us if you have any questions about Toucan, the markdown-based static site generator.</p><p><a href=\"mailto:support@binarybirds.com\" class=\"cta\">Contact us</a></p>",
     "css" : [
 
@@ -82,11 +82,11 @@
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/contact/",
+    "permalink" : "https://toucansites.com/contact/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "contact",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/docs/",
+    "canonical" : "https://toucansites.com/docs/",
     "contents" : "<h1>Docs</h1><p>Toucan is currently released as an <a href=\"https://github.com/binarybirds/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
     "css" : [
 
@@ -106,11 +106,11 @@
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/docs/",
+    "permalink" : "https://toucansites.com/docs/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "docs",
@@ -120,21 +120,21 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/faq/",
+    "canonical" : "https://toucansites.com/faq/",
     "contents" : "<h1>FAQ</h1><p>Frequently Asked Questions about Static Site Generators for complete beginners.</p><h2 id=\"general-questions\">General questions</h2><details><summary><h3 id=\"what-is-a-static-site-generator\">What is a static site generator?</h3></summary><div><p>A Static Site Generator (SSG) is a tool that generates static HTML pages from templates or components, typically using content written in markdown or other markup languages.</p></div></details><details><summary><h3 id=\"how-does-a-static-site-generator-differ-from-a-traditional-cms\">How does a static site generator differ from a traditional CMS?</h3></summary><div><p>Unlike traditional Content Management Systems (CMS) that generate pages dynamically on the server for each request, SSGs generate all the pages at build time. The static HTML can then be served by a simple file server, resulting in faster load times and increased security.</p></div></details><h2 id=\"setup-and-installation\">Setup and installation</h2><details><summary><h3 id=\"how-do-i-install-a-static-site-generator\">How do I install a static site generator?</h3></summary><div><p>Installation instructions typically vary by SSG, but most can be installed using package managers like npm (Node.js) or gem (Ruby). Detailed instructions are usually provided in the documentation. If you are looking for the Toucan installation instructions, please visit our corresponding <a href=\"/docs/installation/\">docs</a> section.</p></div></details><details><summary><h3 id=\"what-are-the-system-requirements-for-running-a-static-site-generator\">What are the system requirements for running a static site generator?</h3></summary><div><p>Most SSGs require a modern operating system and a working installation of Node.js, Ruby, Python, or another relevant programming environment. However, since Toucan is distributed as an executable binary, there is no need to set up additional tools on your machine.</p></div></details><details><summary><h3 id=\"how-do-i-set-up-my-first-static-site\">How do I set up my first static site?</h3></summary><div><p>After installing the SSG, you typically need to create a new project, choose or create a template, add your content, and then build the site. Step-by-step instructions are available in the documentation.</p></div></details><h2 id=\"usage-and-customization\">Usage and Customization</h2><details><summary><h3 id=\"how-do-i-add-content-to-my-static-site\">How do I add content to my static site?</h3></summary><div><p>Content is usually added through markdown files or other markup languages, which are then processed by the SSG to generate HTML pages.</p></div></details><details><summary><h3 id=\"can-i-use-my-own-custom-templates\">Can I use my own custom templates?</h3></summary><div><p>Yes, you can create and use your own custom templates. Most SSGs provide a flexible templating system that allows you to define the layout and structure of your pages.</p></div></details><details><summary><h3 id=\"how-do-i-customize-the-look-and-feel-of-my-site\">How do I customize the look and feel of my site?</h3></summary><div><p>You can customize your site’s appearance by modifying the CSS, using different templates, or integrating a front-end framework.</p></div></details><details><summary><h3 id=\"how-do-i-manage-media-files-like-images-and-videos\">How do I manage media files like images and videos?</h3></summary><div><p>Media files can be stored in your project’s directory and referenced in your content. Most SSGs have built-in support for handling media assets.</p></div></details><h2 id=\"performance-and-scalability\">Performance and Scalability</h2><details><summary><h3 id=\"how-fast-are-static-sites-compared-to-dynamic-sites\">How fast are static sites compared to dynamic sites?</h3></summary><div><p>Static sites are generally faster because they consist of pre-built HTML files, which reduces the need for server-side processing and database queries.</p></div></details><details><summary><h3 id=\"can-a-static-site-handle-high-traffic-volumes\">Can a static site handle high traffic volumes?</h3></summary><div><p>Yes, static sites are highly scalable and can handle high traffic volumes efficiently, especially when served through a content delivery network (CDN).</p></div></details><details><summary><h3 id=\"how-do-i-deploy-my-static-site\">How do I deploy my static site?</h3></summary><div><p>Static sites can be deployed on various platforms such as GitHub Pages, Netlify, Vercel, Amazon S3, or any web server that can serve HTML files.</p></div></details><h2 id=\"advanced-features\">Advanced Features</h2><details><summary><h3 id=\"can-i-use-dynamic-features-like-forms-or-user-authentication-with-a-static-site\">Can I use dynamic features like forms or user authentication with a static site?</h3></summary><div><p>Yes, dynamic features can be integrated using third-party services and APIs. For example, forms can use services like Formspree, and user authentication can be managed with tools like Auth0.</p></div></details><details><summary><h3 id=\"is-it-possible-to-integrate-a-cms-with-a-static-site-generator\">Is it possible to integrate a CMS with a static site generator?</h3></summary><div><p>Yes, headless CMS solutions like Contentful, Sanity, and Strapi can be integrated with SSGs to provide a more user-friendly content management experience.</p></div></details><details><summary><h3 id=\"how-can-i-enhance-my-site-s-ranking-seo-for-a-static-site\">How can I enhance my site’s ranking (SEO) for a static site?</h3></summary><div><p>Static sites can be optimized for better ranking by including metadata, using clean URLs, and generating sitemaps. Many SSGs offer plugins or built-in features to help with SEO.</p></div></details><br>\n<h2 id=\"troubleshooting-and-support\">Troubleshooting and Support</h2><details><summary><h3 id=\"what-should-i-do-if-i-encounter-an-error-during-the-build-process\">What should I do if I encounter an error during the build process?</h3></summary><div><p>Check the error message for clues, consult the documentation, and look for solutions in community forums or GitHub issues. Most SSGs have active communities that can help troubleshoot issues.</p></div></details><details><summary><h3 id=\"where-can-i-find-support-for-my-static-site-generator\">Where can I find support for my static site generator?</h3></summary><div><p>Support can be found through official documentation, community forums, GitHub repositories, and sometimes dedicated support channels provided by the SSG developers.</p></div></details><details><summary><h3 id=\"how-do-i-update-my-static-site-generator-to-the-latest-version\">How do I update my static site generator to the latest version?</h3></summary><div><p>Updating typically involves using the package manager’s update commands, such as npm update for Node.js-based SSGs or gem update for Ruby-based SSGs. Always refer to the official documentation for specific instructions.</p></div></details><h2 id=\"best-practices\">Best Practices</h2><details><summary><h3 id=\"what-are-the-best-practices-for-maintaining-a-static-site\">What are the best practices for maintaining a static site?</h3></summary><div><p>Regularly update dependencies, backup your content and configuration, use version control (e.g., Git), and monitor performance. Additionally, keep your SSG and any integrated services up to date.</p></div></details><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have further questions.</p>",
     "css" : [
-      "http://localhost:3000/assets/faq/style.css"
+      "https://toucansites.com/assets/faq/style.css"
     ],
     "description" : "Frequently Asked Questions about Static Site Generators for complete beginners.",
     "imageUrl" : false,
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/faq/",
+    "permalink" : "https://toucansites.com/faq/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 3,
     "slug" : "faq",
@@ -150,21 +150,21 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/news/",
-    "contents" : "<h1>News</h1><p>Latest news</p><form action=\"/api/posts.json\" id=\"search-form\">\n    <label for=\"term\">\n        <input type=\"text\" name=\"term\" id=\"term\">\n    </label>\n    <input type=\"submit\" value=\"Search\">\n</form>\n",
+    "canonical" : "https://toucansites.com/news/",
+    "contents" : "<h1>News</h1><p>Latest news</p><form action=\"/api/posts.json\" id=\"search-form\">\n    <label for=\"term\">\n        <input type=\"text\" name=\"term\" id=\"term\" placeholder=\"Search article\">\n    </label>\n    <input type=\"submit\" value=\"Search\">\n</form>\n",
     "css" : [
-
+      "https://toucansites.com/assets/news/style.css"
     ],
     "description" : "This is the news page.",
     "imageUrl" : "/images/defaults/default.jpg",
     "js" : [
-      "http://localhost:3000/assets/news/main.js"
+      "https://toucansites.com/assets/news/main.js"
     ],
-    "permalink" : "http://localhost:3000/news/",
+    "permalink" : "https://toucansites.com/news/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "news",
@@ -174,21 +174,21 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/showcases/",
-    "contents" : "<h1>Showcases</h1><p>Toucan is used by the following websites. Feel free to <a href=\"/contact/\">contact us</a> if you’d like to feature your site.</p><div class=\"grid grid-221 \"><div class=\"column \"><p><a href=\"https://binarybirds.com/\" target=\"_blank\"><br>    <img src=\"http://localhost:3000/assets/showcases/binarybirds.jpg\" alt=\"Binary Birds\"><br></a></p></div><div class=\"column \"><p><a href=\"https://swiftonserver.com/\" target=\"_blank\"><br>    <img src=\"http://localhost:3000/assets/showcases/swiftonserver.jpg\" alt=\"Swift on Server\"><br></a></p></div><div class=\"column \"><p><a href=\"https://theswiftdev.com/\" target=\"_blank\"><br>    <img src=\"http://localhost:3000/assets/showcases/theswiftdev.jpg\" alt=\"The.Swift.Dev\"><br></a></p></div></div>",
+    "canonical" : "https://toucansites.com/showcases/",
+    "contents" : "<h1>Showcases</h1><p>Toucan is used by the following websites. Feel free to <a href=\"/contact/\">contact us</a> if you’d like to feature your site.</p><div class=\"grid grid-221 \"><div class=\"column \"><p><a href=\"https://binarybirds.com/\" target=\"_blank\"><br>    <img src=\"https://toucansites.com/assets/showcases/binarybirds.jpg\" alt=\"Binary Birds\"><br></a></p></div><div class=\"column \"><p><a href=\"https://swiftonserver.com/\" target=\"_blank\"><br>    <img src=\"https://toucansites.com/assets/showcases/swiftonserver.jpg\" alt=\"Swift on Server\"><br></a></p></div><div class=\"column \"><p><a href=\"https://theswiftdev.com/\" target=\"_blank\"><br>    <img src=\"https://toucansites.com/assets/showcases/theswiftdev.jpg\" alt=\"The.Swift.Dev\"><br></a></p></div></div>",
     "css" : [
-      "http://localhost:3000/assets/showcases/style.css"
+      "https://toucansites.com/assets/showcases/style.css"
     ],
     "description" : "Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site.",
     "imageUrl" : false,
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/showcases/",
+    "permalink" : "https://toucansites.com/showcases/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "showcases",
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "canonical" : "http://localhost:3000/tags/",
+    "canonical" : "https://toucansites.com/tags/",
     "contents" : "<h1>Tags</h1><p>Browse articles by tags.</p>",
     "css" : [
 
@@ -208,11 +208,11 @@
     "js" : [
 
     ],
-    "permalink" : "http://localhost:3000/tags/",
+    "permalink" : "https://toucansites.com/tags/",
     "publication" : {
-      "html" : "2024.11.13.",
-      "rss" : "Wed, 13 Nov 2024 04:45:13 +0000",
-      "sitemap" : "2024-11-13"
+      "html" : "2024.11.14.",
+      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
+      "sitemap" : "2024-11-14"
     },
     "readingTime" : 1,
     "slug" : "tags",

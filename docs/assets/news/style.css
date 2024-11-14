@@ -1,0 +1,22 @@
+#search-form {
+    margin: 16px auto;
+}
+input[type=text] {
+    outline: none;
+    padding: 8px;
+    border: 4px solid var(--primary-text-color);
+    background: var(--secondary-background-color);
+}
+input[type=submit] {
+    margin: 16px auto;
+    font-weight: bold;
+    outline: none;
+    padding: 8px;
+    border: 4px solid var(--primary-text-color);
+    background: var(--primary-background-color);
+}
+input[type=submit]:hover {
+    color: var(--primary-background-color);
+    background: var(--primary-text-color);
+    cursor: pointer;
+}
