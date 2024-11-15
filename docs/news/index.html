@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/theme.css">
     
-    
+    <link rel="stylesheet" href="https://toucansites.com/assets/news/style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/180.png">
     <link rel="apple-touch-icon" sizes="167x167" href="/icons/167.png">
@@ -155,12 +155,17 @@
     <main id="page-container">
     
     
-    <h1>News</h1><p>Latest news</p>
+    <h1>News</h1><p>Latest news</p><form action="/api/posts.json" id="search-form">
+    <label for="term">
+        <input type="text" name="term" id="term" placeholder="Search article">
+    </label>
+    <input type="submit" value="Search">
+</form>
+    
     
     <div id="blog" class="wrapper">
-        
-       
-        <div class="grid grid-321">
+    
+        <div id="blog-posts" class="grid grid-321">
             <div class="post card">
                 <span class="featured">featured</span>
             
@@ -341,7 +346,7 @@
         </div>
     </footer>
 
-    
+    <script src="https://toucansites.com/assets/news/main.js" async></script>
 
 </body>
 </html>

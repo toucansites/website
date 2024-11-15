@@ -13,13 +13,12 @@
 {{& page.contents}}
 
 <div id="blog" class="wrapper">
-    
-   
+
     {{#empty(site.context.posts)}}
     Empty.
     {{/empty(site.context.posts)}}
     {{^empty(site.context.posts)}}
-    <div class="grid grid-321">
+    <div id="blog-posts" class="grid grid-321">
     {{#site.context.posts}}
         {{> partials.blog.post}}
     {{/site.context.posts}}

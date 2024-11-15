@@ -1,4 +1,5 @@
 id: post
+api: posts
 rss: true
 template: blog.post.default
 # css:
