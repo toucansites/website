@@ -1,5 +1,5 @@
 ---
-title: "FAQ"
+title: "Frequently Asked Questions about Static Site Generators"
 description: "Frequently Asked Questions about Static Site Generators for complete beginners."
 ---
 

@@ -1,17 +1,17 @@
 ---
-title: Not found
-description: Page not found
+title: "404 - Not found. Sorry, this page doesn’t exist"
+description: "Page not found. The requested page doesn’t exist or has been moved."
 ---
 
-# Not found
+# Page not found
 
-This page does not exists.
+The requested page doesn’t exist or has been moved.
 
 ```swift
 func main() {
-    "Hello, world!"
+    print("404")
 }
 ```
 
-Ouch something went wrong...
+Try navigating back to the [homepage](/) to find what you’re looking for.
 

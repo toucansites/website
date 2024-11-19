@@ -1,12 +1,12 @@
 ---
-title: Docs
-description: The entire user documentation for the Toucan static site generator.
+title: "Documentation, user guides and useful resources"
+description: "Access the complete user documentation for the Toucan Static Site Generator. Learn how to create and manage static websites efficiently."
 template: docs.home
 ---
 
 # Docs
 
-Toucan is currently released as an [beta-version](https://github.com/binarybirds/toucan).
+Toucan is currently released as a [beta-version](https://github.com/binarybirds/toucan).
 
 Welcome to the Toucan user docs. This page is currently work in progress. We're going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏
 

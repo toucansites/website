@@ -1,6 +1,6 @@
 ---
 type: tag
-title: Releases
-description: Toucan updates and releases. 
+title: "Toucan releases, updates and latest features"
+description: "Stay informed about Toucan’s latest releases, updates, and features for building better static sites."
 order: 10
 ---

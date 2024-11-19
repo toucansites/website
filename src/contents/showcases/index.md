@@ -1,6 +1,6 @@
 ---
-title: Showcases
-description: Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site. 
+title: "Toucan-based website showcases"
+description: "Toucan is used by the following websites. Feel free to contact us if you’d like to feature your site."
 ---
 
 

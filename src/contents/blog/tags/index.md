@@ -1,6 +1,6 @@
 ---
-title: Tags
-description: Browse articles by tags.
+title: "Explore articles by tags, find topics that interest you"
+description: "Discover articles by tags and explore topics that match your interests. Browse and find content tailored to what you love."
 template: blog.tags
 ---
 
