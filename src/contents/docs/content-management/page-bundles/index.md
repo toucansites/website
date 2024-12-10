@@ -22,7 +22,7 @@ It’s also possible to separate the content and front matter by using both `ind
 
 ## Slug Management
 
-The slug of the page is determined by the directory name. The `home` directory is always set as the home page of the website, and the “not found” page is typically placed in a `404` folder.
+The slug of the page is determined by the directory name. The `home` directory is always set as the home page of the website, and the "not found" page is typically placed in a `404` folder.
 
 These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is `/a/b/c` with an`index.md` file inside `c`, the slug would be `/a/b/c/`.
 

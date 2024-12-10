@@ -1,6 +1,6 @@
 [
   {
-    "canonical" : "https://toucansites.com/",
+    "canonical" : "https://toucansites.com",
     "contents" : "",
     "css" : [
 
@@ -11,15 +11,15 @@
       "https://toucansites.com/assets/home/main.js"
     ],
     "keyword" : "static site generator",
-    "permalink" : "https://toucansites.com/",
+    "permalink" : "https://toucansites.com",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "",
-    "title" : "Markdown-based static site generator written in Swift",
+    "title" : "Toucan - The markdown-based static site generator written in Swift",
     "toc" : [
 
     ]
@@ -38,7 +38,7 @@
     "permalink" : "https://toucansites.com/404/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
@@ -62,7 +62,7 @@
     "permalink" : "https://toucansites.com/authors/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
@@ -86,7 +86,7 @@
     "permalink" : "https://toucansites.com/contact/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
@@ -98,7 +98,7 @@
   },
   {
     "canonical" : "https://toucansites.com/docs/",
-    "contents" : "<h1>Docs</h1><p>Toucan is currently released as a <a href=\"https://github.com/binarybirds/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
+    "contents" : "<h1>Documentation</h1><p>Toucan is currently released as a <a href=\"https://github.com/toucansites/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
     "css" : [
 
     ],
@@ -110,12 +110,12 @@
     "permalink" : "https://toucansites.com/docs/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs",
-    "title" : "Docs",
+    "title" : "Documentation",
     "toc" : [
 
     ]
@@ -134,7 +134,7 @@
     "permalink" : "https://toucansites.com/faq/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 3,
@@ -164,12 +164,12 @@
     "permalink" : "https://toucansites.com/news/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "news",
-    "title" : "Latest news and updates”",
+    "title" : "Latest news and updates",
     "toc" : [
 
     ]
@@ -188,7 +188,7 @@
     "permalink" : "https://toucansites.com/showcases/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
@@ -212,7 +212,7 @@
     "permalink" : "https://toucansites.com/tags/",
     "publication" : {
       "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 09:52:40 +0000",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
       "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
