@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Site index"
-description: "Site index"
+description: "The site index file for Toucan handles settings for your static site and is stored in a YAML file"
 category: getting-started
 order: 3
 ---

@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Basics
-description: Basics
+title: "Basics"
+description: "Learn the basics and fundamentals to get started easily"
 category: getting-started
 order: 1
 ---

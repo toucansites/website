@@ -1,48 +1,49 @@
 [
   {
-    "canonical" : "https://toucansites.com/",
+    "canonical" : "https://toucansites.com",
     "contents" : "",
     "css" : [
 
     ],
-    "description" : "The Markdown-based static site generator written in Swift",
+    "description" : "Markdown-based static site generator written in Swift for fast, customizable, and efficient website creation.",
     "imageUrl" : "/images/defaults/default.jpg",
     "js" : [
       "https://toucansites.com/assets/home/main.js"
     ],
-    "permalink" : "https://toucansites.com/",
+    "keyword" : "static site generator",
+    "permalink" : "https://toucansites.com",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "",
-    "title" : "The Markdown-based static site generator written in Swift",
+    "title" : "Toucan - The markdown-based static site generator written in Swift",
     "toc" : [
 
     ]
   },
   {
     "canonical" : "https://toucansites.com/404/",
-    "contents" : "<h1>Not found</h1><p>This page does not exists.</p><pre><code class=\"language-swift\">func main() {\n    \"Hello, world!\"\n}\n</code></pre><p>Ouch something went wrong…</p>",
+    "contents" : "<h1>Page not found</h1><p>The requested page doesn’t exist or has been moved.</p><pre><code class=\"language-swift\">func main() {\n    print(\"404\")\n}\n</code></pre><p>Try navigating back to the <a href=\"/\">homepage</a> to find what you’re looking for.</p>",
     "css" : [
 
     ],
-    "description" : "Page not found",
+    "description" : "Page not found. The requested page doesn’t exist or has been moved.",
     "imageUrl" : false,
     "js" : [
 
     ],
     "permalink" : "https://toucansites.com/404/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "404",
-    "title" : "Not found",
+    "title" : "Sorry, this page doesn’t exist",
     "toc" : [
 
     ]
@@ -53,40 +54,40 @@
     "css" : [
 
     ],
-    "description" : "Browse articles by authors.",
+    "description" : "Discover articles by authors and explore content from your favorite writers. Find insights and stories tailored to your interests.",
     "imageUrl" : false,
     "js" : [
 
     ],
     "permalink" : "https://toucansites.com/authors/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "authors",
-    "title" : "Authors",
+    "title" : "Explore articles by authors.",
     "toc" : [
 
     ]
   },
   {
     "canonical" : "https://toucansites.com/contact/",
-    "contents" : "<h1>Contact us</h1><p>Reach out to us if you have any questions about Toucan, the markdown-based static site generator.</p><p><a href=\"mailto:support@binarybirds.com\" class=\"cta\">Contact us</a></p>",
+    "contents" : "<h1>Contact us</h1><p>Reach out with any questions about Toucan, the Markdown-based static site generator. Feel free to send an inquiry if you’re looking to build a website with Toucan.</p><p><a href=\"mailto:support@binarybirds.com\" class=\"cta\">Contact us</a></p>",
     "css" : [
 
     ],
-    "description" : "Reach out to us if you have any questions about Toucan, the markdown-based static site generator.",
+    "description" : "Have questions about Toucan, the Markdown-based static site generator? Contact us today for answers and support.",
     "imageUrl" : false,
     "js" : [
 
     ],
     "permalink" : "https://toucansites.com/contact/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "contact",
@@ -97,24 +98,24 @@
   },
   {
     "canonical" : "https://toucansites.com/docs/",
-    "contents" : "<h1>Docs</h1><p>Toucan is currently released as an <a href=\"https://github.com/binarybirds/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
+    "contents" : "<h1>Documentation</h1><p>Toucan is currently released as a <a href=\"https://github.com/toucansites/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
     "css" : [
 
     ],
-    "description" : "The entire user documentation for the Toucan static site generator.",
+    "description" : "Access the complete user documentation for the Toucan Static Site Generator. Learn how to create and manage static websites efficiently.",
     "imageUrl" : false,
     "js" : [
 
     ],
     "permalink" : "https://toucansites.com/docs/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs",
-    "title" : "Docs",
+    "title" : "Documentation",
     "toc" : [
 
     ]
@@ -132,13 +133,13 @@
     ],
     "permalink" : "https://toucansites.com/faq/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 3,
     "slug" : "faq",
-    "title" : "FAQ",
+    "title" : "Frequently Asked Questions",
     "toc" : [
       null,
       null,
@@ -155,20 +156,20 @@
     "css" : [
       "https://toucansites.com/assets/news/style.css"
     ],
-    "description" : "This is the news page.",
+    "description" : "Stay updated with the latest news, features, and updates about our static site generator. Discover what’s new and exciting.",
     "imageUrl" : "/images/defaults/default.jpg",
     "js" : [
       "https://toucansites.com/assets/news/main.js"
     ],
     "permalink" : "https://toucansites.com/news/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "news",
-    "title" : "News",
+    "title" : "Latest news and updates",
     "toc" : [
 
     ]
@@ -186,13 +187,13 @@
     ],
     "permalink" : "https://toucansites.com/showcases/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "showcases",
-    "title" : "Showcases",
+    "title" : "Toucan-based website showcases",
     "toc" : [
 
     ]
@@ -203,20 +204,20 @@
     "css" : [
 
     ],
-    "description" : "Browse articles by tags.",
+    "description" : "Discover articles by tags and explore topics that match your interests. Browse and find content tailored to what you love.",
     "imageUrl" : false,
     "js" : [
 
     ],
     "permalink" : "https://toucansites.com/tags/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "tags",
-    "title" : "Tags",
+    "title" : "Explore articles by tags",
     "toc" : [
 
     ]

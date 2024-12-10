@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Mustache templates
-description: Mustache templates
+title: "Mustache templates"
+description: "This is a basic guide on how to use Mustache for creating static site templates for Toucan"
 category: themes
 order: 3
 ---

@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "GitHub Pages"
-description: "GitHub Pages"
+description: "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site"
 category: deployment
 order: 1
 ---

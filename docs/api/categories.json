@@ -5,7 +5,7 @@
     "css" : [
 
     ],
-    "description" : "Content Management",
+    "description" : "Learn how to manage content with Toucan using markdown, front matter, and custom properties.",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/content-management/page-bundles/",
@@ -16,7 +16,7 @@
             "css" : [
 
             ],
-            "description" : "Content Management",
+            "description" : "Learn how to manage content with Toucan using markdown, front matter, and custom properties.",
             "imageUrl" : false,
             "js" : [
 
@@ -24,9 +24,9 @@
             "order" : 3,
             "permalink" : "https://toucansites.com/docs/content-management/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/content-management",
@@ -40,7 +40,7 @@
         "css" : [
 
         ],
-        "description" : "Page bundles",
+        "description" : "Page bundles are used to efficiently manage and structure content",
         "imageUrl" : false,
         "js" : [
 
@@ -48,9 +48,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/content-management/page-bundles/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/content-management/page-bundles",
@@ -70,7 +70,7 @@
             "css" : [
 
             ],
-            "description" : "Content Management",
+            "description" : "Learn how to manage content with Toucan using markdown, front matter, and custom properties.",
             "imageUrl" : false,
             "js" : [
 
@@ -78,9 +78,9 @@
             "order" : 3,
             "permalink" : "https://toucansites.com/docs/content-management/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/content-management",
@@ -94,7 +94,7 @@
         "css" : [
 
         ],
-        "description" : "Markdown",
+        "description" : "Understand the basics of Markdown and front matter for simple and effective formatting",
         "imageUrl" : false,
         "js" : [
 
@@ -102,9 +102,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/content-management/markdown/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/content-management/markdown",
@@ -123,9 +123,9 @@
     "order" : 3,
     "permalink" : "https://toucansites.com/docs/content-management/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/content-management",
@@ -140,7 +140,7 @@
     "css" : [
 
     ],
-    "description" : "Deployment",
+    "description" : "Guidance on deployment processes and best practices.",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/deployment/github-pages/",
@@ -151,7 +151,7 @@
             "css" : [
 
             ],
-            "description" : "Deployment",
+            "description" : "Guidance on deployment processes and best practices.",
             "imageUrl" : false,
             "js" : [
 
@@ -159,9 +159,9 @@
             "order" : 20,
             "permalink" : "https://toucansites.com/docs/deployment/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/deployment",
@@ -175,7 +175,7 @@
         "css" : [
 
         ],
-        "description" : "GitHub Pages",
+        "description" : "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site",
         "imageUrl" : false,
         "js" : [
 
@@ -183,9 +183,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/deployment/github-pages/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/deployment/github-pages",
@@ -202,9 +202,9 @@
     "order" : 20,
     "permalink" : "https://toucansites.com/docs/deployment/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/deployment",
@@ -219,7 +219,7 @@
     "css" : [
 
     ],
-    "description" : "Getting started",
+    "description" : "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/getting-started/basics/",
@@ -230,7 +230,7 @@
             "css" : [
 
             ],
-            "description" : "Getting started",
+            "description" : "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management",
             "imageUrl" : false,
             "js" : [
 
@@ -238,9 +238,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -254,7 +254,7 @@
         "css" : [
 
         ],
-        "description" : "Basics",
+        "description" : "Learn the basics and fundamentals to get started easily",
         "imageUrl" : false,
         "js" : [
 
@@ -262,9 +262,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/getting-started/basics/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 4,
         "slug" : "docs/getting-started/basics",
@@ -289,7 +289,7 @@
             "css" : [
 
             ],
-            "description" : "Getting started",
+            "description" : "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management",
             "imageUrl" : false,
             "js" : [
 
@@ -297,9 +297,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -313,7 +313,7 @@
         "css" : [
 
         ],
-        "description" : "Commands",
+        "description" : "Toucan CLI commands for static site generation, hosting, and deployment",
         "imageUrl" : false,
         "js" : [
 
@@ -321,9 +321,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/getting-started/commands/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/getting-started/commands",
@@ -343,7 +343,7 @@
             "css" : [
 
             ],
-            "description" : "Getting started",
+            "description" : "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management",
             "imageUrl" : false,
             "js" : [
 
@@ -351,9 +351,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -367,7 +367,7 @@
         "css" : [
 
         ],
-        "description" : "Site index",
+        "description" : "The site index file for Toucan handles settings for your static site and is stored in a YAML file",
         "imageUrl" : false,
         "js" : [
 
@@ -375,9 +375,9 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/getting-started/site-index/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/getting-started/site-index",
@@ -396,9 +396,9 @@
     "order" : 2,
     "permalink" : "https://toucansites.com/docs/getting-started/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/getting-started",
@@ -413,7 +413,7 @@
     "css" : [
 
     ],
-    "description" : "Installation",
+    "description" : "Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/installation/macos/",
@@ -424,7 +424,7 @@
             "css" : [
 
             ],
-            "description" : "Installation",
+            "description" : "Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.",
             "imageUrl" : false,
             "js" : [
 
@@ -432,9 +432,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -448,7 +448,7 @@
         "css" : [
 
         ],
-        "description" : "Toucan Installation Guide for macOS",
+        "description" : "Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily",
         "imageUrl" : false,
         "js" : [
 
@@ -456,9 +456,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/installation/macos/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/macos",
@@ -478,7 +478,7 @@
             "css" : [
 
             ],
-            "description" : "Installation",
+            "description" : "Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.",
             "imageUrl" : false,
             "js" : [
 
@@ -486,9 +486,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -502,7 +502,7 @@
         "css" : [
 
         ],
-        "description" : "Linux",
+        "description" : "Learn how to install Toucan on Linux with simple steps. Follow this guide to set up and start using Toucan easily",
         "imageUrl" : false,
         "js" : [
 
@@ -510,9 +510,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/installation/linux/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/linux",
@@ -532,7 +532,7 @@
             "css" : [
 
             ],
-            "description" : "Installation",
+            "description" : "Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.",
             "imageUrl" : false,
             "js" : [
 
@@ -540,9 +540,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -556,7 +556,7 @@
         "css" : [
 
         ],
-        "description" : "Windows",
+        "description" : "Learn how to install Toucan on Windows with simple steps. Follow this guide to set up and start using Toucan easily",
         "imageUrl" : false,
         "js" : [
 
@@ -564,9 +564,9 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/installation/windows/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/windows",
@@ -583,9 +583,9 @@
     "order" : 1,
     "permalink" : "https://toucansites.com/docs/installation/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/installation",
@@ -600,7 +600,7 @@
     "css" : [
 
     ],
-    "description" : "Integrations",
+    "description" : "Discover third-party integrations to enhance functionality and workflows",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/integrations/syntax-highlight/",
@@ -611,7 +611,7 @@
             "css" : [
 
             ],
-            "description" : "Integrations",
+            "description" : "Discover third-party integrations to enhance functionality and workflows",
             "imageUrl" : false,
             "js" : [
 
@@ -619,9 +619,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/docs/integrations/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/integrations",
@@ -635,7 +635,7 @@
         "css" : [
 
         ],
-        "description" : "Syntax highlight",
+        "description" : "Syntax highlighting for better code readability and organization",
         "imageUrl" : false,
         "js" : [
 
@@ -643,9 +643,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/integrations/syntax-highlight/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/integrations/syntax-highlight",
@@ -662,9 +662,9 @@
     "order" : 10,
     "permalink" : "https://toucansites.com/docs/integrations/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/integrations",
@@ -679,7 +679,7 @@
     "css" : [
 
     ],
-    "description" : "Themes",
+    "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
     "guides" : [
       {
         "canonical" : "https://toucansites.com/docs/themes/basics/",
@@ -690,7 +690,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -698,9 +698,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -714,7 +714,7 @@
         "css" : [
 
         ],
-        "description" : "The basics about Toucan themes.",
+        "description" : "Learn the basics of Toucan themes for easy customization and design",
         "imageUrl" : false,
         "js" : [
 
@@ -722,13 +722,13 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/themes/basics/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/basics",
-        "title" : "Basics",
+        "title" : "Theme basics",
         "toc" : [
           null,
           null,
@@ -744,7 +744,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -752,9 +752,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -768,7 +768,7 @@
         "css" : [
 
         ],
-        "description" : "Theme assets",
+        "description" : "Theme assets are static files that are copied recursively to the root folder of the generated site",
         "imageUrl" : false,
         "js" : [
 
@@ -776,9 +776,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/themes/theme-assets/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/theme-assets",
@@ -796,7 +796,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -804,9 +804,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -820,7 +820,7 @@
         "css" : [
 
         ],
-        "description" : "Mustache templates",
+        "description" : "This is a basic guide on how to use Mustache for creating static site templates for Toucan",
         "imageUrl" : false,
         "js" : [
 
@@ -828,9 +828,9 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/themes/mustache-templates/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/mustache-templates",
@@ -852,7 +852,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -860,9 +860,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -876,7 +876,7 @@
         "css" : [
 
         ],
-        "description" : "Toucan templates",
+        "description" : "Toucan templates offer a streamlined approach, using Mustache, for building, customizing, and designing static sites to meet various needs and styles",
         "imageUrl" : false,
         "js" : [
 
@@ -884,9 +884,9 @@
         "order" : 5,
         "permalink" : "https://toucansites.com/docs/themes/toucan-templates/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/toucan-templates",
@@ -906,7 +906,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -914,9 +914,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -930,7 +930,7 @@
         "css" : [
 
         ],
-        "description" : "Content types",
+        "description" : "Custom content types are defined in the types folder as YAML files, with paths or front matter used to identify the type.",
         "imageUrl" : false,
         "js" : [
 
@@ -938,9 +938,9 @@
         "order" : 6,
         "permalink" : "https://toucansites.com/docs/themes/content-types/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/content-types",
@@ -958,7 +958,7 @@
             "css" : [
 
             ],
-            "description" : "Themes",
+            "description" : "The following guides will help you to understand how themes work, how to modify an existing theme or even create your own one.",
             "imageUrl" : false,
             "js" : [
 
@@ -966,9 +966,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -982,7 +982,7 @@
         "css" : [
 
         ],
-        "description" : "Block directives",
+        "description" : "A markdown block directive is a feature that allows embedding custom content within a markdown file.",
         "imageUrl" : false,
         "js" : [
 
@@ -990,9 +990,9 @@
         "order" : 7,
         "permalink" : "https://toucansites.com/docs/themes/block-directives/",
         "publication" : {
-          "html" : "2024.11.14.",
-          "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-          "sitemap" : "2024-11-14"
+          "html" : "2024.12.10.",
+          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+          "sitemap" : "2024-12-10"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/block-directives",
@@ -1010,9 +1010,9 @@
     "order" : 8,
     "permalink" : "https://toucansites.com/docs/themes/",
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs/themes",

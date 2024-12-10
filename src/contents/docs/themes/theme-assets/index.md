@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Theme assets"
-description: "Theme assets"
+description: "Theme assets are static files that are copied recursively to the root folder of the generated site"
 category: themes
 order: 2
 ---

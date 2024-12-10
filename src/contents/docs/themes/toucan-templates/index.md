@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Toucan templates"
-description: "Toucan templates"
+description: "Toucan templates offer a streamlined approach, using Mustache, for building, customizing, and designing static sites to meet various needs and styles"
 category: themes
 order: 5
 ---

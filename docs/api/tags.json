@@ -5,7 +5,7 @@
     "css" : [
 
     ],
-    "description" : "Latest static site generator news.",
+    "description" : "Get the latest updates, features, and news about our static site generator. Stay informed with the newest developments.",
     "imageUrl" : false,
     "js" : [
 
@@ -21,7 +21,7 @@
             "css" : [
 
             ],
-            "description" : "Marketing @ Binary Birds",
+            "description" : "Andris, a marketing and sales specialist, passionate about game development and project management.",
             "imageUrl" : "https://toucansites.com/assets/authors/andris-sipos/andris-sipos.webp",
             "js" : [
 
@@ -29,9 +29,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/andris-sipos/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "authors/andris-sipos",
@@ -67,7 +67,7 @@
             "css" : [
 
             ],
-            "description" : "Latest static site generator news.",
+            "description" : "Get the latest updates, features, and news about our static site generator. Stay informed with the newest developments.",
             "imageUrl" : false,
             "js" : [
 
@@ -75,9 +75,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/news/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "tags/news",
@@ -100,9 +100,9 @@
       }
     ],
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "tags/news",
@@ -117,7 +117,7 @@
     "css" : [
 
     ],
-    "description" : "Toucan updates and releases.",
+    "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
     "imageUrl" : false,
     "js" : [
 
@@ -133,7 +133,7 @@
             "css" : [
 
             ],
-            "description" : "CEO @ Binary Birds",
+            "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "imageUrl" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
@@ -141,9 +141,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
@@ -179,7 +179,7 @@
             "css" : [
 
             ],
-            "description" : "Toucan updates and releases.",
+            "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "imageUrl" : false,
             "js" : [
 
@@ -187,9 +187,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "tags/releases",
@@ -212,7 +212,7 @@
             "css" : [
 
             ],
-            "description" : "CEO @ Binary Birds",
+            "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "imageUrl" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
@@ -220,9 +220,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
@@ -258,7 +258,7 @@
             "css" : [
 
             ],
-            "description" : "Toucan updates and releases.",
+            "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "imageUrl" : false,
             "js" : [
 
@@ -266,9 +266,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "tags/releases",
@@ -291,7 +291,7 @@
             "css" : [
 
             ],
-            "description" : "CEO @ Binary Birds",
+            "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "imageUrl" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
@@ -299,9 +299,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "authors/tibor-bodecs",
@@ -337,7 +337,7 @@
             "css" : [
 
             ],
-            "description" : "Toucan updates and releases.",
+            "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "imageUrl" : false,
             "js" : [
 
@@ -345,9 +345,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
             "publication" : {
-              "html" : "2024.11.14.",
-              "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-              "sitemap" : "2024-11-14"
+              "html" : "2024.12.10.",
+              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+              "sitemap" : "2024-12-10"
             },
             "readingTime" : 1,
             "slug" : "tags/releases",
@@ -367,9 +367,9 @@
       }
     ],
     "publication" : {
-      "html" : "2024.11.14.",
-      "rss" : "Thu, 14 Nov 2024 03:30:42 +0000",
-      "sitemap" : "2024-11-14"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "tags/releases",
