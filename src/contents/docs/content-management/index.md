@@ -1,7 +1,7 @@
 ---
 type: category
-title: Content Management
-description: Content Management
+title: "Content Management"
+description: "Learn how to manage content with Toucan using markdown, front matter, and custom properties."
 order: 3
 ---
 

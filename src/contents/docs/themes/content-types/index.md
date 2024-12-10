@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Content types
-description: Content types
+title: "Content types"
+description: "Custom content types are defined in the types folder as YAML files, with paths or front matter used to identify the type."
 category: themes
 order: 6
 ---

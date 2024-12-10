@@ -1,7 +1,7 @@
 ---
 type: category
-title: Getting started
-description: Getting started
+title: "Getting started"
+description: "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management"
 order: 2
 ---
 

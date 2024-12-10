@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Basics
-description: "The basics about Toucan themes."
+title: "Theme basics"
+description: "Learn the basics of Toucan themes for easy customization and design"
 category: themes
 order: 1
 ---

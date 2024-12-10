@@ -13,9 +13,9 @@
     "keyword" : "static site generator",
     "permalink" : "https://toucansites.com/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "",
@@ -37,13 +37,13 @@
     ],
     "permalink" : "https://toucansites.com/404/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "404",
-    "title" : "404 - Not found. Sorry, this page doesn’t exist",
+    "title" : "Sorry, this page doesn’t exist",
     "toc" : [
 
     ]
@@ -61,13 +61,13 @@
     ],
     "permalink" : "https://toucansites.com/authors/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "authors",
-    "title" : "Explore articles by authors. Find your favorite writers",
+    "title" : "Explore articles by authors.",
     "toc" : [
 
     ]
@@ -85,20 +85,20 @@
     ],
     "permalink" : "https://toucansites.com/contact/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "contact",
-    "title" : "Contact us about Toucan or static site development",
+    "title" : "Contact",
     "toc" : [
 
     ]
   },
   {
     "canonical" : "https://toucansites.com/docs/",
-    "contents" : "<h1>Docs</h1><p>Toucan is currently released as a <a href=\"https://github.com/binarybirds/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
+    "contents" : "<h1>Documentation</h1><p>Toucan is currently released as a <a href=\"https://github.com/binarybirds/toucan\" target=\"_blank\">beta-version</a>.</p><p>Welcome to the Toucan user docs. This page is currently work in progress. We’re going to provide the documentation for our static site during the upcoming weeks. Thank you very much for your patience. 🙏</p><p>Don’t hesitate to <a href=\"/contact/\">contact us</a> if you have any questions.</p>",
     "css" : [
 
     ],
@@ -109,13 +109,13 @@
     ],
     "permalink" : "https://toucansites.com/docs/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "docs",
-    "title" : "Documentation, user guides and useful resources",
+    "title" : "Documentation",
     "toc" : [
 
     ]
@@ -133,13 +133,13 @@
     ],
     "permalink" : "https://toucansites.com/faq/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 3,
     "slug" : "faq",
-    "title" : "Frequently Asked Questions about Static Site Generators",
+    "title" : "Frequently Asked Questions",
     "toc" : [
       null,
       null,
@@ -163,13 +163,13 @@
     ],
     "permalink" : "https://toucansites.com/news/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "news",
-    "title" : "Latest news and updates on our static site generator”",
+    "title" : "Latest news and updates”",
     "toc" : [
 
     ]
@@ -187,9 +187,9 @@
     ],
     "permalink" : "https://toucansites.com/showcases/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "showcases",
@@ -211,13 +211,13 @@
     ],
     "permalink" : "https://toucansites.com/tags/",
     "publication" : {
-      "html" : "2024.11.19.",
-      "rss" : "Tue, 19 Nov 2024 06:03:57 +0000",
-      "sitemap" : "2024-11-19"
+      "html" : "2024.12.10.",
+      "rss" : "Tue, 10 Dec 2024 09:38:04 +0000",
+      "sitemap" : "2024-12-10"
     },
     "readingTime" : 1,
     "slug" : "tags",
-    "title" : "Explore articles by tags, find topics that interest you",
+    "title" : "Explore articles by tags",
     "toc" : [
 
     ]

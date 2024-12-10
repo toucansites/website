@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Block directives"
-description: "Block directives"
+description: "A markdown block directive is a feature that allows embedding custom content within a markdown file."
 category: themes
 order: 7
 ---

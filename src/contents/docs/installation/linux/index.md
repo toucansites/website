@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Linux
-description: Linux
+title: "Linux installation guide"
+description: "Learn how to install Toucan on Linux with simple steps. Follow this guide to set up and start using Toucan easily"
 category: installation
 order: 2
 ---

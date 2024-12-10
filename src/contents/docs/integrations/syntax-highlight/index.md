@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Syntax highlight"
-description: "Syntax highlight"
+description: "Syntax highlighting for better code readability and organization"
 category: integrations
 order: 1
 ---

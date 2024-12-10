@@ -1,7 +1,7 @@
 ---
 type: category
-title: Deployment
-description: Deployment
+title: "Deployment"
+description: "Guidance on deployment processes and best practices."
 order: 20
 ---
 

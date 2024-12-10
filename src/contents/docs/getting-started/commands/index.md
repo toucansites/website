@@ -1,7 +1,7 @@
 ---
 type: guide
-title: Commands
-description: Commands
+title: "Commands"
+description: "Toucan CLI commands for static site generation, hosting, and deployment"
 category: getting-started
 order: 2
 ---

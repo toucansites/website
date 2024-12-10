@@ -1,7 +1,7 @@
 ---
 type: category
-title: Integrations
-description: Integrations
+title: "Third-party integrations"
+description: "Discover third-party integrations to enhance functionality and workflows"
 order: 10
 ---
 

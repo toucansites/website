@@ -1,8 +1,7 @@
 ---
-title: "Contact us about Toucan or static site development"
+title: "Contact"
 description: "Have questions about Toucan, the Markdown-based static site generator? Contact us today for answers and support."
 ---
-
 
 # Contact us
 

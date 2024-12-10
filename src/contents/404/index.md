@@ -1,5 +1,5 @@
 ---
-title: "404 - Not found. Sorry, this page doesn’t exist"
+title: "Sorry, this page doesn’t exist"
 description: "Page not found. The requested page doesn’t exist or has been moved."
 ---
 

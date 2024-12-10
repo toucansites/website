@@ -1,7 +1,7 @@
 ---
 type: guide
 title: "Page bundles"
-description: "Page bundles"
+description: "Page bundles are used to efficiently manage and structure content"
 category: content-management
 order: 1
 ---

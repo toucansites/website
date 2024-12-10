@@ -2,8 +2,8 @@
 type: pagination
 home: articles/page
 slug: articles/page/{{number}}
-title: Articles - {{number}} / {{total}}
-description: Articles page - {{number}} / {{total}}  
+title: "Latest news, page {{number}} of {{total}}"
+description: "Stay updated with the latest news and updates. Page {{number}} of {{total}}."
 template: blog.posts
 ---
 
