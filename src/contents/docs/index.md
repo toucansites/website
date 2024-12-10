@@ -1,10 +1,10 @@
 ---
-title: "Documentation"
+title: "Docs"
 description: "Access the complete user documentation for the Toucan Static Site Generator. Learn how to create and manage static websites efficiently."
 template: docs.home
 ---
 
-# Documentation
+# Docs
 
 Toucan is currently released as a [beta-version](https://github.com/binarybirds/toucan).
 

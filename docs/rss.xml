@@ -4,7 +4,7 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com/</link>
     <language>en-US</language>
-    <lastBuildDate>Tue, 10 Dec 2024 09:48:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 09:52:40 +0000</lastBuildDate>
     <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
@@ -18,7 +18,7 @@
 </item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/last-alpha-release/</guid>
-    <title><![CDATA[ The last alpha release ]]></title>
+    <title><![CDATA[ Last alpha release ]]></title>
     <description><![CDATA[ Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2. ]]></description>
     <link>https://toucansites.com/last-alpha-release/</link>
     <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>

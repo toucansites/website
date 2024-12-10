@@ -1,6 +1,6 @@
 ---
 type: guide
-title: "Windows installation guide"
+title: "Windows"
 description: "Learn how to install Toucan on Windows with simple steps. Follow this guide to set up and start using Toucan easily"
 category: installation
 order: 3
