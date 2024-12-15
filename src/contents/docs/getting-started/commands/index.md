@@ -9,7 +9,19 @@ order: 2
 # Commands
 ---
 
-Toucan includes three built-in subcommands to generate static sites: _generate_, _watch_, and _serve_. 
+Toucan includes the following built-in subcommands to generate static sites: _init_, _generate_, _watch_, and _serve_. 
+
+## Init
+
+The `init` command initializes a new Toucan project. It takes an optional argument for the project directory name (defaults to `site` if not specified). It creates the necessary directories and files for your project inside the specified directory.
+
+```sh
+toucan init my-site
+# 2024-12-15T12:15:32+0100 info toucan : [toucan_cli] Preparing source files.
+# 2024-12-15T12:15:34+0100 info toucan : [toucan_cli] Preparing theme files.
+#2024-12-15T12:15:34+0100 info toucan : [toucan_cli] 'my-site' was prepared successfully.
+cd my-site
+```
 
 ## Generate
 

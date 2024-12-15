@@ -24,9 +24,9 @@
             "order" : 3,
             "permalink" : "https://toucansites.com/docs/content-management/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/content-management",
@@ -48,9 +48,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/content-management/page-bundles/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/content-management/page-bundles",
@@ -78,9 +78,9 @@
             "order" : 3,
             "permalink" : "https://toucansites.com/docs/content-management/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/content-management",
@@ -102,9 +102,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/content-management/markdown/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/content-management/markdown",
@@ -113,6 +113,58 @@
           null,
           null,
           null
+        ]
+      },
+      {
+        "canonical" : "https://toucansites.com/docs/content-management/transformers/",
+        "category" : [
+          {
+            "canonical" : "https://toucansites.com/docs/content-management/",
+            "contents" : "<h1>Content Management</h1><hr><p>The following guides provide essential information on how content is structured and managed with Toucan. These resources cover the use of markdown files, front matter for setting custom properties, and other useful insights.</p>",
+            "css" : [
+
+            ],
+            "description" : "Learn how to manage content with Toucan using markdown, front matter, and custom properties.",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 3,
+            "permalink" : "https://toucansites.com/docs/content-management/",
+            "publication" : {
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
+            },
+            "readingTime" : 1,
+            "slug" : "docs/content-management",
+            "title" : "Content Management",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "contents" : "<h1>Transformers</h1><hr><p>Content transformers are used to process content and generate the final output.</p>",
+        "css" : [
+
+        ],
+        "description" : "Transformers are used to process content and generate the final output",
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "order" : 5,
+        "permalink" : "https://toucansites.com/docs/content-management/transformers/",
+        "publication" : {
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
+        },
+        "readingTime" : 1,
+        "slug" : "docs/content-management/transformers",
+        "title" : "Transformers",
+        "toc" : [
+
         ]
       }
     ],
@@ -123,9 +175,9 @@
     "order" : 3,
     "permalink" : "https://toucansites.com/docs/content-management/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/content-management",
@@ -159,9 +211,9 @@
             "order" : 20,
             "permalink" : "https://toucansites.com/docs/deployment/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/deployment",
@@ -183,9 +235,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/deployment/github-pages/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/deployment/github-pages",
@@ -202,9 +254,9 @@
     "order" : 20,
     "permalink" : "https://toucansites.com/docs/deployment/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/deployment",
@@ -238,9 +290,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -262,9 +314,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/getting-started/basics/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 4,
         "slug" : "docs/getting-started/basics",
@@ -297,9 +349,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -309,7 +361,7 @@
             ]
           }
         ],
-        "contents" : "<h1>Commands</h1><hr><p>Toucan includes three built-in subcommands to generate static sites: <em>generate</em>, <em>watch</em>, and <em>serve</em>.</p><h2 id=\"generate\">Generate</h2><p>The <code>generate</code> command builds static files from the source folder. The static site will be available in a destination directory, which can be customized. Additionally, the site’s base URL can be overridden, which is useful for local development.</p><pre><code class=\"language-sh\">toucan generate ./src ./docs --base-url http://localhost:3000/\n</code></pre><h2 id=\"watch\">Watch</h2><p>The <code>watch</code> command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.</p><blockquote><p>Please note that the <code>watch</code> command is only available on macOS during the beta release.​</p></blockquote><pre><code class=\"language-sh\">toucan watch ./src ./docs --base-url http://localhost:3000/\n</code></pre><h2 id=\"serve\">Serve</h2><p>The serve command starts a web server to serve a specified directory. It allows serving a folder with an optional port number. By default, your site will be accessible at <code>http://localhost:3000/</code> if run as follows:</p><pre><code class=\"language-sh\">toucan serve ./docs -h localhost -p 3000\ntoucan serve ./docs --host localhost --port 3000\n</code></pre><p>You can specify a hostname and port parameter to bind your web server to a given address. This allows you to preview your website at http://localhost:3000/.</p>",
+        "contents" : "<h1>Commands</h1><hr><p>Toucan includes the following built-in subcommands to generate static sites: <em>init</em>, <em>generate</em>, <em>watch</em>, and <em>serve</em>.</p><h2 id=\"init\">Init</h2><p>The <code>init</code> command initializes a new Toucan project. It takes an optional argument for the project directory name (defaults to <code>site</code> if not specified). It creates the necessary directories and files for your project inside the specified directory.</p><pre><code class=\"language-sh\">toucan init my-site\n# 2024-12-15T12:15:32+0100 info toucan : [toucan_cli] Preparing source files.\n# 2024-12-15T12:15:34+0100 info toucan : [toucan_cli] Preparing theme files.\n#2024-12-15T12:15:34+0100 info toucan : [toucan_cli] 'my-site' was prepared successfully.\ncd my-site\n</code></pre><h2 id=\"generate\">Generate</h2><p>The <code>generate</code> command builds static files from the source folder. The static site will be available in a destination directory, which can be customized. Additionally, the site’s base URL can be overridden, which is useful for local development.</p><pre><code class=\"language-sh\">toucan generate ./src ./docs --base-url http://localhost:3000/\n</code></pre><h2 id=\"watch\">Watch</h2><p>The <code>watch</code> command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.</p><blockquote><p>Please note that the <code>watch</code> command is only available on macOS during the beta release.​</p></blockquote><pre><code class=\"language-sh\">toucan watch ./src ./docs --base-url http://localhost:3000/\n</code></pre><h2 id=\"serve\">Serve</h2><p>The serve command starts a web server to serve a specified directory. It allows serving a folder with an optional port number. By default, your site will be accessible at <code>http://localhost:3000/</code> if run as follows:</p><pre><code class=\"language-sh\">toucan serve ./docs -h localhost -p 3000\ntoucan serve ./docs --host localhost --port 3000\n</code></pre><p>You can specify a hostname and port parameter to bind your web server to a given address. This allows you to preview your website at http://localhost:3000/.</p>",
         "css" : [
 
         ],
@@ -321,14 +373,15 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/getting-started/commands/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/getting-started/commands",
         "title" : "Commands",
         "toc" : [
+          null,
           null,
           null,
           null
@@ -351,9 +404,9 @@
             "order" : 2,
             "permalink" : "https://toucansites.com/docs/getting-started/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/getting-started",
@@ -375,14 +428,69 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/getting-started/site-index/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/getting-started/site-index",
         "title" : "Site index",
         "toc" : [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "canonical" : "https://toucansites.com/docs/getting-started/config/",
+        "category" : [
+          {
+            "canonical" : "https://toucansites.com/docs/getting-started/",
+            "contents" : "<h1>Getting started</h1><p>Get started with a Toucan-based static website.</p>",
+            "css" : [
+
+            ],
+            "description" : "Get started with a Toucan-based static website, featuring easy setup, customizable themes, and powerful content management",
+            "imageUrl" : false,
+            "js" : [
+
+            ],
+            "order" : 2,
+            "permalink" : "https://toucansites.com/docs/getting-started/",
+            "publication" : {
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
+            },
+            "readingTime" : 1,
+            "slug" : "docs/getting-started",
+            "title" : "Getting started",
+            "toc" : [
+
+            ]
+          }
+        ],
+        "contents" : "<h1>Config</h1><hr><p>This configuration file defines key settings for the entire site. The config file for Toucan is stored in the <code>config.yml</code> file, inside the project’s root directory. This file is optional, and if it is not present, Toucan will use the default values.</p><h3 id=\"default-values\">Default values</h3><p>The default values are as follows:</p><pre><code class=\"language-yaml\">themes: \n  folder: \"themes\"\n  use: \"default\"\n  assets:\n    folder: \"assets\"\n  templates:\n    folder: \"templates\"  \n  overrides:\n    folder: \"overrides\"\n  types:\n    folder: \"types\"\ncontents:\n  folder: \"contents\"\n  dateFormat: \"yyyy-MM-dd HH:mm:ss\"\n  assets:\n    folder: \"assets\"\n  home:\n    id: \"home\"\n    template: \"pages.home\"\n  notFound:\n    id: \"404\"\n    template: \"pages.404\"\n  rss:\n    output: rss.xml\ntransformers:\n  folder: \"transformers\"\n  pipelines:\n#      post:\n#        run: \n#          - name: example-pipeline\n#        isMarkdownResult: false\n</code></pre><h3 id=\"themes-section\">Themes section</h3><p>This section defines the location of the theme related files and other theme related settings, such as the theme to use.</p><details><summary><strong><code>folder</code></strong> - The location of the themes folder.</summary><div><p>This value specifies the location of the themes folder inside the source folder.</p></div></details><details><summary><strong><code>use</code></strong> - The theme to use.</summary><div><p>This value specifies the folder name of the theme, inside the themes folder, to use.</p></div></details><details><summary><strong><code>assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the <a href=\"/getting-started/assets/\">assets</a> location inside the theme folder.</p></div></details><details><summary><strong><code>templates.folder</code></strong> - The name of the templates folder.</summary><div><p>This value specifies the folder name of the <a href=\"/getting-started/templates/mustache/\">Mustache templates</a> location inside the theme folder.</p></div></details><details><summary><strong><code>overrides.folder</code></strong> - The name of the template overrides folder.</summary><div><p>This value specifies the folder name of the Mustache template overrides location inside the theme folder. If you place a file in this folder, it will override the default template for the corresponding file.</p></div></details><details><summary><strong><code>types.folder</code></strong> - The name of the content types folder.</summary><div><p>This value specifies the folder name of the content types location inside the theme folder. This folder is used to define custom <a href=\"/getting-started/contents/content-types/\">content types</a> for the website.</p></div></details><h3 id=\"contents-section\">Contents section</h3><p>This section defines the location of the content related files and other content related settings, such as the date format.</p><details><summary><strong><code>contents.folder</code></strong> - The name of the contents folder.</summary><div><p>This value specifies the folder name of the contents location inside the source folder.</p></div></details><details><summary><strong><code>contents.dateFormat</code></strong> - The date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site.</p><p><strong>Date format symbols</strong></p><ul><li>yyyy: Year (e.g., 2023)</li><li>MM: Month (e.g., 09 for September)</li><li>dd: Day (e.g., 28)</li><li>HH: Hour (e.g., 14 for 2 PM)</li><li>mm: Minute (e.g., 05)</li><li>ss: Second (e.g., 37)</li></ul><p><strong>Example</strong></p><ul><li>“yyyy-MM-dd HH:mm:ss”</li></ul></div></details><details><summary><strong><code>contents.assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the assets location inside the contents folder.</p></div></details><details><summary><strong><code>contents.home.id</code></strong> - The ID of the home page.</summary><div><p>This value specifies the unique identifier for the home page.</p></div></details><details><summary><strong><code>contents.home.template</code></strong> - The template for the home page.</summary><div><p>This value specifies the Mustache template used to render the home page.</p></div></details><details><summary><strong><code>contents.notFound.id</code></strong> - The ID of the not found page.</summary><div><p>This value specifies the unique identifier for the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.notFound.template</code></strong> - The template for the not found page.</summary><div><p>This value specifies the Mustache template used to render the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.rss.output</code></strong> - The output file for the RSS feed.</summary><div><p>This value specifies the filename for the generated RSS feed.</p></div></details><h3 id=\"transformers-section\">Transformers section</h3><p>This section defines the location of the <a href=\"/docs/content-management/transformers/\">content transformers</a> and the pipelines for each content type.</p><details><summary><strong><code>transformers.location</code></strong> - The location of the transformers files.</summary><div><p>This value specifies the directory where the content <a href=\"/docs/content-management/transformers/\">transformer</a> scripts are stored.</p></div></details><details><summary><strong><code>transformers.pipelines</code></strong> - The pipelines for each content type.</summary><div><p>This value defines the processing pipelines that will be applied to different types of content. The key is the content type identifier, and the value is a dictionary with the pipelines to run and an optional settings to disable the default markdown renderer, if needed.</p><p><strong>Example</strong></p><pre><code class=\"language-yaml\">pipelines:\n  post:\n    run: \n      - name: example-pipeline\n    isMarkdownResult: false\n</code></pre></div></details>",
+        "css" : [
+
+        ],
+        "description" : "The configuration file for Toucan can be used to change default locations and naming conventions for your site.",
+        "imageUrl" : false,
+        "js" : [
+
+        ],
+        "order" : 4,
+        "permalink" : "https://toucansites.com/docs/getting-started/config/",
+        "publication" : {
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
+        },
+        "readingTime" : 2,
+        "slug" : "docs/getting-started/config",
+        "title" : "Config",
+        "toc" : [
+          null,
           null,
           null,
           null
@@ -396,9 +504,9 @@
     "order" : 2,
     "permalink" : "https://toucansites.com/docs/getting-started/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/getting-started",
@@ -432,9 +540,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -456,9 +564,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/installation/macos/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/macos",
@@ -486,9 +594,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -510,9 +618,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/installation/linux/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/linux",
@@ -540,9 +648,9 @@
             "order" : 1,
             "permalink" : "https://toucansites.com/docs/installation/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/installation",
@@ -564,9 +672,9 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/installation/windows/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/installation/windows",
@@ -583,9 +691,9 @@
     "order" : 1,
     "permalink" : "https://toucansites.com/docs/installation/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/installation",
@@ -619,9 +727,9 @@
             "order" : 10,
             "permalink" : "https://toucansites.com/docs/integrations/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/integrations",
@@ -643,9 +751,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/integrations/syntax-highlight/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/integrations/syntax-highlight",
@@ -662,9 +770,9 @@
     "order" : 10,
     "permalink" : "https://toucansites.com/docs/integrations/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/integrations",
@@ -698,9 +806,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -722,9 +830,9 @@
         "order" : 1,
         "permalink" : "https://toucansites.com/docs/themes/basics/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/basics",
@@ -752,9 +860,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -776,9 +884,9 @@
         "order" : 2,
         "permalink" : "https://toucansites.com/docs/themes/theme-assets/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/theme-assets",
@@ -804,9 +912,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -828,9 +936,9 @@
         "order" : 3,
         "permalink" : "https://toucansites.com/docs/themes/mustache-templates/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/mustache-templates",
@@ -860,9 +968,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -884,9 +992,9 @@
         "order" : 5,
         "permalink" : "https://toucansites.com/docs/themes/toucan-templates/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/toucan-templates",
@@ -914,9 +1022,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -938,9 +1046,9 @@
         "order" : 6,
         "permalink" : "https://toucansites.com/docs/themes/content-types/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/content-types",
@@ -966,9 +1074,9 @@
             "order" : 8,
             "permalink" : "https://toucansites.com/docs/themes/",
             "publication" : {
-              "html" : "2024.12.10.",
-              "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-              "sitemap" : "2024-12-10"
+              "html" : "2024.12.15.",
+              "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+              "sitemap" : "2024-12-15"
             },
             "readingTime" : 1,
             "slug" : "docs/themes",
@@ -990,9 +1098,9 @@
         "order" : 7,
         "permalink" : "https://toucansites.com/docs/themes/block-directives/",
         "publication" : {
-          "html" : "2024.12.10.",
-          "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-          "sitemap" : "2024-12-10"
+          "html" : "2024.12.15.",
+          "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+          "sitemap" : "2024-12-15"
         },
         "readingTime" : 1,
         "slug" : "docs/themes/block-directives",
@@ -1010,9 +1118,9 @@
     "order" : 8,
     "permalink" : "https://toucansites.com/docs/themes/",
     "publication" : {
-      "html" : "2024.12.10.",
-      "rss" : "Tue, 10 Dec 2024 12:52:23 +0000",
-      "sitemap" : "2024-12-10"
+      "html" : "2024.12.15.",
+      "rss" : "Sun, 15 Dec 2024 11:50:27 +0000",
+      "sitemap" : "2024-12-15"
     },
     "readingTime" : 1,
     "slug" : "docs/themes",
