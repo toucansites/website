@@ -9,7 +9,7 @@ order: 4
 # Config
 ---
 
-This configuration file defines key settings for the entire site. The config file for Toucan is stored in the `config.yml` file, inside the project's root directory. This file is optional, and if it is not present, Toucan will use the default values.
+Defines key settings for the entire site. In Toucan, this is the `config.yml` file located in the project’s root directory. It is optional, and if missing, Toucan will use the default values.
 
 
 ### Default values 
