@@ -4,11 +4,18 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
     <language>en-US</language>
-    <lastBuildDate>Sun, 15 Dec 2024 11:50:27 +0000</lastBuildDate>
-    <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 12:53:28 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.comrss.xml" rel="self" type="application/rss+xml"/>
 
+<item>
+    <guid isPermaLink="true">https://toucansites.com/beta-2-is-now-avaiable/</guid>
+    <title><![CDATA[ Beta 2 is now available ]]></title>
+    <description><![CDATA[ The second beta release of Toucan is now available. This release includes many improvements and some new features. ]]></description>
+    <link>https://toucansites.com/beta-2-is-now-avaiable/</link>
+    <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+</item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/first-beta-release/</guid>
     <title><![CDATA[ First beta release ]]></title>

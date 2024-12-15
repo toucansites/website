@@ -17,6 +17,7 @@ properties:
     featured:
         type: bool
         required: true
+        defaultValue: "false"
 
 relations:
     authors:
