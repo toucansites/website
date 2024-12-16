@@ -1,5 +1,4 @@
 id: category
-api: categories
 template: docs.category.default
 
 properties:

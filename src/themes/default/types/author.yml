@@ -1,5 +1,4 @@
 id: author
-api: authors
 template: blog.author.default
 
 properties:

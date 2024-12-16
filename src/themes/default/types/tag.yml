@@ -1,5 +1,4 @@
 id: tag
-api: tags
 template: blog.tag.default
 
 properties:
