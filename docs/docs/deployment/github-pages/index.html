@@ -214,7 +214,13 @@
             <article>
                 <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                 
-                <h1>GitHub Pages</h1><hr><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site:</p><ol><li>Create a repository for your website on GitHub.</li><li>Place all your source files into an src directory within the repository.</li><li>Run the <code>toucan generate</code> command to generate your site.</li><li>Commit and push the generated files to your repository.</li><li>Navigate to the repository’s <strong>Settings</strong> > <strong>Pages</strong> section.</li><li>In the Pages settings, select the directory containing the generated site files.</li></ol><p>Once done, your site should be live on GitHub Pages.</p><p>For more information, visit the following guides:</p><ul><li><a href="https://docs.github.com/en/pages/quickstart" target="_blank">Quickstart for GitHub Pages</a></li><li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank">Creating a GitHub Pages site</a></li></ul>
+                <h1>GitHub Pages</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><h2 id="creating-a-repository-for-your-site">Creating a repository for your site</h2><hr><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href="/docs/deployment/github-pages#creating-your-site">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br>    <img src="https://toucansites.com/assets/docs/deployment/github-pages/image1.png" alt="image1"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br>    <img src="https://toucansites.com/assets/docs/deployment/github-pages/image2.png" alt="image2"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code><user>.github.io</code> or <code><organization>.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank">About GitHub Pages</a>.<br>    <img src="https://toucansites.com/assets/docs/deployment/github-pages/image3.png" alt="image3"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility" target="_blank">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><h2 id="add-content-to-the-repository">Add content to the repository</h2><hr><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code>git clone https://github.com/your-username/your-repository.git
+</code></pre></li><li>Navigate to the local repository folder and copy the <code>src</code> folder with all the content.<br>Use the generator’s serve command:<pre><code>toucan generate
+</code></pre>After succesfull generation all the data is generated inside the <code>docs</code> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code>git add .
+git commit -m "Add generated site content"
+git push origin main
+</code></pre></li></ol><h2 id="creating-your-site">Creating your site</h2><hr><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href="/docs/deployment/github-pages#creating-a-repository-for-your-site">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br>    <img src="https://toucansites.com/assets/docs/deployment/github-pages/image4.png" alt="image4"></li><li>Under Branch:<br>    <img src="https://toucansites.com/assets/docs/deployment/github-pages/image5.png" alt="image5"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/
+</code></pre></li></ol>
     
     
                 <section>
@@ -229,6 +235,24 @@
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="first-level">
+                        <a href="#creating-a-repository-for-your-site">Creating a repository for your site</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#add-content-to-the-repository">Add content to the repository</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#creating-your-site">Creating your site</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>
@@ -274,7 +298,7 @@
                 <p><small>This site was generated<br>using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/toucansites/toucan/" target="_blank">Toucan</a>.</small></p>
                 <small><br>
                     Binary Birds Kft.<br>
-                    &copy; 2023 - 2024<br>
+                    &copy; 2023 - 2025<br>
                     <a href="https://github.com/toucansites/website/blob/main/LICENSE" target="_blank">MIT License</a></small>
             </div>
             
