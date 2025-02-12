@@ -2,7 +2,7 @@
 type: category
 title: "Deployment"
 description: "Guidance on deployment processes and best practices."
-order: 20
+order: 7
 ---
 
 # Deployment

@@ -34,7 +34,7 @@ Every user-defined front matter property is accessible as a [context variable](/
 
 ## Content
 
-Content is written using markdown syntax. For more details, please refer to the [official markdown syntax guide](https://www.markdownguide.org/basic-syntax/).
+Content is written using markdown syntax. For more details, check the [Markdown syntax](/docs/markdown-syntax/) section.
 
 ## Block Directives
 

@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.">
+    <meta name="description" content="Guidance on Markdown syntax.">
     
-    <meta property="og:url" content="https://toucansites.com/docs/installation/">
-    <meta property="og:title" content="Installation">
-    <meta property="og:description" content="Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.">
+    <meta property="og:url" content="https://toucansites.com/docs/markdown-syntax/">
+    <meta property="og:title" content="Markdown syntax">
+    <meta property="og:description" content="Guidance on Markdown syntax.">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Installation">
-    <meta name="twitter:description" content="Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process.">
+    <meta name="twitter:title" content="Markdown syntax">
+    <meta name="twitter:description" content="Guidance on Markdown syntax.">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,9 +28,9 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>Installation</title>
+    <title>Markdown syntax</title>
 
-    <link rel="canonical" href="https://toucansites.com/docs/installation/">
+    <link rel="canonical" href="https://toucansites.com/docs/markdown-syntax/">
     
     
 
@@ -219,18 +219,30 @@
         <div class="center">
             <article>
                 <a href="/docs/">Docs</a>
-                <h1>Installation</h1><p>During the beta release, Toucan is available only for macOS and Linux. Windows support will be coming soon.</p>
+                <h1>Markdown syntax</h1><hr><p>Toucan uses <a href="https://github.com/apple/swift-markdown" target="_blank">Apple’s Swift Markdown library</a>, which is built on CommonMark, a standardized Markdown specification. Unlike GitHub Flavored Markdown (GFM), CommonMark has a stricter, more limited feature set, meaning that some Markdown elements may not be supported.</p><h2 id="supported-features">Supported Features</h2><p>Since Swift Markdown follows the CommonMark specification, the following elements work as expected:</p><ul><li>Headings (#, ##, ###, etc.)</li><li>Paragraphs (regular text formatting)</li><li>Bold & Italics (<strong>bold</strong>, <em>italic</em>)</li><li>Inline Code (<code>code</code>) and Code Blocks (  ```)</li><li>Blockquotes (> Quoted text)</li><li>Lists (ordered 1. and unordered - or *)</li><li>Links & Images (<a href="url" target="_blank">text</a>,     <img src="image_url" alt="alt">)</li><li>Horizontal Rules (—, ***)</li></ul><h2 id="unsupported-or-limited-features">Unsupported or Limited Features</h2><p>Some commonly used Markdown features are not included in CommonMark and are not supported by Swift Markdown:</p><ul><li>❌ Tables (| Column | Column |)</li><li>❌ Task Lists (- [x] Completed task)</li><li>❌ Strikethrough (<s>text</s>)</li><li>❌ Auto-linking of URLs (<www.example.com> won’t automatically become a link)</li></ul><p>For a full reference on supported features, please refer to the <a href="https://commonmark.org/" target="_blank">CommonMark</a> specification.</p>
             
                 <h2>Guides</h2>
                 <ul>
-                    <li><a href="https://toucansites.com/docs/installation/macos/">macOS</a></li>
-                <li><a href="https://toucansites.com/docs/installation/linux/">Linux</a></li>
-                <li><a href="https://toucansites.com/docs/installation/windows/">Windows</a></li>
+                    <li><a href="https://toucansites.com/docs/markdown-syntax/text-list/">Text Formatting and Lists</a></li>
+                <li><a href="https://toucansites.com/docs/markdown-syntax/links-images/">Links, Images, and Tables</a></li>
                 </ul>
             </article>
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="first-level">
+                        <a href="#supported-features">Supported Features</a>
+                        <ul>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#unsupported-or-limited-features">Unsupported or Limited Features</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>
