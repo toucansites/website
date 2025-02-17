@@ -11,6 +11,7 @@ order: 1
 Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.
 
 ## Creating a repository for your site
+
 ---
 
 You can either create a repository or choose an existing repository for your site.
@@ -107,4 +108,25 @@ You can set up or update certain DNS records and your repository settings to poi
 4. Under `Custom domain`, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a `CNAME` file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no `CNAME` file is created, so you need to create one manually (containing only a line of text with your custom domain).
     ![image6](./assets/image6.png)
 
-5. Navigate to your DNS provider and create either an `ALIAS`, `ANAME`, or `A` record. You can also create `AAAA` records for IPv6 support. If you're implementing IPv6 support, we highly recommend using an `A` record in addition to your `AAAA` record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider's documentation.
+5. Navigate to your DNS provider (e.g., Namecheap, GoDaddy, Cloudflare) and update the DNS records.
+
+    For Apex Domains (e.g., example.com), set up an `A` record pointing to GitHub’s IP addresses:
+
+    ```
+    185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+    ```
+
+    For Subdomains (e.g., www.example.com), set up a `CNAME` record pointing to:
+
+    ```
+    username.github.io
+    ```
+
+    (Replace “username” with your GitHub username)
+
+6. Enforce HTTPS (Optional but Recommended)
+    - After DNS propagation (may take a few minutes to 24 hours), go back to GitHub Pages settings.
+    - Ensure `Enforce HTTPS` is enabled

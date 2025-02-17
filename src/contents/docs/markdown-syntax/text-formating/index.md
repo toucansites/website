@@ -1,12 +1,12 @@
 ---
 type: guide
-title: Text Formatting and Lists
-description: This guide will walk you through the basics of Markdown text formatting and lists
+title: Text Formatting
+description: This guide will walk you through the basics of Markdown text formatting
 category: markdown-syntax
 order: 1
 ---
 
-# Text Formatting and Lists
+# Text Formatting
 
 Markdown is a lightweight markup language used to format plain text. Here’s how to use its essential syntax.
 
@@ -60,45 +60,3 @@ ___
 ```
 
 ***
-
-## Lists
-
-### 1. Unordered Lists
-
-Use '-' or '*' to create unordered lists:
-
-```
-- Item 1
-- Item 2
-  - Subitem 2.1
-```
-
-- Item 1
-- Item 2
-  - Subitem 2.1
-
-### 2. Ordered Lists
-
-Use numbers followed by a period to create an ordered list:
-
-```
-1. Item 1
-2. Item 2
-   1. Subitem 2.1
-```
-
-1. Item 1
-2. Item 2
-   1. Subitem 2.1
-
-### 3. Nesting
-
-You can nest ordered and unordered lists together:
-
-```
-1. Ordered item
-   - Subitem 1
-```
-
-1. Ordered item
-   - Subitem 1

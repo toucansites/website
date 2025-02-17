@@ -9,7 +9,7 @@ order: 4
 
 ---
 
-Toucan uses [Apple’s Swift Markdown library](https://github.com/apple/swift-markdown), which is built on CommonMark, a standardized Markdown specification. Unlike GitHub Flavored Markdown (GFM), CommonMark has a stricter, more limited feature set, meaning that some Markdown elements may not be supported.
+Toucan uses [Apple’s Swift Markdown library](https://github.com/apple/swift-markdown), which is built on CommonMark. CommonMark has a stricter, more limited feature set, meaning that some Markdown elements may not be supported.
 
 ## Supported Features
 

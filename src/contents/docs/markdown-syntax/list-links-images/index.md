@@ -1,16 +1,58 @@
 ---
 type: guide
-title: Links, Images, and Tables
-description: This guide will walk you through how to use links, images, and tables in Markdown
+title: List, Links and Images
+description: This guide will walk you through how to use lists, links and images in Markdown
 category: markdown-syntax
 order: 2
 ---
 
-# Links, Images, and Tables
+# List, Links and Images
 
-Markdown makes it easy to add links, images, and tables to your documents using simple syntax.
+Markdown makes it easy to add lists, links and images to your documents using simple syntax.
 
 ---
+
+## Lists
+
+### 1. Unordered Lists
+
+Use '-' or '*' to create unordered lists:
+
+```
+- Item 1
+- Item 2
+  - Subitem 2.1
+```
+
+- Item 1
+- Item 2
+  - Subitem 2.1
+
+### 2. Ordered Lists
+
+Use numbers followed by a period to create an ordered list:
+
+```
+1. Item 1
+2. Item 2
+   1. Subitem 2.1
+```
+
+1. Item 1
+2. Item 2
+   1. Subitem 2.1
+
+### 3. Nesting
+
+You can nest ordered and unordered lists together:
+
+```
+1. Ordered item
+   - Subitem 1
+```
+
+1. Ordered item
+   - Subitem 1
 
 ## Links
 
