@@ -12,13 +12,11 @@ Markdown is a lightweight markup language used to format plain text. Here’s ho
 
 ---
 
-## Text Formatting
+## 1. Headings
 
-### 1. Headings
+Use **#** for headings. The number of **#** symbols determines the level:
 
-Use `#` for headings. The number of `#` symbols determines the level:
-
-```
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -27,9 +25,9 @@ Use `#` for headings. The number of `#` symbols determines the level:
 ###### Heading 6
 ```
 
-### 2. Bold and Italics
+## 2. Bold and Italics
 
-```
+```markdown
 Bold: **text** or __text__
 Italic: *text* or _text_
 Bold and Italic: ***text*** or ___text___
@@ -39,24 +37,24 @@ This is **bold**.
 This is _italic_.
 This is ***bold and italic***.
 
-### 3. Blockquotes
+## 3. Blockquotes
 
-Use '>' to create blockquotes:
+Use **>** to create blockquotes:
 
-```
+```markdown
 > This is a blockquote.
 ```
 
 > This is a blockquote.
 
-### 5. Horizontal Rules
+## 4. Horizontal Rules
 
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
-```
+```markdown
 ***
 ---
 ___
 ```
 
-***
+---

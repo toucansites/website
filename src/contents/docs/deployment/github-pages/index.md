@@ -89,7 +89,7 @@ Before you can create your site, you must have a repository for your site on Git
 
 6. Check the published site, GitHub will provide a public URL for your site, such as:
 
-    ```
+    ```text
     https://your-username.github.io/my-github-page/
     ```
 
@@ -112,7 +112,7 @@ You can set up or update certain DNS records and your repository settings to poi
 
     For Apex Domains (e.g., example.com), set up an `A` record pointing to GitHub’s IP addresses:
 
-    ```
+    ```text
     185.199.108.153
     185.199.109.153
     185.199.110.153
@@ -121,7 +121,7 @@ You can set up or update certain DNS records and your repository settings to poi
 
     For Subdomains (e.g., www.example.com), set up a `CNAME` record pointing to:
 
-    ```
+    ```text
     username.github.io
     ```
 

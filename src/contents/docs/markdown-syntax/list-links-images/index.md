@@ -18,7 +18,7 @@ Markdown makes it easy to add lists, links and images to your documents using si
 
 Use '-' or '*' to create unordered lists:
 
-```
+```markdown
 - Item 1
 - Item 2
   - Subitem 2.1
@@ -32,7 +32,7 @@ Use '-' or '*' to create unordered lists:
 
 Use numbers followed by a period to create an ordered list:
 
-```
+```markdown
 1. Item 1
 2. Item 2
    1. Subitem 2.1
@@ -46,7 +46,7 @@ Use numbers followed by a period to create an ordered list:
 
 You can nest ordered and unordered lists together:
 
-```
+```markdown
 1. Ordered item
    - Subitem 1
 ```
@@ -56,21 +56,31 @@ You can nest ordered and unordered lists together:
 
 ## Links
 
-Use square brackets `[ ]` for the link text and parentheses `( )` for the URL:
+Use square brackets **[ ]** for the link text and parentheses **( )** for the URL:
 
-```
+### 1. Simple link
+
+```markdown
 [Link Text](https://example.com)
 ```
 
 [google.com](https://google.com)
 
+### 2. Mail link
+
+```markdown
+[Send me an email](mailto:example@example.com)
+```
+
+[Send me an email](mailto:example@example.com)
+
 ## Images
 
 ### 1. Basic Images
 
-Similar to links, but with an exclamation mark `!` at the beginning:
+Similar to links, but with an exclamation mark **!** at the beginning:
 
-```
+```markdown
 ![Alt Text](https://example.com/image.jpg)
 ```
 
@@ -80,7 +90,7 @@ Similar to links, but with an exclamation mark `!` at the beginning:
 
 Add a title in quotes for extra context:
 
-```
+```markdown
 ![Alt Text](https://example.com/image.jpg "Optional Title")
 ```
 
@@ -92,7 +102,7 @@ Add a title in quotes for extra context:
 
 Wrap code in backticks:
 
-```
+```markdown
 `inline code`
 ```
 
@@ -100,7 +110,7 @@ Wrap code in backticks:
 
 Use triple backticks for multi-line code:
 
-```
+```markdown
 function example() {
   console.log("Hello, Markdown!");
 }
