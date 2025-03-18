@@ -6,20 +6,15 @@ properties:
         type: int
         required: true
 
-context:
-    site:
-        categories:
-            sort: order
-            order: asc
-            pagination:
-                limit: 10
-
-    local:
-        guides:
-            references: guide
-            foreignKey: category
-            sort: order
-            order: asc
-            limit: 10
-
-
+queries:
+    guides:
+        contentType: guide
+        scope: list
+        limit: 10
+        orderBy:
+            - key: order
+              direction: asc
+        filter:
+            key: category
+            operator: equals
+            value: "{{id}}"

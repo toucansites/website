@@ -5,8 +5,8 @@
     <header>
         {{#page.imageUrl}}<img src="{{page.imageUrl}}" alt="{{page.title}}">{{/page.imageUrl}}
         <div class="meta">
-            <time datetime="{{page.publication.html}}">{{page.publication.html}}</time>
-            {{#page.readingTime}} &middot; <span class="reading-time">{{page.readingTime}} min read</span>{{/page.readingTime}}
+            <time datetime="{{page.publication.formats.iso8601}}">{{page.publication.date.short}} {{page.publication.time.short}}</time>
+            {{#page.contents.readingTime}} &middot; <span class="reading-time">{{.}} min read</span>{{/page.contents.readingTime}}
         </div>
         <h1>{{page.title}}</h1>
         <hr>
@@ -17,7 +17,7 @@
 
     <section>
     
-    {{& page.contents}}
+    {{& page.contents.html}}
         
     </section>
     
@@ -53,7 +53,7 @@
 </article>
 
 <div class="fixed-toc">
-{{> partials.toc }}
+{{> partials.outline }}
 </div>
 
 {{/main}}

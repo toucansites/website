@@ -10,7 +10,7 @@
         <p>{{count(page.posts)}} articles</p>
     </header>
 
-    {{& page.contents}}
+    {{& page.contents.html}}
     
     {{#empty(page.posts)}}
     Empty.

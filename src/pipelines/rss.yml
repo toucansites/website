@@ -1,0 +1,18 @@
+id: rss
+contentTypes: 
+    include:
+        - rss
+    lastUpdate:
+        - post
+
+engine: 
+    id: mustache
+    options:
+        contentTypes: 
+            rss:
+                template: "rss"
+
+output:
+    path: ""
+    file: feed
+    ext: xml

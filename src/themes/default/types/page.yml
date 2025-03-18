@@ -1,0 +1,11 @@
+id: page
+default: true
+
+properties:
+    title:
+        type: string
+        required: true
+
+    description:
+        type: string
+        required: true

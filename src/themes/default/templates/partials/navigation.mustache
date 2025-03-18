@@ -2,7 +2,7 @@
     <a href="/">
         <picture>
             <img
-                src="/images/logos/logo.png"
+                src="{{site.baseUrl}}/images/logos/logo.png"
                 alt="Logo of {{site.title}}"
                 title="{{site.title}}"
             >
@@ -18,9 +18,9 @@
             </svg>
         </label>
         <div class="menu-items">
-            {{#navigation}}
+            {{#site.navigation}}
             <a href="{{url}}"{{#class}} class="{{.}}"{{/class}}>{{label}}</a>
-            {{/navigation}}
+            {{/site.navigation}}
         </div>
     </nav>
 </header>

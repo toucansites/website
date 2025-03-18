@@ -9,27 +9,20 @@ properties:
 relations:
     category:
         references: category
-        join: one
+        type: one
 
-context:
-    site:
-        guides:
-            sort: title
-            order: asc
-            pagination:
-                limit: 10
-    local:
-        prev:
-            references: guide
-            foreignKey: $prev
-            sort: order
-            order: asc
-
-        next:
-            references: guide
-            foreignKey: $next
-            sort: order
-            order: asc
-        
-
-
+queries:
+    prev:
+        contentType: guide
+        scope: detail
+        limit: 1
+        orderBy:
+            - key: order
+              direction: asc
+    next:
+        contentType: guide
+        scope: detail
+        limit: 1
+        orderBy:
+            - key: order
+              direction: asc
