@@ -14,5 +14,5 @@ engine:
 
 output:
     path: ""
-    file: feed
+    file: rss
     ext: xml
