@@ -1,4 +1,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+            <loc>http://localhost:3000/articles/page/{{post.pagination}}</loc>
+            <lastmod>2025-03-24</lastmod>
+            <loc>http://localhost:3000/authors/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/contact/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/docs/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/faq/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000</loc>
+            <lastmod>2025-03-14</lastmod>
+            <loc>http://localhost:3000/news/</loc>
+            <lastmod>2025-03-24</lastmod>
+            <loc>http://localhost:3000/showcases/</loc>
+            <lastmod>2025-01-16</lastmod>
+
+            <loc>http://localhost:3000/beta-2-is-now-avaiable/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/first-beta-release/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</loc>
+            <lastmod>2024-10-28</lastmod>
+            <loc>http://localhost:3000/last-alpha-release/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/toucan-is-now-ready-for-alpha-testing/</loc>
+            <lastmod>2024-10-28</lastmod>
+
+            <loc>http://localhost:3000/authors/andris-sipos/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/authors/tibor-bodecs/</loc>
+            <lastmod>2025-01-16</lastmod>
+
+            <loc>http://localhost:3000/tags/</loc>
+            <lastmod>2025-03-13</lastmod>
+            <loc>http://localhost:3000/tags/news/</loc>
+            <lastmod>2025-01-16</lastmod>
+            <loc>http://localhost:3000/tags/releases/</loc>
+            <lastmod>2025-01-16</lastmod>
     </url>
 </urlset>

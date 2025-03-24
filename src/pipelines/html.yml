@@ -49,7 +49,7 @@ contentTypes:
 iterators:
     post.pagination:
         contentType: post
-        limit: 24
+        limit: 2
 
 transformers:
 

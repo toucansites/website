@@ -37,7 +37,7 @@ async function handleFormSubmit(event) {
 
         const responseData = await postFormDataAsJson({ url });
 
-        const innerHTML = responseData
+        const innerHTML = responseData.context.posts
         .filter(function(item) {
             return item.title.toLowerCase().includes(term) || 
                 item.description.toLowerCase().includes(term);
