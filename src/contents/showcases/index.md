@@ -25,8 +25,3 @@ Toucan is used by the following websites. Feel free to [contact us](/contact/) i
         ](https://theswiftdev.com/)
     }
 }
-
-
-
-
-

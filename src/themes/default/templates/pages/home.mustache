@@ -73,18 +73,19 @@
 <div class="centered">
 <p>&nbsp;</p>
 <h2>Most recent</h2>
+
 <p>Latest static site generator news, Toucan updates and releases.</p>
 </div>
-{{#empty(site.context.posts)}}
+{{#empty(context.posts)}}
 Empty.
-{{/empty(site.context.posts)}}
-{{^empty(site.context.posts)}}
+{{/empty(context.posts)}}
+{{^empty(context.posts)}}
 <div class="grid grid-321">
-{{#site.context.posts}}
+{{#context.posts}}
     {{> partials.blog.post}}
-{{/site.context.posts}}
+{{/context.posts}}
 </div>
-{{/empty(site.context.posts)}}
+{{/empty(context.posts)}}
 
 <div class="centered">
     <br>

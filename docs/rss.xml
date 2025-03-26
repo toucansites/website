@@ -14,35 +14,35 @@
             <title><![CDATA[ Beta 2 is now available ]]></title>
             <description><![CDATA[ The second beta release of Toucan is now available. This release includes many improvements and some new features. ]]></description>
             <link>http://localhost:3000/beta-2-is-now-avaiable/</link>
-            <pubDate>Sat, 14 Dec 2024 23:00:00 +0000</pubDate>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
         </item>
         <item>
             <guid isPermaLink="true">http://localhost:3000/first-beta-release/</guid>
             <title><![CDATA[ First beta release ]]></title>
             <description><![CDATA[ Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements. ]]></description>
             <link>http://localhost:3000/first-beta-release/</link>
-            <pubDate>Mon, 21 Oct 2024 22:00:00 +0000</pubDate>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
         </item>
         <item>
             <guid isPermaLink="true">http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</guid>
             <title><![CDATA[ Introducing Toucan: a new Markdown-based static site generator ]]></title>
             <description><![CDATA[ We&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift. ]]></description>
             <link>http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</link>
-            <pubDate>Mon, 12 Aug 2024 10:00:00 +0000</pubDate>
+            <pubDate>Mon, 12 Aug 2024 12:00:00 +0000</pubDate>
         </item>
         <item>
             <guid isPermaLink="true">http://localhost:3000/last-alpha-release/</guid>
             <title><![CDATA[ Last alpha release ]]></title>
             <description><![CDATA[ Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2. ]]></description>
             <link>http://localhost:3000/last-alpha-release/</link>
-            <pubDate>Wed, 16 Oct 2024 22:00:00 +0000</pubDate>
+            <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
         </item>
         <item>
             <guid isPermaLink="true">http://localhost:3000/toucan-is-now-ready-for-alpha-testing/</guid>
             <title><![CDATA[ Toucan is now ready for alpha testing ]]></title>
             <description><![CDATA[ Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift. ]]></description>
             <link>http://localhost:3000/toucan-is-now-ready-for-alpha-testing/</link>
-            <pubDate>Sun, 29 Sep 2024 22:00:00 +0000</pubDate>
+            <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
         </item>
 
 </channel>

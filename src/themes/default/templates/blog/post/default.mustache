@@ -3,7 +3,7 @@
 <article class="post">
     
     <header>
-        {{#page.imageUrl}}<img src="{{page.imageUrl}}" alt="{{page.title}}">{{/page.imageUrl}}
+        {{#page.image}}<img src="{{page.image}}" alt="{{page.title}}">{{/page.image}}
         <div class="meta">
             <time datetime="{{page.publication.formats.iso8601}}">{{page.publication.date.short}} {{page.publication.time.short}}</time>
             {{#page.contents.readingTime}} &middot; <span class="reading-time">{{.}} min read</span>{{/page.contents.readingTime}}
@@ -20,12 +20,12 @@
     {{& page.contents.html}}
         
     </section>
-    
+
     <footer class="grid grid-221">
         <div class="author-list">
         {{#page.authors}}
             <a href="{{permalink}}">
-            {{#imageUrl}}<img class="medium rounded" src="{{imageUrl}}" alt="{{title}}">{{/imageUrl}}
+            {{#image}}<img class="medium rounded" src="{{image}}" alt="{{title}}">{{/image}}
             </a>
         {{/page.authors}}
         </div>

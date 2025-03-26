@@ -4,14 +4,14 @@ scopes:
 queries: 
     posts:
         contentType: post
-        scope: list
+        scope: detail
         limit: 12
         orderBy:
             - key: publication
               direction: desc
     featured:
         contentType: post
-        scope: list
+        scope: detail
         filter:
             key: featured
             operator: equals
@@ -21,14 +21,14 @@ queries:
               direction: desc
     authors:
         contentType: author
-        scope: list
+        scope: detail
         limit: 12
         orderBy:
             - key: title
               direction: asc
     tags:
         contentType: tag
-        scope: list
+        scope: detail
         limit: 12
         orderBy:
             - key: title
@@ -49,7 +49,11 @@ contentTypes:
 iterators:
     post.pagination:
         contentType: post
-        limit: 2
+        scope: detail
+        limit: 12
+        orderBy:
+            - key: publication
+              direction: desc
 
 transformers:
 
