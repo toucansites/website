@@ -1,5 +1,14 @@
 id: sitemap
 
+iterators:
+    post.pagination:
+        contentType: post
+        scope: detail
+        limit: 12
+        orderBy:
+            - key: publication
+              direction: desc
+              
 queries:
     pages:
         contentType: page
