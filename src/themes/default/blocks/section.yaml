@@ -1,5 +1,5 @@
 name: section
-params:
+parameters:
   - label: class
     default: ""
 

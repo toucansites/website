@@ -7,7 +7,7 @@
     <div class="center">
         <article>
             <a href="/docs/">Docs</a>
-            {{& page.contents}}
+            {{& page.contents.html}}
         
             {{#empty(page.guides)}}
             {{/empty(page.guides)}}
@@ -22,7 +22,7 @@
         </article>
     </div>
     <div class="right">
-        {{> partials.toc }}
+        {{> partials.outline }}
     </div>
 </div>
 {{/main}}

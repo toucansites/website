@@ -31,19 +31,19 @@
     <title>Config</title>
 
     <link rel="canonical" href="https://toucansites.com/docs/getting-started/config/">
-    <link rel="prev" href="https://toucansites.com/docs/themes/mustache-templates/">
-    <link rel="next" href="https://toucansites.com/docs/content-management/transformers/">
+    <link rel="prev" href="https://toucansites.com/docs/getting-started/site-index/">
+    
 
     <link rel="manifest" href="/manifest.json" />
 
-    <link rel="stylesheet" href="/css/modern-normalize.css">
-    <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/grid.css">
-    <link rel="stylesheet" href="/css/navigation.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/modern-normalize.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/modern-base.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/variables.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/base.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/grid.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/navigation.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/footer.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/theme.css">
     
     
 
@@ -116,18 +116,19 @@
         media="(prefers-color-scheme: dark)"
     >
 
+    <link rel="stylesheet" href="https://toucansites.com/css/style.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 
 </head>
 
 <body>
-
     <header id="navigation">
         <a href="/">
             <picture>
                 <img
-                    src="/images/logos/logo.png"
+                    src="https://toucansites.com/images/logos/logo.png"
                     alt="Logo of Toucan"
                     title="Toucan"
                 >
@@ -157,7 +158,6 @@
     <div id="docs">
         <div class="left">
             <aside>
-            
                 <ul>
                     <li class="category">
                         <a href="https://toucansites.com/docs/installation/">Installation</a>
@@ -181,6 +181,7 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/content-management/page-bundles/">Page bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/transformers/">Transformers</a></li>
                         </ul>
                     </li>
@@ -199,6 +200,7 @@
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -214,7 +216,7 @@
             <article>
                 <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
                 
-                <h1>Config</h1><hr><p>This configuration file defines key settings for the entire site. The config file for Toucan is stored in the <code>config.yml</code> file, inside the project’s root directory. This file is optional, and if it is not present, Toucan will use the default values.</p><h3 id="default-values">Default values</h3><p>The default values are as follows:</p><pre><code class="language-yaml">themes: 
+                <h1>Config</h1><hr><p>Defines key settings for the entire site. In Toucan, this is the <code>config.yml</code> file located in the project’s root directory. It is optional, and if missing, Toucan will use the default values.</p><h3 id="default-values">Default values</h3><p>The default values are as follows:</p><pre><code class="language-yaml">themes: 
   folder: "themes"
   use: "default"
   assets:
@@ -245,7 +247,7 @@ transformers:
 #        run: 
 #          - name: example-pipeline
 #        isMarkdownResult: false
-</code></pre><h3 id="themes-section">Themes section</h3><p>This section defines the location of the theme related files and other theme related settings, such as the theme to use.</p><details><summary><strong><code>folder</code></strong> - The location of the themes folder.</summary><div><p>This value specifies the location of the themes folder inside the source folder.</p></div></details><details><summary><strong><code>use</code></strong> - The theme to use.</summary><div><p>This value specifies the folder name of the theme, inside the themes folder, to use.</p></div></details><details><summary><strong><code>assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the <a href="/getting-started/assets/">assets</a> location inside the theme folder.</p></div></details><details><summary><strong><code>templates.folder</code></strong> - The name of the templates folder.</summary><div><p>This value specifies the folder name of the <a href="/getting-started/templates/mustache/">Mustache templates</a> location inside the theme folder.</p></div></details><details><summary><strong><code>overrides.folder</code></strong> - The name of the template overrides folder.</summary><div><p>This value specifies the folder name of the Mustache template overrides location inside the theme folder. If you place a file in this folder, it will override the default template for the corresponding file.</p></div></details><details><summary><strong><code>types.folder</code></strong> - The name of the content types folder.</summary><div><p>This value specifies the folder name of the content types location inside the theme folder. This folder is used to define custom <a href="/getting-started/contents/content-types/">content types</a> for the website.</p></div></details><h3 id="contents-section">Contents section</h3><p>This section defines the location of the content related files and other content related settings, such as the date format.</p><details><summary><strong><code>contents.folder</code></strong> - The name of the contents folder.</summary><div><p>This value specifies the folder name of the contents location inside the source folder.</p></div></details><details><summary><strong><code>contents.dateFormat</code></strong> - The date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site.</p><p><strong>Date format symbols</strong></p><ul><li>yyyy: Year (e.g., 2023)</li><li>MM: Month (e.g., 09 for September)</li><li>dd: Day (e.g., 28)</li><li>HH: Hour (e.g., 14 for 2 PM)</li><li>mm: Minute (e.g., 05)</li><li>ss: Second (e.g., 37)</li></ul><p><strong>Example</strong></p><ul><li>“yyyy-MM-dd HH:mm:ss”</li></ul></div></details><details><summary><strong><code>contents.assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the assets location inside the contents folder.</p></div></details><details><summary><strong><code>contents.home.id</code></strong> - The ID of the home page.</summary><div><p>This value specifies the unique identifier for the home page.</p></div></details><details><summary><strong><code>contents.home.template</code></strong> - The template for the home page.</summary><div><p>This value specifies the Mustache template used to render the home page.</p></div></details><details><summary><strong><code>contents.notFound.id</code></strong> - The ID of the not found page.</summary><div><p>This value specifies the unique identifier for the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.notFound.template</code></strong> - The template for the not found page.</summary><div><p>This value specifies the Mustache template used to render the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.rss.output</code></strong> - The output file for the RSS feed.</summary><div><p>This value specifies the filename for the generated RSS feed.</p></div></details><h3 id="transformers-section">Transformers section</h3><p>This section defines the location of the <a href="/docs/content-management/transformers/">content transformers</a> and the pipelines for each content type.</p><details><summary><strong><code>transformers.location</code></strong> - The location of the transformers files.</summary><div><p>This value specifies the directory where the content <a href="/docs/content-management/transformers/">transformer</a> scripts are stored.</p></div></details><details><summary><strong><code>transformers.pipelines</code></strong> - The pipelines for each content type.</summary><div><p>This value defines the processing pipelines that will be applied to different types of content. The key is the content type identifier, and the value is a dictionary with the pipelines to run and an optional settings to disable the default markdown renderer, if needed.</p><p><strong>Example</strong></p><pre><code class="language-yaml">pipelines:
+</code></pre><h3 id="themes-section">Themes section</h3><p>This section defines the location of the theme related files and other theme related settings, such as the theme to use.</p><details><summary><strong><code>folder</code></strong> - The location of the themes folder.</summary><div><p>This value specifies the location of the themes folder inside the source folder.</p></div></details><details><summary><strong><code>use</code></strong> - The theme to use.</summary><div><p>This value specifies the folder name of the theme, inside the themes folder, to use.</p></div></details><details><summary><strong><code>assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the <a href="https://toucansites.com/getting-started/assets/">assets</a> location inside the theme folder.</p></div></details><details><summary><strong><code>templates.folder</code></strong> - The name of the templates folder.</summary><div><p>This value specifies the folder name of the <a href="https://toucansites.com/getting-started/templates/mustache/">Mustache templates</a> location inside the theme folder.</p></div></details><details><summary><strong><code>overrides.folder</code></strong> - The name of the template overrides folder.</summary><div><p>This value specifies the folder name of the Mustache template overrides location inside the theme folder. If you place a file in this folder, it will override the default template for the corresponding file.</p></div></details><details><summary><strong><code>types.folder</code></strong> - The name of the content types folder.</summary><div><p>This value specifies the folder name of the content types location inside the theme folder. This folder is used to define custom <a href="https://toucansites.com/getting-started/contents/content-types/">content types</a> for the website.</p></div></details><h3 id="contents-section">Contents section</h3><p>This section defines the location of the content related files and other content related settings, such as the date format.</p><details><summary><strong><code>contents.folder</code></strong> - The name of the contents folder.</summary><div><p>This value specifies the folder name of the contents location inside the source folder.</p></div></details><details><summary><strong><code>contents.dateFormat</code></strong> - The date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site.</p><p><strong>Date format symbols</strong></p><ul><li>yyyy: Year (e.g., 2023)</li><li>MM: Month (e.g., 09 for September)</li><li>dd: Day (e.g., 28)</li><li>HH: Hour (e.g., 14 for 2 PM)</li><li>mm: Minute (e.g., 05)</li><li>ss: Second (e.g., 37)</li></ul><p><strong>Example</strong></p><ul><li>“yyyy-MM-dd HH:mm:ss”</li></ul></div></details><details><summary><strong><code>contents.assets.folder</code></strong> - The name of the assets folder.</summary><div><p>This value specifies the folder name of the assets location inside the contents folder.</p></div></details><details><summary><strong><code>contents.home.id</code></strong> - The ID of the home page.</summary><div><p>This value specifies the unique identifier for the home page.</p></div></details><details><summary><strong><code>contents.home.template</code></strong> - The template for the home page.</summary><div><p>This value specifies the Mustache template used to render the home page.</p></div></details><details><summary><strong><code>contents.notFound.id</code></strong> - The ID of the not found page.</summary><div><p>This value specifies the unique identifier for the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.notFound.template</code></strong> - The template for the not found page.</summary><div><p>This value specifies the Mustache template used to render the 404 (not found) page.</p></div></details><details><summary><strong><code>contents.rss.output</code></strong> - The output file for the RSS feed.</summary><div><p>This value specifies the filename for the generated RSS feed.</p></div></details><h3 id="transformers-section">Transformers section</h3><p>This section defines the location of the <a href="https://toucansites.com/docs/content-management/transformers/">content transformers</a> and the pipelines for each content type.</p><details><summary><strong><code>transformers.location</code></strong> - The location of the transformers files.</summary><div><p>This value specifies the directory where the content <a href="https://toucansites.com/docs/content-management/transformers/">transformer</a> scripts are stored.</p></div></details><details><summary><strong><code>transformers.pipelines</code></strong> - The pipelines for each content type.</summary><div><p>This value defines the processing pipelines that will be applied to different types of content. The key is the content type identifier, and the value is a dictionary with the pipelines to run and an optional settings to disable the default markdown renderer, if needed.</p><p><strong>Example</strong></p><pre><code class="language-yaml">pipelines:
   post:
     run: 
       - name: example-pipeline
@@ -267,25 +269,17 @@ transformers:
             <aside>
                 <h4>On this page</h4>
                 <ul>
-                    <li class="first-level">
+                    <li class="level-3">
                         <a href="#default-values">Default values</a>
-                        <ul>
-                        </ul>
                     </li>
-        <li class="first-level">
+        <li class="level-3">
                         <a href="#themes-section">Themes section</a>
-                        <ul>
-                        </ul>
                     </li>
-        <li class="first-level">
+        <li class="level-3">
                         <a href="#contents-section">Contents section</a>
-                        <ul>
-                        </ul>
                     </li>
-        <li class="first-level">
+        <li class="level-3">
                         <a href="#transformers-section">Transformers section</a>
-                        <ul>
-                        </ul>
                     </li>
                 </ul>
             </aside>
@@ -299,11 +293,11 @@ transformers:
             <div>
                 <h4>Menu</h4>
                 <ul>
-                    <li><a href="/news/">News</a></li>
-                    <li><a href="/docs/">Docs</a></li>
-                    <li><a href="/faq/">FAQ</a></li>
-                    <li><a href="/showcases/">Showcases</a></li>
-                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="https://toucansites.com/news/">News</a></li>
+                    <li><a href="https://toucansites.com/docs/">Docs</a></li>
+                    <li><a href="https://toucansites.com/faq/">FAQ</a></li>
+                    <li><a href="https://toucansites.com/showcases/">Showcases</a></li>
+                    <li><a href="https://toucansites.com/contact/">Contact</a></li>
                 </p>
             </div>
             
@@ -312,8 +306,8 @@ transformers:
                 <li><a href="https://github.com/toucansites/">GitHub</a></li>
                 <li><a href="https://binarybirds.com/">Binary Birds</a></li>
                 <li><a href="https://x.com/tiborbodecs">tiborbodecs</a></li>
-                <li><a href="/rss.xml" target="_blank">RSS</a></li>
-                <li><a href="/sitemap.xml" target="_blank">Sitemap</a></li>
+                <li><a href="https://toucansites.com/rss.xml" target="_blank">RSS</a></li>
+                <li><a href="https://toucansites.com/sitemap.xml" target="_blank">Sitemap</a></li>
             </div>
             
             
@@ -321,7 +315,7 @@ transformers:
                 <picture>
                     <img
                         id="logo-image"
-                        src="/images/logos/logo.png"
+                        src="https://toucansites.com/images/logos/logo.png"
                         alt="Logo of Toucan"
                         title="Toucan"
                     >
@@ -333,14 +327,13 @@ transformers:
                 <p><small>This site was generated<br>using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/toucansites/toucan/" target="_blank">Toucan</a>.</small></p>
                 <small><br>
                     Binary Birds Kft.<br>
-                    &copy; 2023 - 2024<br>
+                    &copy; 2023 - 2025<br>
                     <a href="https://github.com/toucansites/website/blob/main/LICENSE" target="_blank">MIT License</a></small>
             </div>
-            
         </div>
     </footer>
-
     
 
+    <!-- March 27, 2025 10:30:16 AM - Toucan 1.0.0-beta3 -->
 </body>
 </html>

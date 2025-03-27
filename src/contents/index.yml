@@ -1,8 +1,7 @@
 baseUrl: "https://toucansites.com/"
 language: "en-US"
-title: "Toucan"
+name: "Toucan"
 description: "The Markdown-based static site generator written in Swift"
-dateFormat: "yyyy.MM.dd."
 navigation:
     - label: "News"
       url: "/news/"
@@ -14,4 +13,3 @@ navigation:
       url: "/showcases/"
     - label: "Contact"
       url: "/contact/"
-

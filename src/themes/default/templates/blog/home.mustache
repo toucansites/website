@@ -1,29 +1,20 @@
 {{<html}}
 {{$main}}
 
-{{#empty(pagination.post)}}
-{{/empty(pagination.post)}}
-{{^empty(pagination.post)}}
-{{#pagination.post}}
-    {{number}}
-    {{total}}
-{{/pagination.post}}
-{{/empty(pagination.post)}}
-
-{{& page.contents}}
+{{& page.contents.html}}
 
 <div id="blog" class="wrapper">
 
-    {{#empty(site.context.posts)}}
+    {{#empty(context.posts)}}
     Empty.
-    {{/empty(site.context.posts)}}
-    {{^empty(site.context.posts)}}
+    {{/empty(context.posts)}}
+    {{^empty(context.posts)}}
     <div id="blog-posts" class="grid grid-321">
-    {{#site.context.posts}}
+    {{#context.posts}}
         {{> partials.blog.post}}
-    {{/site.context.posts}}
+    {{/context.posts}}
     </div>
-    {{/empty(site.context.posts)}}
+    {{/empty(context.posts)}}
     
     <br>
     <a href="/articles/page/1" class="cta">Browse all articles</a>
@@ -31,29 +22,29 @@
 
     <h2>Tags</h2>
     <br>
-    {{#empty(site.context.tags)}}
+    {{#empty(context.tags)}}
     Empty.
-    {{/empty(site.context.tags)}}
-    {{^empty(site.context.tags)}}
+    {{/empty(context.tags)}}
+    {{^empty(context.tags)}}
         <div class="grid grid-221">
-    {{#site.context.tags}}
+    {{#context.tags}}
         {{> partials.blog.tag}}
-    {{/site.context.tags}}
+    {{/context.tags}}
     </div>
-    {{/empty(site.context.tags)}}
+    {{/empty(context.tags)}}
     
     <h2>Authors</h2>
     <br>
-    {{#empty(site.context.authors)}}
+    {{#empty(context.authors)}}
     Empty.
-    {{/empty(site.context.authors)}}
-    {{^empty(site.context.authors)}}
+    {{/empty(context.authors)}}
+    {{^empty(context.authors)}}
         <div class="grid grid-221">
-    {{#site.context.authors}}
+    {{#context.authors}}
         {{> partials.blog.author}}
-    {{/site.context.authors}}
+    {{/context.authors}}
     </div>
-    {{/empty(site.context.authors)}}
+    {{/empty(context.authors)}}
 
 </div>
 {{/main}}

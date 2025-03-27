@@ -1,5 +1,4 @@
 id: guide
-template: docs.guide.default
 
 properties:
     order:
@@ -9,27 +8,36 @@ properties:
 relations:
     category:
         references: category
-        join: one
+        type: one
 
-context:
-    site:
-        guides:
-            sort: title
-            order: asc
-            pagination:
-                limit: 10
-    local:
-        prev:
-            references: guide
-            foreignKey: $prev
-            sort: order
-            order: asc
+queries:
+    
+    prev:
+        contentType: guide
+        limit: 1
+        filter:
+            and:
+                - key: category
+                  operator: equals
+                  value: "{{category}}"
+                - key: order
+                  operator: lessThan
+                  value: "{{order}}"
+        orderBy:
+            - key: order
+              direction: desc
 
-        next:
-            references: guide
-            foreignKey: $next
-            sort: order
-            order: asc
-        
-
-
+    next:
+        contentType: guide
+        limit: 1
+        filter:
+            and:
+                - key: category
+                  operator: equals
+                  value: "{{category}}"
+                - key: order
+                  operator: greaterThan
+                  value: "{{order}}"
+        orderBy:
+            - key: order
+              direction: asc

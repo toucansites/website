@@ -1,0 +1,22 @@
+id: api
+scopes:
+
+queries: 
+    posts:
+        contentType: post
+        scope: list
+        orderBy:
+            - key: publication
+              direction: desc
+
+contentTypes: 
+    include:
+        - post
+
+engine: 
+    id: json
+
+output:
+    path: "api"
+    file: posts
+    ext: json

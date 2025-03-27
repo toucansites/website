@@ -4,10 +4,10 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
     <language>en-US</language>
-    <lastBuildDate>Sun, 15 Dec 2024 12:53:28 +0000</lastBuildDate>
-    <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Mar 2025 10:30:16 +0000</lastBuildDate>
+    <pubDate>Wed, 15 Jan 2025 12:14:13 +0000</pubDate>
     <ttl>250</ttl>
-    <atom:link href="https://toucansites.comrss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
 
 <item>
     <guid isPermaLink="true">https://toucansites.com/beta-2-is-now-avaiable/</guid>
@@ -24,6 +24,13 @@
     <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
+    <guid isPermaLink="true">https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</guid>
+    <title><![CDATA[ Introducing Toucan: a new Markdown-based static site generator ]]></title>
+    <description><![CDATA[ We&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift. ]]></description>
+    <link>https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</link>
+    <pubDate>Mon, 12 Aug 2024 12:00:00 +0000</pubDate>
+</item>
+<item>
     <guid isPermaLink="true">https://toucansites.com/last-alpha-release/</guid>
     <title><![CDATA[ Last alpha release ]]></title>
     <description><![CDATA[ Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2. ]]></description>
@@ -36,13 +43,6 @@
     <description><![CDATA[ Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift. ]]></description>
     <link>https://toucansites.com/toucan-is-now-ready-for-alpha-testing/</link>
     <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-</item>
-<item>
-    <guid isPermaLink="true">https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</guid>
-    <title><![CDATA[ Introducing Toucan: a new Markdown-based static site generator ]]></title>
-    <description><![CDATA[ We&#39;re thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift. ]]></description>
-    <link>https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/</link>
-    <pubDate>Mon, 12 Aug 2024 12:00:00 +0000</pubDate>
 </item>
 
 </channel>

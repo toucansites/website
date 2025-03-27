@@ -9,19 +9,19 @@
     <meta property="og:url" content="{{page.permalink}}">
     <meta property="og:title" content="{{page.title}}">
     <meta property="og:description" content="{{page.description}}">
-    {{#page.imageUrl}}<meta property="og:image" content="{{.}}" />{{/page.imageUrl}}
+    {{#page.image}}<meta property="og:image" content="{{.}}" />{{/page.image}}
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{page.title}}">
     <meta name="twitter:description" content="{{page.description}}">
-    {{#page.imageUrl}}<meta name="twitter:image" content="{{.}}">{{/page.imageUrl}}
+    {{#page.image}}<meta name="twitter:image" content="{{.}}">{{/page.image}}
     
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="{{site.title}}">
+    <meta name="apple-mobile-web-app-title" content="{{site.name}}">
     <meta name="apple-mobile-web-app-orientations" content="portrait-any">
     
     <meta name="color-scheme" content="light dark">
@@ -30,7 +30,7 @@
 
     <title>{{page.title}}</title>
 
-    <link rel="canonical" href="{{page.canonical}}">
+    <link rel="canonical" href="{{page.permalink}}">
     {{#page.hreflang}}
     <link rel="alternate" hreflang="{{lang}}" href="{{url}}">
     {{/page.hreflang}}
@@ -39,14 +39,14 @@
 
     <link rel="manifest" href="/manifest.json" />
 
-    <link rel="stylesheet" href="/css/modern-normalize.css">
-    <link rel="stylesheet" href="/css/modern-base.css">
-    <link rel="stylesheet" href="/css/variables.css">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/grid.css">
-    <link rel="stylesheet" href="/css/navigation.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/modern-normalize.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/modern-base.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/variables.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/base.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/grid.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/navigation.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/footer.css">
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/theme.css">
     
     {{#page.css}}<link rel="stylesheet" href="{{.}}">{{/page.css}}
 
@@ -62,13 +62,14 @@
         media="(prefers-color-scheme: dark)"
     >
 
+    <link rel="stylesheet" href="{{site.baseUrl}}/css/style.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 
 </head>
 
 <body>
-
     {{> partials.navigation}}
 
     <main id="page-container">
@@ -81,5 +82,6 @@
 
     {{#page.js}}<script src="{{.}}" async></script>{{/page.js}}
 
+    <!-- {{site.generation.date.long}} {{site.generation.time.medium}} - {{site.generator.name}} {{site.generator.version}} -->
 </body>
 </html>

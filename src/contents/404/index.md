@@ -1,4 +1,5 @@
 ---
+type: "not-found"
 title: "Sorry, this page doesn’t exist"
 description: "Page not found. The requested page doesn’t exist or has been moved."
 ---

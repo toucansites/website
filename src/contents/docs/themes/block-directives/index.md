@@ -21,7 +21,7 @@ The following YAML configuration can be used to create a custom `Link` element:
 
 ```yaml
 name: link
-params:
+parameters:
   - label: url
     default: ""
   - label: class
@@ -63,7 +63,7 @@ Additional block directive examples can be found in the site’s source code on 
 
 @FAQ {
     @Question { 
-        `params` - The custom parameters for the block directive
+        `parameters` - The custom parameters for the block directive
     }
     @Answer { 
         Defines custom parameters for the block directive.

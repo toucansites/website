@@ -6,14 +6,12 @@
     </div>
     <div class="center">
         <article>
-            {{& page.contents}}
-
-            
+            {{& page.contents.html}}
 
         </article>
     </div>
     <div class="right">
-        {{> partials.toc }}
+        {{> partials.outline }}
     </div>
 </div>
 {{/main}}

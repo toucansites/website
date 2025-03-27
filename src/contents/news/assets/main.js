@@ -37,7 +37,7 @@ async function handleFormSubmit(event) {
 
         const responseData = await postFormDataAsJson({ url });
 
-        const innerHTML = responseData
+        const innerHTML = responseData.context.posts
         .filter(function(item) {
             return item.title.toLowerCase().includes(term) || 
                 item.description.toLowerCase().includes(term);
@@ -46,7 +46,7 @@ async function handleFormSubmit(event) {
             const authors = item.authors.map(item => ({
                 name: item.title,
                 link: item.permalink,
-                image: item.imageUrl
+                image: item.image
             }));
             const tags = item.tags.map(item => ({
                 name: item.title,
