@@ -36,10 +36,9 @@ async function handleFormSubmit(event) {
             obj.description.toLowerCase().includes(search)
         )
         .forEach(function(obj) { 
-            console.log("----------------------"); 
             console.log(obj.title); 
             console.log(obj.description); 
-            console.log(obj.imageUrl); 
+            console.log(obj.image); 
         });
 	} 
     catch (error) {

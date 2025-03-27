@@ -46,7 +46,7 @@ async function handleFormSubmit(event) {
             const authors = item.authors.map(item => ({
                 name: item.title,
                 link: item.permalink,
-                image: item.imageUrl
+                image: item.image
             }));
             const tags = item.tags.map(item => ({
                 name: item.title,
