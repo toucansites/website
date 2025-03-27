@@ -1,5 +1,4 @@
 id: category
-template: docs.category.default
 
 properties:
     order:

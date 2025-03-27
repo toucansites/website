@@ -33,6 +33,13 @@ queries:
         orderBy:
             - key: title
               direction: asc
+    
+    categories:
+        contentType: category
+        scope: detail
+        orderBy:
+            - key: order
+              direction: asc
 
 dataTypes:
     date:
@@ -45,6 +52,8 @@ contentTypes:
         - author
         - tag
         - post
+        - guide
+        - category
 
 iterators:
     post.pagination:
@@ -69,6 +78,10 @@ engine:
                 template: "blog.tag.default"
             post:
                 template: "blog.post.default"
+            category:
+                template: "docs.category.default"
+            guide:
+                template: docs.guide.default
 output:
     path: "{{slug}}"
     file: index

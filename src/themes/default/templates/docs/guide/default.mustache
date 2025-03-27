@@ -11,7 +11,7 @@
             <a href="{{permalink}}">{{title}}</a>
             {{/page.category}}
             
-            {{& page.contents}}
+            {{& page.contents.html}}
 
 
             <section>
@@ -43,7 +43,7 @@
         </article>
     </div>
     <div class="right">
-        {{> partials.toc }}
+        {{> partials.outline }}
     </div>
 </div>
 {{/main}}

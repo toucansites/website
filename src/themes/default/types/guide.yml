@@ -1,5 +1,4 @@
 id: guide
-template: docs.guide.default
 
 properties:
     order:
