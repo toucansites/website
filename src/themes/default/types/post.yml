@@ -30,31 +30,13 @@ relations:
             direction: asc
 
 queries:
-    prev:
-        contentType: post
-        scope: detail
-        limit: 1
-        orderBy:
-            - key: publication
-              direction: desc
-    next:
-        contentType: post
-        scope: detail
-        limit: 1
-        orderBy:
-            - key: publication
-              direction: desc
     related:
         contentType: post
         scope: detail
-        limit: 6
-        orderBy:
-            - key: publication
-              direction: desc
-    moreByAuthors:
-        contentType: post
-        scope: detail
-        limit: 6
-        orderBy:
-            - key: publication
-              direction: desc
+        limit: 4
+        filter:
+            key: tags
+            operator: matching
+            value: "{{tags}}"
+    
+    

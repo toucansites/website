@@ -11,17 +11,33 @@ relations:
         type: one
 
 queries:
+    
     prev:
         contentType: guide
-        scope: detail
         limit: 1
+        filter:
+            and:
+                - key: category
+                  operator: equals
+                  value: "{{category}}"
+                - key: order
+                  operator: lessThan
+                  value: "{{order}}"
         orderBy:
             - key: order
-              direction: asc
+              direction: desc
+
     next:
         contentType: guide
-        scope: detail
         limit: 1
+        filter:
+            and:
+                - key: category
+                  operator: equals
+                  value: "{{category}}"
+                - key: order
+                  operator: greaterThan
+                  value: "{{order}}"
         orderBy:
             - key: order
               direction: asc
