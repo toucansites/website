@@ -1,5 +1,5 @@
 baseUrl: "https://toucansites.com/"
-language: "en-US"
+locale: "en_US"
 name: "Toucan"
 description: "The Markdown-based static site generator written in Swift"
 navigation:
