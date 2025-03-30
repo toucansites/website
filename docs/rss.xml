@@ -3,8 +3,8 @@
     <title>Toucan</title>
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
-    <language>en_US</language>
-    <lastBuildDate>Sun, 30 Mar 2025 20:20:18 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 30 Mar 2025 21:39:39 +0000</lastBuildDate>
     <pubDate>Thu, 16 Jan 2025 13:03:56 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
