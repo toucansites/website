@@ -43,8 +43,9 @@ queries:
 
 dataTypes:
     date:
-        formats:
-            full: "yyyy/MM/dd"
+        dateFormats:
+            full: 
+                format: "yyyy/MM/dd"
 
 contentTypes: 
     include:
