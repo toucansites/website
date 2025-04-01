@@ -4,7 +4,7 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>http://localhost:3000</link>
     <language>en-US</language>
-    <lastBuildDate>Fri, 28 Mar 2025 18:06:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Apr 2025 11:16:17 +0000</lastBuildDate>
     <pubDate>Wed, 15 Jan 2025 12:14:13 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,13 @@
     <description><![CDATA[ The second beta release of Toucan is now available. This release includes many improvements and some new features. ]]></description>
     <link>http://localhost:3000/beta-2-is-now-avaiable/</link>
     <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+</item>
+<item>
+    <guid isPermaLink="true">http://localhost:3000/beta-3-migration-guide/</guid>
+    <title><![CDATA[ Beta 3 migration guide ]]></title>
+    <description><![CDATA[  ]]></description>
+    <link>http://localhost:3000/beta-3-migration-guide/</link>
+    <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">http://localhost:3000/first-beta-release/</guid>

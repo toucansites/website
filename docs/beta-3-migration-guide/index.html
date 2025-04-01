@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.">
+    <meta name="description" content="">
     
-    <meta property="og:url" content="http://localhost:3000/authors/tibor-bodecs/">
-    <meta property="og:title" content="Tibor Bödecs">
-    <meta property="og:description" content="Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.">
-    <meta property="og:image" content="http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg" />
+    <meta property="og:url" content="http://localhost:3000/beta-3-migration-guide/">
+    <meta property="og:title" content="Beta 3 migration guide">
+    <meta property="og:description" content="">
+    
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tibor Bödecs">
-    <meta name="twitter:description" content="Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.">
-    <meta name="twitter:image" content="http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg">
+    <meta name="twitter:title" content="Beta 3 migration guide">
+    <meta name="twitter:description" content="">
+    
     
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
@@ -28,9 +28,9 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>Tibor Bödecs</title>
+    <title>Beta 3 migration guide</title>
 
-    <link rel="canonical" href="http://localhost:3000/authors/tibor-bodecs/">
+    <link rel="canonical" href="http://localhost:3000/beta-3-migration-guide/">
     
     
 
@@ -154,20 +154,52 @@
     </header>
 
     <main id="page-container">
-    <div id="author-page">
+    <article class="post">
         
         <header>
-            <img class="large rounded" src="http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
-            <h1>Tibor Bödecs</h1>
+            
+            <div class="meta">
+                <time datetime="2025-03-31T00:00:00.000Z">3/31/25 12:00 AM</time>
+                 &middot; <span class="reading-time">1 min read</span>
+            </div>
+            <h1>Beta 3 migration guide</h1>
             <hr>
-            <p>Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.</p>
-            <p>5 articles</p>
+            <p class="excerpt"></p>
+            
+            
         </header>
     
+        <section>
         
-        
-        <div class="grid grid-321">
+        <p>Here’s a list of the most important changes in <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.3" target="_blank">this</a> release:</p><ul><li>Utilize a temporary directory for site generation.</li><li>The Base URL now consistently eliminates any trailing slashes.</li><li>Resolved an issue with asset resolution that was related to base URLs.</li><li>Introduced support for default values of content type properties (currently limited to String values, with plans for type safety in a future release).</li></ul><pre><code class="language-yml">properties:
+    featured:
+      type: bool
+      required: true
+      defaultValue: "false"
+</code></pre><ul><li>It is now possible to create basic API endpoints for content types by including the <code>api</code> property along with the desired JSON output file name in the content type definition. This allows for straightforward searching and filtering of content using frontend JavaScript.</li></ul><pre><code class="language-yml">api: posts
+</code></pre><ul><li>Add config option to support custom RSS xml file name.</li></ul><pre><code class="language-yml">contents:
+  rss:
+    output: feed.xml
+</code></pre><ul><li>Introduce basic SEO checks using the <code>--seo-checks</code> flag. This feature will identify common SEO issues, including the length of the title and description, as well as the presence of canonical URLs. Furthermore, it will evaluate H1 and meta tags if a keyword is specified in the front matter.</li></ul><pre><code class="language-yml">keyword: "static site generator"
+</code></pre><p>See the <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2" target="_blank">release notes</a> for more details.</p>
             
+        </section>
+    
+        <footer class="grid grid-221">
+            <div class="author-list">
+                <a href="http://localhost:3000/authors/tibor-bodecs/">
+                <img class="medium rounded" src="http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
+                </a>
+            </div>
+            <div class="tag-list">
+                <a href="http://localhost:3000/tags/releases/"><small>Releases</small></a>
+            </div>
+        </footer>
+        
+        <section>
+        <h4>Related articles</h4>
+        <br>
+        <div class="grid grid-221">
             <div class="post card">
                 <span class="featured">featured</span>
             
@@ -192,8 +224,7 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="post card">
+        <div class="post card">
                 <span class="featured">featured</span>
             
                 <div class="meta">
@@ -217,8 +248,7 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="post card">
+        <div class="post card">
                 
             
                 <div class="meta">
@@ -242,8 +272,7 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="post card">
+        <div class="post card">
                 
             
                 <div class="meta">
@@ -267,33 +296,14 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="post card">
-                
-            
-                <div class="meta">
-                    <time datetime="2024-09-30T00:00:00.000Z">9/30/24</time>
-                     &middot; <span class="reading-time">2 min read</span>
-                </div>
-                
-                <h2 class="title"><a href="http://localhost:3000/toucan-is-now-ready-for-alpha-testing/" target="">Toucan is now ready for alpha testing</a></h2>
-                <hr>
-                <p>Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.</p>
-                
-                <div class="grid grid-221">
-                    <div class="author-list">
-                        <a href="http://localhost:3000/authors/tibor-bodecs/">
-                        <img class="small rounded" src="http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
-                        </a>
-                    </div>
-                    
-                    <div class="tag-list">
-                        <a href="http://localhost:3000/tags/releases/"><small>Releases</small></a>
-                    </div>
-                </div>
-            </div>
         </div>
-        
+        </section>
+    
+    </article>
+    
+    <div class="fixed-toc">
+    <aside>
+    </aside>
     </div>
     
     </main>

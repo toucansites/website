@@ -32,7 +32,7 @@
 
     <link rel="canonical" href="http://localhost:3000/docs/getting-started/commands/">
     <link rel="prev" href="http://localhost:3000/docs/getting-started/basics/">
-    <link rel="next" href="http://localhost:3000/docs/getting-started/site-index/">
+    <link rel="next" href="http://localhost:3000/docs/getting-started/site-settings/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -172,7 +172,7 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/site-index/">Site index</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/site-settings/">Site settings</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/config/">Config</a></li>
                         </ul>
                     </li>
@@ -182,7 +182,18 @@
                             <li><a href="http://localhost:3000/docs/content-management/page-bundles/">Page bundles</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
-                <li><a href="http://localhost:3000/docs/content-management/transformers/">Transformers</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/rendering/">Rendering</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/rendering/basics/">Basics</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/queries/">Queries</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/iterators/">Iterators</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/engines/">Engines</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/transformers/">Transformers</a></li>
+                <li><a href="http://localhost:3000/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -222,7 +233,7 @@
 #2024-12-15T12:15:34+0100 info toucan : [toucan_cli] 'my-site' was prepared successfully.
 cd my-site
 </code></pre><h2 id="generate">Generate</h2><p>The <code>generate</code> command builds static files from the source folder. The static site will be available in a destination directory, which can be customized. Additionally, the site’s base URL can be overridden, which is useful for local development.</p><pre><code class="language-sh">toucan generate ./src ./docs --base-url http://localhost:3000/
-</code></pre><h2 id="watch">Watch</h2><p>The <code>watch</code> command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.</p><blockquote><p>Please note that the <code>watch</code> command is only available on macOS during the beta release.​</p></blockquote><pre><code class="language-sh">toucan watch ./src ./docs --base-url http://localhost:3000/
+</code></pre><h2 id="watch">Watch</h2><p>The <code>watch</code> command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.</p><pre><code class="language-sh">toucan watch ./src ./docs --base-url http://localhost:3000/
 </code></pre><h2 id="serve">Serve</h2><p>The serve command starts a web server to serve a specified directory. It allows serving a folder with an optional port number. By default, your site will be accessible at <code>http://localhost:3000/</code> if run as follows:</p><pre><code class="language-sh">toucan serve ./docs -h localhost -p 3000
 toucan serve ./docs --host localhost --port 3000
 </code></pre><p>You can specify a hostname and port parameter to bind your web server to a given address. This allows you to preview your website at http://localhost:3000/.</p>
@@ -307,6 +318,6 @@ toucan serve ./docs --host localhost --port 3000
     </footer>
     
 
-    <!-- March 28, 2025 6:06:31 PM - Toucan 1.0.0-beta.3 -->
+    <!-- April 1, 2025 11:16:17 AM - Toucan 1.0.0-beta.3 -->
 </body>
 </html>
