@@ -1,17 +1,16 @@
 id: api
-scopes:
 
 queries: 
     posts:
         contentType: post
-        scope: list
+        scope: detail
         orderBy:
             - key: publication
               direction: desc
 
 contentTypes: 
     include:
-        - post
+        - api
 
 engine: 
     id: json

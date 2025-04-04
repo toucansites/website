@@ -35,8 +35,16 @@ queries:
         scope: detail
         limit: 4
         filter:
-            key: tags
-            operator: matching
-            value: "{{tags}}"
-    
-    
+            and:
+                - key: tags
+                  operator: matching
+                  value: "{{tags}}"
+                - key: slug
+                  operator: notEquals
+                  value: "{{slug}}"
+
+
+            
+        orderBy:
+            - key: publication
+              direction: desc
