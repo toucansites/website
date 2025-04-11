@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta name="description" content="This guide will walk you through how to use lists, links and images in Markdown">
     
-    <meta property="og:url" content="http://localhost:3000/docs/installation/macos/">
-    <meta property="og:title" content="macOS">
-    <meta property="og:description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta property="og:url" content="http://localhost:3000/docs/markdown-syntax/list-links-images/">
+    <meta property="og:title" content="List, Links and Images">
+    <meta property="og:description" content="This guide will walk you through how to use lists, links and images in Markdown">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="macOS">
-    <meta name="twitter:description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta name="twitter:title" content="List, Links and Images">
+    <meta name="twitter:description" content="This guide will walk you through how to use lists, links and images in Markdown">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,11 +28,11 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>macOS</title>
+    <title>List, Links and Images</title>
 
-    <link rel="canonical" href="http://localhost:3000/docs/installation/macos/">
-    <link rel="prev" href="http://localhost:3000/docs/getting-started/basics/">
-    <link rel="next" href="http://localhost:3000/docs/integrations/syntax-highlight/">
+    <link rel="canonical" href="http://localhost:3000/docs/markdown-syntax/list-links-images/">
+    <link rel="prev" href="http://localhost:3000/docs/installation/linux/">
+    <link rel="next" href="http://localhost:3000/docs/themes/theme-assets/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -219,21 +219,23 @@
         </div>
         <div class="center">
             <article>
-                <a href="http://localhost:3000/docs/installation/">Installation</a>
+                <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
                 
-                <h1>macOS</h1><hr><p>During the beta release, Toucan can be installed on macOS by compiling from source. Support for <a href="https://brew.sh/" target="_blank">Brew</a> and <a href="https://github.com/yonaskolb/Mint" target="_blank">Mint</a> package managers is coming soon.</p><h2 id="quick-install">Quick install</h2><p>Here’s a quick snippet to install Toucan on macOS. Simply run the following commands. Please note that both Swift and Xcode must be installed on your machine before executing the commands.</p><pre><code class="language-swift"># clone the repository & install toucan
-git clone https://github.com/toucansites/toucan.git
-cd toucan
-make install
-# verify installation
-which toucan
-</code></pre><p>That’s it, the <code>toucan</code> command should now be ready to use.</p><h2 id="compile-from-source">Compile from source</h2><p>It is possible to install Toucan by compiling it from <a href="https://github.com/toucansites/toucan" target="_blank">source</a>.</p><h3 id="prerequisites">Prerequisites</h3><p>Before installing Toucan, ensure Swift 5.10 or a later version is installed on your Linux distribution. Refer to the Swift <a href="https://swift.org/install/linux/#platforms" target="_blank">installation guide</a> on <a href="https://swift.org" target="_blank">swift.org</a> for detailed instructions on installing Swift.</p><h3 id="installation-steps">Installation Steps</h3><p>Follow these steps to install Toucan.</p><h4>Clone the Toucan Repository</h4><p>Open your terminal and run the following command to clone the Toucan repository from <a href="https://github.com/toucansites/toucan" target="_blank">GitHub</a>:</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
-</code></pre><p>This command will download the Toucan repository from GitHub to your local machine.</p><h4>Navigate to the Toucan Directory</h4><p>Change to the Toucan directory by running:</p><pre><code class="language-sh">cd toucan
-</code></pre><p>This will set your current directory to the Toucan project directory.</p><h4>Build Toucan</h4><p>Compile Toucan in release mode by executing:</p><pre><code class="language-sh">swift build -c release
-</code></pre><p>This command will build the Toucan project, creating the necessary executable files.</p><h4>Install Toucan</h4><p>Install the compiled Toucan binary to /usr/local/bin:</p><pre><code class="language-sh">install ./.build/release/toucan-cli /usr/local/bin/toucan
-</code></pre><p>This step places the Toucan executable in a directory included in your system’s PATH, making it easy to run.</p><h2 id="verification">Verification</h2><p>To verify that Toucan is installed correctly, run the following command:</p><pre><code class="language-sh">which toucan
-</code></pre><p>This should output the path to the toucan executable, confirming that the installation was successful.</p><pre><code class="language-sh"># tib@~: which toucan
-/usr/local/bin/toucan
+                <h1>List, Links and Images</h1><p>Markdown makes it easy to add lists, links and images to your documents using simple syntax.</p><hr><h2 id="lists">Lists</h2><h3 id="1.-unordered-lists">1. Unordered Lists</h3><p>Use ‘-’ or ‘*’ to create unordered lists:</p><pre><code>- Item 1
+- Item 2
+  - Subitem 2.1
+</code></pre><ul><li>Item 1</li><li>Item 2<ul><li>Subitem 2.1</li></ul></li></ul><h3 id="2.-ordered-lists">2. Ordered Lists</h3><p>Use numbers followed by a period to create an ordered list:</p><pre><code>1. Item 1
+2. Item 2
+   1. Subitem 2.1
+</code></pre><ol><li>Item 1</li><li>Item 2<ol><li>Subitem 2.1</li></ol></li></ol><h3 id="3.-nesting">3. Nesting</h3><p>You can nest ordered and unordered lists together:</p><pre><code>1. Ordered item
+   - Subitem 1
+</code></pre><ol><li>Ordered item<ul><li>Subitem 1</li></ul></li></ol><h2 id="links">Links</h2><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> for the URL:</p><pre><code>[Link Text](https://example.com)
+</code></pre><p><a href="https://google.com" target="_blank">google.com</a></p><h2 id="images">Images</h2><h3 id="1.-basic-images">1. Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)
+</code></pre><p>    <img src="https://img.freepik.com/free-photo/transparent-colourful-autumn-leaves_23-2148239694.jpg" alt="image"></p><h3 id="2.-images-with-titles">2. Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg "Optional Title")
+</code></pre><p>    <img src="https://img.freepik.com/free-photo/transparent-colourful-autumn-leaves_23-2148239694.jpg" alt="image" title="with title"></p><h2 id="code-blocks">Code Blocks</h2><h3 id="1.-inline-code">1. Inline Code</h3><p>Wrap code in backticks:</p><pre><code>`inline code`
+</code></pre><h3 id="2.-code-blocks">2. Code Blocks</h3><p>Use triple backticks for multi-line code:</p><pre><code>function example() {
+  console.log("Hello, Markdown!");
+}
 </code></pre>
     
     
@@ -252,20 +254,30 @@ which toucan
                 <h4>On this page</h4>
                 <ul>
                     <li class="first-level">
-                        <a href="#quick-install">Quick install</a>
+                        <a href="#lists">Lists</a>
+                        <ul>
+                            <li><a href="#1.-unordered-lists">1. Unordered Lists</a></li>
+                <li><a href="#2.-ordered-lists">2. Ordered Lists</a></li>
+                <li><a href="#3.-nesting">3. Nesting</a></li>
+                        </ul>
+                    </li>
+        <li class="first-level">
+                        <a href="#links">Links</a>
                         <ul>
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#compile-from-source">Compile from source</a>
+                        <a href="#images">Images</a>
                         <ul>
-                            <li><a href="#prerequisites">Prerequisites</a></li>
-                <li><a href="#installation-steps">Installation Steps</a></li>
+                            <li><a href="#1.-basic-images">1. Basic Images</a></li>
+                <li><a href="#2.-images-with-titles">2. Images with Titles</a></li>
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#verification">Verification</a>
+                        <a href="#code-blocks">Code Blocks</a>
                         <ul>
+                            <li><a href="#1.-inline-code">1. Inline Code</a></li>
+                <li><a href="#2.-code-blocks">2. Code Blocks</a></li>
                         </ul>
                     </li>
                 </ul>

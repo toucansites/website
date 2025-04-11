@@ -362,3 +362,11 @@ details div p:not(:first-child) {
 details div p:not(:last-child) {
     margin-bottom: 16px;
 }
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--primary-text-color);
+    padding-left: 15px;
+    margin: 10px 0;
+    color: #555;
+  }

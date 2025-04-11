@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta name="description" content="Guidance on Markdown syntax.">
     
-    <meta property="og:url" content="http://localhost:3000/docs/installation/macos/">
-    <meta property="og:title" content="macOS">
-    <meta property="og:description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta property="og:url" content="http://localhost:3000/docs/markdown-syntax/">
+    <meta property="og:title" content="Markdown syntax">
+    <meta property="og:description" content="Guidance on Markdown syntax.">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="macOS">
-    <meta name="twitter:description" content="Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily">
+    <meta name="twitter:title" content="Markdown syntax">
+    <meta name="twitter:description" content="Guidance on Markdown syntax.">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,11 +28,11 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>macOS</title>
+    <title>Markdown syntax</title>
 
-    <link rel="canonical" href="http://localhost:3000/docs/installation/macos/">
-    <link rel="prev" href="http://localhost:3000/docs/getting-started/basics/">
-    <link rel="next" href="http://localhost:3000/docs/integrations/syntax-highlight/">
+    <link rel="canonical" href="http://localhost:3000/docs/markdown-syntax/">
+    
+    
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -153,7 +153,6 @@
     </header>
 
     <main id="page-container">
-    
     <div id="docs">
         <div class="left">
             <aside>
@@ -219,32 +218,14 @@
         </div>
         <div class="center">
             <article>
-                <a href="http://localhost:3000/docs/installation/">Installation</a>
-                
-                <h1>macOS</h1><hr><p>During the beta release, Toucan can be installed on macOS by compiling from source. Support for <a href="https://brew.sh/" target="_blank">Brew</a> and <a href="https://github.com/yonaskolb/Mint" target="_blank">Mint</a> package managers is coming soon.</p><h2 id="quick-install">Quick install</h2><p>Here’s a quick snippet to install Toucan on macOS. Simply run the following commands. Please note that both Swift and Xcode must be installed on your machine before executing the commands.</p><pre><code class="language-swift"># clone the repository & install toucan
-git clone https://github.com/toucansites/toucan.git
-cd toucan
-make install
-# verify installation
-which toucan
-</code></pre><p>That’s it, the <code>toucan</code> command should now be ready to use.</p><h2 id="compile-from-source">Compile from source</h2><p>It is possible to install Toucan by compiling it from <a href="https://github.com/toucansites/toucan" target="_blank">source</a>.</p><h3 id="prerequisites">Prerequisites</h3><p>Before installing Toucan, ensure Swift 5.10 or a later version is installed on your Linux distribution. Refer to the Swift <a href="https://swift.org/install/linux/#platforms" target="_blank">installation guide</a> on <a href="https://swift.org" target="_blank">swift.org</a> for detailed instructions on installing Swift.</p><h3 id="installation-steps">Installation Steps</h3><p>Follow these steps to install Toucan.</p><h4>Clone the Toucan Repository</h4><p>Open your terminal and run the following command to clone the Toucan repository from <a href="https://github.com/toucansites/toucan" target="_blank">GitHub</a>:</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
-</code></pre><p>This command will download the Toucan repository from GitHub to your local machine.</p><h4>Navigate to the Toucan Directory</h4><p>Change to the Toucan directory by running:</p><pre><code class="language-sh">cd toucan
-</code></pre><p>This will set your current directory to the Toucan project directory.</p><h4>Build Toucan</h4><p>Compile Toucan in release mode by executing:</p><pre><code class="language-sh">swift build -c release
-</code></pre><p>This command will build the Toucan project, creating the necessary executable files.</p><h4>Install Toucan</h4><p>Install the compiled Toucan binary to /usr/local/bin:</p><pre><code class="language-sh">install ./.build/release/toucan-cli /usr/local/bin/toucan
-</code></pre><p>This step places the Toucan executable in a directory included in your system’s PATH, making it easy to run.</p><h2 id="verification">Verification</h2><p>To verify that Toucan is installed correctly, run the following command:</p><pre><code class="language-sh">which toucan
-</code></pre><p>This should output the path to the toucan executable, confirming that the installation was successful.</p><pre><code class="language-sh"># tib@~: which toucan
-/usr/local/bin/toucan
-</code></pre>
-    
-    
-                <section>
-                <div class="grid grid-2">
-                <div></div>
-                    
-                <div></div>
-                </div>
-                </section>
-    
+                <a href="/docs/">Docs</a>
+                <h1>Markdown syntax</h1><hr><p>Toucan uses <a href="https://github.com/apple/swift-markdown" target="_blank">Apple’s Swift Markdown library</a>, which is built on CommonMark. CommonMark has a stricter, more limited feature set, meaning that some Markdown elements may not be supported.</p><h2 id="supported-features">Supported Features</h2><p>Since Swift Markdown follows the CommonMark specification, the following elements work as expected:</p><ul><li>Headings (#, ##, ###, etc.)</li><li>Paragraphs (regular text formatting)</li><li>Bold & Italics (<strong>bold</strong>, <em>italic</em>)</li><li>Inline Code (<code>code</code>) and Code Blocks (  ```)</li><li>Blockquotes (> Quoted text)</li><li>Lists (ordered 1. and unordered - or *)</li><li>Links & Images (<a href="url" target="_blank">text</a>,     <img src="image_url" alt="alt">)</li><li>Horizontal Rules (—, ***)</li></ul><h2 id="unsupported-or-limited-features">Unsupported or Limited Features</h2><p>Some commonly used Markdown features are not included in CommonMark and are not supported by Swift Markdown:</p><ul><li>❌ Tables (| Column | Column |)</li><li>❌ Task Lists (- [x] Completed task)</li><li>❌ Strikethrough (<s>text</s>)</li><li>❌ Auto-linking of URLs (<www.example.com> won’t automatically become a link)</li></ul><p>For a full reference on supported features, please refer to the <a href="https://commonmark.org/" target="_blank">CommonMark</a> specification.</p>
+            
+                <h2>Guides</h2>
+                <ul>
+                    <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                </ul>
             </article>
         </div>
         <div class="right">
@@ -252,19 +233,12 @@ which toucan
                 <h4>On this page</h4>
                 <ul>
                     <li class="first-level">
-                        <a href="#quick-install">Quick install</a>
+                        <a href="#supported-features">Supported Features</a>
                         <ul>
                         </ul>
                     </li>
         <li class="first-level">
-                        <a href="#compile-from-source">Compile from source</a>
-                        <ul>
-                            <li><a href="#prerequisites">Prerequisites</a></li>
-                <li><a href="#installation-steps">Installation Steps</a></li>
-                        </ul>
-                    </li>
-        <li class="first-level">
-                        <a href="#verification">Verification</a>
+                        <a href="#unsupported-or-limited-features">Unsupported or Limited Features</a>
                         <ul>
                         </ul>
                     </li>
