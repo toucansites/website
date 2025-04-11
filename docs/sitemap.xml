@@ -50,26 +50,28 @@
         <loc>http://localhost:3000/docs/content-management/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/deployment/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/getting-started/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/installation/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/integrations/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/markdown-syntax/</loc>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/themes/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
 
         <loc>http://localhost:3000/docs/content-management/front-matter/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/content-management/markdown/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/content-management/page-bundles/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/content-management/transformers/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/deployment/github-pages/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/getting-started/basics/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/getting-started/commands/</loc>
@@ -88,6 +90,10 @@
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/integrations/syntax-highlight/</loc>
         <lastmod>2025-04-04</lastmod>
+        <loc>http://localhost:3000/docs/markdown-syntax/list-links-images/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/markdown-syntax/text-formating/</loc>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/themes/basics/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/themes/block-directives/</loc>

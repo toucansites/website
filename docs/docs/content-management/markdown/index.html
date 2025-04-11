@@ -186,6 +186,13 @@
                         </ul>
                     </li>
         <li class="category">
+                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
                         <a href="http://localhost:3000/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="http://localhost:3000/docs/themes/basics/">Theme basics</a></li>
@@ -225,7 +232,7 @@ custom: "This is a custom front matter value"
 ## My page
 
 This is my page
-</code></pre><p>Every user-defined front matter property is accessible as a <a href="http://localhost:3000/docs/themes/mustache-templates/">context variable</a> within your page template.</p><h2 id="content">Content</h2><p>Content is written using markdown syntax. For more details, please refer to the <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">official markdown syntax guide</a>.</p><h2 id="block-directives">Block Directives</h2><p>Markdown in Toucan can be extended with <a href="http://localhost:3000/docs/themes/block-directives/">custom block directives</a>, allowing the integration of custom UI components. These directives are defined in the theme configuration and offer a way to enrich the user interface by embedding custom elements directly into the content.</p><p>Example:</p><pre><code class="language-md">@Button(label: "Click Me") { This is a button }
+</code></pre><p>Every user-defined front matter property is accessible as a <a href="http://localhost:3000/docs/themes/mustache-templates/">context variable</a> within your page template.</p><h2 id="content">Content</h2><p>Content is written using markdown syntax. For more details, check the <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a> section.</p><h2 id="block-directives">Block Directives</h2><p>Markdown in Toucan can be extended with <a href="http://localhost:3000/docs/themes/block-directives/">custom block directives</a>, allowing the integration of custom UI components. These directives are defined in the theme configuration and offer a way to enrich the user interface by embedding custom elements directly into the content.</p><p>Example:</p><pre><code class="language-md">@Button(label: "Click Me") { This is a button }
 </code></pre><p>By leveraging front matter and block directives, Toucan enables enhanced control and flexibility in generating dynamic HTML content.</p>
     
     
