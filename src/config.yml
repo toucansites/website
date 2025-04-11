@@ -1,6 +1,6 @@
 dateFormats:
-    input: 
+    input:
         format: "yyyy-MM-dd HH:mm:ss"
     output:
-        year:
+        year: 
             format: "y"

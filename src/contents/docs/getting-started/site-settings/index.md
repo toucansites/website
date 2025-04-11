@@ -1,12 +1,12 @@
 ---
 type: guide
-title: "Site index"
-description: "The site index file for Toucan handles settings for your static site and is stored in a YAML file"
+title: "Site settings"
+description: "The site file for Toucan handles settings for your static site and is stored in a YAML file"
 category: getting-started
 order: 3
 ---
 
-# Site index
+# Site settings
 ---
 
 This site index defines key settings for the website. The site index for Toucan is stored in the `index.yml` file, inside the `src/contents` directory, though the `.yaml` extension can also be used.
