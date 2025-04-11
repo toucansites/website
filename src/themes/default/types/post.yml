@@ -42,9 +42,6 @@ queries:
                 - key: slug
                   operator: notEquals
                   value: "{{slug}}"
-
-
-            
         orderBy:
             - key: publication
               direction: desc
