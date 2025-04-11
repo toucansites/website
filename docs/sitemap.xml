@@ -25,7 +25,7 @@
         <loc>http://localhost:3000/beta-3-is-out/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/beta-3-migration-guide/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/first-beta-release/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/</loc>
@@ -59,6 +59,8 @@
         <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/markdown-syntax/</loc>
         <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/</loc>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/themes/</loc>
         <lastmod>2025-04-11</lastmod>
 
@@ -67,19 +69,17 @@
         <loc>http://localhost:3000/docs/content-management/markdown/</loc>
         <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/content-management/page-bundles/</loc>
-        <lastmod>2025-04-04</lastmod>
-        <loc>http://localhost:3000/docs/content-management/transformers/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/deployment/github-pages/</loc>
         <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/getting-started/basics/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/getting-started/commands/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/getting-started/config/</loc>
         <lastmod>2025-04-04</lastmod>
-        <loc>http://localhost:3000/docs/getting-started/site-index/</loc>
-        <lastmod>2025-04-04</lastmod>
+        <loc>http://localhost:3000/docs/getting-started/site-settings/</loc>
+        <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/installation/linux/</loc>
         <lastmod>2025-04-04</lastmod>
         <loc>http://localhost:3000/docs/installation/macos/</loc>
@@ -93,6 +93,20 @@
         <loc>http://localhost:3000/docs/markdown-syntax/list-links-images/</loc>
         <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/markdown-syntax/text-formating/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/basics/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/engines/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/iterators/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/pipelines/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/queries/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/scopes/</loc>
+        <lastmod>2025-04-11</lastmod>
+        <loc>http://localhost:3000/docs/rendering/transformers/</loc>
         <lastmod>2025-04-11</lastmod>
         <loc>http://localhost:3000/docs/themes/basics/</loc>
         <lastmod>2025-04-04</lastmod>

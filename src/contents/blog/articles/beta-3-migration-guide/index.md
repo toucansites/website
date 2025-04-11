@@ -10,4 +10,3 @@ authors:
 featured: true
 draft: true
 ---
-Coming soon!
