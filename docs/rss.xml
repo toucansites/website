@@ -4,8 +4,8 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
     <language>en-US</language>
-    <lastBuildDate>Tue, 15 Apr 2025 16:43:37 +0000</lastBuildDate>
-    <pubDate>Mon, 14 Apr 2025 14:30:52 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Apr 2025 19:34:06 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Apr 2025 12:46:56 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,9 +26,9 @@
 <item>
     <guid isPermaLink="true">https://toucansites.com/beta-3-migration-guide/</guid>
     <title><![CDATA[ Beta 3 migration guide ]]></title>
-    <description><![CDATA[ Coming soon! ]]></description>
+    <description><![CDATA[ Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features. ]]></description>
     <link>https://toucansites.com/beta-3-migration-guide/</link>
-    <pubDate>Wed, 02 Apr 2025 14:00:00 +0000</pubDate>
+    <pubDate>Tue, 15 Apr 2025 14:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/first-beta-release/</guid>
