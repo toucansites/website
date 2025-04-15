@@ -31,7 +31,7 @@
     <title>Iterators</title>
 
     <link rel="canonical" href="https://toucansites.com/docs/rendering/iterators/">
-    <link rel="prev" href="https://toucansites.com/docs/rendering/queries/">
+    <link rel="prev" href="https://toucansites.com/docs/rendering/scopes/">
     <link rel="next" href="https://toucansites.com/docs/rendering/engines/">
 
     <link rel="manifest" href="/manifest.json" />
@@ -173,13 +173,13 @@
                             <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
@@ -191,39 +191,32 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
-                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/themes/basics/">Theme basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics-and-insights/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="https://toucansites.com/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -243,7 +236,7 @@
         orderBy:
             - key: publication
               direction: desc
-</code></pre><blockquote><p>This page focuses on iterators. If you’re unfamiliar with queries, check out the <a href="https://toucansites.com/docs/rendering/queries/">Queries</a> page first.</p></blockquote><h2 id="iterator-bundle">Iterator bundle</h2><p>After defining your iterator, you just have to tell <em>Toucan</em> how to render each page. This is done by creating a content bundle. The bundle should have a special name—the iterator identifier enclosed in double braces: <code>{{iterator_id}}</code> (e.g., {{post.pagination}} in the earlier example).</p><p>You will most likely create a content bundle of type page with a separate template. Define your slug; the <code>{{iterator_id}}</code> will be replaced with the current page number. You can also refer to <code>{{number}}</code> and <code>{{total}}</code> to display additional information in the title, for example.</p><pre><code class="language-md">---
+</code></pre><blockquote><p>This page focuses on iterators. If you’re unfamiliar with queries, check out the <a href="https://toucansites.com/docs/rendering/queries/">Queries</a> page first.</p></blockquote><h2 id="iterator-bundle">Iterator bundle</h2><p>After defining your iterator, you just have to tell <em>Toucan</em> how to render each page. This is done by creating a content bundle. The bundle should have a special name—the iterator identifier enclosed in double braces: <code>{{iterator_id}}</code> (e.g., {{post.pagination}} in the earlier example).</p><p>You will most likely create a content bundle of type page with a separate template. Define your slug; the <code>{{iterator_id}}</code> will be replaced with the current page number. You can also refer to <code>{{number}}</code> and <code>{{total}}</code> to display additional information in the title, for example.</p><pre><code class="language-yml">---
 type: page
 home: articles/page
 slug: articles/page/{{post.pagination}}

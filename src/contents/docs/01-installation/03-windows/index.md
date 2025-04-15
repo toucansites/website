@@ -1,10 +1,11 @@
 ---
-id: windows
-slug: docs/installation/windows
-category: installation
+id: "windows"
+slug: "docs/installation/windows"
+category: "installation"
+order: 3
+################################################################################
 title: "Windows"
 description: "Learn how to install Toucan on Windows with simple steps. Follow this guide to set up and start using Toucan easily"
-order: 3
 ---
 
 # Windows

@@ -173,13 +173,13 @@
                             <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
@@ -191,39 +191,32 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
-                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/themes/basics/">Theme basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics-and-insights/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="https://toucansites.com/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -233,84 +226,35 @@
             <article>
                 <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
                 
-                <h1>Basics</h1><hr><p>Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.</p><h2 id="prerequisites">Prerequisites</h2><p>Before you start this guide you must install the Toucan binary by following the provided <a href="https://toucansites.com/docs/installation/">installation</a> guide.</p><p>You should also be comfortable using the command line.</p><h2 id="site-index">Site index</h2><p>To begin using Toucan, a source directory is required for the site. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme.</p><p>The first step is to start a new project for the website and create the source directory with the <code>contents</code> and <code>themes</code> folders:</p><pre><code class="language-sh"># The directory for the website
-mkdir my-website
-cd my-website
-# The location of the source files
-mkdir src
-cd src
-# The location of the site contents
-mkdir contents
-cd contents
-</code></pre><p>The next step involves creating a site index file in YAML format. A <code>index.yml</code> file should be created inside the <code>src/contents</code> directory with the following contents:</p><pre><code class="language-yml"># FILE: src/contents/index.yml
-baseUrl: "http://localhost:3000/"
-title: "My website"
-</code></pre><p>The base URL refers to the site’s final domain where it will be available. In this case, a development environment is being used, which is why <code>http://localhost:3000</code> was set. For production, the URL should match the site’s domain without the port, and the protocol should be HTTPS.</p><p>The site title will be appended to every page as a suffix, with a dash character used as a separator.</p><h2 id="the-home-page">The home page</h2><p>With the basic settings in place, the next step is to create the homepage for the website. Create a <code>home</code> directory inside the <code>src/contents</code> folder:</p><pre><code class="language-sh"># The location of the Markdown content, inside the src/contents folder
-mkdir home
-cd home
-</code></pre><p>Next, create an <code>index.md</code> file to serve as the homepage for the website. Place the Markdown file in the <code>src/content/home</code> directory with the following contents:</p><pre><code class="language-md">---
-title: "Home"
-description: "Welcome to the home page."
----
-
-# Hello
-
-This is the home page.
-</code></pre><p>The first part of the Markdown, located between the <code>---</code> characters, is called the front matter. This section defines additional properties for the content, such as the title, description, or the name of the template file used during the site generation process.</p><p>Now that we have a simple home page, we still need a theme to render the website. For this purpose we can grab the minimal-theme from <a href="https://github.com/toucansites/minimal-theme/" target="_blank">GitHub</a>.</p><pre><code class="language-sh"># Run this snippet inside the src folder
-mkdir themes
-cd themes
-curl -L -O https://github.com/toucansites/minimal-theme/archive/refs/heads/main.zip 
-unzip main.zip 
-mv minimal-theme-main default
-rm main.zip
-</code></pre><p>The snippet above retrieves the minimal theme and places it inside the <code>content/themes/default</code> directory. Toucan will automatically use the theme in this folder by default to render the website. With the minimal theme set as default, the website is now ready for generation.</p><p>The final website is generated by running the <code>generate</code> command. The generated files will be placed inside the docs folder, which is located next to the src folder.</p><blockquote><p>During development, monitoring the source files for changes can be helpful, which can be done using the watch command. More information can be found in the <a href="https://toucansites.com/docs/getting-started/commands/">commands</a> section.</p></blockquote><pre><code class="language-sh"># Run this inside the my-website folder
+                <h1>Basics</h1><hr><p>Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.</p><h2 id="prerequisites">Prerequisites</h2><p>Before you start this guide you must install the Toucan binary by following the provided <a href="https://toucansites.com/docs/installation/">installation</a> guide.</p><p>You should also be comfortable using the command line.</p><h2 id="minimal-example">Minimal example</h2><p>To begin using Toucan, we’re going to use a minimal example project as a starting point.</p><p>In order to create a new site, you can run the toucan init command, this will bootstrap a new website:</p><pre><code class="language-sh">toucan init
+</code></pre><p>This will download a minimal started theme and initialize a basic website inside a newly created site directory to get started with.</p><blockquote class="tip"><p>You can use <code>toucan init my-site</code> to create a custom folder instead of <code>site</code>.</p></blockquote><p>The newly created site directory will contain the source materials for your website, (src directory) like the contents, pipelines, themes, content type definitions etc. In order to make the final website, we have to render the source, this means generating the final html files using the source markdown files and the render pipeline.</p><p>In order to generate the final contents, run the generate command:</p><pre><code class="language-sh"># move to the site directory
+cd site
+# generate the final website
 toucan generate
-</code></pre><p>To preview the website, run the serve command. This will start a basic web server using the <a href="https://hummingbird.codes/" target="_blank">Hummingbird</a> framework and host the website locally on port 3000. The contents will be served from the docs folder.</p><pre><code class="language-sh"># Run this inside the my-website folder
-toucan serve
-</code></pre><p>To preview the site, navigate to <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a> in a web browser.</p><p>The site logo might appear to be missing. Let’s address this issue quickly and take a moment to explain how asset management works.</p><h2 id="site-assets">Site assets</h2><p>Global website assets are stored in the <code>src/contents/assets</code> folder. Any files placed in this folder will be recursively copied to the root directory of the final website.</p><pre><code class="language-sh"># Inside the src/contents directory
-mkdir assets
-cd assets
-mkdir images
-cd images
-# Pick a logo and copy to the images directory
-cp ~/my-logo.png ./logo.png
-</code></pre><p>The minimal theme uses the <code>logo.png</code> file as the main image for the website. This file must be placed inside the <code>images</code> folder.</p><p>It is also possible to create additional directories and place images, JavaScript, CSS, and other files in the <code>assets</code> folder. These files will be available as global assets when the website is built.</p><p>Toucan differentiates between page assets and global assets. Each subpage can have its own assets directory, and together, the subpage and its assets are referred to as page bundles.</p><h2 id="the-404-page">The 404 page</h2><p>Creating a custom “Not Found” page is a common use case for a website. To do this, create a special <code>404</code> directory inside the <code>contents</code> folder:</p><pre><code class="language-sh"># Inside the src/contents directory
-mkdir 404
-cd 404
-</code></pre><p>The starting point for the 404 page is an <code>index.md</code> Markdown file. Create this file with the following contents:</p><pre><code class="language-markdown">---
-title: "Not found"
-description: "Page not found"
----
-
-# Not found
-
-![Not Found](./assets/not-found.png)
-
-This page does not exists.
-
-[Take me home](/)
-</code></pre><p>This page includes a “not found” image, which needs to be placed inside the <code>404/assets</code> directory. As mentioned earlier, pages can have their own assets stored within the page bundle, which, in this case, is the <code>404</code> directory.</p><pre><code class="language-sh"># Inside the src/content/404 directory
-mkdir assets
-cd assets
-cp ~/not-found.png ./not-found.png
-</code></pre><p>Regenerate the website and refresh the browser window. Ensure that the browser cache is disabled to view the changes properly. Enter an invalid URL to verify that the system redirects to the custom 404 page.</p><h2 id="page-bundles">Page bundles</h2><p>Like the 404 page, every subpage of the website can be defined as a page bundle. Page bundles are simple directories where the slug of the subpage matches the folder name containing the <code>index.md</code> file.</p><p>Create a new <code>about</code> subpage by setting up a directory named <code>about</code> and placing an <code>index.md</code> file inside it.</p><pre><code class="language-sh"># Inside the src/content directory
-mkdir about
-</code></pre><p>Create an <code>index.md</code> file inside the <code>about</code> directory with the following contents:</p><pre><code class="language-markdown">---
-title: "About"
-description: "About my website"
----
-
-# About
-
-This page is all about my website.
-</code></pre><p>Customize the contents of the about page as desired. Regenerate the site or use the <code>watch</code> command to monitor for changes and preview the updates in the browser.</p><h2 id="site-navigation">Site navigation</h2><p>The final step of this tutorial is setting up a basic menu for the website. The minimal theme supports navigation, and new menu items can be added by defining them in the site’s index file as shown below:</p><pre><code class="language-yml">baseUrl: "http://localhost:3000/"
-title: "My website"
-navigation:
-    - label: "Home"
-      url: "/"
-    - label: "About"
-      url: "/about/"
-</code></pre><p>The <code>navigation</code> key should include all the menu items, with each item containing its URL and label.</p><h2 id="page-templates">Page templates</h2><p>To fully customize the look and feel of a subpage, create a custom <a href="https://mustache.github.io/mustache.5.html" target="_blank">Mustache</a> file and reference it in the <code>template</code> front matter key, as done for the homepage. The value should match the location of the template file without the <code>.mustache</code> extension.</p><p>This concludes the basics. To learn more about how Toucan works, check out the open-source reference projects. More documentation and tutorials will be available soon. For any questions, feel free to contact us.</p>
+#2025-04-15T18:03:52+0200 info toucan : baseUrl=nil input=./src output=./docs [toucan_generate] Site generated successfully.
+</code></pre><p>The final website contents will be under a newly created docs folder, you can host these files on a file server, or using a static website hosting provider, like GitHub Pages, but if you want to do that, you have to make sure that you use the correct <a href="https://toucansites.com/docs/getting-started/commands/">base url</a>, which is essentially your domain name. Right now the docs folder contains a local development version of the generated website, which can be previewed by running the following command:</p><pre><code class="language-sh">toucan serve
+</code></pre><p>Now if you navigate to http://localhost:3000 you should see a basic website. Congratulations you just created your very first static website with Toucan.</p><h2 id="source-materials">Source materials</h2><p>The src directory contains the source materials for the website. This directory will contain all content, and theme files. This guide provides a quick setup using a minimal starter theme. Let’s examine the directory structure real quick:</p><pre><code class="language-sh">.
+├── config.yml
+├── contents
+│   ├── assets
+│   │   ├── CNAME
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── images
+│   │       └── logo.png
+│   ├── 404
+│   │   └── index.md
+│   ├── about
+│   │   └── index.md
+│   ├── home
+│   │   └── index.md
+│   ├── sitemap.xml
+│   │  └── index.yml
+│   └── site.yml
+├── pipelines
+└── themes
+</code></pre><p>The <code>config.yml</code> file contains Toucan related configurations, you can read more about it in the next guide.</p><p>The contents folder is where you put the Markdown files and public assets, like javascript, css or images. The home/index.md file is essentially your home page, the about/index.md file represents an about page, likewise the 404/index.html corresponds the not found page.</p><p>The sitemap.xml file represents a basic sitemap for the website.</p><p>The site.yml is where you can configure your site related properties, such as the name, description, base url (domain name) and navigation structure. You can put other variables here if you want to provide more things for the template files as context variables. See template guides.</p><p>Try to change something in the contents directory, and make sure you re-generate the site. Oh by the wait, we have a built-in watch command which can check file changes in the source directory and automatically regenerate everything:</p><pre><code class="language-sh">toucan watch
+</code></pre><p>Now if you refresh the browser window (make sure browser cache is disabled and the <code>toucan serve</code> command is also running in a terminal window) you should instantly see the changes when you edit something in the source directory.</p><p>To learn more about how Toucan works, continue with our guides or check out the open-source reference projects. More documentation and tutorials will be available soon. For any questions, feel free to contact us.</p>
     
     
                 <section>
@@ -331,25 +275,10 @@ navigation:
                         <a href="#prerequisites">Prerequisites</a>
                     </li>
         <li class="level-2">
-                        <a href="#site-index">Site index</a>
+                        <a href="#minimal-example">Minimal example</a>
                     </li>
         <li class="level-2">
-                        <a href="#the-home-page">The home page</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#site-assets">Site assets</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#the-404-page">The 404 page</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#page-bundles">Page bundles</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#site-navigation">Site navigation</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#page-templates">Page templates</a>
+                        <a href="#source-materials">Source materials</a>
                     </li>
                 </ul>
             </aside>

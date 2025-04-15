@@ -42,7 +42,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-            "slug" : "authors/ferenc-viasz-kadi",
+            "slug" : {
+              "value" : "authors/ferenc-viasz-kadi"
+            },
             "title" : "Ferenc Viasz-Kadi"
           }
         ],
@@ -179,7 +181,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -243,7 +247,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-migration-guide",
+            "slug" : {
+              "value" : "beta-3-migration-guide"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -284,7 +290,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -331,7 +339,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -394,7 +404,9 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : "beta-2-is-now-avaiable",
+            "slug" : {
+              "value" : "beta-2-is-now-avaiable"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -435,7 +447,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -482,7 +496,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -545,7 +561,9 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : "first-beta-release",
+            "slug" : {
+              "value" : "first-beta-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -586,7 +604,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -633,7 +653,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -727,7 +749,9 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : "last-alpha-release",
+            "slug" : {
+              "value" : "last-alpha-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -768,14 +792,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : "beta-3-is-out",
+        "slug" : {
+          "value" : "beta-3-is-out"
+        },
         "tags" : [
           {
             "contents" : {
@@ -816,7 +844,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -863,7 +893,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-            "slug" : "authors/ferenc-viasz-kadi",
+            "slug" : {
+              "value" : "authors/ferenc-viasz-kadi"
+            },
             "title" : "Ferenc Viasz-Kadi"
           }
         ],
@@ -969,7 +1001,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -1064,7 +1098,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-is-out",
+            "slug" : {
+              "value" : "beta-3-is-out"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -1105,7 +1141,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -1152,7 +1190,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1215,7 +1255,9 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : "beta-2-is-now-avaiable",
+            "slug" : {
+              "value" : "beta-2-is-now-avaiable"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -1256,7 +1298,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -1303,7 +1347,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1366,7 +1412,9 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : "first-beta-release",
+            "slug" : {
+              "value" : "first-beta-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -1407,7 +1455,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -1454,7 +1504,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1548,7 +1600,9 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : "last-alpha-release",
+            "slug" : {
+              "value" : "last-alpha-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -1589,14 +1643,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : "beta-3-migration-guide",
+        "slug" : {
+          "value" : "beta-3-migration-guide"
+        },
         "tags" : [
           {
             "contents" : {
@@ -1637,7 +1695,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -1684,7 +1744,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-            "slug" : "authors/tibor-bodecs",
+            "slug" : {
+              "value" : "authors/tibor-bodecs"
+            },
             "title" : "Tibor Bödecs"
           }
         ],
@@ -1789,7 +1851,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -1884,7 +1948,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-is-out",
+            "slug" : {
+              "value" : "beta-3-is-out"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -1925,7 +1991,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -1972,7 +2040,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2036,7 +2106,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-migration-guide",
+            "slug" : {
+              "value" : "beta-3-migration-guide"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -2077,7 +2149,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -2124,7 +2198,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -2187,7 +2263,9 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : "first-beta-release",
+            "slug" : {
+              "value" : "first-beta-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -2228,7 +2306,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -2275,7 +2355,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -2369,7 +2451,9 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : "last-alpha-release",
+            "slug" : {
+              "value" : "last-alpha-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -2410,14 +2494,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : "beta-2-is-now-avaiable",
+        "slug" : {
+          "value" : "beta-2-is-now-avaiable"
+        },
         "tags" : [
           {
             "contents" : {
@@ -2458,7 +2546,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -2505,7 +2595,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-            "slug" : "authors/tibor-bodecs",
+            "slug" : {
+              "value" : "authors/tibor-bodecs"
+            },
             "title" : "Tibor Bödecs"
           }
         ],
@@ -2610,7 +2702,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2705,7 +2799,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-is-out",
+            "slug" : {
+              "value" : "beta-3-is-out"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -2746,7 +2842,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -2793,7 +2891,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2857,7 +2957,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-migration-guide",
+            "slug" : {
+              "value" : "beta-3-migration-guide"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -2898,7 +3000,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -2945,7 +3049,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3008,7 +3114,9 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : "beta-2-is-now-avaiable",
+            "slug" : {
+              "value" : "beta-2-is-now-avaiable"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -3049,7 +3157,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -3096,7 +3206,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3190,7 +3302,9 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : "last-alpha-release",
+            "slug" : {
+              "value" : "last-alpha-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -3231,14 +3345,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : "first-beta-release",
+        "slug" : {
+          "value" : "first-beta-release"
+        },
         "tags" : [
           {
             "contents" : {
@@ -3279,7 +3397,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -3326,7 +3446,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-            "slug" : "authors/tibor-bodecs",
+            "slug" : {
+              "value" : "authors/tibor-bodecs"
+            },
             "title" : "Tibor Bödecs"
           }
         ],
@@ -3462,7 +3584,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -3557,7 +3681,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-is-out",
+            "slug" : {
+              "value" : "beta-3-is-out"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -3598,7 +3724,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -3645,7 +3773,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -3709,7 +3839,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-migration-guide",
+            "slug" : {
+              "value" : "beta-3-migration-guide"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -3750,7 +3882,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -3797,7 +3931,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3860,7 +3996,9 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : "beta-2-is-now-avaiable",
+            "slug" : {
+              "value" : "beta-2-is-now-avaiable"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -3901,7 +4039,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -3948,7 +4088,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4011,7 +4153,9 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : "first-beta-release",
+            "slug" : {
+              "value" : "first-beta-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -4052,14 +4196,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "First beta release"
           }
         ],
-        "slug" : "last-alpha-release",
+        "slug" : {
+          "value" : "last-alpha-release"
+        },
         "tags" : [
           {
             "contents" : {
@@ -4100,7 +4248,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -4147,7 +4297,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-            "slug" : "authors/tibor-bodecs",
+            "slug" : {
+              "value" : "authors/tibor-bodecs"
+            },
             "title" : "Tibor Bödecs"
           }
         ],
@@ -4283,7 +4435,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -4378,7 +4532,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-is-out",
+            "slug" : {
+              "value" : "beta-3-is-out"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -4419,7 +4575,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -4466,7 +4624,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
-                "slug" : "authors/ferenc-viasz-kadi",
+                "slug" : {
+                  "value" : "authors/ferenc-viasz-kadi"
+                },
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -4530,7 +4690,9 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : "beta-3-migration-guide",
+            "slug" : {
+              "value" : "beta-3-migration-guide"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -4571,7 +4733,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -4618,7 +4782,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4681,7 +4847,9 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : "beta-2-is-now-avaiable",
+            "slug" : {
+              "value" : "beta-2-is-now-avaiable"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -4722,7 +4890,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
@@ -4769,7 +4939,9 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
-                "slug" : "authors/tibor-bodecs",
+                "slug" : {
+                  "value" : "authors/tibor-bodecs"
+                },
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4832,7 +5004,9 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : "first-beta-release",
+            "slug" : {
+              "value" : "first-beta-release"
+            },
             "tags" : [
               {
                 "contents" : {
@@ -4873,14 +5047,18 @@
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
-                "slug" : "tags/releases",
+                "slug" : {
+                  "value" : "tags/releases"
+                },
                 "title" : "Releases"
               }
             ],
             "title" : "First beta release"
           }
         ],
-        "slug" : "toucan-is-now-ready-for-alpha-testing",
+        "slug" : {
+          "value" : "toucan-is-now-ready-for-alpha-testing"
+        },
         "tags" : [
           {
             "contents" : {
@@ -4921,7 +5099,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
-            "slug" : "tags/releases",
+            "slug" : {
+              "value" : "tags/releases"
+            },
             "title" : "Releases"
           }
         ],
@@ -4968,7 +5148,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/andris-sipos/",
-            "slug" : "authors/andris-sipos",
+            "slug" : {
+              "value" : "authors/andris-sipos"
+            },
             "title" : "Andris Sipos"
           }
         ],
@@ -5089,7 +5271,9 @@
         "related" : [
 
         ],
-        "slug" : "introducing-toucan-a-new-markdown-based-static-site-generator",
+        "slug" : {
+          "value" : "introducing-toucan-a-new-markdown-based-static-site-generator"
+        },
         "tags" : [
           {
             "contents" : {
@@ -5130,7 +5314,9 @@
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/news/",
-            "slug" : "tags/news",
+            "slug" : {
+              "value" : "tags/news"
+            },
             "title" : "News"
           }
         ],
@@ -5175,7 +5361,9 @@
       "timestamp" : 1744641052.1138248
     },
     "permalink" : "https://toucansites.com/api.json",
-    "slug" : "api.json"
+    "slug" : {
+      "value" : "api.json"
+    }
   },
   "site" : {
     "baseUrl" : "https://toucansites.com",
@@ -5188,18 +5376,18 @@
         "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-15T13:33:08.892Z",
-        "rss" : "Tue, 15 Apr 2025 13:33:08 +0000",
+        "iso8601" : "2025-04-15T16:43:37.490Z",
+        "rss" : "Tue, 15 Apr 2025 16:43:37 +0000",
         "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "1:33:08 PM Greenwich Mean Time",
-        "long" : "1:33:08 PM GMT",
-        "medium" : "1:33:08 PM",
-        "short" : "1:33 PM"
+        "full" : "4:43:37 PM Greenwich Mean Time",
+        "long" : "4:43:37 PM GMT",
+        "medium" : "4:43:37 PM",
+        "short" : "4:43 PM"
       },
-      "timestamp" : 1744723988.892226
+      "timestamp" : 1744735417.490416
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
@@ -5214,18 +5402,18 @@
         "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-15T12:27:33.834Z",
-        "rss" : "Tue, 15 Apr 2025 12:27:33 +0000",
+        "iso8601" : "2025-04-15T15:36:22.613Z",
+        "rss" : "Tue, 15 Apr 2025 15:36:22 +0000",
         "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "12:27:33 PM Greenwich Mean Time",
-        "long" : "12:27:33 PM GMT",
-        "medium" : "12:27:33 PM",
-        "short" : "12:27 PM"
+        "full" : "3:36:22 PM Greenwich Mean Time",
+        "long" : "3:36:22 PM GMT",
+        "medium" : "3:36:22 PM",
+        "short" : "3:36 PM"
       },
-      "timestamp" : 1744720053.8338814
+      "timestamp" : 1744731382.612711
     },
     "locale" : "en-US",
     "name" : "Toucan",

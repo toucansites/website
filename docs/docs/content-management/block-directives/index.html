@@ -173,13 +173,13 @@
                             <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
@@ -191,39 +191,32 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
-                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/themes/basics/">Theme basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics-and-insights/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="https://toucansites.com/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -233,7 +226,9 @@
             <article>
                 <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Block directives</h1><hr><p>A markdown block directive is a feature that allows embedding custom content within a markdown file. These directives are defined using a special syntax, utilizing the <code>@</code> prefix, and are processed by Toucan to create dynamic or interactive content. They extend markdown’s basic capabilities.</p><p>With the first beta release, custom block directives can now be defined. These block directives are integrated into the themes, allowing theme authors to provide shorthands for common UI components.</p><h2 id="custom-directives">Custom directives</h2><p>Theme developers can create a <code>blocks</code> folder within the theme directory. A YAML configuration is sufficient to define a custom block directive.</p><p>The following YAML configuration can be used to create a custom <code>Link</code> element:</p><pre><code class="language-yaml">name: link
+                <h1>Block directives</h1><hr><p>A markdown block directive is a feature that allows embedding custom content within a markdown file. These directives are defined using a special syntax, utilizing the <code>@</code> prefix, and are processed by Toucan to create dynamic or interactive content. They extend markdown’s basic capabilities.</p><p>Example:</p><pre><code class="language-md">@Link(url: "https://toucansites.com") { Click Me }
+</code></pre><p>This could translate to the following HTML code:</p><pre><code class="language-html">&lt;a href="https://toucansites.com"&gt;Click Me&lt;/a&gt;
+</code></pre><p>Markdown in Toucan can be extended with custom block directives, allowing the integration of custom UI components. These directives are defined in the theme configuration and offer a way to enrich the user interface by embedding custom elements directly into the content.</p><h2 id="custom-directives">Custom directives</h2><p>Theme developers can create a <code>blocks</code> folder within the theme directory. A YAML configuration is sufficient to define a custom block directive.</p><p>The following YAML configuration can be used to create a custom <code>Link</code> element:</p><pre><code class="language-yaml">name: link
 parameters:
   - label: url
     default: ""

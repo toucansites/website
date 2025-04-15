@@ -31,7 +31,7 @@
     <title>Content Types</title>
 
     <link rel="canonical" href="https://toucansites.com/docs/content-management/content-types/">
-    
+    <link rel="prev" href="https://toucansites.com/docs/content-management/site-settings/">
     <link rel="next" href="https://toucansites.com/docs/content-management/content-bundles/">
 
     <link rel="manifest" href="/manifest.json" />
@@ -173,13 +173,13 @@
                             <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
@@ -191,39 +191,32 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
-                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/themes/basics/">Theme basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics-and-insights/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="https://toucansites.com/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -233,37 +226,61 @@
             <article>
                 <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Content types</h1><hr><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>A content type can have a specific location where Markdown files under that path are recognized as that type, or the type can be specified in the front matter.</p><p>A content type may also have a custom template, allowing the system to use the appropriate <a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache</a> file when rendering specific content, such as a blog post.</p><p>Here’s an example:</p><pre><code class="language-yaml">id: post
-rss: true
-template: blog.post.default
-
-pagination:
-    bundle: blog/posts/pagination
-    limit: 9
-    sort: publication
-    order: desc
+                <h1>Content types</h1><hr><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>A content type can have a specific location where Markdown files under that path are recognized as that type, or the type can be specified in the front matter.</p><h2 id="basics">Basics</h2><p>A content type may also have a custom template, allowing the system to use the appropriate <a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache</a> file when rendering specific content, such as a blog post.</p><p>Here’s an example:</p><pre><code class="language-yaml">id: page
+default: true
 
 properties:
+    title:
+        type: string
+        required: true
+
+    description:
+        type: string
+        required: true
+</code></pre><p>Content types, including pagination and property validation, are still subject to change during beta release cycle.</p><h2 id="properties-relations-queries">Properties, relations, queries</h2><h3 id="blog-posts-and-authors">Blog posts and authors</h3><pre><code class="language-yaml">id: author
+path:
+    - authors
+
+properties:
+    name:
+        type: string
+        required: true
+
+queries:
+    posts:
+        contentType: post
+        filter:
+            key: authors
+            operator: contains
+            value: "{{id}}"
+        orderBy:
+            - key: publication
+              direction: desc
+</code></pre><pre><code class="language-yaml">id: post
+paths:
+    - posts
+
+properties:
+    title:
+        type: string
+        required: true
+    publication:
+        type: date
+        required: true
     featured:
         type: bool
+        required: false
+        default: false
 
-context:
-    site:
-        posts:
-            sort: publication
-            order: desc
-            limit: 12
+relations:
+    authors:
+        references: author
+        type: many
+        order:
+            key: name
+            direction: asc
 
-        featured:
-            sort: publication
-            order: desc
-            limit: 12
-            filter:
-                field: featured
-                method: equals
-                value: true
-
-</code></pre><p>Content types, including pagination and property validation, are still subject to change during beta release cycle.</p><p>Additional documentation will be provided once this feature is stabilized.</p>
+</code></pre><h2 id="properties">Properties</h2><h2 id="relations">Relations</h2><h2 id="queries">Queries</h2>
     
     
                 <section>
@@ -278,6 +295,27 @@ context:
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="level-2">
+                        <a href="#basics">Basics</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#properties-relations-queries">Properties, relations, queries</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#blog-posts-and-authors">Blog posts and authors</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#properties">Properties</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#relations">Relations</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#queries">Queries</a>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>

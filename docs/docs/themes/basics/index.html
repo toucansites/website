@@ -32,7 +32,7 @@
 
     <link rel="canonical" href="https://toucansites.com/docs/themes/basics/">
     
-    <link rel="next" href="https://toucansites.com/docs/themes/theme-assets/">
+    <link rel="next" href="https://toucansites.com/docs/themes/assets/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -173,13 +173,13 @@
                             <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
                 <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
-                <li><a href="https://toucansites.com/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
                 <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
@@ -191,39 +191,32 @@
                         <ul>
                             <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
                 <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
-                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/themes/">Themes</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/themes/basics/">Theme basics</a></li>
-                <li><a href="https://toucansites.com/docs/themes/theme-assets/">Theme assets</a></li>
-                <li><a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache templates</a></li>
-                <li><a href="https://toucansites.com/docs/themes/toucan-templates/">Toucan templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Theme assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Mustache templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/integrations/">Integrations</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
-                <li><a href="https://toucansites.com/docs/integrations/analytics/">Analytics and insights</a></li>
+                <li><a href="https://toucansites.com/docs/integrations/analytics-and-insights/">Analytics and insights</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="https://toucansites.com/docs/deployment/">Deployment</a>
                         <ul>
                             <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="https://toucansites.com/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="https://toucansites.com/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="https://toucansites.com/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -240,7 +233,7 @@
         ├── assets
         ├── templates
         └── types
-</code></pre><p>The default theme, located in the <code>src/themes/default</code> folder, is used when rendering the site. However, this can be modified via the configuration file.</p><h2 id="assets">Assets</h2><p>Each theme can provide static asset files within the <code>assets</code> folder. All files inside the <code>assets</code> directory will be recursively copied to the root folder of the generated site.</p><h2 id="templates">Templates</h2><p>Toucan uses the Mustache template engine to render HTML from Markdown files. These templates are located in the <code>templates</code> folder and use the <code>.mustache</code> extension.</p><p>To reference a template file in the front matter of your content, remove the file extension and replace slashes with dots in the file path:</p><pre><code class="language-yaml">template: "pages.home" 
+</code></pre><p>The default theme, located in the <code>src/themes/default</code> folder, is used when rendering the site. However, this can be modified via the configuration file.</p><h2 id="assets">Assets</h2><p>Each theme can provide static asset files within the <code>assets</code> folder. All files inside the <code>assets</code> directory will be recursively copied to the root folder of the generated site.</p><h2 id="templates">Templates</h2><p>Toucan uses the Mustache template engine to render HTML from Markdown files. These templates are located in the <code>templates</code> folder and use the <code>.mustache</code> extension.</p><p>To reference a template file in the front matter of your content, remove the file extension and replace slashes with dots in the file path:</p><pre><code class="language-yaml">template: "pages.home"
 # References:
 # pages/home.mustache
 </code></pre><p>If Toucan cannot find a template by reference, it will emit a warning during site generation.</p><h2 id="content-types">Content Types</h2><p>A <a href="https://toucansites.com/docs/themes/content-types">content type</a> serves as a template for your content. A theme can provide multiple content types. For instance, a blog site might need content types for posts, authors, and tags.</p>
