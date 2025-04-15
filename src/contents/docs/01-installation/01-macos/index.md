@@ -1,8 +1,9 @@
 ---
-type: guide
+id: macos
+slug: docs/installation/macos
+category: installation
 title: "macOS"
 description: "Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily"
-category: installation
 order: 1
 ---
 

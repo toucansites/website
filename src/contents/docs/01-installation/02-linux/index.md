@@ -1,15 +1,16 @@
 ---
-type: guide
+id: linux
+slug: docs/installation/linux
+category: installation
 title: "Linux"
 description: "Learn how to install Toucan on Linux with simple steps. Follow this guide to set up and start using Toucan easily"
-category: installation
 order: 2
 ---
 
 # Linux
 ---
 
-During the beta release, Toucan can be installed on Linux by compiling from source. 
+During the beta release, Toucan can be installed on Linux by compiling from source.
 
 Please note that the `watch` command is not fully supported yet, but this feature will be available on Linux in a future release.
 

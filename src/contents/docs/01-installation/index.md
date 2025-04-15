@@ -1,5 +1,7 @@
 ---
+id: installation
 type: category
+slug: docs/installation
 title: "Installation"
 description: "Learn how to install Toucan on different operating systems with this detailed guide. Follow step-by-step instructions for a smooth setup process."
 order: 1

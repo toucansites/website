@@ -1,8 +1,9 @@
 ---
-type: guide
+id: windows
+slug: docs/installation/windows
+category: installation
 title: "Windows"
 description: "Learn how to install Toucan on Windows with simple steps. Follow this guide to set up and start using Toucan easily"
-category: installation
 order: 3
 ---
 

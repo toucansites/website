@@ -1,4 +1,6 @@
 id: guide
+paths:
+    - docs
 
 properties:
     order:
@@ -11,7 +13,6 @@ relations:
         type: one
 
 queries:
-    
     prev:
         contentType: guide
         limit: 1
