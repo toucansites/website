@@ -2,7 +2,7 @@
 type: category
 title: "Markdown syntax"
 description: "Guidance on Markdown syntax."
-order: 4
+order: 7
 ---
 
 # Markdown syntax

@@ -21,30 +21,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.359Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.359169
+              "timestamp" : 1744641052.1142497
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-            "slug" : {
-              "value" : "authors/ferenc-viasz-kadi"
-            },
+            "slug" : "authors/ferenc-viasz-kadi",
             "title" : "Ferenc Viasz-Kadi"
           }
         ],
@@ -98,24 +96,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T12:39:35.329Z",
-            "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:30:52.114Z",
+            "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:39:35 PM Greenwich Mean Time",
-            "long" : "12:39:35 PM GMT",
-            "medium" : "12:39:35 PM",
-            "short" : "12:39 PM"
+            "full" : "2:30:52 PM Greenwich Mean Time",
+            "long" : "2:30:52 PM GMT",
+            "medium" : "2:30:52 PM",
+            "short" : "2:30 PM"
           },
-          "timestamp" : 1743770375.3285558
+          "timestamp" : 1744641052.1139681
         },
         "permalink" : "http://localhost:3000/beta-3-is-out/",
         "publication" : {
@@ -160,30 +158,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -206,24 +202,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 11, 2025",
-                "long" : "April 11, 2025",
-                "medium" : "Apr 11, 2025",
-                "short" : "4/11/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-11T09:23:03.732Z",
-                "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-                "sitemap" : "2025-04-11",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "9:23:03 AM Greenwich Mean Time",
-                "long" : "9:23:03 AM GMT",
-                "medium" : "9:23:03 AM",
-                "short" : "9:23 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744363383.731615
+              "timestamp" : 1744641052.1140366
             },
             "permalink" : "http://localhost:3000/beta-3-migration-guide/",
             "publication" : {
@@ -247,9 +243,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-migration-guide"
-            },
+            "slug" : "beta-3-migration-guide",
             "tags" : [
               {
                 "contents" : {
@@ -269,30 +263,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -318,30 +310,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -363,24 +353,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.358Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.3581114
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
             "publication" : {
@@ -404,9 +394,7 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : {
-              "value" : "beta-2-is-now-avaiable"
-            },
+            "slug" : "beta-2-is-now-avaiable",
             "tags" : [
               {
                 "contents" : {
@@ -426,30 +414,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -475,30 +461,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -520,24 +504,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "http://localhost:3000/first-beta-release/",
             "publication" : {
@@ -561,9 +545,7 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : {
-              "value" : "first-beta-release"
-            },
+            "slug" : "first-beta-release",
             "tags" : [
               {
                 "contents" : {
@@ -583,30 +565,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -632,30 +612,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -708,24 +686,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "http://localhost:3000/last-alpha-release/",
             "publication" : {
@@ -749,9 +727,7 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : {
-              "value" : "last-alpha-release"
-            },
+            "slug" : "last-alpha-release",
             "tags" : [
               {
                 "contents" : {
@@ -771,39 +747,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : {
-          "value" : "beta-3-is-out"
-        },
+        "slug" : "beta-3-is-out",
         "tags" : [
           {
             "contents" : {
@@ -823,30 +795,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -872,30 +842,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.359Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.359169
+              "timestamp" : 1744641052.1142497
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-            "slug" : {
-              "value" : "authors/ferenc-viasz-kadi"
-            },
+            "slug" : "authors/ferenc-viasz-kadi",
             "title" : "Ferenc Viasz-Kadi"
           }
         ],
@@ -918,24 +886,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 11, 2025",
-            "long" : "April 11, 2025",
-            "medium" : "Apr 11, 2025",
-            "short" : "4/11/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-11T09:23:03.732Z",
-            "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-            "sitemap" : "2025-04-11",
+            "iso8601" : "2025-04-14T14:30:52.114Z",
+            "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "9:23:03 AM Greenwich Mean Time",
-            "long" : "9:23:03 AM GMT",
-            "medium" : "9:23:03 AM",
-            "short" : "9:23 AM"
+            "full" : "2:30:52 PM Greenwich Mean Time",
+            "long" : "2:30:52 PM GMT",
+            "medium" : "2:30:52 PM",
+            "short" : "2:30 PM"
           },
-          "timestamp" : 1744363383.731615
+          "timestamp" : 1744641052.1140366
         },
         "permalink" : "http://localhost:3000/beta-3-migration-guide/",
         "publication" : {
@@ -980,30 +948,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -1057,24 +1023,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T12:39:35.329Z",
-                "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:39:35 PM Greenwich Mean Time",
-                "long" : "12:39:35 PM GMT",
-                "medium" : "12:39:35 PM",
-                "short" : "12:39 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743770375.3285558
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "http://localhost:3000/beta-3-is-out/",
             "publication" : {
@@ -1098,9 +1064,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-is-out"
-            },
+            "slug" : "beta-3-is-out",
             "tags" : [
               {
                 "contents" : {
@@ -1120,30 +1084,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -1169,30 +1131,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1214,24 +1174,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.358Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.3581114
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
             "publication" : {
@@ -1255,9 +1215,7 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : {
-              "value" : "beta-2-is-now-avaiable"
-            },
+            "slug" : "beta-2-is-now-avaiable",
             "tags" : [
               {
                 "contents" : {
@@ -1277,30 +1235,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -1326,30 +1282,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1371,24 +1325,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "http://localhost:3000/first-beta-release/",
             "publication" : {
@@ -1412,9 +1366,7 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : {
-              "value" : "first-beta-release"
-            },
+            "slug" : "first-beta-release",
             "tags" : [
               {
                 "contents" : {
@@ -1434,30 +1386,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -1483,30 +1433,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -1559,24 +1507,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "http://localhost:3000/last-alpha-release/",
             "publication" : {
@@ -1600,9 +1548,7 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : {
-              "value" : "last-alpha-release"
-            },
+            "slug" : "last-alpha-release",
             "tags" : [
               {
                 "contents" : {
@@ -1622,39 +1568,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : {
-          "value" : "beta-3-migration-guide"
-        },
+        "slug" : "beta-3-migration-guide",
         "tags" : [
           {
             "contents" : {
@@ -1674,30 +1616,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -1723,30 +1663,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "slug" : {
-              "value" : "authors/tibor-bodecs"
-            },
+            "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
@@ -1768,24 +1706,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:49.358Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:30:52.114Z",
+            "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:49 AM Greenwich Mean Time",
-            "long" : "10:12:49 AM GMT",
-            "medium" : "10:12:49 AM",
-            "short" : "10:12 AM"
+            "full" : "2:30:52 PM Greenwich Mean Time",
+            "long" : "2:30:52 PM GMT",
+            "medium" : "2:30:52 PM",
+            "short" : "2:30 PM"
           },
-          "timestamp" : 1743761569.3581114
+          "timestamp" : 1744641052.1138942
         },
         "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
         "publication" : {
@@ -1830,30 +1768,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -1907,24 +1843,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T12:39:35.329Z",
-                "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:39:35 PM Greenwich Mean Time",
-                "long" : "12:39:35 PM GMT",
-                "medium" : "12:39:35 PM",
-                "short" : "12:39 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743770375.3285558
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "http://localhost:3000/beta-3-is-out/",
             "publication" : {
@@ -1948,9 +1884,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-is-out"
-            },
+            "slug" : "beta-3-is-out",
             "tags" : [
               {
                 "contents" : {
@@ -1970,30 +1904,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -2019,30 +1951,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2065,24 +1995,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 11, 2025",
-                "long" : "April 11, 2025",
-                "medium" : "Apr 11, 2025",
-                "short" : "4/11/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-11T09:23:03.732Z",
-                "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-                "sitemap" : "2025-04-11",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "9:23:03 AM Greenwich Mean Time",
-                "long" : "9:23:03 AM GMT",
-                "medium" : "9:23:03 AM",
-                "short" : "9:23 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744363383.731615
+              "timestamp" : 1744641052.1140366
             },
             "permalink" : "http://localhost:3000/beta-3-migration-guide/",
             "publication" : {
@@ -2106,9 +2036,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-migration-guide"
-            },
+            "slug" : "beta-3-migration-guide",
             "tags" : [
               {
                 "contents" : {
@@ -2128,30 +2056,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -2177,30 +2103,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -2222,24 +2146,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "http://localhost:3000/first-beta-release/",
             "publication" : {
@@ -2263,9 +2187,7 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : {
-              "value" : "first-beta-release"
-            },
+            "slug" : "first-beta-release",
             "tags" : [
               {
                 "contents" : {
@@ -2285,30 +2207,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -2334,30 +2254,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -2410,24 +2328,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "http://localhost:3000/last-alpha-release/",
             "publication" : {
@@ -2451,9 +2369,7 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : {
-              "value" : "last-alpha-release"
-            },
+            "slug" : "last-alpha-release",
             "tags" : [
               {
                 "contents" : {
@@ -2473,39 +2389,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : {
-          "value" : "beta-2-is-now-avaiable"
-        },
+        "slug" : "beta-2-is-now-avaiable",
         "tags" : [
           {
             "contents" : {
@@ -2525,30 +2437,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -2574,30 +2484,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "slug" : {
-              "value" : "authors/tibor-bodecs"
-            },
+            "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
@@ -2619,24 +2527,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.468Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.4684904
+          "timestamp" : 1744640959.7518957
         },
         "permalink" : "http://localhost:3000/first-beta-release/",
         "publication" : {
@@ -2681,30 +2589,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2758,24 +2664,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T12:39:35.329Z",
-                "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:39:35 PM Greenwich Mean Time",
-                "long" : "12:39:35 PM GMT",
-                "medium" : "12:39:35 PM",
-                "short" : "12:39 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743770375.3285558
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "http://localhost:3000/beta-3-is-out/",
             "publication" : {
@@ -2799,9 +2705,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-is-out"
-            },
+            "slug" : "beta-3-is-out",
             "tags" : [
               {
                 "contents" : {
@@ -2821,30 +2725,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -2870,30 +2772,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -2916,24 +2816,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 11, 2025",
-                "long" : "April 11, 2025",
-                "medium" : "Apr 11, 2025",
-                "short" : "4/11/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-11T09:23:03.732Z",
-                "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-                "sitemap" : "2025-04-11",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "9:23:03 AM Greenwich Mean Time",
-                "long" : "9:23:03 AM GMT",
-                "medium" : "9:23:03 AM",
-                "short" : "9:23 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744363383.731615
+              "timestamp" : 1744641052.1140366
             },
             "permalink" : "http://localhost:3000/beta-3-migration-guide/",
             "publication" : {
@@ -2957,9 +2857,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-migration-guide"
-            },
+            "slug" : "beta-3-migration-guide",
             "tags" : [
               {
                 "contents" : {
@@ -2979,30 +2877,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -3028,30 +2924,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3073,24 +2967,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.358Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.3581114
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
             "publication" : {
@@ -3114,9 +3008,7 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : {
-              "value" : "beta-2-is-now-avaiable"
-            },
+            "slug" : "beta-2-is-now-avaiable",
             "tags" : [
               {
                 "contents" : {
@@ -3136,30 +3028,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -3185,30 +3075,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3261,24 +3149,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "http://localhost:3000/last-alpha-release/",
             "publication" : {
@@ -3302,9 +3190,7 @@
               },
               "timestamp" : 1729123200
             },
-            "slug" : {
-              "value" : "last-alpha-release"
-            },
+            "slug" : "last-alpha-release",
             "tags" : [
               {
                 "contents" : {
@@ -3324,39 +3210,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "Last alpha release"
           }
         ],
-        "slug" : {
-          "value" : "first-beta-release"
-        },
+        "slug" : "first-beta-release",
         "tags" : [
           {
             "contents" : {
@@ -3376,30 +3258,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -3425,30 +3305,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "slug" : {
-              "value" : "authors/tibor-bodecs"
-            },
+            "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
@@ -3501,24 +3379,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.4687061
+          "timestamp" : 1744640959.7520552
         },
         "permalink" : "http://localhost:3000/last-alpha-release/",
         "publication" : {
@@ -3563,30 +3441,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -3640,24 +3516,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T12:39:35.329Z",
-                "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:39:35 PM Greenwich Mean Time",
-                "long" : "12:39:35 PM GMT",
-                "medium" : "12:39:35 PM",
-                "short" : "12:39 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743770375.3285558
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "http://localhost:3000/beta-3-is-out/",
             "publication" : {
@@ -3681,9 +3557,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-is-out"
-            },
+            "slug" : "beta-3-is-out",
             "tags" : [
               {
                 "contents" : {
@@ -3703,30 +3577,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -3752,30 +3624,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -3798,24 +3668,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 11, 2025",
-                "long" : "April 11, 2025",
-                "medium" : "Apr 11, 2025",
-                "short" : "4/11/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-11T09:23:03.732Z",
-                "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-                "sitemap" : "2025-04-11",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "9:23:03 AM Greenwich Mean Time",
-                "long" : "9:23:03 AM GMT",
-                "medium" : "9:23:03 AM",
-                "short" : "9:23 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744363383.731615
+              "timestamp" : 1744641052.1140366
             },
             "permalink" : "http://localhost:3000/beta-3-migration-guide/",
             "publication" : {
@@ -3839,9 +3709,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-migration-guide"
-            },
+            "slug" : "beta-3-migration-guide",
             "tags" : [
               {
                 "contents" : {
@@ -3861,30 +3729,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -3910,30 +3776,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -3955,24 +3819,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.358Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.3581114
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
             "publication" : {
@@ -3996,9 +3860,7 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : {
-              "value" : "beta-2-is-now-avaiable"
-            },
+            "slug" : "beta-2-is-now-avaiable",
             "tags" : [
               {
                 "contents" : {
@@ -4018,30 +3880,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -4067,30 +3927,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4112,24 +3970,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "http://localhost:3000/first-beta-release/",
             "publication" : {
@@ -4153,9 +4011,7 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : {
-              "value" : "first-beta-release"
-            },
+            "slug" : "first-beta-release",
             "tags" : [
               {
                 "contents" : {
@@ -4175,39 +4031,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "First beta release"
           }
         ],
-        "slug" : {
-          "value" : "last-alpha-release"
-        },
+        "slug" : "last-alpha-release",
         "tags" : [
           {
             "contents" : {
@@ -4227,30 +4079,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -4276,30 +4126,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-            "slug" : {
-              "value" : "authors/tibor-bodecs"
-            },
+            "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
@@ -4352,24 +4200,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.469172
+          "timestamp" : 1744640959.7521744
         },
         "permalink" : "http://localhost:3000/toucan-is-now-ready-for-alpha-testing/",
         "publication" : {
@@ -4414,30 +4262,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -4491,24 +4337,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T12:39:35.329Z",
-                "rss" : "Fri, 04 Apr 2025 12:39:35 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:39:35 PM Greenwich Mean Time",
-                "long" : "12:39:35 PM GMT",
-                "medium" : "12:39:35 PM",
-                "short" : "12:39 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743770375.3285558
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "http://localhost:3000/beta-3-is-out/",
             "publication" : {
@@ -4532,9 +4378,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-is-out"
-            },
+            "slug" : "beta-3-is-out",
             "tags" : [
               {
                 "contents" : {
@@ -4554,30 +4398,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -4603,30 +4445,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:49.359Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:49 AM Greenwich Mean Time",
-                    "long" : "10:12:49 AM GMT",
-                    "medium" : "10:12:49 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1743761569.359169
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
-                "slug" : {
-                  "value" : "authors/ferenc-viasz-kadi"
-                },
+                "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
@@ -4649,24 +4489,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 11, 2025",
-                "long" : "April 11, 2025",
-                "medium" : "Apr 11, 2025",
-                "short" : "4/11/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-11T09:23:03.732Z",
-                "rss" : "Fri, 11 Apr 2025 09:23:03 +0000",
-                "sitemap" : "2025-04-11",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "9:23:03 AM Greenwich Mean Time",
-                "long" : "9:23:03 AM GMT",
-                "medium" : "9:23:03 AM",
-                "short" : "9:23 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744363383.731615
+              "timestamp" : 1744641052.1140366
             },
             "permalink" : "http://localhost:3000/beta-3-migration-guide/",
             "publication" : {
@@ -4690,9 +4530,7 @@
               },
               "timestamp" : 1743602400
             },
-            "slug" : {
-              "value" : "beta-3-migration-guide"
-            },
+            "slug" : "beta-3-migration-guide",
             "tags" : [
               {
                 "contents" : {
@@ -4712,30 +4550,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -4761,30 +4597,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4806,24 +4640,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:49.358Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:49 AM Greenwich Mean Time",
-                "long" : "10:12:49 AM GMT",
-                "medium" : "10:12:49 AM",
-                "short" : "10:12 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1743761569.3581114
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
             "publication" : {
@@ -4847,9 +4681,7 @@
               },
               "timestamp" : 1734220800
             },
-            "slug" : {
-              "value" : "beta-2-is-now-avaiable"
-            },
+            "slug" : "beta-2-is-now-avaiable",
             "tags" : [
               {
                 "contents" : {
@@ -4869,30 +4701,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
@@ -4918,30 +4748,28 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
-                "slug" : {
-                  "value" : "authors/tibor-bodecs"
-                },
+                "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
@@ -4963,24 +4791,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "http://localhost:3000/first-beta-release/",
             "publication" : {
@@ -5004,9 +4832,7 @@
               },
               "timestamp" : 1729555200
             },
-            "slug" : {
-              "value" : "first-beta-release"
-            },
+            "slug" : "first-beta-release",
             "tags" : [
               {
                 "contents" : {
@@ -5026,39 +4852,35 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "http://localhost:3000/tags/releases/",
-                "slug" : {
-                  "value" : "tags/releases"
-                },
+                "slug" : "tags/releases",
                 "title" : "Releases"
               }
             ],
             "title" : "First beta release"
           }
         ],
-        "slug" : {
-          "value" : "toucan-is-now-ready-for-alpha-testing"
-        },
+        "slug" : "toucan-is-now-ready-for-alpha-testing",
         "tags" : [
           {
             "contents" : {
@@ -5078,30 +4900,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/releases/",
-            "slug" : {
-              "value" : "tags/releases"
-            },
+            "slug" : "tags/releases",
             "title" : "Releases"
           }
         ],
@@ -5127,30 +4947,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4694314
+              "timestamp" : 1744640959.7524378
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/authors/andris-sipos/",
-            "slug" : {
-              "value" : "authors/andris-sipos"
-            },
+            "slug" : "authors/andris-sipos",
             "title" : "Andris Sipos"
           }
         ],
@@ -5227,24 +5045,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.468599
+          "timestamp" : 1744640959.7519703
         },
         "permalink" : "http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/",
         "publication" : {
@@ -5271,9 +5089,7 @@
         "related" : [
 
         ],
-        "slug" : {
-          "value" : "introducing-toucan-a-new-markdown-based-static-site-generator"
-        },
+        "slug" : "introducing-toucan-a-new-markdown-based-static-site-generator",
         "tags" : [
           {
             "contents" : {
@@ -5293,30 +5109,28 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4701526
+              "timestamp" : 1744640959.7528448
             },
             "order" : 10,
             "permalink" : "http://localhost:3000/tags/news/",
-            "slug" : {
-              "value" : "tags/news"
-            },
+            "slug" : "tags/news",
             "title" : "News"
           }
         ],
@@ -5341,53 +5155,51 @@
     ],
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 4, 2025",
-        "long" : "April 4, 2025",
-        "medium" : "Apr 4, 2025",
-        "short" : "4/4/25"
+        "full" : "Monday, April 14, 2025",
+        "long" : "April 14, 2025",
+        "medium" : "Apr 14, 2025",
+        "short" : "4/14/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-04T10:12:49.358Z",
-        "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-        "sitemap" : "2025-04-04",
+        "iso8601" : "2025-04-14T14:30:52.114Z",
+        "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+        "sitemap" : "2025-04-14",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:12:49 AM Greenwich Mean Time",
-        "long" : "10:12:49 AM GMT",
-        "medium" : "10:12:49 AM",
-        "short" : "10:12 AM"
+        "full" : "2:30:52 PM Greenwich Mean Time",
+        "long" : "2:30:52 PM GMT",
+        "medium" : "2:30:52 PM",
+        "short" : "2:30 PM"
       },
-      "timestamp" : 1743761569.3579245
+      "timestamp" : 1744641052.1138248
     },
     "permalink" : "http://localhost:3000/api.json",
-    "slug" : {
-      "value" : "api.json"
-    }
+    "slug" : "api.json"
   },
   "site" : {
     "baseUrl" : "http://localhost:3000",
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
-        "full" : "Friday, April 11, 2025",
-        "long" : "April 11, 2025",
-        "medium" : "Apr 11, 2025",
-        "short" : "4/11/25"
+        "full" : "Tuesday, April 15, 2025",
+        "long" : "April 15, 2025",
+        "medium" : "Apr 15, 2025",
+        "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-11T09:23:39.646Z",
-        "rss" : "Fri, 11 Apr 2025 09:23:39 +0000",
-        "sitemap" : "2025-04-11",
+        "iso8601" : "2025-04-15T12:13:41.032Z",
+        "rss" : "Tue, 15 Apr 2025 12:13:41 +0000",
+        "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "9:23:39 AM Greenwich Mean Time",
-        "long" : "9:23:39 AM GMT",
-        "medium" : "9:23:39 AM",
-        "short" : "9:23 AM"
+        "full" : "12:13:41 PM Greenwich Mean Time",
+        "long" : "12:13:41 PM GMT",
+        "medium" : "12:13:41 PM",
+        "short" : "12:13 PM"
       },
-      "timestamp" : 1744363419.645638
+      "timestamp" : 1744719221.031824
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
@@ -5396,24 +5208,24 @@
     },
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 4, 2025",
-        "long" : "April 4, 2025",
-        "medium" : "Apr 4, 2025",
-        "short" : "4/4/25"
+        "full" : "Tuesday, April 15, 2025",
+        "long" : "April 15, 2025",
+        "medium" : "Apr 15, 2025",
+        "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-04T10:12:49.363Z",
-        "rss" : "Fri, 04 Apr 2025 10:12:49 +0000",
-        "sitemap" : "2025-04-04",
+        "iso8601" : "2025-04-15T11:36:06.597Z",
+        "rss" : "Tue, 15 Apr 2025 11:36:06 +0000",
+        "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:12:49 AM Greenwich Mean Time",
-        "long" : "10:12:49 AM GMT",
-        "medium" : "10:12:49 AM",
-        "short" : "10:12 AM"
+        "full" : "11:36:06 AM Greenwich Mean Time",
+        "long" : "11:36:06 AM GMT",
+        "medium" : "11:36:06 AM",
+        "short" : "11:36 AM"
       },
-      "timestamp" : 1743761569.3625283
+      "timestamp" : 1744716966.596625
     },
     "locale" : "en-US",
     "name" : "Toucan",

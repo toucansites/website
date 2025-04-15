@@ -1,22 +1,22 @@
 ---
 type: guide
 category: content-management
-order: 1
-title: "Page bundles"
-description: "Page bundles are used to efficiently manage and structure content"
+order: 2
+title: "Content Bundles"
+description: "Content bundles are used to efficiently manage and structure content"
 ---
 
-# Page Bundles
+# Content Bundles
 ---
 
-Page bundles are used to render every page on the website. A page bundle is essentially a folder containing an `index` file. The file extension can be:
+Content bundles are used to render every page on the website. A page bundle is essentially a folder containing an `index` file. The file extension can be:
 
 - `.md`
 - `.markdown`
 - `.yml`
 - `.yaml`
 
-When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter. 
+When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter.
 
 It’s also possible to separate the content and front matter by using both `index.yml` for front matter and `index.md` for content.
 
@@ -37,9 +37,3 @@ If a `style.css` file is placed in the assets folder, it will automatically be l
 ## Markdown
 
 The [next section](/docs/content-management/markdown/) covers how to utilize markdown files, front matter, and custom block directives to enhance and enrich your content effectively.
-
-
-
-
-
-

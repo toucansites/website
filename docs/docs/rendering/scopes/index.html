@@ -172,35 +172,29 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/site-settings/">Site settings</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/config/">Config</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/content-management/page-bundles/">Page bundles</a></li>
-                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                            <li><a href="http://localhost:3000/docs/content-management/content-types/">Content Types</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/rendering/basics/">Basics</a></li>
-                <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
+                            <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/queries/">Queries</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/engines/">Engines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/transformers/">Transformers</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/scopes/">Scopes</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -210,8 +204,6 @@
                 <li><a href="http://localhost:3000/docs/themes/theme-assets/">Theme assets</a></li>
                 <li><a href="http://localhost:3000/docs/themes/mustache-templates/">Mustache templates</a></li>
                 <li><a href="http://localhost:3000/docs/themes/toucan-templates/">Toucan templates</a></li>
-                <li><a href="http://localhost:3000/docs/themes/content-types/">Content types</a></li>
-                <li><a href="http://localhost:3000/docs/themes/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -227,6 +219,13 @@
                             <li><a href="http://localhost:3000/docs/deployment/github-pages/">GitHub Pages</a></li>
                         </ul>
                     </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -234,7 +233,7 @@
             <article>
                 <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                 
-                <h1>Scopes</h1><hr>
+                <h1>Scopes</h1><hr><p>Scopes define the final output context when rendering content in Toucan. The two phase-rendering process is mentioned in the <a href="http://localhost:3000/docs/rendering/engines/">engines</a> guide.</p><p>Scopes control which front matter properties and relations are included or excluded from the rendered output.</p><p>This allows fine-tuning of the content structure, depending on the target use case (e.g. API vs HTML output).</p><blockquote class="note"><p>Scopes are currently experimental.</p></blockquote><p>More detailed documentation and examples will be available in the next beta release.</p>
     
     
                 <section>

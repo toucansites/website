@@ -1,18 +1,18 @@
 ---
 type: guide
-title: "Site settings"
+title: "Settings"
 description: "The site file for Toucan handles settings for your static site and is stored in a YAML file"
 category: getting-started
-order: 3
+order: 4
 ---
 
-# Site settings
+# Settings
 ---
 
 This site index defines key settings for the website. The site index for Toucan is stored in the `index.yml` file, inside the `src/contents` directory, though the `.yaml` extension can also be used.
 
 
-### Example 
+### Example
 
 An example site index file looks like this:
 
@@ -33,19 +33,19 @@ The following properties are available to use:
 
 ### Required keys
 @FAQ {
-    @Question { 
+    @Question {
         **`baseUrl`** - The base URL of the website.
     }
-    @Answer { 
+    @Answer {
         Specifies the base URL of the website, e.g. "https://mywebsite.com/".
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         **`title`** - The title of the website.
     }
-    @Answer { 
+    @Answer {
         Sets the title of the website, e.g. "My website".
     }
 }
@@ -53,19 +53,19 @@ The following properties are available to use:
 
 ### Optional keys
 @FAQ {
-    @Question { 
+    @Question {
         **`description`** - The description of the website.
     }
-    @Answer { 
+    @Answer {
         The description of the website, used for the RSS feed.
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         **`dateFormat`** - Sets the date format for the website.
     }
-    @Answer { 
+    @Answer {
         Determines the format in which dates are displayed on the site.
 
         **Date format symbols**
@@ -81,20 +81,20 @@ The following properties are available to use:
     }
 }
 @FAQ {
-    @Question { 
+    @Question {
         **`language`** - The language of the website.
     }
-    @Answer { 
+    @Answer {
         Defines the language of the website, e.g. "en-US" (English, US).
 
         See ISO [language codes](https://www.w3schools.com/tags/ref_language_codes.asp) & [country codes](https://www.w3schools.com/tags/ref_country_codes.asp) for more info.
     }
 }
 @FAQ {
-    @Question { 
+    @Question {
         **`navigation`** - Sets the main navigation for the website.
     }
-    @Answer { 
+    @Answer {
         Defines the menu items for site navigation. In this case:
         - "Home" is linked to the root URL ("/").
         - "About" is linked to the "/docs/" page.

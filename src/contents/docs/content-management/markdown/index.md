@@ -3,7 +3,7 @@ type: guide
 title: "Markdown"
 description: "Understand the basics of Markdown and front matter for simple and effective formatting"
 category: content-management
-order: 2
+order: 4
 ---
 
 # Markdown

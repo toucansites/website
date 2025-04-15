@@ -172,35 +172,29 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/site-settings/">Site settings</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/config/">Config</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/content-management/page-bundles/">Page bundles</a></li>
-                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                            <li><a href="http://localhost:3000/docs/content-management/content-types/">Content Types</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/rendering/basics/">Basics</a></li>
-                <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
+                            <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/queries/">Queries</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/engines/">Engines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/transformers/">Transformers</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/scopes/">Scopes</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -210,8 +204,6 @@
                 <li><a href="http://localhost:3000/docs/themes/theme-assets/">Theme assets</a></li>
                 <li><a href="http://localhost:3000/docs/themes/mustache-templates/">Mustache templates</a></li>
                 <li><a href="http://localhost:3000/docs/themes/toucan-templates/">Toucan templates</a></li>
-                <li><a href="http://localhost:3000/docs/themes/content-types/">Content types</a></li>
-                <li><a href="http://localhost:3000/docs/themes/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -227,6 +219,13 @@
                             <li><a href="http://localhost:3000/docs/deployment/github-pages/">GitHub Pages</a></li>
                         </ul>
                     </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -234,7 +233,28 @@
             <article>
                 <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                 
-                <h1>Engines</h1><hr>
+                <h1>Engines</h1><hr><h3 id="rendering">Rendering</h3><p>Toucan utilizes a two-phase rendering process to generate output files from content.</p><h3 id="phase-1-context-generation">Phase 1 — Context Generation</h3><p>In the first phase, Toucan collects all content and generates context objects from them.</p><p>A context object is a structured representation of content data, similar to a large JSON file, containing all necessary information required for rendering.</p><h3 id="phase-2-rendering-output">Phase 2 — Rendering Output</h3><p>In the second phase, Toucan applies a template engine to the context.</p><p>Templates, combined with context data, are used to render and save the final output files.</p><h2 id="supported-engines">Supported Engines</h2><p>Toucan currently supports two template engines:</p><ul><li><code>json</code> — renders raw JSON output</li><li><code>mustache</code> — renders text output using Mustache templates</li></ul><p>Template engines are configured within the render pipeline.</p><h3 id="api-output-example">API Output Example</h3><p>To render content as an API response, a pipeline can be configured like this:</p><pre><code class="language-yaml">id: api
+
+queries:
+  posts:
+    contentType: post
+    scope: detail
+    orderBy:
+      - key: publication
+        direction: desc
+
+contentTypes:
+  include:
+    - api
+
+engine:
+  id: json
+
+output:
+  path: "api"
+  file: posts
+  ext: json
+</code></pre><p>This example:</p><ul><li>Queries all posts</li><li>Includes only content with <code>contentType: api</code></li><li>Uses the <code>json</code> engine to render output</li><li>Generates a file at <code>api/posts.json</code></li></ul><blockquote class="note"><p>Scopes and API pipelines are still experimental.</p></blockquote><p>Once stabilized, detailed guides will be provided for building custom API endpoints with Toucan.</p>
     
     
                 <section>
@@ -249,6 +269,24 @@
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="level-3">
+                        <a href="#rendering">Rendering</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#phase-1-context-generation">Phase 1 — Context Generation</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#phase-2-rendering-output">Phase 2 — Rendering Output</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#supported-engines">Supported Engines</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#api-output-example">API Output Example</a>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>

@@ -2,7 +2,7 @@
 type: guide
 title: "Block directives"
 description: "A markdown block directive is a feature that allows embedding custom content within a markdown file."
-category: themes
+category: content-management
 order: 7
 ---
 
@@ -30,7 +30,7 @@ parameters:
     default: "_blank"
 removesChildParagraph: true
 #requiresParentDirective: myContainer
-#output: "<a class="{{class}}" href="{{url}}" target="{{target}}">{{contents}}</a>" 
+#output: "<a class="{{class}}" href="{{url}}" target="{{target}}">{{contents}}</a>"
 tag: a
 attributes:
   - name: href
@@ -53,19 +53,19 @@ Additional block directive examples can be found in the site’s source code on 
 ## Reference guide
 
 @FAQ {
-    @Question { 
+    @Question {
         **`name`** - The name of the block directive
     }
-    @Answer { 
+    @Answer {
         Sets the name of the custom block directive.
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         `parameters` - The custom parameters for the block directive
     }
-    @Answer { 
+    @Answer {
         Defines custom parameters for the block directive.
 
         - **label** - The parameter label.
@@ -74,28 +74,28 @@ Additional block directive examples can be found in the site’s source code on 
 }
 
 @FAQ {
-    @Question { 
-        `removesChildParagraph` - Removes the top level paragraph element 
+    @Question {
+        `removesChildParagraph` - Removes the top level paragraph element
     }
-    @Answer { 
+    @Answer {
         Controls whether the top-level paragraph element is removed when rendering block contents. The default value is `false`.
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         `requiresParentDirective` - Require a parent directive.
     }
-    @Answer { 
+    @Answer {
         Specifies if the block directive must be a child of another directive. The default value is `nil`.
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         **`output`** - Defines a custom output for the block directive.
     }
-    @Answer { 
+    @Answer {
         Defines custom output for the block directive using template variables.
 
         Available variables:
@@ -107,19 +107,19 @@ Additional block directive examples can be found in the site’s source code on 
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         **`tag`** - The desired wrapper tag around the markdown contents.
     }
-    @Answer { 
+    @Answer {
         Specifies the HTML tag that wraps the markdown content. If no **tag** or **output** is set, the directive won’t render.
     }
 }
 
 @FAQ {
-    @Question { 
+    @Question {
         `attributes` - The attributes for the custom HTML tag.
     }
-    @Answer { 
+    @Answer {
         Defines attributes for the custom HTML tag.
 
         - **name** - The name of the HTML attribute.

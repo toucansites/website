@@ -172,35 +172,29 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/site-settings/">Site settings</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/config/">Config</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/content-management/page-bundles/">Page bundles</a></li>
-                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                            <li><a href="http://localhost:3000/docs/content-management/content-types/">Content Types</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/rendering/basics/">Basics</a></li>
-                <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
+                            <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/queries/">Queries</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/engines/">Engines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/transformers/">Transformers</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/scopes/">Scopes</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -210,8 +204,6 @@
                 <li><a href="http://localhost:3000/docs/themes/theme-assets/">Theme assets</a></li>
                 <li><a href="http://localhost:3000/docs/themes/mustache-templates/">Mustache templates</a></li>
                 <li><a href="http://localhost:3000/docs/themes/toucan-templates/">Toucan templates</a></li>
-                <li><a href="http://localhost:3000/docs/themes/content-types/">Content types</a></li>
-                <li><a href="http://localhost:3000/docs/themes/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -227,6 +219,13 @@
                             <li><a href="http://localhost:3000/docs/deployment/github-pages/">GitHub Pages</a></li>
                         </ul>
                     </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -234,7 +233,140 @@
             <article>
                 <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                 
-                <h1>Queries</h1><hr>
+                <h1>Queries</h1><hr><p>Queries are used to retrieve contents from the “virtual Toucan database”. They can be used to filter, sort, and aggregate data. Toucan provides a powerful query language that allows you to write complex queries with ease.</p><h2 id="query-syntax">Query Syntax</h2><p>Queries in Toucan are written using a simple and intuitive syntax. Here’s an example of a basic query:</p><pre><code class="language-yaml">featured:
+    contentType: post
+    limit: 10
+    offset: 0
+    scope: detail
+    filter:
+        key: featured
+        operator: equals
+        value: true
+    orderBy:
+        - key: publication
+          direction: desc
+</code></pre><p>This query selects the featured posts, and returns them in an array named <code>featured</code>. The <code>contentType</code> key is used to specify the type of content to be retrieved, in this case we’re retrieving <code>posts</code>. The <code>scope</code> key is used to specify the scope of the query, in this case we’re retrieving detailed information about the posts. The filter is used to filter the posts based on the <code>featured</code> front matter key. The <code>orderBy</code> key is used to specify the order in which the posts should be returned. In this case, we’re ordering the posts by their <code>publication</code> date in descending order. It is also possible to set the <code>limit</code> and the <code>offset</code> of the query.</p><p>Toucan query language syntax guide:</p><details><summary><code>contentType</code></summary><div><p>The <code>contentType</code> key defines the type of content being queried in other words the identifier of the content definition.<br>It determines which collection of content items should be used for the query.</p></div></details><details><summary><code>limit</code></summary><div><p>The limit key controls how many items should be returned at most.<br>This is useful for pagination or showing a fixed number of results.<br>Example: limit: <code>10</code> means only <code>10</code> results will be returned.<br>Default value: <code>nil</code>, all items will be returned.</p></div></details><details><summary><code>offset</code></summary><div><p>The <code>offset</code> key skips a given number of results before returning items.<br>Often used with <code>limit</code> for pagination.<br>Examples:</p><ul><li><code>offset: 0</code> starts from the beginning</li><li><code>offset: 10</code> skips the first 10 results<br>Default value: <code>nil</code>, starts from the beginning.</li></ul></div></details><details><summary><code>scope</code></summary><div><p>The <code>scope</code> key controls the level of detail in the query results.<br>The <code>scope: detail</code> means full content and all associated metadata will be included.<br>Other scopes may return only basic or summary-level data.<br>Please note that scopes are currently a work in progress and may be subject to change.</p></div></details><details><summary><code>filter</code></summary><div><p>The <code>filter</code> key defines a condition to include only specific items.<br>A condition always contains a <code>key</code>, an <code>operator</code>, and a <code>value</code>.<br>Multiple conditions can be combined using <code>and</code> or <code>or</code> statements.<br>This is used to match content based on front matter or other properties.</p></div></details><details><summary><code>orderBy</code></summary><div><p>The <code>orderBy</code> key defines how to sort the results.<br>It accepts a list of sorting rules, each with a <code>key</code> and <code>direction</code>.<br>Direction can be <code>asc</code> (ascending) or <code>desc</code> (descending).</p></div></details><h2 id="filtering">Filtering</h2><p>The Toucan query language comes with filters that allow you to filter data based on specific criteria.</p><p>Filters can be simple fields, or complex conditions using the <code>and</code> and <code>or</code> statements. Each filter condition consists of a key, an operator, and a value. The key usually refers to the front matter key, the operator represents a criteria, and the value is a generic value to match against.</p><p>Supported filter operators:</p><details><summary><code>equals</code></summary><div><p>Compares two values for exact match.</p><p>Supported types:</p><ul><li>Bool</li><li>Int</li><li>Double</li><li>String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: author
+filter:
+  field:
+    key: name
+    operator: equals
+    value: "Author #6"
+</code></pre></div></details><details><summary><code>notEquals</code></summary><div><p>Compares two values and returns true if they are not equal.</p><p>Supported types:</p><ul><li>Bool</li><li>Int</li><li>Double</li><li>String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: author
+filter:
+field:
+    key: name
+    operator: notEquals
+    value: "Author #1"
+</code></pre></div></details><details><summary><code>lessThan</code></summary><div><p>Checks if left value is strictly less than the right value.</p><p>Supported types:</p><ul><li>Int</li><li>Double</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: category
+filter:
+field:
+    key: order
+    operator: lessThan
+    value: 3
+</code></pre></div></details><details><summary><code>lessThanOrEquals</code></summary><div><p>Checks if left value is less than or equal to the right value.</p><p>Supported types:</p><ul><li>Int</li><li>Double</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: category
+filter:
+field:
+    key: order
+    operator: lessThanOrEquals
+    value: 3
+</code></pre></div></details><details><summary><code>greaterThan</code></summary><div><p>Checks if left value is strictly greater than the right value.</p><p>Supported types:</p><ul><li>Int</li><li>Double</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: category
+filter:
+  field:
+    key: order
+    operator: greaterThan
+    value: 8
+</code></pre></div></details><details><summary><code>greaterThanOrEquals</code></summary><div><p>Checks if left value is greater than or equal to the right value.</p><p>Supported types:</p><ul><li>Int</li><li>Double</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: category
+filter:
+field:
+    key: order
+    operator: greaterThanOrEquals
+    value: 8
+</code></pre></div></details><details><summary><code>like</code></summary><div><p>Checks if left string contains the right pattern as substring.</p><p>Supported types:</p><ul><li>String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: author
+filter:
+  field:
+    key: name
+    operator: like
+    value: "Author #1"
+</code></pre></div></details><details><summary><code>caseInsensitiveLike</code></summary><div><p>Performs a case-insensitive check if left string contains the right pattern.</p><p>Supported types:</p><ul><li>String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: author
+filter:
+  field:
+    key: name
+    operator: caseInsensitiveLike
+    value: "author #1"
+</code></pre></div></details><details><summary><code>in</code></summary><div><p>Checks if left value exists inside the right array.</p><p>Supported types:</p><ul><li>Array of Int</li><li>Array of Double</li><li>Array of String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: author
+filter:
+  field:
+    key: name
+    operator: in
+    value:
+      - "Author #6"
+      - "Author #4"
+</code></pre></div></details><details><summary><code>contains</code></summary><div><p>Checks if the array (left value) contains the right value.</p><p>Supported types:</p><ul><li>Int</li><li>Double</li><li>String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: post
+filter:
+  field:
+    key: authors
+    operator: contains
+    value: "author-1"
+</code></pre></div></details><details><summary><code>matching</code></summary><div><p>Checks if the left array and right array have at least one overlapping value.</p><p>Supported types:</p><ul><li>Array of Int</li><li>Array of Double</li><li>Array of String</li></ul><p>Example:</p><pre><code class="language-yaml">contentType: post
+filter:
+  field:
+    key: tags
+    operator: matching
+    value:
+      - "tag-1"
+      - "tag-2"
+</code></pre></div></details><p>Supported logical operators:</p><details><summary><code>and</code></summary><div><p>The <code>and</code> operator is a logical operator used to combine multiple conditions.<br>All conditions under <code>and</code> must be true for the item to match.<br>Each condition is defined using a <code>key</code>, an <code>operator</code>, and a <code>value</code>.<br>This is useful when filtering content by multiple requirements simultaneously.</p><p>Example:</p><pre><code class="language-yaml">filter:
+    and:
+        - key: category
+          operator: equals
+          value: "{{category}}"
+        - key: order
+          operator: lessThan
+          value: "{{order}}"
+</code></pre></div></details><details><summary><code>or</code></summary><div><p>The <code>or</code> operator is a logical operator used to combine multiple conditions.<br>At least one condition under <code>or</code> must be true for the item to match.<br>Each condition is defined using a <code>key</code>, an <code>operator</code>, and a <code>value</code>.<br>This is useful when filtering content that can match any of the given conditions.</p><p>Example:</p><pre><code class="language-yaml">filter:
+    or:
+        - key: category
+          operator: equals
+          value: "{{category}}"
+        - key: order
+          operator: lessThan
+          value: "{{order}}"
+</code></pre></div></details><p>Here’s another query that demonstrates the use of the <code>lessThan</code> operator using a complex filter condition:</p><pre><code class="language-yaml">prev:
+    contentType: guide
+    limit: 1
+    filter:
+        and:
+            - key: category
+              operator: equals
+              value: "{{category}}"
+            - key: order
+              operator: lessThan
+              value: "{{order}}"
+    orderBy:
+        - key: order
+          direction: desc
+</code></pre><p>In this example above, we’ve used placeholder values for the <code>category</code> and <code>order</code> keys. These values are going to be replaced with actual values coming from the current context when executing the query. This way the query will return the previous guide in the same category with a lower order value.</p><p>Of course you can use multiple logical operators:</p><pre><code class="language-yaml">complexQueryExample:
+    contentType: post
+    limit: 10
+    offset: 1
+    filter:
+        and:
+            - key: category
+              operator: equals
+              value: "my-category"
+            - or:
+                - key: tags
+                  operator: contains
+                  value: "my-tag"
+                - key: authors
+                  operator: contains
+                  value: "my-author"
+    orderBy:
+        - key: order
+          direction: desc
+        - key: title
+          direction: asc
+</code></pre><p>This example shows a more complex query using multiple logical operators.</p><ul><li>The <code>and</code> operator ensures that the <code>category</code> is exactly <code>"my-category"</code>.</li><li>The nested <code>or</code> operator allows matching items that either:<ul><li>contain <code>"my-tag"</code> in their <code>tags</code>, or</li><li>contain <code>"my-author"</code> in their <code>authors</code>.</li></ul></li></ul><p>Results are sorted first by <code>order</code> in descending order, then by <code>title</code> in ascending order.<br>The query returns 10 items (<code>limit: 10</code>), skipping the first result (<code>offset: 1</code>).</p>
     
     
                 <section>
@@ -249,6 +381,15 @@
         </div>
         <div class="right">
             <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="level-2">
+                        <a href="#query-syntax">Query Syntax</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#filtering">Filtering</a>
+                    </li>
+                </ul>
             </aside>
         </div>
     </div>

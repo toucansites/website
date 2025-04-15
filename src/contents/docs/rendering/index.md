@@ -5,7 +5,9 @@ description: ""
 order: 3
 ---
 
-# Content Management
+# Rendering
 ---
 
-The following guides provide essential information on how content is structured and managed with Toucan. These resources cover the use of markdown files, front matter for setting custom properties, and other useful insights.
+The following guides provide information on how content is rendered using Toucan.
+
+These guides explain the core concepts, configuration options, and examples for building static sites or APIs using Toucan's render pipelines, query system and many more tools.

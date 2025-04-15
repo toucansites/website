@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Page bundles are used to efficiently manage and structure content">
+    <meta name="description" content="A markdown block directive is a feature that allows embedding custom content within a markdown file.">
     
-    <meta property="og:url" content="http://localhost:3000/docs/content-management/page-bundles/">
-    <meta property="og:title" content="Page bundles">
-    <meta property="og:description" content="Page bundles are used to efficiently manage and structure content">
+    <meta property="og:url" content="http://localhost:3000/docs/content-management/block-directives/">
+    <meta property="og:title" content="Block directives">
+    <meta property="og:description" content="A markdown block directive is a feature that allows embedding custom content within a markdown file.">
     
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Page bundles">
-    <meta name="twitter:description" content="Page bundles are used to efficiently manage and structure content">
+    <meta name="twitter:title" content="Block directives">
+    <meta name="twitter:description" content="A markdown block directive is a feature that allows embedding custom content within a markdown file.">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -28,11 +28,11 @@
     <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
-    <title>Page bundles</title>
+    <title>Block directives</title>
 
-    <link rel="canonical" href="http://localhost:3000/docs/content-management/page-bundles/">
+    <link rel="canonical" href="http://localhost:3000/docs/content-management/block-directives/">
+    <link rel="prev" href="http://localhost:3000/docs/content-management/markdown/">
     
-    <link rel="next" href="http://localhost:3000/docs/content-management/markdown/">
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -172,35 +172,29 @@
                         <ul>
                             <li><a href="http://localhost:3000/docs/getting-started/basics/">Basics</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/commands/">Commands</a></li>
-                <li><a href="http://localhost:3000/docs/getting-started/site-settings/">Site settings</a></li>
                 <li><a href="http://localhost:3000/docs/getting-started/config/">Config</a></li>
+                <li><a href="http://localhost:3000/docs/getting-started/settings/">Settings</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/content-management/">Content Management</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/content-management/page-bundles/">Page bundles</a></li>
-                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                            <li><a href="http://localhost:3000/docs/content-management/content-types/">Content Types</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/content-bundles/">Content Bundles</a></li>
                 <li><a href="http://localhost:3000/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="http://localhost:3000/docs/content-management/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
                         <a href="http://localhost:3000/docs/rendering/">Rendering</a>
                         <ul>
-                            <li><a href="http://localhost:3000/docs/rendering/basics/">Basics</a></li>
-                <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
+                            <li><a href="http://localhost:3000/docs/rendering/pipelines/">Pipelines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/queries/">Queries</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/iterators/">Iterators</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/engines/">Engines</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/transformers/">Transformers</a></li>
                 <li><a href="http://localhost:3000/docs/rendering/scopes/">Scopes</a></li>
-                        </ul>
-                    </li>
-        <li class="category">
-                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
-                        <ul>
-                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
-                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -210,8 +204,6 @@
                 <li><a href="http://localhost:3000/docs/themes/theme-assets/">Theme assets</a></li>
                 <li><a href="http://localhost:3000/docs/themes/mustache-templates/">Mustache templates</a></li>
                 <li><a href="http://localhost:3000/docs/themes/toucan-templates/">Toucan templates</a></li>
-                <li><a href="http://localhost:3000/docs/themes/content-types/">Content types</a></li>
-                <li><a href="http://localhost:3000/docs/themes/block-directives/">Block directives</a></li>
                         </ul>
                     </li>
         <li class="category">
@@ -227,6 +219,13 @@
                             <li><a href="http://localhost:3000/docs/deployment/github-pages/">GitHub Pages</a></li>
                         </ul>
                     </li>
+        <li class="category">
+                        <a href="http://localhost:3000/docs/markdown-syntax/">Markdown syntax</a>
+                        <ul>
+                            <li><a href="http://localhost:3000/docs/markdown-syntax/text-formating/">Text Formatting</a></li>
+                <li><a href="http://localhost:3000/docs/markdown-syntax/list-links-images/">List, Links and Images</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -234,7 +233,27 @@
             <article>
                 <a href="http://localhost:3000/docs/content-management/">Content Management</a>
                 
-                <h1>Page Bundles</h1><hr><p>Page bundles are used to render every page on the website. A page bundle is essentially a folder containing an <code>index</code> file. The file extension can be:</p><ul><li><code>.md</code></li><li><code>.markdown</code></li><li><code>.yml</code></li><li><code>.yaml</code></li></ul><p>When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter.</p><p>It’s also possible to separate the content and front matter by using both <code>index.yml</code> for front matter and <code>index.md</code> for content.</p><h2 id="slug-management">Slug Management</h2><p>The slug of the page is determined by the directory name. The <code>home</code> directory is always set as the home page of the website, and the “not found” page is typically placed in a <code>404</code> folder.</p><p>These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is <code>/a/b/c</code> with an<code>index.md</code> file inside <code>c</code>, the slug would be <code>/a/b/c/</code>.</p><p>To exclude a path component from the slug, place an empty <code>noindex.yml</code> file in that directory. For instance, if <code>noindex.yml</code> is added to the <code>b</code> directory, the slug would become <code>/a/c/</code>.</p><h2 id="asset-management">Asset Management</h2><p>Each page bundle can include its own assets, which can be referenced in markdown files using relative paths, such as <code>./assets/my-picture.png</code>.</p><p>If a <code>style.css</code> file is placed in the assets folder, it will automatically be loaded and applied to the page. Similarly, placing a <code>main.js</code> file in the assets folder will automatically load and execute the JavaScript on the page.</p><h2 id="markdown">Markdown</h2><p>The <a href="http://localhost:3000/docs/content-management/markdown/">next section</a> covers how to utilize markdown files, front matter, and custom block directives to enhance and enrich your content effectively.</p>
+                <h1>Block directives</h1><hr><p>A markdown block directive is a feature that allows embedding custom content within a markdown file. These directives are defined using a special syntax, utilizing the <code>@</code> prefix, and are processed by Toucan to create dynamic or interactive content. They extend markdown’s basic capabilities.</p><p>With the first beta release, custom block directives can now be defined. These block directives are integrated into the themes, allowing theme authors to provide shorthands for common UI components.</p><h2 id="custom-directives">Custom directives</h2><p>Theme developers can create a <code>blocks</code> folder within the theme directory. A YAML configuration is sufficient to define a custom block directive.</p><p>The following YAML configuration can be used to create a custom <code>Link</code> element:</p><pre><code class="language-yaml">name: link
+parameters:
+  - label: url
+    default: ""
+  - label: class
+    default: ""
+  - label: target
+    default: "_blank"
+removesChildParagraph: true
+#requiresParentDirective: myContainer
+#output: "&lt;a class="{{class}}" href="{{url}}" target="{{target}}"&gt;{{contents}}&lt;/a&gt;"
+tag: a
+attributes:
+  - name: href
+    value: "{{url}}"
+  - name: target
+    value: "{{target}}"
+  - name: class
+    value: "{{class}}"
+</code></pre><p>This configuration allows markdown editors to use the <code>@Link</code> block directive with the following syntax to display a link:</p><pre><code class="language-md">@Link(url: "http://toucansites.com/") { This is a link }
+</code></pre><p>Additional block directive examples can be found in the site’s source code on <a href="https://github.com/toucansites/website/tree/main/src/themes/default/blocks" target="_blank">GitHub</a>.</p><h2 id="reference-guide">Reference guide</h2><details><summary><strong><code>name</code></strong> - The name of the block directive</summary><div><p>Sets the name of the custom block directive.</p></div></details><details><summary><code>parameters</code> - The custom parameters for the block directive</summary><div><p>Defines custom parameters for the block directive.</p><ul><li><strong>label</strong> - The parameter label.</li><li><strong>default</strong> - The default value if the parameter is not provided.</li></ul></div></details><details><summary><code>removesChildParagraph</code> - Removes the top level paragraph element</summary><div><p>Controls whether the top-level paragraph element is removed when rendering block contents. The default value is <code>false</code>.</p></div></details><details><summary><code>requiresParentDirective</code> - Require a parent directive.</summary><div><p>Specifies if the block directive must be a child of another directive. The default value is <code>nil</code>.</p></div></details><details><summary><strong><code>output</code></strong> - Defines a custom output for the block directive.</summary><div><p>Defines custom output for the block directive using template variables.</p><p>Available variables:</p><ul><li><strong>{{contents}}</strong> - The rendered markdown from the block contents.</li><li><strong>{{[param_name]}}</strong> - The value of the provided parameter.</li></ul><p>If no output is defined, the <strong>tag</strong> will be used to render the directive.</p></div></details><details><summary><strong><code>tag</code></strong> - The desired wrapper tag around the markdown contents.</summary><div><p>Specifies the HTML tag that wraps the markdown content. If no <strong>tag</strong> or <strong>output</strong> is set, the directive won’t render.</p></div></details><details><summary><code>attributes</code> - The attributes for the custom HTML tag.</summary><div><p>Defines attributes for the custom HTML tag.</p><ul><li><strong>name</strong> - The name of the HTML attribute.</li><li><strong>value</strong> - The value of the attribute, using template variables.</li></ul></div></details>
     
     
                 <section>
@@ -252,13 +271,10 @@
                 <h4>On this page</h4>
                 <ul>
                     <li class="level-2">
-                        <a href="#slug-management">Slug Management</a>
+                        <a href="#custom-directives">Custom directives</a>
                     </li>
         <li class="level-2">
-                        <a href="#asset-management">Asset Management</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#markdown">Markdown</a>
+                        <a href="#reference-guide">Reference guide</a>
                     </li>
                 </ul>
             </aside>

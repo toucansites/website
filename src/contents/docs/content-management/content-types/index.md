@@ -1,9 +1,9 @@
 ---
 type: guide
-title: "Content types"
+title: "Content Types"
 description: "Custom content types are defined in the types folder as YAML files, with paths or front matter used to identify the type."
-category: themes
-order: 6
+category: "content-management"
+order: 1
 ---
 
 # Content types
@@ -38,7 +38,7 @@ context:
             sort: publication
             order: desc
             limit: 12
-        
+
         featured:
             sort: publication
             order: desc
@@ -50,6 +50,6 @@ context:
 
 ```
 
-Content types, including pagination and property validation, are still subject to change during beta release cycle. 
+Content types, including pagination and property validation, are still subject to change during beta release cycle.
 
 Additional documentation will be provided once this feature is stabilized.
