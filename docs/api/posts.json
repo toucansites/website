@@ -15,7 +15,7 @@
 
             ],
             "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+            "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
             "js" : [
 
             ],
@@ -41,13 +41,13 @@
               "timestamp" : 1744641052.1142497
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+            "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
             "slug" : "authors/ferenc-viasz-kadi",
             "title" : "Ferenc Viasz-Kadi"
           }
         ],
         "contents" : {
-          "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+          "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
           "outline" : [
             {
               "children" : [
@@ -115,7 +115,7 @@
           },
           "timestamp" : 1744641052.1139681
         },
-        "permalink" : "http://localhost:3000/beta-3-is-out/",
+        "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
           "date" : {
             "full" : "Wednesday, April 2, 2025",
@@ -152,7 +152,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -178,7 +178,7 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
@@ -221,7 +221,7 @@
               },
               "timestamp" : 1744641052.1140366
             },
-            "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+            "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -283,7 +283,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -304,7 +304,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -330,7 +330,7 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
@@ -372,7 +372,7 @@
               },
               "timestamp" : 1744641052.1138942
             },
-            "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+            "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
               "date" : {
                 "full" : "Sunday, December 15, 2024",
@@ -434,7 +434,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -455,7 +455,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -481,13 +481,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
               "outline" : [
 
               ],
@@ -523,7 +523,7 @@
               },
               "timestamp" : 1744640959.7518957
             },
-            "permalink" : "http://localhost:3000/first-beta-release/",
+            "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
               "date" : {
                 "full" : "Tuesday, October 22, 2024",
@@ -585,7 +585,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -606,7 +606,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -632,13 +632,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"http://localhost:3000/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"https://toucansites.com/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
               "outline" : [
                 {
                   "children" : [
@@ -705,7 +705,7 @@
               },
               "timestamp" : 1744640959.7520552
             },
-            "permalink" : "http://localhost:3000/last-alpha-release/",
+            "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
               "date" : {
                 "full" : "Thursday, October 17, 2024",
@@ -767,7 +767,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -815,7 +815,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -836,7 +836,7 @@
 
             ],
             "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+            "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
             "js" : [
 
             ],
@@ -862,7 +862,7 @@
               "timestamp" : 1744641052.1142497
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+            "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
             "slug" : "authors/ferenc-viasz-kadi",
             "title" : "Ferenc Viasz-Kadi"
           }
@@ -905,7 +905,7 @@
           },
           "timestamp" : 1744641052.1140366
         },
-        "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+        "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
           "date" : {
             "full" : "Wednesday, April 2, 2025",
@@ -942,7 +942,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -968,13 +968,13 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
               "outline" : [
                 {
                   "children" : [
@@ -1042,7 +1042,7 @@
               },
               "timestamp" : 1744641052.1139681
             },
-            "permalink" : "http://localhost:3000/beta-3-is-out/",
+            "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -1104,7 +1104,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -1125,7 +1125,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -1151,7 +1151,7 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
@@ -1193,7 +1193,7 @@
               },
               "timestamp" : 1744641052.1138942
             },
-            "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+            "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
               "date" : {
                 "full" : "Sunday, December 15, 2024",
@@ -1255,7 +1255,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -1276,7 +1276,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -1302,13 +1302,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
               "outline" : [
 
               ],
@@ -1344,7 +1344,7 @@
               },
               "timestamp" : 1744640959.7518957
             },
-            "permalink" : "http://localhost:3000/first-beta-release/",
+            "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
               "date" : {
                 "full" : "Tuesday, October 22, 2024",
@@ -1406,7 +1406,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -1427,7 +1427,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -1453,13 +1453,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"http://localhost:3000/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"https://toucansites.com/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
               "outline" : [
                 {
                   "children" : [
@@ -1526,7 +1526,7 @@
               },
               "timestamp" : 1744640959.7520552
             },
-            "permalink" : "http://localhost:3000/last-alpha-release/",
+            "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
               "date" : {
                 "full" : "Thursday, October 17, 2024",
@@ -1588,7 +1588,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -1636,7 +1636,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -1657,7 +1657,7 @@
 
             ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
             ],
@@ -1683,7 +1683,7 @@
               "timestamp" : 1744640959.7526395
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
@@ -1725,7 +1725,7 @@
           },
           "timestamp" : 1744641052.1138942
         },
-        "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+        "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
         "publication" : {
           "date" : {
             "full" : "Sunday, December 15, 2024",
@@ -1762,7 +1762,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -1788,13 +1788,13 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
               "outline" : [
                 {
                   "children" : [
@@ -1862,7 +1862,7 @@
               },
               "timestamp" : 1744641052.1139681
             },
-            "permalink" : "http://localhost:3000/beta-3-is-out/",
+            "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -1924,7 +1924,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -1945,7 +1945,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -1971,7 +1971,7 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
@@ -2014,7 +2014,7 @@
               },
               "timestamp" : 1744641052.1140366
             },
-            "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+            "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -2076,7 +2076,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -2097,7 +2097,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -2123,13 +2123,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
               "outline" : [
 
               ],
@@ -2165,7 +2165,7 @@
               },
               "timestamp" : 1744640959.7518957
             },
-            "permalink" : "http://localhost:3000/first-beta-release/",
+            "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
               "date" : {
                 "full" : "Tuesday, October 22, 2024",
@@ -2227,7 +2227,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -2248,7 +2248,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -2274,13 +2274,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"http://localhost:3000/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"https://toucansites.com/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
               "outline" : [
                 {
                   "children" : [
@@ -2347,7 +2347,7 @@
               },
               "timestamp" : 1744640959.7520552
             },
-            "permalink" : "http://localhost:3000/last-alpha-release/",
+            "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
               "date" : {
                 "full" : "Thursday, October 17, 2024",
@@ -2409,7 +2409,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -2457,7 +2457,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -2478,7 +2478,7 @@
 
             ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
             ],
@@ -2504,13 +2504,13 @@
               "timestamp" : 1744640959.7526395
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
         "contents" : {
-          "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+          "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
           "outline" : [
 
           ],
@@ -2546,7 +2546,7 @@
           },
           "timestamp" : 1744640959.7518957
         },
-        "permalink" : "http://localhost:3000/first-beta-release/",
+        "permalink" : "https://toucansites.com/first-beta-release/",
         "publication" : {
           "date" : {
             "full" : "Tuesday, October 22, 2024",
@@ -2583,7 +2583,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -2609,13 +2609,13 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
               "outline" : [
                 {
                   "children" : [
@@ -2683,7 +2683,7 @@
               },
               "timestamp" : 1744641052.1139681
             },
-            "permalink" : "http://localhost:3000/beta-3-is-out/",
+            "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -2745,7 +2745,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -2766,7 +2766,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -2792,7 +2792,7 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
@@ -2835,7 +2835,7 @@
               },
               "timestamp" : 1744641052.1140366
             },
-            "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+            "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -2897,7 +2897,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -2918,7 +2918,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -2944,7 +2944,7 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
@@ -2986,7 +2986,7 @@
               },
               "timestamp" : 1744641052.1138942
             },
-            "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+            "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
               "date" : {
                 "full" : "Sunday, December 15, 2024",
@@ -3048,7 +3048,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -3069,7 +3069,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -3095,13 +3095,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"http://localhost:3000/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+              "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"https://toucansites.com/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
               "outline" : [
                 {
                   "children" : [
@@ -3168,7 +3168,7 @@
               },
               "timestamp" : 1744640959.7520552
             },
-            "permalink" : "http://localhost:3000/last-alpha-release/",
+            "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
               "date" : {
                 "full" : "Thursday, October 17, 2024",
@@ -3230,7 +3230,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -3278,7 +3278,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -3299,7 +3299,7 @@
 
             ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
             ],
@@ -3325,13 +3325,13 @@
               "timestamp" : 1744640959.7526395
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
         ],
         "contents" : {
-          "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"http://localhost:3000/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
+          "html" : "<p>The alpha testing phase for Toucan is now finished with the release of the final alpha version, <a href=\"https://github.com/toucansites/toucan/releases\" target=\"_blank\">1.0.0-alpha.3</a>. We are preparing to begin the beta release cycle shortly.</p><h2 id=\"migration-guide-docs\">Migration guide & docs</h2><p>Toucan 1.0.0-alpha.3 introduces several changes. The <a href=\"https://toucansites.com/docs/\">documentation</a> has been updated to reflect these updates. Here’s a step-by-step guide on how to update your existing website to reflect the changes.</p><h3 id=\"content-changes\">Content changes</h3><ul><li>Move the <code>src/types</code> folder into <code>themes/default/</code> directory.</li><li>Rename the <code>src/content</code> folder to <code>src/contents</code>.</li><li>Move the <code>index.md</code> file to <code>home/index.md</code>.</li><li>Create a new <code>index.yml</code> file in the <code>contents</code> directory.</li><li>Move out the site section from your <code>config.yml</code> file to this newly created<br>site <code>index.yml</code> file, e.g.:</li></ul><pre><code class=\"language-yml\">baseUrl: \"https://mywebsite.com/\"\nlanguage: \"en-US\"\ntitle: \"My website\"\ndescription: \"This is my personal website.\"\ndateFormat: \"yyyy.MM.dd.\"\nnavigation:\n    - label: \"Home\"\n      url: \"/\"\n    - label: \"About\"\n      url: \"/docs/\"\n</code></pre><h3 id=\"config-changes\">Config changes</h3><p>If you were using the <strong>content transformer</strong> feature, move the content-type transformer configuration into the <code>config.yml</code> file:</p><pre><code class=\"language-yml\">transformers:\n    pipelines:\n        # run the following scripts for post the type\n        post: \n          run: \n            - name: swiftinit\n          # indicates that the result is already HTML\n          isMarkdownResult: false # default: true\n</code></pre><p>Otherwise if you had no special configuration, feel free to completely remove the config file, to use the defaults.</p><h3 id=\"theme-changes\">Theme changes</h3><ul><li>Move the <code>index.mustache</code> file to <code>pages/home.mustache</code>.</li><li>Move the <code>404.mustache</code> file to <code>pages/404.mustache</code>.</li><li>Move the <code>pages/single/page.mustache</code> file to <code>pages/default.mustache</code>.</li><li>Update / remove the <code>template:</code> front matter key in your home and not found page.</li><li>Rename the <code>blocks</code> folder to <code>partials</code>, this is the recommended name now.</li><li>Search for <code>{{> blocks</code> and replace with <code>{{> partials</code> in the template files.</li></ul><p>Follow the same logic for for all your custom types, e.g.:</p><ul><li><code>blog.index</code> -> <code>blog.home</code></li><li><code>blog.authors.index</code> -> <code>blog.authors</code></li><li><code>blog.single.tag</code> -> <code>blog.tag.default</code></li><li><code>blog.blocks</code> -> <code>partials.blog</code></li><li><code>{{> blog.blocks</code> -> <code>{{> partials.blog</code></li></ul><p>That’s all you need to do to support the latest alpha release. Feel free to explore the sample repositories, all of which are up-to-date with the recent changes:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you enjoy using Toucan, and your feedback is greatly appreciated. 🙏</p>",
           "outline" : [
             {
               "children" : [
@@ -3398,7 +3398,7 @@
           },
           "timestamp" : 1744640959.7520552
         },
-        "permalink" : "http://localhost:3000/last-alpha-release/",
+        "permalink" : "https://toucansites.com/last-alpha-release/",
         "publication" : {
           "date" : {
             "full" : "Thursday, October 17, 2024",
@@ -3435,7 +3435,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -3461,13 +3461,13 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
               "outline" : [
                 {
                   "children" : [
@@ -3535,7 +3535,7 @@
               },
               "timestamp" : 1744641052.1139681
             },
-            "permalink" : "http://localhost:3000/beta-3-is-out/",
+            "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -3597,7 +3597,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -3618,7 +3618,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -3644,7 +3644,7 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
@@ -3687,7 +3687,7 @@
               },
               "timestamp" : 1744641052.1140366
             },
-            "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+            "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -3749,7 +3749,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -3770,7 +3770,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -3796,7 +3796,7 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
@@ -3838,7 +3838,7 @@
               },
               "timestamp" : 1744641052.1138942
             },
-            "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+            "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
               "date" : {
                 "full" : "Sunday, December 15, 2024",
@@ -3900,7 +3900,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -3921,7 +3921,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -3947,13 +3947,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
               "outline" : [
 
               ],
@@ -3989,7 +3989,7 @@
               },
               "timestamp" : 1744640959.7518957
             },
-            "permalink" : "http://localhost:3000/first-beta-release/",
+            "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
               "date" : {
                 "full" : "Tuesday, October 22, 2024",
@@ -4051,7 +4051,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -4099,7 +4099,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -4120,7 +4120,7 @@
 
             ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-            "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+            "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
             "js" : [
 
             ],
@@ -4146,7 +4146,7 @@
               "timestamp" : 1744640959.7526395
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+            "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
             "slug" : "authors/tibor-bodecs",
             "title" : "Tibor Bödecs"
           }
@@ -4219,7 +4219,7 @@
           },
           "timestamp" : 1744640959.7521744
         },
-        "permalink" : "http://localhost:3000/toucan-is-now-ready-for-alpha-testing/",
+        "permalink" : "https://toucansites.com/toucan-is-now-ready-for-alpha-testing/",
         "publication" : {
           "date" : {
             "full" : "Monday, September 30, 2024",
@@ -4256,7 +4256,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -4282,13 +4282,13 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"http://localhost:3000/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
+              "html" : "<h2 id=\"updated-core\">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id=\"pipelines\">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class=\"language-yaml\">id: api\nqueries: \n    posts:\n        contentType: post\n        orderBy:\n            - key: publication\n              direction: desc\ncontentTypes: \n    include:\n        - api\nengine: \n    id: json\noutput:\n    path: \"api\"\n    file: posts\n    ext: json\n</code></pre><h2 id=\"queries\">Queries</h2><p>Queries give extra flexibility how you access your content in a unified format. You can define them on the content definition itself or on your pipelines. They are strictly for a single content type, but limit, offset, filtering by key and ordering are also available. Narrowing down your content is super easy with them, such as featured posts:</p><pre><code class=\"language-yaml\">featured:\n    contentType: post\n    filter:\n        key: featured\n        operator: equals\n        value: true\n    orderBy:\n        - key: publication\n          direction: desc\n</code></pre><h2 id=\"iterators\">Iterators</h2><p>Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: <code>{{iteratorId}}</code>.</p><pre><code class=\"language-yaml\">iterators:\n    post.pagination:\n        contentType: post\n        limit: 12\n        orderBy:\n            - key: publication\n              direction: desc\n</code></pre><hr><p>If you are interested in more details check the <a href=\"https://toucansites.com/beta-3-migration-guide\">Beta 3 igration guide</a> or the changes if <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2\" target=\"_blank\">this release</a> on GitHub. Real world examples are also available such as <a href=\"https://toucansites.com/\" target=\"_blank\">this site</a> or our <a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal Example</a>.</p><p>Have fun with Toucan Beta 3 and let us know what you think!</p>",
               "outline" : [
                 {
                   "children" : [
@@ -4356,7 +4356,7 @@
               },
               "timestamp" : 1744641052.1139681
             },
-            "permalink" : "http://localhost:3000/beta-3-is-out/",
+            "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -4418,7 +4418,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -4439,7 +4439,7 @@
 
                 ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
+                "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
                 "js" : [
 
                 ],
@@ -4465,7 +4465,7 @@
                   "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/ferenc-viasz-kadi/",
+                "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
                 "slug" : "authors/ferenc-viasz-kadi",
                 "title" : "Ferenc Viasz-Kadi"
               }
@@ -4508,7 +4508,7 @@
               },
               "timestamp" : 1744641052.1140366
             },
-            "permalink" : "http://localhost:3000/beta-3-migration-guide/",
+            "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 2, 2025",
@@ -4570,7 +4570,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -4591,7 +4591,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -4617,7 +4617,7 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
@@ -4659,7 +4659,7 @@
               },
               "timestamp" : 1744641052.1138942
             },
-            "permalink" : "http://localhost:3000/beta-2-is-now-avaiable/",
+            "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
               "date" : {
                 "full" : "Sunday, December 15, 2024",
@@ -4721,7 +4721,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -4742,7 +4742,7 @@
 
                 ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
-                "image" : "http://localhost:3000/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
+                "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
                 "js" : [
 
                 ],
@@ -4768,13 +4768,13 @@
                   "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/authors/tibor-bodecs/",
+                "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
                 "slug" : "authors/tibor-bodecs",
                 "title" : "Tibor Bödecs"
               }
             ],
             "contents" : {
-              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"http://localhost:3000/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
+              "html" : "<p>Toucan is now ready for <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1\" target=\"_blank\">beta</a> testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.</p><p>A significant change from version 1.0.0-alpha.3 is the introduction of custom block directives. More details about this feature can be found in the corresponding <a href=\"https://toucansites.com/docs/themes/block-directives/\">documentation</a> section.</p><p>Another new feature is the init command, which assists in bootstrapping the creation of a static website. Simply run <code>toucan init</code> to get started.</p><p>This is a great time to start building your own site with Toucan. The team is eager to see the projects created using our static site generator.</p><p>Check out the sample repositories for inspiration and start building your own site or theme with Toucan:</p><ul><li><a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">The.Swift.Dev</a></li><li><a href=\"https://github.com/toucansites/website\" target=\"_blank\">toucansites.com</a></li><li><a href=\"https://github.com/toucansites/minimal-example\" target=\"_blank\">Minimal example</a></li><li><a href=\"https://github.com/swift-on-server/site/\" target=\"_blank\">Swift on Server</a></li></ul><p>We hope you find Toucan easy to use, and we greatly value your feedback. 🙏</p>",
               "outline" : [
 
               ],
@@ -4810,7 +4810,7 @@
               },
               "timestamp" : 1744640959.7518957
             },
-            "permalink" : "http://localhost:3000/first-beta-release/",
+            "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
               "date" : {
                 "full" : "Tuesday, October 22, 2024",
@@ -4872,7 +4872,7 @@
                   "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
-                "permalink" : "http://localhost:3000/tags/releases/",
+                "permalink" : "https://toucansites.com/tags/releases/",
                 "slug" : "tags/releases",
                 "title" : "Releases"
               }
@@ -4920,7 +4920,7 @@
               "timestamp" : 1744640959.7529528
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/releases/",
+            "permalink" : "https://toucansites.com/tags/releases/",
             "slug" : "tags/releases",
             "title" : "Releases"
           }
@@ -4941,7 +4941,7 @@
 
             ],
             "description" : "Andris, a marketing and sales specialist, passionate about game development and project management.",
-            "image" : "http://localhost:3000/assets/authors/andris-sipos/andris-sipos.webp",
+            "image" : "https://toucansites.com/assets/authors/andris-sipos/andris-sipos.webp",
             "js" : [
 
             ],
@@ -4967,7 +4967,7 @@
               "timestamp" : 1744640959.7524378
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/authors/andris-sipos/",
+            "permalink" : "https://toucansites.com/authors/andris-sipos/",
             "slug" : "authors/andris-sipos",
             "title" : "Andris Sipos"
           }
@@ -5064,7 +5064,7 @@
           },
           "timestamp" : 1744640959.7519703
         },
-        "permalink" : "http://localhost:3000/introducing-toucan-a-new-markdown-based-static-site-generator/",
+        "permalink" : "https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/",
         "publication" : {
           "date" : {
             "full" : "Monday, August 12, 2024",
@@ -5129,7 +5129,7 @@
               "timestamp" : 1744640959.7528448
             },
             "order" : 10,
-            "permalink" : "http://localhost:3000/tags/news/",
+            "permalink" : "https://toucansites.com/tags/news/",
             "slug" : "tags/news",
             "title" : "News"
           }
@@ -5174,11 +5174,11 @@
       },
       "timestamp" : 1744641052.1138248
     },
-    "permalink" : "http://localhost:3000/api.json",
+    "permalink" : "https://toucansites.com/api.json",
     "slug" : "api.json"
   },
   "site" : {
-    "baseUrl" : "http://localhost:3000",
+    "baseUrl" : "https://toucansites.com",
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
@@ -5188,18 +5188,18 @@
         "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-15T13:15:30.735Z",
-        "rss" : "Tue, 15 Apr 2025 13:15:30 +0000",
+        "iso8601" : "2025-04-15T13:33:08.892Z",
+        "rss" : "Tue, 15 Apr 2025 13:33:08 +0000",
         "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "1:15:30 PM Greenwich Mean Time",
-        "long" : "1:15:30 PM GMT",
-        "medium" : "1:15:30 PM",
-        "short" : "1:15 PM"
+        "full" : "1:33:08 PM Greenwich Mean Time",
+        "long" : "1:33:08 PM GMT",
+        "medium" : "1:33:08 PM",
+        "short" : "1:33 PM"
       },
-      "timestamp" : 1744722930.735421
+      "timestamp" : 1744723988.892226
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",

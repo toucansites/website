@@ -9,25 +9,6 @@ description: ""
 # Engines
 ---
 
-### Rendering
-
-Toucan utilizes a two-phase rendering process to generate output files from content.
-
-### Phase 1 — Context Generation
-
-In the first phase, Toucan collects all content and generates context objects from them.
-
-A context object is a structured representation of content data, similar to a large JSON file, containing all necessary information required for rendering.
-
-### Phase 2 — Rendering Output
-
-In the second phase, Toucan applies a template engine to the context.
-
-Templates, combined with context data, are used to render and save the final output files.
-
-
-## Supported Engines
-
 Toucan currently supports two template engines:
 
 - `json` — renders raw JSON output

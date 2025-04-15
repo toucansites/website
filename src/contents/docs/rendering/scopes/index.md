@@ -9,7 +9,7 @@ description: ""
 # Scopes
 ---
 
-Scopes define the final output context when rendering content in Toucan. The two phase-rendering process is mentioned in the [engines](/docs/rendering/engines/) guide.
+Scopes define the final output context when rendering content in Toucan. The two phase-rendering process is mentioned on the [rendering](/docs/rendering/) page.
 
 Scopes control which front matter properties and relations are included or excluded from the rendered output.
 
