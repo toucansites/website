@@ -226,15 +226,18 @@
             <article>
                 <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Settings</h1><hr><p>This site index defines key settings for the website. The site index for Toucan is stored in the <code>index.yml</code> file, inside the <code>src/contents</code> directory, though the <code>.yaml</code> extension can also be used.</p><h3 id="example">Example</h3><p>An example site settings file looks like this:</p><pre><code class="language-yaml">baseUrl: "http://localhost:3000/"
+                <h1>Settings</h1><hr><p>The site settings file defines global settings and properties for the website.</p><p>In Toucan, it is always located at <code>src/contents/site.yml</code> (or <code>.yaml</code> if preferred).</p><h3 id="example">Example</h3><p>A sample site settings file might look like this:</p><pre><code class="language-yaml"># required
+baseUrl: "http://localhost:3000/"
+# optional
 locale: "en-US"
+# user-defined
 name: "Minimal example"
 navigation:
     - label: "Home"
       url: "/"
     - label: "About"
       url: "/about/"
-</code></pre><p>The following properties are available to use:</p><h3 id="required-keys">Required keys</h3><details><summary><strong><code>baseUrl</code></strong> - The base URL of the website.</summary><div><p>Specifies the base URL of the website, e.g. “https://mywebsite.com/”.</p></div></details><details><summary><strong><code>title</code></strong> - The title of the website.</summary><div><p>Sets the title of the website, e.g. “My website”.</p></div></details><h3 id="optional-keys">Optional keys</h3><details><summary><strong><code>description</code></strong> - The description of the website.</summary><div><p>The description of the website, used for the RSS feed.</p></div></details><details><summary><strong><code>dateFormat</code></strong> - Sets the date format for the website.</summary><div><p>Determines the format in which dates are displayed on the site.</p><p><strong>Date format symbols</strong></p><ul><li>yyyy: Year (e.g., 2023)</li><li>MM: Month (e.g., 09 for September)</li><li>dd: Day (e.g., 28)</li><li>HH: Hour (e.g., 14 for 2 PM)</li><li>mm: Minute (e.g., 05)</li><li>ss: Second (e.g., 37)</li></ul><p><strong>Example</strong></p><ul><li>“yyyy.MM.dd.”</li></ul></div></details><details><summary><strong><code>language</code></strong> - The language of the website.</summary><div><p>Defines the language of the website, e.g. “en-US” (English, US).</p><p>See ISO <a href="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">language codes</a> & <a href="https://www.w3schools.com/tags/ref_country_codes.asp" target="_blank">country codes</a> for more info.</p></div></details><details><summary><strong><code>navigation</code></strong> - Sets the main navigation for the website.</summary><div><p>Defines the menu items for site navigation. In this case:</p><ul><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li></ul></div></details>
+</code></pre><p>There are three key types in the settings file: required, optional, and user-defined.<br>The list below explains each type based on the sample file.</p><h3 id="required-keys">Required keys</h3><p>These keys must be defined for the website to work properly.</p><details><summary><strong><code>baseUrl</code></strong> - The base URL of the website.</summary><div><p>Specifies the base URL of the website, e.g. <code>https://mywebsite.com/</code>.</p></div></details><h3 id="optional-keys">Optional keys</h3><p>These keys are not required but useful.</p><details><summary><strong><code>locale</code></strong> - The locale of the website.</summary><div><p>Defines the locale of the website, e.g. <code>en-US</code> (English, US).</p><p>See ISO <a href="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">language codes</a> & <a href="https://www.w3schools.com/tags/ref_country_codes.asp" target="_blank">country codes</a> for more info.</p></div></details><h2 id="user-defined-keys">User defined keys</h2><p>Additional properties for your theme. Here are some examples:</p><details><summary><strong><code>name</code></strong> - The name of the website.</summary><div><p>Sets the name of the website, e.g. “My website”.</p></div></details><details><summary><strong><code>navigation</code></strong> - Sets the main navigation for the website.</summary><div><p>Defines the menu items for site navigation. In this case:</p><ul><li>“Home” is linked to the root URL (”/”).</li><li>“About” is linked to the “/docs/” page.</li></ul></div></details><p>Feel free to add anything to the site settings file. All variables will be available in your theme files under the site key. e.g. <code>{{site.name}}</code> See the theme guides for more info.</p>
     
     
                 <section>
@@ -259,6 +262,9 @@ navigation:
                     </li>
         <li class="level-3">
                         <a href="#optional-keys">Optional keys</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#user-defined-keys">User defined keys</a>
                     </li>
                 </ul>
             </aside>

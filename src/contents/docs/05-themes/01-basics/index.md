@@ -49,7 +49,3 @@ template: "pages.home"
 ```
 
 If Toucan cannot find a template by reference, it will emit a warning during site generation.
-
-## Content Types
-
-A [content type](/docs/themes/content-types) serves as a template for your content. A theme can provide multiple content types. For instance, a blog site might need content types for posts, authors, and tags.

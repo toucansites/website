@@ -21,24 +21,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, April 7, 2025",
-                "long" : "April 7, 2025",
-                "medium" : "Apr 7, 2025",
-                "short" : "4/7/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-07T11:04:56.193Z",
-                "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                "sitemap" : "2025-04-07",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:04:56 AM Greenwich Mean Time",
-                "long" : "11:04:56 AM GMT",
-                "medium" : "11:04:56 AM",
-                "short" : "11:04 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744023896.1931248
+              "timestamp" : 1744641052.1142497
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -98,24 +98,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Tuesday, April 15, 2025",
-            "long" : "April 15, 2025",
-            "medium" : "Apr 15, 2025",
-            "short" : "4/15/25"
+            "full" : "Wednesday, April 16, 2025",
+            "long" : "April 16, 2025",
+            "medium" : "Apr 16, 2025",
+            "short" : "4/16/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-15T19:32:18.857Z",
-            "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-            "sitemap" : "2025-04-15",
+            "iso8601" : "2025-04-16T05:27:24.235Z",
+            "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+            "sitemap" : "2025-04-16",
             "year" : "2025"
           },
           "time" : {
-            "full" : "7:32:18 PM Greenwich Mean Time",
-            "long" : "7:32:18 PM GMT",
-            "medium" : "7:32:18 PM",
-            "short" : "7:32 PM"
+            "full" : "5:27:24 AM Greenwich Mean Time",
+            "long" : "5:27:24 AM GMT",
+            "medium" : "5:27:24 AM",
+            "short" : "5:27 AM"
           },
-          "timestamp" : 1744745538.8570535
+          "timestamp" : 1744781244.2354157
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -160,24 +160,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -237,24 +237,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T08:13:23.039Z",
-                "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:13:23 AM Greenwich Mean Time",
-                "long" : "8:13:23 AM GMT",
-                "medium" : "8:13:23 AM",
-                "short" : "8:13 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744704803.0389414
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -300,24 +300,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -349,24 +349,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -394,24 +394,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T12:46:56.468Z",
-                "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:46:56 PM Greenwich Mean Time",
-                "long" : "12:46:56 PM GMT",
-                "medium" : "12:46:56 PM",
-                "short" : "12:46 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744721216.467581
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -457,24 +457,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -506,24 +506,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -551,24 +551,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.969Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9688206
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -614,24 +614,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -663,24 +663,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -739,24 +739,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.968Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9682462
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -802,24 +802,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -854,24 +854,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -903,24 +903,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, April 7, 2025",
-                "long" : "April 7, 2025",
-                "medium" : "Apr 7, 2025",
-                "short" : "4/7/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-07T11:04:56.193Z",
-                "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                "sitemap" : "2025-04-07",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:04:56 AM Greenwich Mean Time",
-                "long" : "11:04:56 AM GMT",
-                "medium" : "11:04:56 AM",
-                "short" : "11:04 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744023896.1931248
+              "timestamp" : 1744641052.1142497
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -980,24 +980,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Tuesday, April 15, 2025",
-            "long" : "April 15, 2025",
-            "medium" : "Apr 15, 2025",
-            "short" : "4/15/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-15T08:13:23.039Z",
-            "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-            "sitemap" : "2025-04-15",
+            "iso8601" : "2025-04-14T14:30:52.114Z",
+            "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "8:13:23 AM Greenwich Mean Time",
-            "long" : "8:13:23 AM GMT",
-            "medium" : "8:13:23 AM",
-            "short" : "8:13 AM"
+            "full" : "2:30:52 PM Greenwich Mean Time",
+            "long" : "2:30:52 PM GMT",
+            "medium" : "2:30:52 PM",
+            "short" : "2:30 PM"
           },
-          "timestamp" : 1744704803.0389414
+          "timestamp" : 1744641052.1139681
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -1042,24 +1042,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -1119,24 +1119,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T19:32:18.857Z",
-                "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-16T05:27:24.235Z",
+                "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "7:32:18 PM Greenwich Mean Time",
-                "long" : "7:32:18 PM GMT",
-                "medium" : "7:32:18 PM",
-                "short" : "7:32 PM"
+                "full" : "5:27:24 AM Greenwich Mean Time",
+                "long" : "5:27:24 AM GMT",
+                "medium" : "5:27:24 AM",
+                "short" : "5:27 AM"
               },
-              "timestamp" : 1744745538.8570535
+              "timestamp" : 1744781244.2354157
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -1182,24 +1182,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1231,24 +1231,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1276,24 +1276,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T12:46:56.468Z",
-                "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:46:56 PM Greenwich Mean Time",
-                "long" : "12:46:56 PM GMT",
-                "medium" : "12:46:56 PM",
-                "short" : "12:46 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744721216.467581
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -1339,24 +1339,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1388,24 +1388,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1433,24 +1433,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.969Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9688206
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -1496,24 +1496,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1545,24 +1545,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1621,24 +1621,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.968Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9682462
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -1684,24 +1684,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1736,24 +1736,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -1785,24 +1785,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6162448
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1830,24 +1830,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Tuesday, April 15, 2025",
-            "long" : "April 15, 2025",
-            "medium" : "Apr 15, 2025",
-            "short" : "4/15/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-15T12:46:56.468Z",
-            "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-            "sitemap" : "2025-04-15",
+            "iso8601" : "2025-04-14T14:30:52.114Z",
+            "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:46:56 PM Greenwich Mean Time",
-            "long" : "12:46:56 PM GMT",
-            "medium" : "12:46:56 PM",
-            "short" : "12:46 PM"
+            "full" : "2:30:52 PM Greenwich Mean Time",
+            "long" : "2:30:52 PM GMT",
+            "medium" : "2:30:52 PM",
+            "short" : "2:30 PM"
           },
-          "timestamp" : 1744721216.467581
+          "timestamp" : 1744641052.1138942
         },
         "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
         "publication" : {
@@ -1892,24 +1892,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -1969,24 +1969,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T19:32:18.857Z",
-                "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-16T05:27:24.235Z",
+                "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "7:32:18 PM Greenwich Mean Time",
-                "long" : "7:32:18 PM GMT",
-                "medium" : "7:32:18 PM",
-                "short" : "7:32 PM"
+                "full" : "5:27:24 AM Greenwich Mean Time",
+                "long" : "5:27:24 AM GMT",
+                "medium" : "5:27:24 AM",
+                "short" : "5:27 AM"
               },
-              "timestamp" : 1744745538.8570535
+              "timestamp" : 1744781244.2354157
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -2032,24 +2032,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2081,24 +2081,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -2158,24 +2158,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T08:13:23.039Z",
-                "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:13:23 AM Greenwich Mean Time",
-                "long" : "8:13:23 AM GMT",
-                "medium" : "8:13:23 AM",
-                "short" : "8:13 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744704803.0389414
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -2221,24 +2221,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2270,24 +2270,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2315,24 +2315,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.969Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9688206
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -2378,24 +2378,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2427,24 +2427,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2503,24 +2503,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.968Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9682462
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -2566,24 +2566,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2618,24 +2618,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -2667,24 +2667,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6162448
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2712,24 +2712,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Monday, March 24, 2025",
-            "long" : "March 24, 2025",
-            "medium" : "Mar 24, 2025",
-            "short" : "3/24/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-03-24T20:53:11.969Z",
-            "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-            "sitemap" : "2025-03-24",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "8:53:11 PM Greenwich Mean Time",
-            "long" : "8:53:11 PM GMT",
-            "medium" : "8:53:11 PM",
-            "short" : "8:53 PM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1742849591.9688206
+          "timestamp" : 1744640959.7518957
         },
         "permalink" : "https://toucansites.com/first-beta-release/",
         "publication" : {
@@ -2774,24 +2774,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -2851,24 +2851,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T19:32:18.857Z",
-                "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-16T05:27:24.235Z",
+                "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "7:32:18 PM Greenwich Mean Time",
-                "long" : "7:32:18 PM GMT",
-                "medium" : "7:32:18 PM",
-                "short" : "7:32 PM"
+                "full" : "5:27:24 AM Greenwich Mean Time",
+                "long" : "5:27:24 AM GMT",
+                "medium" : "5:27:24 AM",
+                "short" : "5:27 AM"
               },
-              "timestamp" : 1744745538.8570535
+              "timestamp" : 1744781244.2354157
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -2914,24 +2914,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2963,24 +2963,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -3040,24 +3040,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T08:13:23.039Z",
-                "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:13:23 AM Greenwich Mean Time",
-                "long" : "8:13:23 AM GMT",
-                "medium" : "8:13:23 AM",
-                "short" : "8:13 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744704803.0389414
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -3103,24 +3103,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3152,24 +3152,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3197,24 +3197,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T12:46:56.468Z",
-                "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:46:56 PM Greenwich Mean Time",
-                "long" : "12:46:56 PM GMT",
-                "medium" : "12:46:56 PM",
-                "short" : "12:46 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744721216.467581
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -3260,24 +3260,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3309,24 +3309,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3385,24 +3385,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.968Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9682462
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -3448,24 +3448,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3500,24 +3500,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -3549,24 +3549,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6162448
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3625,24 +3625,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Monday, March 24, 2025",
-            "long" : "March 24, 2025",
-            "medium" : "Mar 24, 2025",
-            "short" : "3/24/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-03-24T20:53:11.968Z",
-            "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-            "sitemap" : "2025-03-24",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "8:53:11 PM Greenwich Mean Time",
-            "long" : "8:53:11 PM GMT",
-            "medium" : "8:53:11 PM",
-            "short" : "8:53 PM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1742849591.9682462
+          "timestamp" : 1744640959.7520552
         },
         "permalink" : "https://toucansites.com/last-alpha-release/",
         "publication" : {
@@ -3687,24 +3687,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -3764,24 +3764,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T19:32:18.857Z",
-                "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-16T05:27:24.235Z",
+                "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "7:32:18 PM Greenwich Mean Time",
-                "long" : "7:32:18 PM GMT",
-                "medium" : "7:32:18 PM",
-                "short" : "7:32 PM"
+                "full" : "5:27:24 AM Greenwich Mean Time",
+                "long" : "5:27:24 AM GMT",
+                "medium" : "5:27:24 AM",
+                "short" : "5:27 AM"
               },
-              "timestamp" : 1744745538.8570535
+              "timestamp" : 1744781244.2354157
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -3827,24 +3827,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3876,24 +3876,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -3953,24 +3953,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T08:13:23.039Z",
-                "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:13:23 AM Greenwich Mean Time",
-                "long" : "8:13:23 AM GMT",
-                "medium" : "8:13:23 AM",
-                "short" : "8:13 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744704803.0389414
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -4016,24 +4016,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4065,24 +4065,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4110,24 +4110,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T12:46:56.468Z",
-                "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:46:56 PM Greenwich Mean Time",
-                "long" : "12:46:56 PM GMT",
-                "medium" : "12:46:56 PM",
-                "short" : "12:46 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744721216.467581
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -4173,24 +4173,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4222,24 +4222,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4267,24 +4267,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.969Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9688206
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -4330,24 +4330,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4382,24 +4382,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -4431,24 +4431,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6162448
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4507,24 +4507,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Monday, March 24, 2025",
-            "long" : "March 24, 2025",
-            "medium" : "Mar 24, 2025",
-            "short" : "3/24/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-03-24T20:53:11.968Z",
-            "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-            "sitemap" : "2025-03-24",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "8:53:11 PM Greenwich Mean Time",
-            "long" : "8:53:11 PM GMT",
-            "medium" : "8:53:11 PM",
-            "short" : "8:53 PM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1742849591.9680195
+          "timestamp" : 1744640959.7521744
         },
         "permalink" : "https://toucansites.com/toucan-is-now-ready-for-alpha-testing/",
         "publication" : {
@@ -4569,24 +4569,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -4646,24 +4646,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T19:32:18.857Z",
-                "rss" : "Tue, 15 Apr 2025 19:32:18 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-16T05:27:24.235Z",
+                "rss" : "Wed, 16 Apr 2025 05:27:24 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "7:32:18 PM Greenwich Mean Time",
-                "long" : "7:32:18 PM GMT",
-                "medium" : "7:32:18 PM",
-                "short" : "7:32 PM"
+                "full" : "5:27:24 AM Greenwich Mean Time",
+                "long" : "5:27:24 AM GMT",
+                "medium" : "5:27:24 AM",
+                "short" : "5:27 AM"
               },
-              "timestamp" : 1744745538.8570535
+              "timestamp" : 1744781244.2354157
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -4709,24 +4709,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4758,24 +4758,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Monday, April 7, 2025",
-                    "long" : "April 7, 2025",
-                    "medium" : "Apr 7, 2025",
-                    "short" : "4/7/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-07T11:04:56.193Z",
-                    "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-                    "sitemap" : "2025-04-07",
+                    "iso8601" : "2025-04-14T14:30:52.114Z",
+                    "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:04:56 AM Greenwich Mean Time",
-                    "long" : "11:04:56 AM GMT",
-                    "medium" : "11:04:56 AM",
-                    "short" : "11:04 AM"
+                    "full" : "2:30:52 PM Greenwich Mean Time",
+                    "long" : "2:30:52 PM GMT",
+                    "medium" : "2:30:52 PM",
+                    "short" : "2:30 PM"
                   },
-                  "timestamp" : 1744023896.1931248
+                  "timestamp" : 1744641052.1142497
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -4835,24 +4835,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T08:13:23.039Z",
-                "rss" : "Tue, 15 Apr 2025 08:13:23 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:13:23 AM Greenwich Mean Time",
-                "long" : "8:13:23 AM GMT",
-                "medium" : "8:13:23 AM",
-                "short" : "8:13 AM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744704803.0389414
+              "timestamp" : 1744641052.1139681
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -4898,24 +4898,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4947,24 +4947,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4992,24 +4992,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 15, 2025",
-                "long" : "April 15, 2025",
-                "medium" : "Apr 15, 2025",
-                "short" : "4/15/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-15T12:46:56.468Z",
-                "rss" : "Tue, 15 Apr 2025 12:46:56 +0000",
-                "sitemap" : "2025-04-15",
+                "iso8601" : "2025-04-14T14:30:52.114Z",
+                "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:46:56 PM Greenwich Mean Time",
-                "long" : "12:46:56 PM GMT",
-                "medium" : "12:46:56 PM",
-                "short" : "12:46 PM"
+                "full" : "2:30:52 PM Greenwich Mean Time",
+                "long" : "2:30:52 PM GMT",
+                "medium" : "2:30:52 PM",
+                "short" : "2:30 PM"
               },
-              "timestamp" : 1744721216.467581
+              "timestamp" : 1744641052.1138942
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -5055,24 +5055,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -5104,24 +5104,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.616Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6162448
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -5149,24 +5149,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Monday, March 24, 2025",
-                "long" : "March 24, 2025",
-                "medium" : "Mar 24, 2025",
-                "short" : "3/24/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-03-24T20:53:11.969Z",
-                "rss" : "Mon, 24 Mar 2025 20:53:11 +0000",
-                "sitemap" : "2025-03-24",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "8:53:11 PM Greenwich Mean Time",
-                "long" : "8:53:11 PM GMT",
-                "medium" : "8:53:11 PM",
-                "short" : "8:53 PM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1742849591.9688206
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -5212,24 +5212,24 @@
                 ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Thursday, January 23, 2025",
-                    "long" : "January 23, 2025",
-                    "medium" : "Jan 23, 2025",
-                    "short" : "1/23/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-01-23T11:33:11.617Z",
-                    "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                    "sitemap" : "2025-01-23",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "11:33:11 AM Greenwich Mean Time",
-                    "long" : "11:33:11 AM GMT",
-                    "medium" : "11:33:11 AM",
-                    "short" : "11:33 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1737631991.6165838
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -5264,24 +5264,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.617Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6165838
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -5313,24 +5313,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6159375
+              "timestamp" : 1744640959.7524378
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/andris-sipos/",
@@ -5413,24 +5413,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Thursday, January 23, 2025",
-            "long" : "January 23, 2025",
-            "medium" : "Jan 23, 2025",
-            "short" : "1/23/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-01-23T11:33:11.615Z",
-            "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-            "sitemap" : "2025-01-23",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:33:11 AM Greenwich Mean Time",
-            "long" : "11:33:11 AM GMT",
-            "medium" : "11:33:11 AM",
-            "short" : "11:33 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1737631991.6152139
+          "timestamp" : 1744640959.7519703
         },
         "permalink" : "https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/",
         "publication" : {
@@ -5479,24 +5479,24 @@
             ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Thursday, January 23, 2025",
-                "long" : "January 23, 2025",
-                "medium" : "Jan 23, 2025",
-                "short" : "1/23/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-01-23T11:33:11.616Z",
-                "rss" : "Thu, 23 Jan 2025 11:33:11 +0000",
-                "sitemap" : "2025-01-23",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:33:11 AM Greenwich Mean Time",
-                "long" : "11:33:11 AM GMT",
-                "medium" : "11:33:11 AM",
-                "short" : "11:33 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1737631991.6164846
+              "timestamp" : 1744640959.7528448
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/news/",
@@ -5527,24 +5527,24 @@
     ],
     "lastUpdate" : {
       "date" : {
-        "full" : "Monday, April 7, 2025",
-        "long" : "April 7, 2025",
-        "medium" : "Apr 7, 2025",
-        "short" : "4/7/25"
+        "full" : "Monday, April 14, 2025",
+        "long" : "April 14, 2025",
+        "medium" : "Apr 14, 2025",
+        "short" : "4/14/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-07T11:04:56.192Z",
-        "rss" : "Mon, 07 Apr 2025 11:04:56 +0000",
-        "sitemap" : "2025-04-07",
+        "iso8601" : "2025-04-14T14:30:52.114Z",
+        "rss" : "Mon, 14 Apr 2025 14:30:52 +0000",
+        "sitemap" : "2025-04-14",
         "year" : "2025"
       },
       "time" : {
-        "full" : "11:04:56 AM Greenwich Mean Time",
-        "long" : "11:04:56 AM GMT",
-        "medium" : "11:04:56 AM",
-        "short" : "11:04 AM"
+        "full" : "2:30:52 PM Greenwich Mean Time",
+        "long" : "2:30:52 PM GMT",
+        "medium" : "2:30:52 PM",
+        "short" : "2:30 PM"
       },
-      "timestamp" : 1744023896.1919146
+      "timestamp" : 1744641052.1138248
     },
     "permalink" : "https://toucansites.com/api.json",
     "slug" : {
@@ -5556,24 +5556,24 @@
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
-        "full" : "Tuesday, April 15, 2025",
-        "long" : "April 15, 2025",
-        "medium" : "Apr 15, 2025",
-        "short" : "4/15/25"
+        "full" : "Wednesday, April 16, 2025",
+        "long" : "April 16, 2025",
+        "medium" : "Apr 16, 2025",
+        "short" : "4/16/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-15T19:34:06.238Z",
-        "rss" : "Tue, 15 Apr 2025 19:34:06 +0000",
-        "sitemap" : "2025-04-15",
+        "iso8601" : "2025-04-16T05:27:36.298Z",
+        "rss" : "Wed, 16 Apr 2025 05:27:36 +0000",
+        "sitemap" : "2025-04-16",
         "year" : "2025"
       },
       "time" : {
-        "full" : "7:34:06 PM Greenwich Mean Time",
-        "long" : "7:34:06 PM GMT",
-        "medium" : "7:34:06 PM",
-        "short" : "7:34 PM"
+        "full" : "5:27:36 AM Greenwich Mean Time",
+        "long" : "5:27:36 AM GMT",
+        "medium" : "5:27:36 AM",
+        "short" : "5:27 AM"
       },
-      "timestamp" : 1744745646.237598
+      "timestamp" : 1744781256.298091
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
@@ -5588,18 +5588,18 @@
         "short" : "4/15/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-15T19:33:34.701Z",
-        "rss" : "Tue, 15 Apr 2025 19:33:34 +0000",
+        "iso8601" : "2025-04-15T15:36:22.613Z",
+        "rss" : "Tue, 15 Apr 2025 15:36:22 +0000",
         "sitemap" : "2025-04-15",
         "year" : "2025"
       },
       "time" : {
-        "full" : "7:33:34 PM Greenwich Mean Time",
-        "long" : "7:33:34 PM GMT",
-        "medium" : "7:33:34 PM",
-        "short" : "7:33 PM"
+        "full" : "3:36:22 PM Greenwich Mean Time",
+        "long" : "3:36:22 PM GMT",
+        "medium" : "3:36:22 PM",
+        "short" : "3:36 PM"
       },
-      "timestamp" : 1744745614.7010832
+      "timestamp" : 1744731382.612711
     },
     "locale" : "en-US",
     "name" : "Toucan",

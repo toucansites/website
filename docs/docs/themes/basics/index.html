@@ -236,7 +236,7 @@
 </code></pre><p>The default theme, located in the <code>src/themes/default</code> folder, is used when rendering the site. However, this can be modified via the configuration file.</p><h2 id="assets">Assets</h2><p>Each theme can provide static asset files within the <code>assets</code> folder. All files inside the <code>assets</code> directory will be recursively copied to the root folder of the generated site.</p><h2 id="templates">Templates</h2><p>Toucan uses the Mustache template engine to render HTML from Markdown files. These templates are located in the <code>templates</code> folder and use the <code>.mustache</code> extension.</p><p>To reference a template file in the front matter of your content, remove the file extension and replace slashes with dots in the file path:</p><pre><code class="language-yaml">template: "pages.home"
 # References:
 # pages/home.mustache
-</code></pre><p>If Toucan cannot find a template by reference, it will emit a warning during site generation.</p><h2 id="content-types">Content Types</h2><p>A <a href="https://toucansites.com/docs/themes/content-types">content type</a> serves as a template for your content. A theme can provide multiple content types. For instance, a blog site might need content types for posts, authors, and tags.</p>
+</code></pre><p>If Toucan cannot find a template by reference, it will emit a warning during site generation.</p>
     
     
                 <section>
@@ -258,9 +258,6 @@
                     </li>
         <li class="level-2">
                         <a href="#templates">Templates</a>
-                    </li>
-        <li class="level-2">
-                        <a href="#content-types">Content Types</a>
                     </li>
                 </ul>
             </aside>

@@ -226,7 +226,7 @@
             <article>
                 <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Content types</h1><hr><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>A content type can have a specific location where Markdown files under that path are recognized as that type, or the type can be specified in the front matter.</p><h2 id="basics">Basics</h2><p>A content type may also have a custom template, allowing the system to use the appropriate <a href="https://toucansites.com/docs/themes/mustache-templates/">Mustache</a> file when rendering specific content, such as a blog post.</p><p>Here’s an example:</p><pre><code class="language-yaml">id: page
+                <h1>Content types</h1><hr><p>A <a href="https://toucansites.com/docs/themes/content-types">content type</a> serves as a template for your content. A site can ship multiple content types. For instance, a blog site might need content types for posts, authors, and tags.</p><p>Custom content types are defined in the <code>types</code> folder as simple YAML files.</p><p>Each content type defines its own properties, relations and queries.</p><h2 id="basics-and-properties">Basics, and properties</h2><p>Here’s an example content type:</p><pre><code class="language-yaml">id: page
 default: true
 
 properties:
@@ -237,7 +237,7 @@ properties:
     description:
         type: string
         required: true
-</code></pre><p>Content types, including pagination and property validation, are still subject to change during beta release cycle.</p><h2 id="properties-relations-queries">Properties, relations, queries</h2><h3 id="blog-posts-and-authors">Blog posts and authors</h3><pre><code class="language-yaml">id: author
+</code></pre><p>This YAML defines a content type with the following structure:</p><ul><li><code>id</code>: Identifier for the content type (<code>page</code>).</li><li><code>default</code>: Marks this as the default content type, if <code>true</code>.</li><li><code>properties</code>: Defines the fields for this content type:<ul><li><code>title</code>: A required string field.</li><li><code>description</code>: Another required string field.</li></ul></li></ul><p>When creating new content, the content type serves as a backbone. Each property defined here will be validated against the content’s front matter. If a property is marked as required, Toucan will warn you if it’s missing. Properties can also be used to query your content.</p><h2 id="relations-and-queries">Relations and Queries</h2><p>Toucan allows content types to form relations with each other. In some cases, it may be useful to fetch related data when rendering a page. For example, displaying all posts written by a specific author on an author detail page. This can be done using queries.</p><pre><code class="language-yaml">id: author
 path:
     - authors
 
@@ -256,7 +256,7 @@ queries:
         orderBy:
             - key: publication
               direction: desc
-</code></pre><pre><code class="language-yaml">id: post
+</code></pre><p>In the example above:</p><ul><li>The <code>path</code> defines where author content is located.</li><li>The <code>queries</code> section sets up a posts query that:<ul><li>Pulls content of type post</li><li>Filters posts that include the current author’s ID in their <code>authors</code> field</li><li>Sorts results by the <code>publication</code> date in descending order</li></ul></li></ul><p>This query runs automatically when rendering a single author page. The result is accessible in templates via the <code>{{posts}}</code> variable.</p><p>To make the query work, the post type must define a matching relation:</p><pre><code class="language-yaml">id: post
 paths:
     - posts
 
@@ -279,8 +279,17 @@ relations:
         order:
             key: name
             direction: asc
-
-</code></pre><h2 id="properties">Properties</h2><h2 id="relations">Relations</h2><h2 id="queries">Queries</h2>
+</code></pre><p>In the snippet above:</p><ul><li><code>relations</code> defines connections between content types</li><li><code>authors</code> is the name of the relation field for this content type</li><li><code>references</code>: author specifies the target content type this relation points to</li><li><code>type</code>: many means a post can be linked to multiple authors</li><li><code>order</code> controls how the related author entries are sorted in templates</li></ul><p>Relation fields appear in front matter as string references. In templates, they resolve to full objects.<br>For example, <code>{{authors}}</code> will contain author objects sorted by name.</p><p>That’s how content types and relations work in Toucan.</p><h2 id="reference">Reference</h2><h3 id="properties">Properties</h3><h4>Property types</h4><p>The following property types are available:</p><details><summary><strong><code>bool</code></strong> – A boolean value.</summary><div><p>Represents a <code>true</code> or <code>false</code> value.</p></div></details><details><summary><strong><code>int</code></strong> – An integer number.</summary><div><p>Represents whole numbers such as <code>1</code>, <code>0</code>, or <code>-5</code>.</p></div></details><details><summary><strong><code>double</code></strong> – A floating-point number.</summary><div><p>Represents decimal numbers like <code>3.14</code> or <code>-0.75</code>.</p></div></details><details><summary><strong><code>string</code></strong> – A string value.</summary><div><p>Represents a sequence of characters, such as <code>"Hello"</code> or <code>"123"</code>.</p></div></details><details><summary><strong><code>date</code></strong> – A date value with optional formatting.</summary><div><p>Represents a date. Optionally to define the <code>format</code> string, <code>locale</code>, and <code>timeZone</code>.<br>Example:</p><pre><code class="language-yaml">type: date
+format: "dd/MM/yyyy"
+locale: "en-US"
+timeZone: "PST"
+</code></pre></div></details><details><summary><strong><code>array</code></strong> – A list of typed values.</summary><div><p>Represents an array. The <code>of</code> parameter defines the type of its elements.<br>Example:</p><pre><code class="language-yaml">type: array
+of: string
+</code></pre></div></details><h3 id="relations">Relations</h3><h4>Relation types</h4><p>The following relation types are available:</p><details><summary><strong><code>one</code></strong> – A one-to relation type.</summary><div><p>Represents a one-ended relation.</p><p>e.g. a guide can have one category</p><pre><code class="language-yml">category: "getting-started"
+</code></pre></div></details><details><summary><strong><code>many</code></strong> – A many-to relation type.</summary><div><p>Represents a many relation.</p><p>e.g. a post can have multiple authors.</p><pre><code class="language-yml">authors:
+    - "john-doe"
+    - "jane-doe"
+</code></pre></div></details><h4>Direction</h4><p>The following directions values are available:</p><details><summary><strong><code>asc</code></strong> – Ascending</summary><div><p>Sorts values in ascending order, from lowest to highest.<br>For example, <code>A → Z</code> or <code>1 → 9</code>.</p></div></details><details><summary><strong><code>desc</code></strong> – Descending</summary><div><p>Sorts values in descending order, from highest to lowest.<br>For example, <code>Z → A</code> or <code>9 → 1</code>.</p></div></details><h3 id="queries">Queries</h3><p>See the <a href="https://toucansites.com/docs/rendering/queries/">queries</a> guide for more information.</p>
     
     
                 <section>
@@ -298,21 +307,21 @@ relations:
                 <h4>On this page</h4>
                 <ul>
                     <li class="level-2">
-                        <a href="#basics">Basics</a>
+                        <a href="#basics-and-properties">Basics, and properties</a>
                     </li>
         <li class="level-2">
-                        <a href="#properties-relations-queries">Properties, relations, queries</a>
+                        <a href="#relations-and-queries">Relations and Queries</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#reference">Reference</a>
                     </li>
         <li class="level-3">
-                        <a href="#blog-posts-and-authors">Blog posts and authors</a>
-                    </li>
-        <li class="level-2">
                         <a href="#properties">Properties</a>
                     </li>
-        <li class="level-2">
+        <li class="level-3">
                         <a href="#relations">Relations</a>
                     </li>
-        <li class="level-2">
+        <li class="level-3">
                         <a href="#queries">Queries</a>
                     </li>
                 </ul>
