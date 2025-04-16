@@ -13,8 +13,6 @@ description: "Learn how to install Toucan on Linux with simple steps. Follow thi
 
 During the beta release, Toucan can be installed on Linux by compiling from source.
 
-Please note that the `watch` command is not fully supported yet, but this feature will be available on Linux in a future release.
-
 ## Quick install
 
 Here’s a quick snippet to install Toucan on Linux. Run the following commands, ensuring that Swift 5.10 or later is installed on your machine beforehand.
