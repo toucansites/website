@@ -50,4 +50,4 @@ Here are some standard page template locations:
 - Footer - `partials/footer.mustache`
 - Icons - `partials/icons.mustache`
 
-Both partial and page templates may vary per theme; it is common practice to organize them into folders based on [content types](/docs/themes/content-types/).
+Both partial and page templates may vary per theme; it is common practice to organize them into folders based on [content types](/docs/content-management/content-types/).

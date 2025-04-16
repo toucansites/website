@@ -7,7 +7,6 @@ tags:
     - releases
 authors:
     - ferenc-viasz-kadi
-featured: true
 ---
 ## Updated core
 
@@ -69,6 +68,6 @@ iterators:
 
 ---
 
-If you are interested in more details check the [Beta 3 igration guide](/beta-3-migration-guide) or the changes if [this release](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2) on GitHub. Real world examples are also available such as [this site](https://toucansites.com/) or our [Minimal Example](https://github.com/toucansites/minimal-example).
+If you are interested in more details check the [Beta 3 migration guide](/beta-3-migration-guide) or the changes if [this release](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2) on GitHub. Real world examples are also available such as [this site](https://toucansites.com/) or our [Minimal Example](https://github.com/toucansites/minimal-example).
 
 Have fun with Toucan Beta 3 and let us know what you think!

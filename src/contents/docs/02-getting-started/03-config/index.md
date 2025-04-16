@@ -13,7 +13,7 @@ description: "Customize your Toucan site with the config file to modify default 
 
 Defines the primary configuration for the entire site. In Toucan, these settings are specified in the `config.yml` file located in the project’s root directory. This file is optional; if it is not present, Toucan will automatically fall back to the default configuration values.
 
-### Default Configuration
+## Default Configuration
 
 The default configuration values are as follows:
 
@@ -63,7 +63,7 @@ contentConfigurations:
         - caution
 ```
 
-### Pipelines
+## Pipelines
 
 The location of the render pipelines.
 
@@ -76,7 +76,7 @@ The location of the render pipelines.
     }
 }
 
-### Contents
+## Contents
 
 The location of the contents.
 
@@ -97,7 +97,7 @@ The location of the contents.
     }
 }
 
-### Themes section
+## Themes section
 
 This section defines the location of the theme-related files and other theme-related settings, such as the theme to use.
 
@@ -158,7 +158,7 @@ This section defines the location of the theme-related files and other theme-rel
     }
 }
 
-### Date Formats
+## Date Formats
 
 This section defines the input and output date formats for the website.
 
@@ -182,7 +182,7 @@ This section defines the input and output date formats for the website.
     }
 }
 
-### Content Configurations
+## Content Configurations
 
 This section defines additional configurations for content processing.
 

@@ -4,7 +4,7 @@ slug: "docs/themes/basics"
 category: "themes"
 order: 1
 ################################################################################
-title: "Theme basics"
+title: "Basics"
 description: "Learn the basics of Toucan themes for easy customization and design"
 ---
 

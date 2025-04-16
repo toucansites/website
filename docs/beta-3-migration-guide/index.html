@@ -171,127 +171,127 @@
     
         <section>
         
-        <p>Here’s a list of the most important changes in <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.3" target="_blank">this</a> release:</p><h2 id="changes-in-contents">Changes in contents</h2><ul><li>the file <strong>src/contents/index.yml</strong> is renamed to <strong>src/contents/site.yml</strong>, other changes in the file:<ul><li><strong>language</strong> renamed to <strong>locale</strong></li><li><strong>dateFormat</strong> removed</li><li>example yml file:</li></ul><pre><code class="language-yml">baseUrl: "https://mysite.com"
+        <p>Here’s a list of the most important changes in <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.3" target="_blank">this</a> release:</p><h2 id="changes-in-contents">Changes in contents</h2><ul><li>the file <strong>src/contents/index.yml</strong> is renamed to <strong>src/contents/site.yml</strong>, other changes in the file:<ul><li><strong>language</strong> renamed to <strong>locale</strong></li><li><strong>dateFormat</strong> removed</li><li>example yml file:</li></ul></li></ul><pre><code class="language-yml">baseUrl: "https://mysite.com"
 locale: "en-US"
 title: "My site title"
-</code></pre></li><li>add <strong>type: not-found</strong> to the frontmatter of the file <strong>src/contents/404/index.md</strong>:<pre><code class="language-markdown">---
+</code></pre><ul><li>add <strong>type: not-found</strong> to the frontmatter of the file <strong>src/contents/404/index.md</strong>:</li></ul><pre><code class="language-yml">---
 title: 404
 description: Page not found
 type: not-found
 ---
-</code></pre></li><li>add <strong>slug: “”</strong> to the frontmatter of the file <strong>src/contents/home/index.md</strong>:<pre><code class="language-markdown">---
+</code></pre><ul><li>add <strong>slug: “”</strong> to the frontmatter of the file <strong>src/contents/home/index.md</strong>:</li></ul><pre><code class="language-yml">---
 slug: ""
 title: Home title
 description: Home description
 template: "pages.home"
 ---
-</code></pre></li><li>if the <strong>rss</strong> feature is used then create a file <strong>src/contents/rss.xml/index.yml</strong> and add the following content:<pre><code class="language-yml">type: rss
-</code></pre></li><li>if the <strong>sitemap</strong> feature is used then create a file <strong>src/contents/sitemap.xml/index.yml</strong> and add the following content:<pre><code class="language-yml">type: sitemap
-</code></pre></li><li>if the <strong>pagination</strong> feature is used for a type, then these changes need to be completed:<ul><li>rename directory name from <strong>pagination</strong> to <strong>{{type.pagination}}</strong></li><li>in the md file change <strong>type</strong> from <strong>pagination</strong> to <strong>page</strong></li><li>example md file for <strong>post</strong> type:<pre><code class="language-markdown">---
+</code></pre><ul><li>if the <strong>rss</strong> feature is used then create a file <strong>src/contents/rss.xml/index.yml</strong> and add the following content:</li></ul><pre><code class="language-yml">type: rss
+</code></pre><ul><li>if the <strong>sitemap</strong> feature is used then create a file <strong>src/contents/sitemap.xml/index.yml</strong> and add the following content:</li></ul><pre><code class="language-yml">type: sitemap
+</code></pre><ul><li>if the <strong>pagination</strong> feature is used for a type, then these changes need to be completed:<ul><li>rename directory name from <strong>pagination</strong> to <strong>{{type.pagination}}</strong></li><li>in the md file change <strong>type</strong> from <strong>pagination</strong> to <strong>page</strong></li><li>example md file for <strong>post</strong> type:</li></ul></li></ul><pre><code class="language-yml">---
 type: page
 slug: posts/page/{{post.pagination}}
 title: Posts
 description: Browse all posts.
 template: blog.posts
 ---
-</code></pre></li></ul></li><li>remove the <strong>redirects</strong> metadata field from any frontmatter, if used for the <strong>redirect</strong> feature, create a separate file in the <strong>src/contents</strong> folder, example:<ul><li>create a file <strong>src/contents/homeRedirect/index.yml</strong>, with content:<pre><code class="language-yml">type: redirect
+</code></pre><ul><li>remove the <strong>redirects</strong> metadata field from any frontmatter, if used for the <strong>redirect</strong> feature, create a separate file in the <strong>src/contents</strong> folder, example:<ul><li>create a file <strong>src/contents/homeRedirect/index.yml</strong>, with content:</li></ul></li></ul><pre><code class="language-yml">type: redirect
 to: home
-</code></pre>With this, if a user enters the URL <strong>https://mysite.com/homeRedirect</strong> in a browser, they will be redirected to <strong>https://mysite.com/</strong>.</li></ul></li></ul><h2 id="changes-in-theme">Changes in theme</h2><ul><li>if any <strong>block directive</strong> is used, rename <strong>params</strong> to <strong>parameters</strong> in all block directive YAML files</li><li>replace <strong>{{& page.contents}}</strong> with <strong>{{& page.contents.html}}</strong> in all mustache files, for example the <strong>default.mustache</strong> file:<pre><code class="language-mustache">{{&lt;html}}
+</code></pre><pre><code>With this, if a user enters the URL **https://mysite.com/homeRedirect** in a browser, they will be redirected to **https://mysite.com/**.
+</code></pre><h2 id="changes-in-theme">Changes in theme</h2><ul><li>if any <strong>block directive</strong> is used, rename <strong>params</strong> to <strong>parameters</strong> in all block directive YAML files</li><li>replace <strong>{{& page.contents}}</strong> with <strong>{{& page.contents.html}}</strong> in all mustache files, for example the <strong>default.mustache</strong> file:</li></ul><pre><code class="language-mustache">{{&lt;html}}
 {{$main}}
 
 {{& page.contents.html}}
 
 {{/main}}
 {{/html}}
-
-</code></pre></li><li>replace <strong>site.context</strong> with <strong>context</strong> in all mustache files, for example:<pre><code class="language-mustache">&lt;section class="group"&gt;
-  &lt;h4&gt;Featured posts&lt;/h4&gt;
-  {{#empty(context.featured)}}
-  Empty.
-  {{/empty(context.featured)}}
-  {{^empty(context.featured)}}
-  &lt;div class="grid grid-221"&gt;
-  {{#context.featured}}
-      {{&gt; partials.blog.post}}
-  {{/context.featured}}
-  &lt;/div&gt;
-  {{/empty(context.featured)}}
+</code></pre><ul><li>replace <strong>site.context</strong> with <strong>context</strong> in all mustache files, for example:</li></ul><pre><code class="language-mustache">&lt;section class="group"&gt;
+&lt;h4&gt;Featured posts&lt;/h4&gt;
+{{#empty(context.featured)}}
+Empty.
+{{/empty(context.featured)}}
+{{^empty(context.featured)}}
+&lt;div class="grid grid-221"&gt;
+{{#context.featured}}
+    {{&gt; partials.blog.post}}
+{{/context.featured}}
+&lt;/div&gt;
+{{/empty(context.featured)}}
 &lt;/section&gt;
-</code></pre></li><li>replace <strong>{{#site.language}}</strong> with <strong>{{#site.locale}}</strong> in all mustache files, for example in the <strong>html.mustache</strong> file:<pre><code class="language-mustache">&lt;!DOCTYPE html&gt;
-  &lt;html {{#site.locale}}lang="{{.}}"{{/site.locale}}&gt;
-  &lt;head&gt;
-  ...
-</code></pre></li><li>replace <strong>{{#imageUrl}}</strong> with <strong>{{image}}</strong> in all mustache files, where the <strong>img</strong> HTML tag is used, example:<pre><code class="language-mustache">&lt;a href="{{permalink}}"&gt;
-  {{#image}}&lt;img class="small rounded" src="{{image}}" alt="{{title}}"&gt;{{/image}}
-  &lt;span class="name"&gt;{{title}}&lt;/span&gt;
+</code></pre><ul><li>replace <strong>{{#site.language}}</strong> with <strong>{{#site.locale}}</strong> in all mustache files, for example in the <strong>html.mustache</strong> file:</li></ul><pre><code class="language-mustache">&lt;!DOCTYPE html&gt;
+&lt;html {{#site.locale}}lang="{{.}}"{{/site.locale}}&gt;
+&lt;head&gt;
+...
+</code></pre><ul><li>replace <strong>{{#imageUrl}}</strong> with <strong>{{image}}</strong> in all mustache files, where the <strong>img</strong> HTML tag is used, example:</li></ul><pre><code class="language-mustache">&lt;a href="{{permalink}}"&gt;
+{{#image}}&lt;img class="small rounded" src="{{image}}" alt="{{title}}"&gt;{{/image}}
+&lt;span class="name"&gt;{{title}}&lt;/span&gt;
 &lt;/a&gt;
-</code></pre></li><li>add <strong>{{site.baseUrl}}</strong> for every link as a prefix in all mustache files, for example:<ul><li>css: <code><link rel="stylesheet" href="{{site.baseUrl}}/css/modern-normalize.css"></code></li><li>image link:<pre><code class="language-html">  &lt;img
+</code></pre><ul><li>add <strong>{{site.baseUrl}}</strong> for every link as a prefix in all mustache files, for example:<ul><li>css: <code><link rel="stylesheet" href="{{site.baseUrl}}/css/modern-normalize.css"></code></li><li>image link:</li></ul></li></ul><pre><code class="language-html">&lt;img
     src="{{site.baseUrl}}/images/logos/logo.png"
     alt="Logo of {{site.title}}"
     title="{{site.title}}"
-  &gt;
-</code></pre></li><li>icon: <code><link rel="shortcut icon" href="{{site.baseUrl}}/images/icons/icon-320.png" type="image/png"></code></li></ul></li><li>if <strong>pagination</strong> feature is used for a type, then these changes need to be completed:<ul><li>replace <strong>{{#pagination.data.{type}}}</strong> with <strong>{{#iterator.items}}</strong> in all mustache files</li><li>replace <strong>{{/pagination.links.{type}}}</strong> with <strong>{{/iterator.links}}</strong> in all mustache files<br>Now <a href="https://toucansites.com/docs/rendering/iterators/">iterators</a>. are used to handle pagination.</li></ul></li><li>if <strong>navigation</strong> feature is used, then replace <strong>{{#navigation}}</strong> with <strong>{{#site.navigation}}</strong>, example:<pre><code class="language-mustache">&lt;div class="menu-items"&gt;
-  {{#site.navigation}}
+&gt;
+</code></pre><ul><li>icon: <code><link rel="shortcut icon" href="{{site.baseUrl}}/images/icons/icon-320.png" type="image/png"></code></li><li>if <strong>pagination</strong> feature is used for a type, then these changes need to be completed:<ul><li>replace <strong>{{#pagination.data.{type}}}</strong> with <strong>{{#iterator.items}}</strong> in all mustache files</li><li>replace <strong>{{/pagination.links.{type}}}</strong> with <strong>{{/iterator.links}}</strong> in all mustache files<br>Now <a href="https://toucansites.com/docs/rendering/iterators/">iterators</a>. are used to handle pagination.</li></ul></li><li>if <strong>navigation</strong> feature is used, then replace <strong>{{#navigation}}</strong> with <strong>{{#site.navigation}}</strong>, example:</li></ul><pre><code class="language-mustache">&lt;div class="menu-items"&gt;
+{{#site.navigation}}
     &lt;a href="{{url}}"{{#class}} class="{{.}}"{{/class}}&gt;{{label}}&lt;/a&gt;
-  {{/site.navigation}}
+{{/site.navigation}}
 &lt;/div&gt;
-</code></pre></li><li><strong>toc</strong> renamed to <strong>outline</strong>:<ul><li>rename <strong>toc.mustache</strong> file to <strong>outline.mustache</strong></li><li>replace <strong>{{#page.toc}}</strong> with <strong>{{#page.contents.outline}}</strong> in the <strong>outline.mustache</strong> mustache file</li></ul></li><li>if the <strong>rss</strong> feature is used then the <strong>rss.mustache</strong> file is changed, example template:<pre><code class="language-mustache">&lt;rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"&gt;
-&lt;channel&gt;
-  &lt;title&gt;{{site.name}}&lt;/title&gt;
-  &lt;description&gt;{{site.description}}&lt;/description&gt;
-  &lt;link&gt;{{site.baseUrl}}&lt;/link&gt;
-  &lt;language&gt;{{site.locale}}&lt;/language&gt;
-  &lt;lastBuildDate&gt;{{site.generation.formats.rss}}&lt;/lastBuildDate&gt;
-  &lt;pubDate&gt;{{site.lastUpdate.formats.rss}}&lt;/pubDate&gt;
-  &lt;ttl&gt;250&lt;/ttl&gt;
-  &lt;atom:link href="{{site.baseUrl}}/rss.xml" rel="self" type="application/rss+xml"/&gt;
+</code></pre><ul><li><strong>toc</strong> renamed to <strong>outline</strong>:<ul><li>rename <strong>toc.mustache</strong> file to <strong>outline.mustache</strong></li><li>replace <strong>{{#page.toc}}</strong> with <strong>{{#page.contents.outline}}</strong> in the <strong>outline.mustache</strong> mustache file</li></ul></li><li>if the <strong>rss</strong> feature is used then the <strong>rss.mustache</strong> file is changed, example template:</li></ul><pre><code class="language-mustache">&lt;rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"&gt;
+    &lt;channel&gt;
+    &lt;title&gt;{{site.name}}&lt;/title&gt;
+    &lt;description&gt;{{site.description}}&lt;/description&gt;
+    &lt;link&gt;{{site.baseUrl}}&lt;/link&gt;
+    &lt;language&gt;{{site.locale}}&lt;/language&gt;
+    &lt;lastBuildDate&gt;{{site.generation.formats.rss}}&lt;/lastBuildDate&gt;
+    &lt;pubDate&gt;{{site.lastUpdate.formats.rss}}&lt;/pubDate&gt;
+    &lt;ttl&gt;250&lt;/ttl&gt;
+    &lt;atom:link href="{{site.baseUrl}}/rss.xml" rel="self" type="application/rss+xml"/&gt;
 
-  {{#context.posts}}
-  &lt;item&gt;
-    &lt;guid isPermaLink="true"&gt;{{permalink}}&lt;/guid&gt;
-    &lt;title&gt;&lt;![CDATA[ {{title}} ]]&gt;&lt;/title&gt;
-    &lt;description&gt;&lt;![CDATA[ {{description}} ]]&gt;&lt;/description&gt;
-    &lt;link&gt;{{permalink}}&lt;/link&gt;
-    &lt;pubDate&gt;{{publication.formats.rss}}&lt;/pubDate&gt;
-  &lt;/item&gt;
-  {{/context.posts}}
+    {{#context.posts}}
+    &lt;item&gt;
+        &lt;guid isPermaLink="true"&gt;{{permalink}}&lt;/guid&gt;
+        &lt;title&gt;&lt;![CDATA[ {{title}} ]]&gt;&lt;/title&gt;
+        &lt;description&gt;&lt;![CDATA[ {{description}} ]]&gt;&lt;/description&gt;
+        &lt;link&gt;{{permalink}}&lt;/link&gt;
+        &lt;pubDate&gt;{{publication.formats.rss}}&lt;/pubDate&gt;
+    &lt;/item&gt;
+    {{/context.posts}}
 
-&lt;/channel&gt;
+    &lt;/channel&gt;
 &lt;/rss&gt;
-</code></pre></li><li>if the <strong>sitemap</strong> feature is used then the <strong>sitemap.mustache</strong> file is changed, example template:<pre><code class="language-mustache">&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
-  &lt;url&gt;
+</code></pre><ul><li>if the <strong>sitemap</strong> feature is used then the <strong>sitemap.mustache</strong> file is changed, example template:</li></ul><pre><code class="language-mustache">&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+    &lt;url&gt;
 
-  {{#context.pages}}
-      &lt;loc&gt;{{permalink}}&lt;/loc&gt;
-      &lt;lastmod&gt;{{lastUpdate.formats.sitemap}}&lt;/lastmod&gt;
-  {{/context.pages}}
+    {{#context.pages}}
+        &lt;loc&gt;{{permalink}}&lt;/loc&gt;
+        &lt;lastmod&gt;{{lastUpdate.formats.sitemap}}&lt;/lastmod&gt;
+    {{/context.pages}}
 
-  {{#context.posts}}
-      &lt;loc&gt;{{permalink}}&lt;/loc&gt;
-      &lt;lastmod&gt;{{lastUpdate.formats.sitemap}}&lt;/lastmod&gt;
-  {{/context.posts}}
+    {{#context.posts}}
+        &lt;loc&gt;{{permalink}}&lt;/loc&gt;
+        &lt;lastmod&gt;{{lastUpdate.formats.sitemap}}&lt;/lastmod&gt;
+    {{/context.posts}}
 
-  &lt;/url&gt;
+    &lt;/url&gt;
 &lt;/urlset&gt;
-</code></pre></li><li>if the <strong>redirect</strong> feature is used then the <strong>redirect.mustache</strong> file is changed, example template:<pre><code class="language-mustache">&lt;!DOCTYPE html&gt;
+</code></pre><ul><li>if the <strong>redirect</strong> feature is used then the <strong>redirect.mustache</strong> file is changed, example template:</li></ul><pre><code class="language-mustache">&lt;!DOCTYPE html&gt;
 &lt;html {{#site.locale}}lang="{{.}}"{{/site.locale}}&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;Redirecting&hellip;&lt;/title&gt;
-  &lt;link rel="canonical" href="{{site.baseUrl}}/{{page.to}}"&gt;
-  &lt;script&gt;location="{{site.baseUrl}}/{{page.to}}"&lt;/script&gt;
-  &lt;meta http-equiv="refresh" content="0; url={{site.baseUrl}}/{{page.to}}"&gt;
-  &lt;meta name="robots" content="noindex"&gt;
-  &lt;h1&gt;Redirecting&hellip;&lt;/h1&gt;
-  &lt;a href="{{site.baseUrl}}/{{page.to}}"&gt;Click here if you are not redirected.&lt;/a&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Redirecting&hellip;&lt;/title&gt;
+    &lt;link rel="canonical" href="{{site.baseUrl}}/{{page.to}}"&gt;
+    &lt;script&gt;location="{{site.baseUrl}}/{{page.to}}"&lt;/script&gt;
+    &lt;meta http-equiv="refresh" content="0; url={{site.baseUrl}}/{{page.to}}"&gt;
+    &lt;meta name="robots" content="noindex"&gt;
+    &lt;h1&gt;Redirecting&hellip;&lt;/h1&gt;
+    &lt;a href="{{site.baseUrl}}/{{page.to}}"&gt;Click here if you are not redirected.&lt;/a&gt;
 &lt;/html&gt;
-</code></pre></li><li><strong>type</strong> changes:<ul><li>add new types: <strong>not-found</strong>, <strong>redirect</strong>, <strong>rss</strong> and <strong>sitemap</strong></li><li><strong>location</strong> is changed to <strong>paths</strong></li><li>remove <strong>context</strong> from all yml files</li><li>remove <strong>template</strong> from all yml files</li><li>remove <strong>rss: true</strong> from all yml files</li><li>remove <strong>pagination</strong> from all yml files</li><li><a href="https://toucansites.com/docs/rendering/queries/">querie</a> changes:<ul><li>added <a href="https://toucansites.com/docs/rendering/scopes/">scopes</a></li><li>order changed to orderBy</li></ul></li></ul></li></ul><h2 id="pipelines">Pipelines</h2><p>Pipelines are added to generate the final output from source materials, more info <a href="https://toucansites.com/docs/rendering/pipelines/">here</a>.</p><h2 id="useful-links">Useful links</h2><p>Check out the official <a href="https://toucansites.com/docs/">documentation</a> for more details and examples on how:</p><ul><li><a href="https://toucansites.com/docs/rendering/iterators/">iterators</a></li><li><a href="https://toucansites.com/docs/rendering/pipelines/">pipelines</a></li><li><a href="https://toucansites.com/docs/rendering/queries/">queries</a></li><li><a href="https://toucansites.com/docs/rendering/scopes/">scopes</a></li><li><a href="https://toucansites.com/docs/rendering/transformers/">transformers</a></li></ul><p>work.</p>
+</code></pre><ul><li><strong>type</strong> changes:<ul><li>add new types: <strong>not-found</strong>, <strong>redirect</strong>, <strong>rss</strong> and <strong>sitemap</strong></li><li><strong>location</strong> is changed to <strong>paths</strong></li><li>remove <strong>context</strong> from all yml files</li><li>remove <strong>template</strong> from all yml files</li><li>remove <strong>rss: true</strong> from all yml files</li><li>remove <strong>pagination</strong> from all yml files</li><li><a href="https://toucansites.com/docs/rendering/queries/">querie</a> changes:<ul><li>added <a href="https://toucansites.com/docs/rendering/scopes/">scopes</a></li><li>order changed to orderBy</li></ul></li></ul></li></ul><h2 id="pipelines">Pipelines</h2><p>Pipelines are added to generate the final output from source materials, more info <a href="https://toucansites.com/docs/rendering/pipelines/">here</a>.</p><h2 id="useful-links">Useful links</h2><p>Check out the official <a href="https://toucansites.com/docs/">documentation</a> for more details and examples on how:</p><ul><li><a href="https://toucansites.com/docs/rendering/iterators/">iterators</a></li><li><a href="https://toucansites.com/docs/rendering/pipelines/">pipelines</a></li><li><a href="https://toucansites.com/docs/rendering/queries/">queries</a></li><li><a href="https://toucansites.com/docs/rendering/scopes/">scopes</a></li><li><a href="https://toucansites.com/docs/rendering/transformers/">transformers</a></li></ul><p>work.</p>
             
         </section>
     
         <footer class="grid grid-221">
             <div class="author-list">
-                <a href="https://toucansites.com/authors/ferenc-viasz-kadi/">
-                <img class="medium rounded" src="https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg" alt="Ferenc Viasz-Kadi">
+                <a href="https://toucansites.com/authors/gabor-lengyel/">
+                <img class="medium rounded" src="https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg" alt="Gábor Lengyel">
                 </a>
             </div>
             <div class="tag-list">
@@ -304,7 +304,7 @@ to: home
         <br>
         <div class="grid grid-221">
             <div class="post card">
-                <span class="featured">featured</span>
+                
             
                 <div class="meta">
                     <time datetime="2025-04-02T14:00:00.000Z">4/2/25</time>

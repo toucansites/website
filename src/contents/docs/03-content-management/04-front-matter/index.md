@@ -13,7 +13,7 @@ description: "Front Matter is used to define metadata and settings for content."
 
 Front matter is a section at the beginning of a markdown file, where key-value pairs can be defined to influence the rendering process. This provides flexibility for setting metadata or custom properties.
 
-Example:
+## Example
 
 ```yaml
 ---

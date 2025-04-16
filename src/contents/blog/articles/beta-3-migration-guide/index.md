@@ -6,7 +6,7 @@ publication: "2025-04-15 14:00:00"
 tags:
 - releases
 authors:
-- ferenc-viasz-kadi
+- gabor-lengyel
 featured: true
 ---
 
@@ -19,67 +19,67 @@ Here's a list of the most important changes in [this](https://github.com/toucans
   - **dateFormat** removed
   - example yml file:
 
-  ```yml
-  baseUrl: "https://mysite.com"
-  locale: "en-US"
-  title: "My site title"
-  ```
+```yml
+baseUrl: "https://mysite.com"
+locale: "en-US"
+title: "My site title"
+```
 
 - add **type: not-found** to the frontmatter of the file **src/contents/404/index.md**:
 
-  ```markdown
-  ---
-  title: 404
-  description: Page not found
-  type: not-found
-  ---
-  ```
+```yml
+---
+title: 404
+description: Page not found
+type: not-found
+---
+```
 
 - add **slug: ""** to the frontmatter of the file **src/contents/home/index.md**:
 
-  ```markdown
-  ---
-  slug: ""
-  title: Home title
-  description: Home description
-  template: "pages.home"
-  ---
-  ```
+```yml
+---
+slug: ""
+title: Home title
+description: Home description
+template: "pages.home"
+---
+```
 
 - if the **rss** feature is used then create a file **src/contents/rss.xml/index.yml** and add the following content:
 
-  ```yml
-  type: rss
-  ```
+```yml
+type: rss
+```
 
 - if the **sitemap** feature is used then create a file **src/contents/sitemap.xml/index.yml** and add the following content:
 
-  ```yml
-  type: sitemap
-  ```
+```yml
+type: sitemap
+```
 
 - if the **pagination** feature is used for a type, then these changes need to be completed:
   - rename directory name from **pagination** to **{{type.pagination}}**
   - in the md file change **type** from **pagination** to **page**
   - example md file for **post** type:
 
-    ```markdown
-    ---
-    type: page
-    slug: posts/page/{{post.pagination}}
-    title: Posts
-    description: Browse all posts.
-    template: blog.posts
-    ---
-    ```
+```yml
+---
+type: page
+slug: posts/page/{{post.pagination}}
+title: Posts
+description: Browse all posts.
+template: blog.posts
+---
+```
 
 - remove the **redirects** metadata field from any frontmatter, if used for the **redirect** feature, create a separate file in the **src/contents** folder, example:
   - create a file **src/contents/homeRedirect/index.yml**, with content:
 
-    ```yml
-    type: redirect
-    to: home
-    ```
+```yml
+type: redirect
+to: home
+```
 
     With this, if a user enters the URL **https://mysite.com/homeRedirect** in a browser, they will be redirected to **https://mysite.com/**.
 
@@ -89,64 +89,63 @@ Here's a list of the most important changes in [this](https://github.com/toucans
 
 - replace **{{& page.contents}}** with **{{& page.contents.html}}** in all mustache files, for example the **default.mustache** file:
 
-  ```mustache
-  {{<html}}
-  {{$main}}
+```mustache
+{{<html}}
+{{$main}}
 
-  {{& page.contents.html}}
+{{& page.contents.html}}
 
-  {{/main}}
-  {{/html}}
-
-  ```
+{{/main}}
+{{/html}}
+```
 
 - replace **site.context** with **context** in all mustache files, for example:
 
-  ```mustache
-  <section class="group">
-    <h4>Featured posts</h4>
-    {{#empty(context.featured)}}
-    Empty.
-    {{/empty(context.featured)}}
-    {{^empty(context.featured)}}
-    <div class="grid grid-221">
-    {{#context.featured}}
-        {{> partials.blog.post}}
-    {{/context.featured}}
-    </div>
-    {{/empty(context.featured)}}
-  </section>
-  ```
+```mustache
+<section class="group">
+<h4>Featured posts</h4>
+{{#empty(context.featured)}}
+Empty.
+{{/empty(context.featured)}}
+{{^empty(context.featured)}}
+<div class="grid grid-221">
+{{#context.featured}}
+    {{> partials.blog.post}}
+{{/context.featured}}
+</div>
+{{/empty(context.featured)}}
+</section>
+```
 
 - replace **{{#site.language}}** with **{{#site.locale}}** in all mustache files, for example in the **html.mustache** file:
 
-  ```mustache
-  <!DOCTYPE html>
-    <html {{#site.locale}}lang="{{.}}"{{/site.locale}}>
-    <head>
-    ...
-  ```
+```mustache
+<!DOCTYPE html>
+<html {{#site.locale}}lang="{{.}}"{{/site.locale}}>
+<head>
+...
+```
 
 - replace **{{#imageUrl}}** with **{{image}}** in all mustache files, where the **img** HTML tag is used, example:
 
-  ```mustache
-  <a href="{{permalink}}">
-    {{#image}}<img class="small rounded" src="{{image}}" alt="{{title}}">{{/image}}
-    <span class="name">{{title}}</span>
-  </a>
-  ```
+```mustache
+<a href="{{permalink}}">
+{{#image}}<img class="small rounded" src="{{image}}" alt="{{title}}">{{/image}}
+<span class="name">{{title}}</span>
+</a>
+```
 
 - add **{{site.baseUrl}}** for every link as a prefix in all mustache files, for example:
   - css: `<link rel="stylesheet" href="{{site.baseUrl}}/css/modern-normalize.css">`
   - image link:
 
-      ```html
-        <img
-          src="{{site.baseUrl}}/images/logos/logo.png"
-          alt="Logo of {{site.title}}"
-          title="{{site.title}}"
-        >
-      ```
+```html
+<img
+    src="{{site.baseUrl}}/images/logos/logo.png"
+    alt="Logo of {{site.title}}"
+    title="{{site.title}}"
+>
+```
 
   - icon: `<link rel="shortcut icon" href="{{site.baseUrl}}/images/icons/icon-320.png" type="image/png">`
 
@@ -157,13 +156,13 @@ Here's a list of the most important changes in [this](https://github.com/toucans
 
 - if **navigation** feature is used, then replace **{{#navigation}}** with **{{#site.navigation}}**, example:
 
-  ```mustache
-  <div class="menu-items">
-    {{#site.navigation}}
-      <a href="{{url}}"{{#class}} class="{{.}}"{{/class}}>{{label}}</a>
-    {{/site.navigation}}
-  </div>
-  ```
+```mustache
+<div class="menu-items">
+{{#site.navigation}}
+    <a href="{{url}}"{{#class}} class="{{.}}"{{/class}}>{{label}}</a>
+{{/site.navigation}}
+</div>
+```
 
 - **toc** renamed to **outline**:
   - rename **toc.mustache** file to **outline.mustache**
@@ -171,9 +170,9 @@ Here's a list of the most important changes in [this](https://github.com/toucans
 
 - if the **rss** feature is used then the **rss.mustache** file is changed, example template:
 
-  ```mustache
-  <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
+```mustache
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
     <title>{{site.name}}</title>
     <description>{{site.description}}</description>
     <link>{{site.baseUrl}}</link>
@@ -185,22 +184,22 @@ Here's a list of the most important changes in [this](https://github.com/toucans
 
     {{#context.posts}}
     <item>
-      <guid isPermaLink="true">{{permalink}}</guid>
-      <title><![CDATA[ {{title}} ]]></title>
-      <description><![CDATA[ {{description}} ]]></description>
-      <link>{{permalink}}</link>
-      <pubDate>{{publication.formats.rss}}</pubDate>
+        <guid isPermaLink="true">{{permalink}}</guid>
+        <title><![CDATA[ {{title}} ]]></title>
+        <description><![CDATA[ {{description}} ]]></description>
+        <link>{{permalink}}</link>
+        <pubDate>{{publication.formats.rss}}</pubDate>
     </item>
     {{/context.posts}}
 
-  </channel>
-  </rss>
-  ```
+    </channel>
+</rss>
+```
 
 - if the **sitemap** feature is used then the **sitemap.mustache** file is changed, example template:
 
-  ```mustache
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+```mustache
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
 
     {{#context.pages}}
@@ -214,14 +213,14 @@ Here's a list of the most important changes in [this](https://github.com/toucans
     {{/context.posts}}
 
     </url>
-  </urlset>
-  ```
+</urlset>
+```
 
 - if the **redirect** feature is used then the **redirect.mustache** file is changed, example template:
 
-  ```mustache
-  <!DOCTYPE html>
-  <html {{#site.locale}}lang="{{.}}"{{/site.locale}}>
+```mustache
+<!DOCTYPE html>
+<html {{#site.locale}}lang="{{.}}"{{/site.locale}}>
     <meta charset="utf-8">
     <title>Redirecting&hellip;</title>
     <link rel="canonical" href="{{site.baseUrl}}/{{page.to}}">
@@ -230,8 +229,8 @@ Here's a list of the most important changes in [this](https://github.com/toucans
     <meta name="robots" content="noindex">
     <h1>Redirecting&hellip;</h1>
     <a href="{{site.baseUrl}}/{{page.to}}">Click here if you are not redirected.</a>
-  </html>
-  ```
+</html>
+```
 
 - **type** changes:
   - add new types: **not-found**, **redirect**, **rss** and **sitemap**

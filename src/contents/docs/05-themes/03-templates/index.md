@@ -4,7 +4,7 @@ slug: "docs/themes/templates"
 category: "themes"
 order: 3
 ################################################################################
-title: "Mustache templates"
+title: "Templates"
 description: "This is a basic guide on how to use Mustache for creating static site templates for Toucan"
 ---
 
@@ -194,4 +194,4 @@ The rendered output, when using the child template:
 </html>
 ```
 
-That was a brief introduction to the Mustache template engine. For more detailed information, refer to [the official manuals](https://mustache.github.io/mustache.5.html). To learn about Toucan themes, proceed to the [Toucan templates](/docs/themes/toucan-templates/) section.
+That was a brief introduction to the Mustache template engine. For more detailed information, refer to [the official manuals](https://mustache.github.io/mustache.5.html). To learn about Toucan themes, proceed to the [Toucan themes](/docs/themes/toucan-themes/) section.

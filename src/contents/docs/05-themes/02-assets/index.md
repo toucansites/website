@@ -4,7 +4,7 @@ slug: "docs/themes/assets"
 category: "themes"
 order: 2
 ################################################################################
-title: "Theme assets"
+title: "Assets"
 description: "Theme assets are static files that are copied recursively to the root folder of the generated site"
 ---
 

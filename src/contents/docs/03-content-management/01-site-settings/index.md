@@ -15,7 +15,7 @@ The site settings file defines global settings and properties for the website.
 
 In Toucan, it is always located at `src/contents/site.yml` (or `.yaml` if preferred).
 
-### Example
+## Example
 
 A sample site settings file might look like this:
 
@@ -36,7 +36,7 @@ navigation:
 There are three key types in the settings file: required, optional, and user-defined.
 The list below explains each type based on the sample file.
 
-### Required keys
+## Required keys
 
 These keys must be defined for the website to work properly.
 
@@ -49,7 +49,7 @@ These keys must be defined for the website to work properly.
     }
 }
 
-### Optional keys
+## Optional keys
 
 These keys are not required but useful.
 
