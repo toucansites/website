@@ -17,6 +17,12 @@ Toucan is used by the following websites. Feel free to [contact us](/contact/) i
     }
     @Column {
         [
+            ![Merkur17](./assets/merkur17.jpg)
+        ](https://merkur17.net/)
+        [Merkur17](https://merkur17.net/)
+    }
+    @Column {
+        [
             ![Binary Birds](./assets/binarybirds.jpg)
         ](https://binarybirds.com/)
         [Binary Birds](https://binarybirds.com/)

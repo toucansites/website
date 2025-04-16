@@ -1,5 +1,3 @@
-
-
 .pagination {
     margin-top: 64px;
 }
@@ -17,11 +15,6 @@
     color: var(--primary-background-color);
 }
 
-
-
-
-
-
 #page-container {
     padding: 32px;
 }
@@ -33,7 +26,12 @@
 .centered {
     text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--primary-text-color);
 }
 a.cta {
@@ -68,10 +66,6 @@ a.cta:hover {
     background: var(--link-color-hover);
 }
 
-
-
-
-
 #docs {
     display: grid;
     grid-template-columns: 1fr;
@@ -93,7 +87,8 @@ a.cta:hover {
 #docs > div {
     overflow: hidden;
 }
-#docs .left, #docs .right {
+#docs .left,
+#docs .right {
     display: block;
 }
 #docs .center {
@@ -155,7 +150,8 @@ a.cta:hover {
 #docs .right ul a:hover {
     color: var(--text-color-1);
 }
-#docs .prev > *, #docs .next > * {
+#docs .prev > *,
+#docs .next > * {
     display: block;
 }
 #docs .next > * {
@@ -176,7 +172,6 @@ a.cta:hover {
         border: none;
         padding: 16px;
         border-right: 1px solid var(--background-color-2);
-        
     }
     #docs .right {
         grid-row: 1;
@@ -192,10 +187,6 @@ a.cta:hover {
         grid-template-columns: 1fr 3fr 1fr;
     }
 }
-
-
-
-
 
 #tag header img {
     margin-bottom: 8px;
@@ -214,7 +205,8 @@ article footer {
 .card p {
     margin-top: 0;
 }
-.author-list, .tag-list {
+.author-list,
+.tag-list {
     text-align: center;
 }
 @media screen and (min-width: 600px) {
@@ -292,13 +284,14 @@ article.post header {
 .fixed-toc ul a:hover {
     color: var(--text-color-1);
 }
-
-
+.level-3 {
+    margin-left: 16px;
+}
 
 details {
     border: 4px solid var(--primary-text-color);
     margin-bottom: 16px;
-    transition:height 3s ease-in;
+    transition: height 3s ease-in;
 }
 summary {
     position: relative;
@@ -306,7 +299,6 @@ summary {
     list-style: none;
     justify-content: space-between;
     transition: height 1s ease;
-    
 }
 /*details[open] summary ~ * {*/
 /*  animation: sweep .5s ease-in-out;*/
@@ -345,11 +337,10 @@ summary + div {
     font-size: 1.5rem;
     border-top: 4px solid var(--primary-text-color);
     padding: 16px;
-/*    background: var(--primary-text-color);*/
-/*    color: var(--primary-background-color);*/
+    /*    background: var(--primary-text-color);*/
+    /*    color: var(--primary-background-color);*/
 }
 details[open] div {
-    
 }
 details div * {
     font-size: 1rem;
@@ -361,4 +352,12 @@ details div p:not(:first-child) {
 }
 details div p:not(:last-child) {
     margin-bottom: 16px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--primary-text-color);
+    padding-left: 15px;
+    margin: 10px 0;
+    color: #555;
 }

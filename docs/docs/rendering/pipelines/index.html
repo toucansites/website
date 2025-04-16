@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    
+    <meta property="og:url" content="https://toucansites.com/docs/rendering/pipelines/">
+    <meta property="og:title" content="Pipelines">
+    <meta property="og:description" content="">
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pipelines">
+    <meta name="twitter:description" content="">
+    
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Toucan">
+    <meta name="apple-mobile-web-app-orientations" content="portrait-any">
+    
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
+
+    <title>Pipelines</title>
+
+    <link rel="canonical" href="https://toucansites.com/docs/rendering/pipelines/">
+    
+    <link rel="next" href="https://toucansites.com/docs/rendering/queries/">
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="stylesheet" href="https://toucansites.com/css/modern-normalize.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/modern-base.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/variables.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/base.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/grid.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/navigation.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/footer.css">
+    <link rel="stylesheet" href="https://toucansites.com/css/theme.css">
+    
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://toucansites.com/icons/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://toucansites.com/icons/167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://toucansites.com/icons/152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://toucansites.com/icons/144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://toucansites.com/icons/120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://toucansites.com/icons/114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://toucansites.com/icons/76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://toucansites.com/icons/72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://toucansites.com/icons/60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://toucansites.com/icons/57.png">
+    <link rel="apple-touch-icon" href="https://toucansites.com/icons/57.png">
+    
+    <link rel="shortcut icon" sizes="196x196" href="https://toucansites.com/icons/196.png">
+    <link rel="shortcut icon" type="image/png" href="https://toucansites.com/icons/57.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://toucansites.com/icons/favicon.ico">
+    
+    <link rel="icon" type="image/png" href="https://toucansites.com/icons/favicon.png">
+    
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1136x640.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2436x1125.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1792x828.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/828x1792.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1334x750.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1242x2688.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2208x1242.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1125x2436.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1242x2208.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2732x2048.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2688x1242.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2224x1668.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/750x1334.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/2048x2732.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2388x1668.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1668x2224.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/640x1136.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1668x2388.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2048x1536.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: light) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1536x2048.png">
+    
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1136x640~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2436x1125~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1792x828~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/828x1792~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/1334x750~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1242x2688~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2208x1242~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1125x2436~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://toucansites.com/splash/1242x2208~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2732x2048~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://toucansites.com/splash/2688x1242~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2224x1668~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/750x1334~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/2048x2732~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2388x1668~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1668x2224~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/640x1136~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1668x2388~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://toucansites.com/splash/2048x1536~dark.png">
+    <link rel="apple-touch-startup-image" media="screen and (prefers-color-scheme: dark) and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://toucansites.com/splash/1536x2048~dark.png">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+        media="(prefers-color-scheme: dark)"
+    >
+
+    <link rel="stylesheet" href="https://toucansites.com/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</head>
+
+<body>
+    <header id="navigation">
+        <a href="/">
+            <picture>
+                <img
+                    src="https://toucansites.com/images/logos/logo.png"
+                    alt="Logo of Toucan"
+                    title="Toucan"
+                >
+            </picture>
+        </a>
+        <nav>
+            <input type="checkbox" id="primary-menu-button" name="menu-button" class="menu-button">
+            <label for="primary-menu-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </label>
+            <div class="menu-items">
+                <a href="/news/">News</a>
+            <a href="/docs/">Docs</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/showcases/">Showcases</a>
+            <a href="/contact/">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="page-container">
+    
+    <div id="docs">
+        <div class="left">
+            <aside>
+                <ul>
+                    <li class="category">
+                        <a href="https://toucansites.com/docs/installation/">Installation</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/installation/macos/">macOS</a></li>
+                <li><a href="https://toucansites.com/docs/installation/linux/">Linux</a></li>
+                <li><a href="https://toucansites.com/docs/installation/windows/">Windows</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/getting-started/">Getting started</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/getting-started/basics/">Basics</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/commands/">Commands</a></li>
+                <li><a href="https://toucansites.com/docs/getting-started/config/">Config</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/content-management/">Content Management</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/content-management/site-settings/">Site settings</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-types/">Content Types</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/content-bundles/">Content Bundles</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/front-matter/">Front Matter</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/markdown/">Markdown</a></li>
+                <li><a href="https://toucansites.com/docs/content-management/block-directives/">Block directives</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/rendering/">Rendering</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/rendering/pipelines/">Pipelines</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/queries/">Queries</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/scopes/">Scopes</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/iterators/">Iterators</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/engines/">Engines</a></li>
+                <li><a href="https://toucansites.com/docs/rendering/transformers/">Transformers</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/themes/">Themes</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/themes/basics/">Basics</a></li>
+                <li><a href="https://toucansites.com/docs/themes/assets/">Assets</a></li>
+                <li><a href="https://toucansites.com/docs/themes/templates/">Templates</a></li>
+                <li><a href="https://toucansites.com/docs/themes/toucan-themes/">Toucan themes</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/integrations/">Integrations</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/integrations/syntax-highlight/">Syntax highlight</a></li>
+                        </ul>
+                    </li>
+        <li class="category">
+                        <a href="https://toucansites.com/docs/deployment/">Deployment</a>
+                        <ul>
+                            <li><a href="https://toucansites.com/docs/deployment/github-pages/">GitHub Pages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="center">
+            <article>
+                <a href="https://toucansites.com/docs/rendering/">Rendering</a>
+                
+                <h1>Pipelines</h1><hr><p>Toucan uses render pipelines to generate the final output from source materials.<br>Render pipelines are responsible for transforming content into the desired output format.</p><p>Pipelines are highly customizable, providing full control over the rendering process.<br>Toucan can generate static websites or APIs by using different render pipelines.</p><h2 id="basics">Basics</h2><p>As a starting point, here is a simple example of a pipeline that renders HTML pages (<code>src/pipelines/html.yml</code>):</p><pre><code class="language-yaml">id: html
+
+contentTypes:
+    include:
+        - page
+
+engine:
+    id: mustache
+    options:
+        contentTypes:
+            page:
+                template: "pages.default"
+
+output:
+    path: "{{slug}}"
+    file: index
+    ext: html
+</code></pre><p>Each pipeline is defined in a YAML file and stored in the <code>src/pipelines</code> directory.</p><h2 id="identifier">Identifier</h2><p>Every pipeline must have a unique <code>id</code> to identify it.</p><pre><code class="language-yaml">id: html
+</code></pre><h2 id="content-types">Content Types</h2><p>The <code>contentTypes</code> section specifies which content types should be included or excluded during the rendering process.</p><pre><code class="language-yaml">contentTypes:
+    include:
+        - rss
+    exclude:
+        - page
+    lastUpdate:
+        - post
+</code></pre><p>In this example:</p><ul><li>Only the rss content type will be included.</li><li>The standard page content types will be excluded.</li><li>The post content type will be used to determine the lastUpdate time of the site.</li></ul><h2 id="engine">Engine</h2><p>The <code>engine</code> section defines the <a href="https://toucansites.com/docs/rendering/engines/">rendering engine</a> used to generate the final output.</p><p>Toucan currently supports two engines out of the box:</p><ul><li><code>mustache</code></li><li><code>json</code></li></ul><p>Additional engines may be added in the future.</p><p>Each engine can have its own set of options.</p><p>For example, when using the <code>mustache</code> engine, a default template file can be specified for each content type.</p><pre><code class="language-yaml">engine:
+    id: mustache
+    options:
+        contentTypes:
+            page:
+                template: "pages.default"
+</code></pre><p>You can read more about engines <a href="https://toucansites.com/docs/rendering/engines/">here</a>.</p><h3 id="output">Output</h3><p>The <code>output</code> section defines how the final output files are created.<br>It consists of:</p><ul><li><code>path</code> — the folder structure for the output</li><li><code>file</code> — the filename</li><li><code>ext</code> — the file extension</li></ul><p>All of these values can use template variables, such as <code>{{slug}}</code>, to dynamically generate folder structures and filenames during rendering. Any front matter key from the content can be referenced as a template variable in the output configuration.</p><pre><code class="language-yaml">output:
+    path: "{{slug}}"
+    file: index
+    ext: html
+</code></pre><h3 id="queries">Queries</h3><p>Render pipelines can define queries to provide additional context for Mustache templates during rendering.</p><p>Queries allow content to be fetched and made available across all templates within the pipeline.<br>This enables building dynamic and feature-rich HTML pages.</p><pre><code class="language-yaml">queries:
+    featured:
+        contentType: post
+        scope: detail
+        filter:
+            key: featured
+            operator: equals
+            value: true
+        orderBy:
+            - key: publication
+              direction: desc
+</code></pre><p>In this example, a query named <code>featured</code> is defined. This query selects all posts where featured is <code>true</code>, sorted by publication date in descending order. The result of this query will be available in Mustache templates using the <code>{{context.featured}}</code> variable. This allows all templates in the pipeline to access the featured posts easily during rendering.</p><p>You can read more about queries <a href="https://toucansites.com/docs/rendering/queries/">here</a>.</p><h3 id="data-types">Data Types</h3><p>Toucan allows customization of data types within render pipelines.<br>Currently, custom date formats can be defined using the <code>dataTypes</code> section of the pipeline configuration.</p><pre><code class="language-yaml">dataTypes:
+    date:
+        dateFormats:
+            full:
+                format: "yyyy/MM/dd"
+</code></pre><p>In this example, a custom date format named full is defined. This allows date properties to be rendered using the specified format. For example, to render a post’s publication date in the full format: <code>{{publication.formats.full}}</code>.</p><h3 id="iterators">Iterators</h3><p>Toucan has built-in support for pagination through iterators.</p><p>Iterators allow content to be paginated and rendered into multiple output files automatically.<br>This is useful for building archive pages, lists, or any repeated layout over paginated data:</p><pre><code class="language-yaml">iterators:
+    post.pagination:
+        contentType: post
+        scope: detail
+        limit: 12
+        orderBy:
+            - key: publication
+              direction: desc
+</code></pre><p>In this example, an iterator named <code>post.pagination</code> is defined.</p><p>It paginates the post content type, returning 12 items per page, ordered by publication date in descending order.</p><p>To render paginated output, create a folder named <code>{{post.pagination}}</code> and add an index file inside it.</p><p>During rendering, Toucan will generate one file per page using the iterator context, which contains the items array and the pagination info.</p><p>You can read more about iterators <a href="https://toucansites.com/docs/rendering/iterators/">here</a>.</p><h3 id="transformers">Transformers</h3><p>Transformers allow processing content in a custom way during the rendering process.</p><p>A transformer is an external script or program that generates content dynamically.<br>Transformers can be written in any programming language, as long as they can be executed by the operating system.</p><p>Transformers are useful when content is not available locally or needs to be fetched from external sources — for example, pulling articles from a 3rd-party API or service.</p><pre><code class="language-yaml">transformers:
+    post:
+        run:
+            - name: swiftinit
+              url: src/transformers
+        isMarkdownResult: false
+</code></pre><p>In this example:</p><ul><li>The transformer runs a script named swiftinit located in <code>src/transformers</code>.</li><li>The <code>isMarkdownResult: false</code> line indicates that the result is already in the desired format, there is no need to call the markdown rendering step on it.</li></ul><p>You can see multiple working examples of transformers <a href="https://github.com/swift-on-server/site" target="_blank">here</a>.</p><p>Read the detailed guide about transformers <a href="https://toucansites.com/docs/rendering/transformers/">here</a>.</p>
+    
+    
+                <section>
+                <div class="grid grid-2">
+                <div></div>
+                    
+                <div></div>
+                </div>
+                </section>
+    
+            </article>
+        </div>
+        <div class="right">
+            <aside>
+                <h4>On this page</h4>
+                <ul>
+                    <li class="level-2">
+                        <a href="#basics">Basics</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#identifier">Identifier</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#content-types">Content Types</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#engine">Engine</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#output">Output</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#queries">Queries</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#data-types">Data Types</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#iterators">Iterators</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#transformers">Transformers</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    </main>
+
+    <footer id="site-footer">
+        <div class="grid grid-421">
+    
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="https://toucansites.com/news/">News</a></li>
+                    <li><a href="https://toucansites.com/docs/">Docs</a></li>
+                    <li><a href="https://toucansites.com/faq/">FAQ</a></li>
+                    <li><a href="https://toucansites.com/showcases/">Showcases</a></li>
+                    <li><a href="https://toucansites.com/contact/">Contact</a></li>
+                </p>
+            </div>
+            
+            <div>
+                <h4>Links</h4>
+                <li><a href="https://github.com/toucansites/">GitHub</a></li>
+                <li><a href="https://binarybirds.com/">Binary Birds</a></li>
+                <li><a href="https://x.com/tiborbodecs">tiborbodecs</a></li>
+                <li><a href="https://toucansites.com/rss.xml" target="_blank">RSS</a></li>
+                <li><a href="https://toucansites.com/sitemap.xml" target="_blank">Sitemap</a></li>
+            </div>
+            
+            
+            <div>
+                <picture>
+                    <img
+                        id="logo-image"
+                        src="https://toucansites.com/images/logos/logo.png"
+                        alt="Logo of Toucan"
+                        title="Toucan"
+                    >
+                </picture>
+            </div>
+            
+            <div>
+                <h4>Toucan</h4>
+                <p><small>This site was generated<br>using <a href="https://swift.org/" target="_blank">Swift</a> & <a href="https://github.com/toucansites/toucan/" target="_blank">Toucan</a>.</small></p>
+                <small><br>
+                    Binary Birds Kft.<br>
+                    &copy; 2023 - 2025<br>
+                    <a href="https://github.com/toucansites/website/blob/main/LICENSE" target="_blank">MIT License</a></small>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

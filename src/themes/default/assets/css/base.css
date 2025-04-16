@@ -52,8 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 hr {
     border: none;
-    border-bottom: 8px solid var(--primary-text-color);
-    width: 128px;
+    border-bottom: 2px solid var(--primary-text-color);
 }
 hr.spacer {
     border: none;

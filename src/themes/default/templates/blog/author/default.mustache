@@ -11,14 +11,13 @@
     </header>
 
     {{& page.contents.html}}
-    
+
     {{#empty(page.posts)}}
     Empty.
     {{/empty(page.posts)}}
     {{^empty(page.posts)}}
     <div class="grid grid-321">
     {{#page.posts}}
-        
         {{> partials.blog.post}}
     {{/page.posts}}
     </div>

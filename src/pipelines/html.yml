@@ -33,7 +33,6 @@ queries:
         orderBy:
             - key: title
               direction: asc
-    
     categories:
         contentType: category
         scope: detail
@@ -43,8 +42,9 @@ queries:
 
 dataTypes:
     date:
-        formats:
-            full: "yyyy/MM/dd"
+        dateFormats:
+            full: 
+                format: "yyyy/MM/dd"
 
 contentTypes: 
     include:
