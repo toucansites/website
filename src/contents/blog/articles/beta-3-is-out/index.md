@@ -3,12 +3,11 @@ type: post
 title: "Beta 3 is out"
 description: "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more."
 publication: "2025-04-02 14:00:00"
-tags: 
+tags:
     - releases
 authors:
     - ferenc-viasz-kadi
 featured: true
-draft: true
 ---
 ## Updated core
 
@@ -21,16 +20,16 @@ In a nutshell, a pipeline tells Toucan what to generate, how and to where. With 
 
 ```yaml
 id: api
-queries: 
+queries:
     posts:
         contentType: post
         orderBy:
             - key: publication
               direction: desc
-contentTypes: 
+contentTypes:
     include:
         - api
-engine: 
+engine:
     id: json
 output:
     path: "api"

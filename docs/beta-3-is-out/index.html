@@ -172,16 +172,16 @@
         <section>
         
         <h2 id="updated-core">Updated core</h2><p>Toucan’s core has received a major update to improve scalability and type safety. It was really important for us laying down solid foundation for our future plans.<br>In addition, plenty of new features have just been released — lets highlight a few we`ve been working on. 🧑‍💻</p><h2 id="pipelines">Pipelines</h2><p>In a nutshell, a pipeline tells Toucan what to generate, how and to where. With this, you have way more control over your site generation process. It is easy to define custom queries, introduce new date formats, iterators, or transformers. Different flows can be separated into multiple pipelines, what makes the definitions clear. A good example is the <code>api</code> pipeline for this site, which creates a <code>json</code> file from posts to enable searching.</p><pre><code class="language-yaml">id: api
-queries: 
+queries:
     posts:
         contentType: post
         orderBy:
             - key: publication
               direction: desc
-contentTypes: 
+contentTypes:
     include:
         - api
-engine: 
+engine:
     id: json
 output:
     path: "api"

@@ -3,13 +3,11 @@ type: post
 title: "Beta 3 migration guide"
 description: "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features."
 publication: "2025-04-15 14:00:00"
-tags: 
+tags:
 - releases
 authors:
 - ferenc-viasz-kadi
 featured: true
-draft: true
-
 ---
 
 Here's a list of the most important changes in [this](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.3) release:
@@ -28,7 +26,7 @@ Here's a list of the most important changes in [this](https://github.com/toucans
   ```
 
 - add **type: not-found** to the frontmatter of the file **src/contents/404/index.md**:
-  
+
   ```markdown
   ---
   title: 404
@@ -70,7 +68,7 @@ Here's a list of the most important changes in [this](https://github.com/toucans
     type: page
     slug: posts/page/{{post.pagination}}
     title: Posts
-    description: Browse all posts.  
+    description: Browse all posts.
     template: blog.posts
     ---
     ```
@@ -151,7 +149,7 @@ Here's a list of the most important changes in [this](https://github.com/toucans
       ```
 
   - icon: `<link rel="shortcut icon" href="{{site.baseUrl}}/images/icons/icon-320.png" type="image/png">`
-  
+
 - if **pagination** feature is used for a type, then these changes need to be completed:
   - replace **{{#pagination.data.{type}}}** with **{{#iterator.items}}** in all mustache files
   - replace **{{/pagination.links.{type}}}** with **{{/iterator.links}}** in all mustache files
