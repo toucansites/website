@@ -13,10 +13,9 @@ description: "Learn the basics of Toucan themes for easy customization and desig
 
 Toucan themes are typically located in the `src/themes` directory.
 
-A theme consists of the following three components:
+A theme consists of the following components:
 - Assets
 - Mustache templates
-- Content types
 
 Here’s a tree view of the directory structure:
 
@@ -26,8 +25,7 @@ Here’s a tree view of the directory structure:
 └── themes
     └── default
         ├── assets
-        ├── templates
-        └── types
+        └── templates
 ```
 
 The default theme, located in the `src/themes/default` folder, is used when rendering the site. However, this can be modified via the configuration file.

@@ -11,7 +11,7 @@ description: "Custom content types are defined in the types folder as YAML files
 # Content types
 ---
 
-A [content type](/docs/themes/content-types) serves as a template for your content. A site can ship multiple content types. For instance, a blog site might need content types for posts, authors, and tags.
+A [content type](/docs/content-management/content-types/) serves as a template for your content. A site can ship multiple content types. For instance, a blog site might need content types for posts, authors, and tags.
 
 Custom content types are defined in the `types` folder as simple YAML files.
 

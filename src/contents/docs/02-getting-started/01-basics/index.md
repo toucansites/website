@@ -80,6 +80,8 @@ The `src` directory serves as the foundation of your website, housing all the es
 │   │   └── index.yml
 │   └── site.yml
 ├── pipelines
+├── types
+├── blocks
 └── themes
 ```
 
