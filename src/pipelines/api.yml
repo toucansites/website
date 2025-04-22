@@ -8,7 +8,7 @@ queries:
             - key: publication
               direction: desc
 
-contentTypes: 
+contentTypes:
     include:
         - api
 

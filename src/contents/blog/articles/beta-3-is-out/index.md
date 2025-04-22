@@ -54,7 +54,7 @@ featured:
 
 ## Iterators
 
-Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed an resolved when a content with the same name was found as its identifier: `{{iteratorId}}`.
+Pagination did not fit well in content definitions, so they just got their new place on the pipelines. They become special queries now, which will be executed and resolved when a content with the same name was found as its identifier: `{{iteratorId}}`.
 
 ```yaml
 iterators:
@@ -68,6 +68,6 @@ iterators:
 
 ---
 
-If you are interested in more details check the [Beta 3 migration guide](/beta-3-migration-guide) or the changes if [this release](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2) on GitHub. Real world examples are also available such as [this site](https://toucansites.com/) or our [Minimal Example](https://github.com/toucansites/minimal-example).
+If you are interested in more details check the [Beta 3 migration guide](/beta-3-migration-guide) or the changes of [this release](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.2) on GitHub. Real world examples are also available such as [this site](https://toucansites.com/) or our [Minimal Example](https://github.com/toucansites/minimal-example).
 
 Have fun with Toucan Beta 3 and let us know what you think!
