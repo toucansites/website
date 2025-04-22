@@ -24,6 +24,10 @@ contents:
     path: contents
     assets:
         path: assets
+types:
+    path: types
+blocks:
+    path: blocks
 themes:
     location:
         path: themes
@@ -96,6 +100,22 @@ The location of the contents.
         This value specifies the location of the assets inside a content bundle.
     }
 }
+@FAQ {
+    @Question {
+        **`types.path`** - The name of the content types folder.
+    }
+    @Answer {
+        This value specifies the folder name of the content types location inside the source folder. This folder is used to define custom [content types](/docs/content-management/content-types/) for the website.
+    }
+}
+@FAQ {
+    @Question {
+        **`blocks.path`** - The name of the blocks folder.
+    }
+    @Answer {
+        This value specifies the folder name of the blocks location inside the source folder.
+    }
+}
 
 ## Themes section
 
@@ -139,22 +159,6 @@ This section defines the location of the theme-related files and other theme-rel
     }
     @Answer {
         This value specifies the folder name of the Mustache template overrides location inside the theme folder. If you place a file in this folder, it will override the default template for the corresponding file.
-    }
-}
-@FAQ {
-    @Question {
-        **`themes.types.path`** - The name of the content types folder.
-    }
-    @Answer {
-        This value specifies the folder name of the content types location inside the theme folder. This folder is used to define custom [content types](/getting-started/contents/content-types/) for the website.
-    }
-}
-@FAQ {
-    @Question {
-        **`themes.blocks.path`** - The name of the blocks folder.
-    }
-    @Answer {
-        This value specifies the folder name of the blocks location inside the theme folder.
     }
 }
 

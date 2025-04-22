@@ -61,7 +61,7 @@ This configuration allows markdown editors to use the `@Link` block directive wi
 @Link(url: "http://toucansites.com/") { This is a link }
 ```
 
-Additional block directive examples can be found in the site’s source code on [GitHub](https://github.com/toucansites/website/tree/main/src/themes/default/blocks).
+Additional block directive examples can be found in the site’s source code on [GitHub](https://github.com/toucansites/website/tree/main/src/blocks).
 
 
 ## Reference guide
