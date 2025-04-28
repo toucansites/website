@@ -174,6 +174,10 @@
         <h2 id="what-is-toucan">What is Toucan?</h2><p>Toucan is a brand-new static site generator, developed entirely in Swift. The <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-alpha.1" target="_blank">first alpha</a> version is now available on the project’s GitHub page.</p><h2 id="how-to-install-toucan">How to install Toucan?</h2><p>To install Toucan, you can compile it from source. Ensure that Swift and Xcode are installed on your Mac. While it is possible to install Toucan on Linux, using macOS is highly recommended during the alpha release.</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
 # install the toucan binary
 make install
+
+# alternatively, if you encounter permission errors:
+sudo make install
+
 # verify the installation
 which toucan
 </code></pre><h2 id="how-does-the-toucan-command-work">How does the Toucan command work?</h2><p>Every Toucan project operates within the current directory, so when building and running the project using Xcode, you will need to set up a custom working directory.</p><p>You can generate a new website using the <code>generate</code> subcommand, which accepts two arguments: the input directory (default is <code>src</code>) and the output directory (default is <code>docs</code>). Optionally, you can override the base URL if you need to generate the site for local development.</p><p>For example, if you have a site folder with the <code>src</code> inside, you can run the following command to generate the HTML files into a docs folder:</p><pre><code class="language-sh">cd my-site

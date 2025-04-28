@@ -23,6 +23,10 @@ Here’s a quick snippet to install Toucan on macOS. Simply run the following co
 git clone https://github.com/toucansites/toucan.git
 cd toucan
 make install
+
+# alternatively, if you encounter permission errors:
+sudo make install
+
 # verify installation
 which toucan
 ```
