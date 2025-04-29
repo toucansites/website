@@ -22,6 +22,10 @@ Here’s a quick snippet to install Toucan on Linux. Run the following commands,
 git clone https://github.com/toucansites/toucan.git
 cd toucan
 make install
+
+# alternatively, if you encounter permission errors:
+sudo make install
+
 # verify installation
 which toucan
 ```

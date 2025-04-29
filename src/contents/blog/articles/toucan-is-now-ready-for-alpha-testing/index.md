@@ -22,6 +22,10 @@ To install Toucan, you can compile it from source. Ensure that Swift and Xcode a
 git clone https://github.com/toucansites/toucan.git
 # install the toucan binary
 make install
+
+# alternatively, if you encounter permission errors:
+sudo make install
+
 # verify the installation
 which toucan
 ```
