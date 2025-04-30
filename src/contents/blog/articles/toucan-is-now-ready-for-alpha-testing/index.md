@@ -23,8 +23,10 @@ git clone https://github.com/toucansites/toucan.git
 # install the toucan binary
 make install
 
-# alternatively, if you encounter permission errors:
-sudo make install
+# The installation process now internally calls sudo to copy the necessary Toucan binaries to the /usr/local/bin folder.
+
+#If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:
+./scripts/run-chmod.sh
 
 # verify the installation
 which toucan
