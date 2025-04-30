@@ -49,7 +49,7 @@
           }
         ],
         "contents" : {
-          "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+          "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
           "outline" : [
             {
               "children" : [
@@ -119,20 +119,20 @@
             "short" : "4/30/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-30T13:49:12.047Z",
-            "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+            "iso8601" : "2025-04-30T13:56:08.042Z",
+            "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
             "sitemap" : "2025-04-30",
             "year" : "2025"
           },
           "time" : {
-            "full" : "1:49:12 PM Greenwich Mean Time",
-            "long" : "1:49:12 PM GMT",
-            "medium" : "1:49:12 PM",
-            "short" : "1:49 PM"
+            "full" : "1:56:08 PM Greenwich Mean Time",
+            "long" : "1:56:08 PM GMT",
+            "medium" : "1:56:08 PM",
+            "short" : "1:56 PM"
           },
-          "timestamp" : 1746020952.0472202
+          "timestamp" : 1746021368.0421634
         },
-        "permalink" : "https://toucansites.com/try-o/",
+        "permalink" : "https://toucansites.com/introducing-try-o/",
         "publication" : {
           "date" : {
             "full" : "Wednesday, April 30, 2025",
@@ -257,18 +257,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -847,7 +847,7 @@
           }
         ],
         "slug" : {
-          "value" : "try-o"
+          "value" : "introducing-try-o"
         },
         "tags" : [
           {
@@ -895,7 +895,7 @@
             "title" : "Releases"
           }
         ],
-        "title" : "TRY-O Release"
+        "title" : "TRY-O Template Release"
       },
       {
         "authors" : [
@@ -999,18 +999,18 @@
             "short" : "4/30/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-30T13:41:20.600Z",
-            "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+            "iso8601" : "2025-04-30T13:52:15.430Z",
+            "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
             "sitemap" : "2025-04-30",
             "year" : "2025"
           },
           "time" : {
-            "full" : "1:41:20 PM Greenwich Mean Time",
-            "long" : "1:41:20 PM GMT",
-            "medium" : "1:41:20 PM",
-            "short" : "1:41 PM"
+            "full" : "1:52:15 PM Greenwich Mean Time",
+            "long" : "1:52:15 PM GMT",
+            "medium" : "1:52:15 PM",
+            "short" : "1:52 PM"
           },
-          "timestamp" : 1746020480.6002526
+          "timestamp" : 1746021135.4297876
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -1083,7 +1083,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -1153,20 +1153,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -1189,7 +1189,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -1237,7 +1237,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -1979,7 +1979,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -2049,20 +2049,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -2085,7 +2085,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -2133,7 +2133,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -2237,18 +2237,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -2844,7 +2844,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -2914,20 +2914,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -2950,7 +2950,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -2998,7 +2998,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -3102,18 +3102,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -3740,7 +3740,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -3810,20 +3810,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -3846,7 +3846,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -3894,7 +3894,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -3998,18 +3998,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -4667,7 +4667,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -4737,20 +4737,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -4773,7 +4773,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -4821,7 +4821,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -4925,18 +4925,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -5594,7 +5594,7 @@
               }
             ],
             "contents" : {
-              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
+              "html" : "<h2 id=\"introducing-try-o-the-first-and-free-blog-template-for-toucan\">Introducing TRY-O: The first and free blog template for Toucan</h2><p><strong>Try it now</strong>: Get your free template on <a href=\"https://binarybirds.gumroad.com/l/TRY-O\" target=\"_blank\">Gumroad</a></p><p>We are thrilled to announce the release of Try-O, the very first official template for the Toucan static site generator (ssg). Toucan is all Swift-based but the TRY-O template is designed for bloggers and content creators without Swift skills. Use plain Markdown to build your site & dig deeper into our mustache based template system for advanced customization. -> HTML & CSS only.</p><p>TRY-O is a free to use, minimalistic blog template designed for writers, bloggers, entrepreneurs, content creators, who want to focus on getting their message out there, without worrying about hosting fees and complex CMS.</p><p>TRY-O is currently working with <strong>Toucan v1.0-beta3</strong> and is available now for use, experimentation, and feedback.</p><h2 id=\"why-try-o\">Why TRY-O?</h2><p>Well, first of all it’s free, and it is named this way because we want you to try it! It is a very simple blog template with a couple of pages that you can edit in Markdown and then deploy for free via Github Pages. It is as lightweight as it can be! With clear instructions in the documentation, you can have your static site up and running in no time!</p><ul><li>⚙️ <strong>Easy to set up</strong> – Run a command, edit a markdown file, incorporate your images and you’re live.</li><li>📦 <strong>Fully static</strong> – Which means it’s very fast, no backend / CMS required.</li><li>🌓 <strong>Dark mode ready</strong> – Serving your preference (either way).</li><li>🧱 <strong>Tile-style layout</strong> – Designed for both visual and text-heavy content.</li><li>📱 <strong>Responsive by default</strong> – Looks great on desktop and mobile.</li><li>🆓 <strong>Free GitHub Pages hosting</strong> – Yes, zero hosting fees!</li></ul><p><img src=\"https://toucansites.com/assets/introducing-try-o/screen.webp\" alt=\"Cover Image\"></p><h2 id=\"write-using-markdown\">Write using Markdown</h2><p>All written content is powered by Markdown, just create a post, add your image and Toucan will do the rest. It’s the developer-friendly way of blogging and it’s easier than you think.</p><h2 id=\"deploy-in-minutes\">Deploy in minutes</h2><p>Whether you’re using GitHub Pages or your own hosting, TRY-O is optimized for simple and fast deployment. Our default config supports GitHub Pages out of the box.</p><h2 id=\"what-s-next\">What’s next</h2><p>This is just the beginning. We’re already planning more Toucan templates, documentation improvements, and integrations to make site generation smoother than ever. Your feedback on TRY-O will help us shape that future.</p><h2 id=\"join-us\">Join Us!</h2><p>Join our Github community to request assistance, provide feedback, and help shape what Swift on the web should be.</p><ul><li>⭐️ Star us on GitHub: <a href=\"https://github.com/toucansites\" target=\"_blank\">github.com/toucansites</a></li><li>🐥 Follow us on <a href=\"https://x.com/tiborbodecs\" target=\"_blank\">https://x.com/tiborbodecs</a></li></ul>",
               "outline" : [
                 {
                   "children" : [
@@ -5664,20 +5664,20 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:49:12.047Z",
-                "rss" : "Wed, 30 Apr 2025 13:49:12 +0000",
+                "iso8601" : "2025-04-30T13:56:08.042Z",
+                "rss" : "Wed, 30 Apr 2025 13:56:08 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:49:12 PM Greenwich Mean Time",
-                "long" : "1:49:12 PM GMT",
-                "medium" : "1:49:12 PM",
-                "short" : "1:49 PM"
+                "full" : "1:56:08 PM Greenwich Mean Time",
+                "long" : "1:56:08 PM GMT",
+                "medium" : "1:56:08 PM",
+                "short" : "1:56 PM"
               },
-              "timestamp" : 1746020952.0472202
+              "timestamp" : 1746021368.0421634
             },
-            "permalink" : "https://toucansites.com/try-o/",
+            "permalink" : "https://toucansites.com/introducing-try-o/",
             "publication" : {
               "date" : {
                 "full" : "Wednesday, April 30, 2025",
@@ -5700,7 +5700,7 @@
               "timestamp" : 1746028860
             },
             "slug" : {
-              "value" : "try-o"
+              "value" : "introducing-try-o"
             },
             "tags" : [
               {
@@ -5748,7 +5748,7 @@
                 "title" : "Releases"
               }
             ],
-            "title" : "TRY-O Release"
+            "title" : "TRY-O Template Release"
           },
           {
             "authors" : [
@@ -5852,18 +5852,18 @@
                 "short" : "4/30/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-30T13:41:20.600Z",
-                "rss" : "Wed, 30 Apr 2025 13:41:20 +0000",
+                "iso8601" : "2025-04-30T13:52:15.430Z",
+                "rss" : "Wed, 30 Apr 2025 13:52:15 +0000",
                 "sitemap" : "2025-04-30",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "1:41:20 PM Greenwich Mean Time",
-                "long" : "1:41:20 PM GMT",
-                "medium" : "1:41:20 PM",
-                "short" : "1:41 PM"
+                "full" : "1:52:15 PM Greenwich Mean Time",
+                "long" : "1:52:15 PM GMT",
+                "medium" : "1:52:15 PM",
+                "short" : "1:52 PM"
               },
-              "timestamp" : 1746020480.6002526
+              "timestamp" : 1746021135.4297876
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -6604,18 +6604,18 @@
         "short" : "4/30/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-30T13:50:43.141Z",
-        "rss" : "Wed, 30 Apr 2025 13:50:43 +0000",
+        "iso8601" : "2025-04-30T13:56:10.996Z",
+        "rss" : "Wed, 30 Apr 2025 13:56:10 +0000",
         "sitemap" : "2025-04-30",
         "year" : "2025"
       },
       "time" : {
-        "full" : "1:50:43 PM Greenwich Mean Time",
-        "long" : "1:50:43 PM GMT",
-        "medium" : "1:50:43 PM",
-        "short" : "1:50 PM"
+        "full" : "1:56:10 PM Greenwich Mean Time",
+        "long" : "1:56:10 PM GMT",
+        "medium" : "1:56:10 PM",
+        "short" : "1:56 PM"
       },
-      "timestamp" : 1746021043.1413898
+      "timestamp" : 1746021370.995928
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",

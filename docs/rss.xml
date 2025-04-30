@@ -4,7 +4,7 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
     <language>en-US</language>
-    <lastBuildDate>Wed, 30 Apr 2025 13:50:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 13:56:10 +0000</lastBuildDate>
     <pubDate>Mon, 28 Apr 2025 08:56:46 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
@@ -45,6 +45,13 @@
     <pubDate>Mon, 12 Aug 2024 12:00:00 +0000</pubDate>
 </item>
 <item>
+    <guid isPermaLink="true">https://toucansites.com/introducing-try-o/</guid>
+    <title><![CDATA[ TRY-O Template Release ]]></title>
+    <description><![CDATA[ Introducing TRY-O: The first and free blog template for Toucan. ]]></description>
+    <link>https://toucansites.com/introducing-try-o/</link>
+    <pubDate>Wed, 30 Apr 2025 16:01:00 +0000</pubDate>
+</item>
+<item>
     <guid isPermaLink="true">https://toucansites.com/last-alpha-release/</guid>
     <title><![CDATA[ Last alpha release ]]></title>
     <description><![CDATA[ Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2. ]]></description>
@@ -57,13 +64,6 @@
     <description><![CDATA[ Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift. ]]></description>
     <link>https://toucansites.com/toucan-is-now-ready-for-alpha-testing/</link>
     <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-</item>
-<item>
-    <guid isPermaLink="true">https://toucansites.com/try-o/</guid>
-    <title><![CDATA[ TRY-O Release ]]></title>
-    <description><![CDATA[ Introducing TRY-O: The first and free blog template for Toucan. ]]></description>
-    <link>https://toucansites.com/try-o/</link>
-    <pubDate>Wed, 30 Apr 2025 16:01:00 +0000</pubDate>
 </item>
 
 </channel>
