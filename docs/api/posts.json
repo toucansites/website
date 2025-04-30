@@ -4449,7 +4449,7 @@
           }
         ],
         "contents" : {
-          "html" : "<h2 id=\"what-is-toucan\">What is Toucan?</h2><p>Toucan is a brand-new static site generator, developed entirely in Swift. The <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-alpha.1\" target=\"_blank\">first alpha</a> version is now available on the project’s GitHub page.</p><h2 id=\"how-to-install-toucan\">How to install Toucan?</h2><p>To install Toucan, you can compile it from source. Ensure that Swift and Xcode are installed on your Mac. While it is possible to install Toucan on Linux, using macOS is highly recommended during the alpha release.</p><pre><code class=\"language-sh\">git clone https://github.com/toucansites/toucan.git\n# install the toucan binary\nmake install\n\n# alternatively, if you encounter permission errors:\nsudo make install\n\n# verify the installation\nwhich toucan\n</code></pre><h2 id=\"how-does-the-toucan-command-work\">How does the Toucan command work?</h2><p>Every Toucan project operates within the current directory, so when building and running the project using Xcode, you will need to set up a custom working directory.</p><p>You can generate a new website using the <code>generate</code> subcommand, which accepts two arguments: the input directory (default is <code>src</code>) and the output directory (default is <code>docs</code>). Optionally, you can override the base URL if you need to generate the site for local development.</p><p>For example, if you have a site folder with the <code>src</code> inside, you can run the following command to generate the HTML files into a docs folder:</p><pre><code class=\"language-sh\">cd my-site\ntoucan generate ./src ./docs --base-url \"http://localhost:3000/\"\n</code></pre><p>It is also possible to quickly start a local file/web server by running the <code>toucan serve</code> command. This will launch a Hummingbird server, using the <code>docs</code> directory and port <code>3000</code> as defaults, but you can override these settings. For example:</p><pre><code class=\"language-sh\">toucan serve ./docs --port 3000\n</code></pre><p>Now, if you open your browser, you should be able to preview the website by entering <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</p><p>During development, it’s useful to rebuild the site automatically when changes occur in the source directory. For this purpose, we’ve implemented a <code>watch</code> command, but currently, it only works on macOS. You can try watching a directory; the command is very similar to the generate subcommand:</p><pre><code class=\"language-sh\">toucan watch ./src ./docs --base-url 'http://localhost:3000/' \n</code></pre><p>That’s all about the toucan command. Now, let’s focus on building a simple website.</p><h2 id=\"getting-started-with-toucan-based-websites\">Getting started with Toucan-based websites</h2><p>The first thing you need is a source folder where you can store all the themes, assets, and content for your website.</p><p>Feel free to grab one of our themes to get started. We also have a minimal starter project available under the <a href=\"https://github.com/toucansites\" target=\"_blank\">toucansites</a> GitHub organization.</p><p>Make sure to place the theme in the <code>themes/default</code> folder. Alternatively, you can set the <code>theme.use</code> value in the site’s configuration YAML to use a custom folder.</p><p>Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:</p><pre><code class=\"language-yaml\">site:\n    baseUrl: \"http://localhost:3000/\"\n    title: \"Minimal example\"\n    description: \"This is a minimal Toucan example\"\n</code></pre><p>Next, create a content folder and add some Markdown documents.</p><p>The <code>index.md</code> will serve as the homepage for your website. Feel free to modify this file as needed.</p><pre><code class=\"language-markdown\">---\ntitle: \"Home title\"\ndescription: \"Home description\"\n---\n\nWelcome to the home page.\n</code></pre><p>The section between the <code>---</code> characters is called the front matter, where you can customize the properties of your page.</p><p>The homepage and 404 page are a bit different. The homepage has no slug, and the 404 page will always be named <code>404.html</code> when the final content is generated.</p><p>Every page will use a slug based on the folder structure you create. For example, if you need a subpage called <code>about</code>, simply create a folder named about and place an <code>index.md</code> file inside it.</p><p>If you want to omit a folder from the hierarchy, just add a <code>noindex.yml</code> file to that directory. For example, consider the following structure:</p><pre><code class=\"language-sh\">.\n├── 404\n│   └── index.md\n├── assets\n├── blog\n│   ├── authors\n│   │   └── alan-turing\n│   │       └── index.md\n│   ├── index.md\n│   ├── posts\n│   │   └── 2024\n│   │       ├── noindex.yml\n│   │       └── turings-legacy-in-modern-computing\n│   │           └── index.md\n│   └── tags\n│       └── technology\n│           └── index.md\n├── index.md\n└── my-page\n    └── index.md\n</code></pre><p>The following pages will be available:</p><ul><li><code>/</code></li><li><code>404</code></li><li><code>blog</code></li><li><code>blog/authors/alan-turing</code></li><li><code>blog/posts/turings-legacy-in-modern-computing</code></li><li><code>blog/tags/technology</code></li><li><code>my-page</code></li></ul><p>Notice the <code>noindex.yml</code>file in the 2024 folder, which is omitted from the slug.</p><p>Now that you understand the basics, feel free to create your own structure and experiment with Toucan. You can find working examples by checking the source code of <a href=\"https://github.com/toucansites/website\" target=\"_blank\">this</a> website or the <a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">theswiftdev.com</a> site, both available on GitHub.</p><p>That’s all you need to know to get started with Toucan. 😊</p>",
+          "html" : "<h2 id=\"what-is-toucan\">What is Toucan?</h2><p>Toucan is a brand-new static site generator, developed entirely in Swift. The <a href=\"https://github.com/toucansites/toucan/releases/tag/1.0.0-alpha.1\" target=\"_blank\">first alpha</a> version is now available on the project’s GitHub page.</p><h2 id=\"how-to-install-toucan\">How to install Toucan?</h2><p>To install Toucan, you can compile it from source. Ensure that Swift and Xcode are installed on your Mac. While it is possible to install Toucan on Linux, using macOS is highly recommended during the alpha release.</p><pre><code class=\"language-sh\">git clone https://github.com/toucansites/toucan.git\n# install the toucan binary\nmake install\n\n# The installation process now internally calls sudo for certain steps—you will likely be prompted to enter your system password.\n\n#If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:\n./scripts/run-chmod.sh\n\n# verify the installation\nwhich toucan\n</code></pre><h2 id=\"how-does-the-toucan-command-work\">How does the Toucan command work?</h2><p>Every Toucan project operates within the current directory, so when building and running the project using Xcode, you will need to set up a custom working directory.</p><p>You can generate a new website using the <code>generate</code> subcommand, which accepts two arguments: the input directory (default is <code>src</code>) and the output directory (default is <code>docs</code>). Optionally, you can override the base URL if you need to generate the site for local development.</p><p>For example, if you have a site folder with the <code>src</code> inside, you can run the following command to generate the HTML files into a docs folder:</p><pre><code class=\"language-sh\">cd my-site\ntoucan generate ./src ./docs --base-url \"http://localhost:3000/\"\n</code></pre><p>It is also possible to quickly start a local file/web server by running the <code>toucan serve</code> command. This will launch a Hummingbird server, using the <code>docs</code> directory and port <code>3000</code> as defaults, but you can override these settings. For example:</p><pre><code class=\"language-sh\">toucan serve ./docs --port 3000\n</code></pre><p>Now, if you open your browser, you should be able to preview the website by entering <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</p><p>During development, it’s useful to rebuild the site automatically when changes occur in the source directory. For this purpose, we’ve implemented a <code>watch</code> command, but currently, it only works on macOS. You can try watching a directory; the command is very similar to the generate subcommand:</p><pre><code class=\"language-sh\">toucan watch ./src ./docs --base-url 'http://localhost:3000/' \n</code></pre><p>That’s all about the toucan command. Now, let’s focus on building a simple website.</p><h2 id=\"getting-started-with-toucan-based-websites\">Getting started with Toucan-based websites</h2><p>The first thing you need is a source folder where you can store all the themes, assets, and content for your website.</p><p>Feel free to grab one of our themes to get started. We also have a minimal starter project available under the <a href=\"https://github.com/toucansites\" target=\"_blank\">toucansites</a> GitHub organization.</p><p>Make sure to place the theme in the <code>themes/default</code> folder. Alternatively, you can set the <code>theme.use</code> value in the site’s configuration YAML to use a custom folder.</p><p>Now, you need a proper configuration for your site. Don’t worry, it can be as simple as this example:</p><pre><code class=\"language-yaml\">site:\n    baseUrl: \"http://localhost:3000/\"\n    title: \"Minimal example\"\n    description: \"This is a minimal Toucan example\"\n</code></pre><p>Next, create a content folder and add some Markdown documents.</p><p>The <code>index.md</code> will serve as the homepage for your website. Feel free to modify this file as needed.</p><pre><code class=\"language-markdown\">---\ntitle: \"Home title\"\ndescription: \"Home description\"\n---\n\nWelcome to the home page.\n</code></pre><p>The section between the <code>---</code> characters is called the front matter, where you can customize the properties of your page.</p><p>The homepage and 404 page are a bit different. The homepage has no slug, and the 404 page will always be named <code>404.html</code> when the final content is generated.</p><p>Every page will use a slug based on the folder structure you create. For example, if you need a subpage called <code>about</code>, simply create a folder named about and place an <code>index.md</code> file inside it.</p><p>If you want to omit a folder from the hierarchy, just add a <code>noindex.yml</code> file to that directory. For example, consider the following structure:</p><pre><code class=\"language-sh\">.\n├── 404\n│   └── index.md\n├── assets\n├── blog\n│   ├── authors\n│   │   └── alan-turing\n│   │       └── index.md\n│   ├── index.md\n│   ├── posts\n│   │   └── 2024\n│   │       ├── noindex.yml\n│   │       └── turings-legacy-in-modern-computing\n│   │           └── index.md\n│   └── tags\n│       └── technology\n│           └── index.md\n├── index.md\n└── my-page\n    └── index.md\n</code></pre><p>The following pages will be available:</p><ul><li><code>/</code></li><li><code>404</code></li><li><code>blog</code></li><li><code>blog/authors/alan-turing</code></li><li><code>blog/posts/turings-legacy-in-modern-computing</code></li><li><code>blog/tags/technology</code></li><li><code>my-page</code></li></ul><p>Notice the <code>noindex.yml</code>file in the 2024 folder, which is omitted from the slug.</p><p>Now that you understand the basics, feel free to create your own structure and experiment with Toucan. You can find working examples by checking the source code of <a href=\"https://github.com/toucansites/website\" target=\"_blank\">this</a> website or the <a href=\"https://github.com/theswiftdev/blog\" target=\"_blank\">theswiftdev.com</a> site, both available on GitHub.</p><p>That’s all you need to know to get started with Toucan. 😊</p>",
           "outline" : [
             {
               "children" : [
@@ -4484,7 +4484,7 @@
               "text" : "Getting started with Toucan-based websites"
             }
           ],
-          "readingTime" : 2
+          "readingTime" : 3
         },
         "css" : [
 
@@ -4497,24 +4497,24 @@
         ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Monday, April 28, 2025",
-            "long" : "April 28, 2025",
-            "medium" : "Apr 28, 2025",
-            "short" : "4/28/25"
+            "full" : "Wednesday, April 30, 2025",
+            "long" : "April 30, 2025",
+            "medium" : "Apr 30, 2025",
+            "short" : "4/30/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-28T08:58:26.399Z",
-            "rss" : "Mon, 28 Apr 2025 08:58:26 +0000",
-            "sitemap" : "2025-04-28",
+            "iso8601" : "2025-04-30T11:50:09.553Z",
+            "rss" : "Wed, 30 Apr 2025 11:50:09 +0000",
+            "sitemap" : "2025-04-30",
             "year" : "2025"
           },
           "time" : {
-            "full" : "8:58:26 AM Greenwich Mean Time",
-            "long" : "8:58:26 AM GMT",
-            "medium" : "8:58:26 AM",
-            "short" : "8:58 AM"
+            "full" : "11:50:09 AM Greenwich Mean Time",
+            "long" : "11:50:09 AM GMT",
+            "medium" : "11:50:09 AM",
+            "short" : "11:50 AM"
           },
-          "timestamp" : 1745830706.399494
+          "timestamp" : 1746013809.5528564
         },
         "permalink" : "https://toucansites.com/toucan-is-now-ready-for-alpha-testing/",
         "publication" : {
@@ -5544,24 +5544,24 @@
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
-        "full" : "Monday, April 28, 2025",
-        "long" : "April 28, 2025",
-        "medium" : "Apr 28, 2025",
-        "short" : "4/28/25"
+        "full" : "Wednesday, April 30, 2025",
+        "long" : "April 30, 2025",
+        "medium" : "Apr 30, 2025",
+        "short" : "4/30/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-28T14:53:03.434Z",
-        "rss" : "Mon, 28 Apr 2025 14:53:03 +0000",
-        "sitemap" : "2025-04-28",
+        "iso8601" : "2025-04-30T11:51:51.232Z",
+        "rss" : "Wed, 30 Apr 2025 11:51:51 +0000",
+        "sitemap" : "2025-04-30",
         "year" : "2025"
       },
       "time" : {
-        "full" : "2:53:03 PM Greenwich Mean Time",
-        "long" : "2:53:03 PM GMT",
-        "medium" : "2:53:03 PM",
-        "short" : "2:53 PM"
+        "full" : "11:51:51 AM Greenwich Mean Time",
+        "long" : "11:51:51 AM GMT",
+        "medium" : "11:51:51 AM",
+        "short" : "11:51 AM"
       },
-      "timestamp" : 1745851983.434
+      "timestamp" : 1746013911.231883
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
@@ -5570,24 +5570,24 @@
     },
     "lastUpdate" : {
       "date" : {
-        "full" : "Monday, April 28, 2025",
-        "long" : "April 28, 2025",
-        "medium" : "Apr 28, 2025",
-        "short" : "4/28/25"
+        "full" : "Wednesday, April 30, 2025",
+        "long" : "April 30, 2025",
+        "medium" : "Apr 30, 2025",
+        "short" : "4/30/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-28T08:58:42.371Z",
-        "rss" : "Mon, 28 Apr 2025 08:58:42 +0000",
-        "sitemap" : "2025-04-28",
+        "iso8601" : "2025-04-30T11:50:03.426Z",
+        "rss" : "Wed, 30 Apr 2025 11:50:03 +0000",
+        "sitemap" : "2025-04-30",
         "year" : "2025"
       },
       "time" : {
-        "full" : "8:58:42 AM Greenwich Mean Time",
-        "long" : "8:58:42 AM GMT",
-        "medium" : "8:58:42 AM",
-        "short" : "8:58 AM"
+        "full" : "11:50:03 AM Greenwich Mean Time",
+        "long" : "11:50:03 AM GMT",
+        "medium" : "11:50:03 AM",
+        "short" : "11:50 AM"
       },
-      "timestamp" : 1745830722.3712718
+      "timestamp" : 1746013803.4263105
     },
     "locale" : "en-US",
     "name" : "Toucan",

@@ -160,7 +160,7 @@
             
             <div class="meta">
                 <time datetime="2024-09-30T00:00:00.000Z">9/30/24 12:00 AM</time>
-                 &middot; <span class="reading-time">2 min read</span>
+                 &middot; <span class="reading-time">3 min read</span>
             </div>
             <h1>Toucan is now ready for alpha testing</h1>
             <hr>
@@ -175,8 +175,10 @@
 # install the toucan binary
 make install
 
-# alternatively, if you encounter permission errors:
-sudo make install
+# The installation process now internally calls sudo for certain steps—you will likely be prompted to enter your system password.
+
+#If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:
+./scripts/run-chmod.sh
 
 # verify the installation
 which toucan
