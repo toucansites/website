@@ -24,7 +24,7 @@ git clone https://github.com/toucansites/toucan.git
 cd toucan
 make install
 
-# The installation process now internally calls sudo for certain steps—you will likely be prompted to enter your system password.
+# The installation process now internally calls sudo to copy the necessary Toucan binaries to the /usr/local/bin folder.
 
 #If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:
 ./scripts/run-chmod.sh
