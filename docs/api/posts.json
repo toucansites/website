@@ -11,34 +11,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8431244
+              "timestamp" : 1744816353.3311882
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -86,35 +80,29 @@
           ],
           "readingTime" : 2
         },
-        "css" : [
-
-        ],
         "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
         "featured" : true,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 7, 2025",
+            "long" : "May 7, 2025",
+            "medium" : "May 7, 2025",
+            "short" : "5/7/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-07T14:27:42.783Z",
+            "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+            "sitemap" : "2025-05-07",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "2:27:42 PM Greenwich Mean Time",
+            "long" : "2:27:42 PM GMT",
+            "medium" : "2:27:42 PM",
+            "short" : "2:27 PM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1746628062.782993
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -149,34 +137,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8428943
+                  "timestamp" : 1744816353.3310246
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -224,35 +206,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1746628062.7827477
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -288,34 +264,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -337,34 +307,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -381,35 +345,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.842Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8421788
+              "timestamp" : 1744816353.3305504
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -445,34 +403,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -494,34 +446,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -538,35 +484,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -602,34 +542,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -651,34 +585,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -726,35 +654,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -790,34 +712,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -842,34 +758,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -891,34 +801,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8428943
+              "timestamp" : 1744816353.3310246
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -966,35 +870,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Tuesday, April 22, 2025",
-            "long" : "April 22, 2025",
-            "medium" : "Apr 22, 2025",
-            "short" : "4/22/25"
+            "full" : "Wednesday, May 7, 2025",
+            "long" : "May 7, 2025",
+            "medium" : "May 7, 2025",
+            "short" : "5/7/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-22T11:36:07.234Z",
-            "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-            "sitemap" : "2025-04-22",
+            "iso8601" : "2025-05-07T14:27:42.783Z",
+            "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+            "sitemap" : "2025-05-07",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:36:07 AM Greenwich Mean Time",
-            "long" : "11:36:07 AM GMT",
-            "medium" : "11:36:07 AM",
-            "short" : "11:36 AM"
+            "full" : "2:27:42 PM Greenwich Mean Time",
+            "long" : "2:27:42 PM GMT",
+            "medium" : "2:27:42 PM",
+            "short" : "2:27 PM"
           },
-          "timestamp" : 1745321767.234027
+          "timestamp" : 1746628062.7827477
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -1029,34 +927,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8431244
+                  "timestamp" : 1744816353.3311882
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -1104,35 +996,29 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1744980344.842554
+              "timestamp" : 1746628062.782993
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -1168,34 +1054,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1217,34 +1097,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1261,35 +1135,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.842Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8421788
+              "timestamp" : 1744816353.3305504
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -1325,34 +1193,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1374,34 +1236,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1418,35 +1274,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -1482,34 +1332,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1531,34 +1375,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1606,35 +1444,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -1670,34 +1502,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -1722,34 +1548,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -1771,34 +1591,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -1815,35 +1629,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, April 16, 2025",
+            "long" : "April 16, 2025",
+            "medium" : "Apr 16, 2025",
+            "short" : "4/16/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.842Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-04-16T15:12:33.331Z",
+            "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+            "sitemap" : "2025-04-16",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "3:12:33 PM Greenwich Mean Time",
+            "long" : "3:12:33 PM GMT",
+            "medium" : "3:12:33 PM",
+            "short" : "3:12 PM"
           },
-          "timestamp" : 1744980344.8421788
+          "timestamp" : 1744816353.3305504
         },
         "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
         "publication" : {
@@ -1878,34 +1686,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8431244
+                  "timestamp" : 1744816353.3311882
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -1953,35 +1755,29 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1744980344.842554
+              "timestamp" : 1746628062.782993
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -2017,34 +1813,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2066,34 +1856,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8428943
+                  "timestamp" : 1744816353.3310246
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -2141,35 +1925,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1746628062.7827477
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -2205,34 +1983,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2254,34 +2026,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2298,35 +2064,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -2362,34 +2122,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2411,34 +2165,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2486,35 +2234,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -2550,34 +2292,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2602,34 +2338,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -2651,34 +2381,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -2695,35 +2419,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.468Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.4684904
+          "timestamp" : 1744640959.7518957
         },
         "permalink" : "https://toucansites.com/first-beta-release/",
         "publication" : {
@@ -2758,34 +2476,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8431244
+                  "timestamp" : 1744816353.3311882
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -2833,35 +2545,29 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1744980344.842554
+              "timestamp" : 1746628062.782993
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -2897,34 +2603,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -2946,34 +2646,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8428943
+                  "timestamp" : 1744816353.3310246
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -3021,35 +2715,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1746628062.7827477
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -3085,34 +2773,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3134,34 +2816,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3178,35 +2854,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.842Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8421788
+              "timestamp" : 1744816353.3305504
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -3242,34 +2912,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3291,34 +2955,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3366,35 +3024,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4687061
+              "timestamp" : 1744640959.7520552
             },
             "permalink" : "https://toucansites.com/last-alpha-release/",
             "publication" : {
@@ -3430,34 +3082,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3482,34 +3128,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -3531,34 +3171,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -3606,35 +3240,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.4687061
+          "timestamp" : 1744640959.7520552
         },
         "permalink" : "https://toucansites.com/last-alpha-release/",
         "publication" : {
@@ -3669,34 +3297,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8431244
+                  "timestamp" : 1744816353.3311882
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -3744,35 +3366,29 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1744980344.842554
+              "timestamp" : 1746628062.782993
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -3808,34 +3424,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -3857,34 +3467,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8428943
+                  "timestamp" : 1744816353.3310246
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -3932,35 +3536,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1746628062.7827477
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -3996,34 +3594,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4045,34 +3637,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4089,35 +3675,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.842Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8421788
+              "timestamp" : 1744816353.3305504
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -4153,34 +3733,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4202,34 +3776,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4246,35 +3814,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -4310,34 +3872,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4362,34 +3918,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -4411,34 +3961,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4699125
+              "timestamp" : 1744640959.7526395
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4486,35 +4030,29 @@
           ],
           "readingTime" : 2
         },
-        "css" : [
-
-        ],
         "description" : "Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Wednesday, May 7, 2025",
+            "long" : "May 7, 2025",
+            "medium" : "May 7, 2025",
+            "short" : "5/7/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-05-07T14:27:42.783Z",
+            "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+            "sitemap" : "2025-05-07",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:27:42 PM Greenwich Mean Time",
+            "long" : "2:27:42 PM GMT",
+            "medium" : "2:27:42 PM",
+            "short" : "2:27 PM"
           },
-          "timestamp" : 1743761537.469172
+          "timestamp" : 1746628062.7832074
         },
         "permalink" : "https://toucansites.com/toucan-is-now-ready-for-alpha-testing/",
         "publication" : {
@@ -4549,34 +4087,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8431244
+                  "timestamp" : 1744816353.3311882
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/gabor-lengyel/",
@@ -4624,35 +4156,29 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.843Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1744980344.842554
+              "timestamp" : 1746628062.782993
             },
             "permalink" : "https://toucansites.com/beta-3-migration-guide/",
             "publication" : {
@@ -4688,34 +4214,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4737,34 +4257,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 18, 2025",
-                    "long" : "April 18, 2025",
-                    "medium" : "Apr 18, 2025",
-                    "short" : "4/18/25"
+                    "full" : "Wednesday, April 16, 2025",
+                    "long" : "April 16, 2025",
+                    "medium" : "Apr 16, 2025",
+                    "short" : "4/16/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-18T12:45:44.843Z",
-                    "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                    "sitemap" : "2025-04-18",
+                    "iso8601" : "2025-04-16T15:12:33.331Z",
+                    "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                    "sitemap" : "2025-04-16",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "12:45:44 PM Greenwich Mean Time",
-                    "long" : "12:45:44 PM GMT",
-                    "medium" : "12:45:44 PM",
-                    "short" : "12:45 PM"
+                    "full" : "3:12:33 PM Greenwich Mean Time",
+                    "long" : "3:12:33 PM GMT",
+                    "medium" : "3:12:33 PM",
+                    "short" : "3:12 PM"
                   },
-                  "timestamp" : 1744980344.8428943
+                  "timestamp" : 1744816353.3310246
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/ferenc-viasz-kadi/",
@@ -4812,35 +4326,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, May 7, 2025",
+                "long" : "May 7, 2025",
+                "medium" : "May 7, 2025",
+                "short" : "5/7/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-05-07T14:27:42.783Z",
+                "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+                "sitemap" : "2025-05-07",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "2:27:42 PM Greenwich Mean Time",
+                "long" : "2:27:42 PM GMT",
+                "medium" : "2:27:42 PM",
+                "short" : "2:27 PM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1746628062.7827477
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -4876,34 +4384,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -4925,34 +4427,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -4969,35 +4465,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 18, 2025",
-                "long" : "April 18, 2025",
-                "medium" : "Apr 18, 2025",
-                "short" : "4/18/25"
+                "full" : "Wednesday, April 16, 2025",
+                "long" : "April 16, 2025",
+                "medium" : "Apr 16, 2025",
+                "short" : "4/16/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-18T12:45:44.842Z",
-                "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-                "sitemap" : "2025-04-18",
+                "iso8601" : "2025-04-16T15:12:33.331Z",
+                "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+                "sitemap" : "2025-04-16",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "12:45:44 PM Greenwich Mean Time",
-                "long" : "12:45:44 PM GMT",
-                "medium" : "12:45:44 PM",
-                "short" : "12:45 PM"
+                "full" : "3:12:33 PM Greenwich Mean Time",
+                "long" : "3:12:33 PM GMT",
+                "medium" : "3:12:33 PM",
+                "short" : "3:12 PM"
               },
-              "timestamp" : 1744980344.8421788
+              "timestamp" : 1744816353.3305504
             },
             "permalink" : "https://toucansites.com/beta-2-is-now-avaiable/",
             "publication" : {
@@ -5033,34 +4523,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -5082,34 +4566,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4699125
+                  "timestamp" : 1744640959.7526395
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/authors/tibor-bodecs/",
@@ -5126,35 +4604,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.468Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4684904
+              "timestamp" : 1744640959.7518957
             },
             "permalink" : "https://toucansites.com/first-beta-release/",
             "publication" : {
@@ -5190,34 +4662,28 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
-                    "full" : "Friday, April 4, 2025",
-                    "long" : "April 4, 2025",
-                    "medium" : "Apr 4, 2025",
-                    "short" : "4/4/25"
+                    "full" : "Monday, April 14, 2025",
+                    "long" : "April 14, 2025",
+                    "medium" : "Apr 14, 2025",
+                    "short" : "4/14/25"
                   },
                   "formats" : {
-                    "iso8601" : "2025-04-04T10:12:17.470Z",
-                    "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                    "sitemap" : "2025-04-04",
+                    "iso8601" : "2025-04-14T14:29:19.753Z",
+                    "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                    "sitemap" : "2025-04-14",
                     "year" : "2025"
                   },
                   "time" : {
-                    "full" : "10:12:17 AM Greenwich Mean Time",
-                    "long" : "10:12:17 AM GMT",
-                    "medium" : "10:12:17 AM",
-                    "short" : "10:12 AM"
+                    "full" : "2:29:19 PM Greenwich Mean Time",
+                    "long" : "2:29:19 PM GMT",
+                    "medium" : "2:29:19 PM",
+                    "short" : "2:29 PM"
                   },
-                  "timestamp" : 1743761537.4702497
+                  "timestamp" : 1744640959.7529528
                 },
                 "order" : 10,
                 "permalink" : "https://toucansites.com/tags/releases/",
@@ -5242,34 +4708,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4702497
+              "timestamp" : 1744640959.7529528
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/releases/",
@@ -5291,34 +4751,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Andris, a marketing and sales specialist, passionate about game development and project management.",
             "image" : "https://toucansites.com/assets/authors/andris-sipos/andris-sipos.webp",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.469Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.752Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4694314
+              "timestamp" : 1744640959.7524378
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/authors/andris-sipos/",
@@ -5390,35 +4844,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "We're thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 4, 2025",
-            "long" : "April 4, 2025",
-            "medium" : "Apr 4, 2025",
-            "short" : "4/4/25"
+            "full" : "Monday, April 14, 2025",
+            "long" : "April 14, 2025",
+            "medium" : "Apr 14, 2025",
+            "short" : "4/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-04T10:12:17.469Z",
-            "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-            "sitemap" : "2025-04-04",
+            "iso8601" : "2025-04-14T14:29:19.752Z",
+            "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+            "sitemap" : "2025-04-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "10:12:17 AM Greenwich Mean Time",
-            "long" : "10:12:17 AM GMT",
-            "medium" : "10:12:17 AM",
-            "short" : "10:12 AM"
+            "full" : "2:29:19 PM Greenwich Mean Time",
+            "long" : "2:29:19 PM GMT",
+            "medium" : "2:29:19 PM",
+            "short" : "2:29 PM"
           },
-          "timestamp" : 1743761537.468599
+          "timestamp" : 1744640959.7519703
         },
         "permalink" : "https://toucansites.com/introducing-toucan-a-new-markdown-based-static-site-generator/",
         "publication" : {
@@ -5457,34 +4905,28 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Get the latest updates, features, and news about our static site generator. Stay informed with the newest developments.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Friday, April 4, 2025",
-                "long" : "April 4, 2025",
-                "medium" : "Apr 4, 2025",
-                "short" : "4/4/25"
+                "full" : "Monday, April 14, 2025",
+                "long" : "April 14, 2025",
+                "medium" : "Apr 14, 2025",
+                "short" : "4/14/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-04T10:12:17.470Z",
-                "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-                "sitemap" : "2025-04-04",
+                "iso8601" : "2025-04-14T14:29:19.753Z",
+                "rss" : "Mon, 14 Apr 2025 14:29:19 +0000",
+                "sitemap" : "2025-04-14",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "10:12:17 AM Greenwich Mean Time",
-                "long" : "10:12:17 AM GMT",
-                "medium" : "10:12:17 AM",
-                "short" : "10:12 AM"
+                "full" : "2:29:19 PM Greenwich Mean Time",
+                "long" : "2:29:19 PM GMT",
+                "medium" : "2:29:19 PM",
+                "short" : "2:29 PM"
               },
-              "timestamp" : 1743761537.4701526
+              "timestamp" : 1744640959.7528448
             },
             "order" : 10,
             "permalink" : "https://toucansites.com/tags/news/",
@@ -5506,33 +4948,27 @@
       ],
       "readingTime" : 1
     },
-    "css" : [
-
-    ],
     "image" : null,
-    "js" : [
-
-    ],
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 18, 2025",
-        "long" : "April 18, 2025",
-        "medium" : "Apr 18, 2025",
-        "short" : "4/18/25"
+        "full" : "Wednesday, April 16, 2025",
+        "long" : "April 16, 2025",
+        "medium" : "Apr 16, 2025",
+        "short" : "4/16/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-18T12:45:44.842Z",
-        "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-        "sitemap" : "2025-04-18",
+        "iso8601" : "2025-04-16T15:12:33.330Z",
+        "rss" : "Wed, 16 Apr 2025 15:12:33 +0000",
+        "sitemap" : "2025-04-16",
         "year" : "2025"
       },
       "time" : {
-        "full" : "12:45:44 PM Greenwich Mean Time",
-        "long" : "12:45:44 PM GMT",
-        "medium" : "12:45:44 PM",
-        "short" : "12:45 PM"
+        "full" : "3:12:33 PM Greenwich Mean Time",
+        "long" : "3:12:33 PM GMT",
+        "medium" : "3:12:33 PM",
+        "short" : "3:12 PM"
       },
-      "timestamp" : 1744980344.8420653
+      "timestamp" : 1744816353.3304646
     },
     "permalink" : "https://toucansites.com/api.json",
     "slug" : {
@@ -5544,24 +4980,24 @@
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
-        "full" : "Tuesday, April 22, 2025",
-        "long" : "April 22, 2025",
-        "medium" : "Apr 22, 2025",
-        "short" : "4/22/25"
+        "full" : "Sunday, May 11, 2025",
+        "long" : "May 11, 2025",
+        "medium" : "May 11, 2025",
+        "short" : "5/11/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-22T13:28:08.443Z",
-        "rss" : "Tue, 22 Apr 2025 13:28:08 +0000",
-        "sitemap" : "2025-04-22",
+        "iso8601" : "2025-05-11T13:22:51.466Z",
+        "rss" : "Sun, 11 May 2025 13:22:51 +0000",
+        "sitemap" : "2025-05-11",
         "year" : "2025"
       },
       "time" : {
-        "full" : "1:28:08 PM Greenwich Mean Time",
-        "long" : "1:28:08 PM GMT",
-        "medium" : "1:28:08 PM",
-        "short" : "1:28 PM"
+        "full" : "1:22:51 PM Greenwich Mean Time",
+        "long" : "1:22:51 PM GMT",
+        "medium" : "1:22:51 PM",
+        "short" : "1:22 PM"
       },
-      "timestamp" : 1745328488.443328
+      "timestamp" : 1746969771.466424
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
@@ -5570,24 +5006,24 @@
     },
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 18, 2025",
-        "long" : "April 18, 2025",
-        "medium" : "Apr 18, 2025",
-        "short" : "4/18/25"
+        "full" : "Wednesday, May 7, 2025",
+        "long" : "May 7, 2025",
+        "medium" : "May 7, 2025",
+        "short" : "5/7/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-18T12:45:44.844Z",
-        "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-        "sitemap" : "2025-04-18",
+        "iso8601" : "2025-05-07T14:27:42.783Z",
+        "rss" : "Wed, 07 May 2025 14:27:42 +0000",
+        "sitemap" : "2025-05-07",
         "year" : "2025"
       },
       "time" : {
-        "full" : "12:45:44 PM Greenwich Mean Time",
-        "long" : "12:45:44 PM GMT",
-        "medium" : "12:45:44 PM",
-        "short" : "12:45 PM"
+        "full" : "2:27:42 PM Greenwich Mean Time",
+        "long" : "2:27:42 PM GMT",
+        "medium" : "2:27:42 PM",
+        "short" : "2:27 PM"
       },
-      "timestamp" : 1744980344.8435836
+      "timestamp" : 1746628062.7833672
     },
     "locale" : "en-US",
     "name" : "Toucan",
