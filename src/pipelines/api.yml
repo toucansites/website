@@ -15,11 +15,11 @@ contentTypes:
 
 engine: 
     id: json
-    options:
-        # keyPath: "context.posts.0.slug.value"
-        # keyPaths:
-        #     "context.posts.0.slug.value": "items"
-        #     "site.generator": "info"
+    # options:
+    #     keyPath: "context.posts.0.slug.value"
+    #     keyPaths:
+    #         "context.posts.0.slug.value": "items"
+    #         "site.generator": "info"
 
 output:
     path: "api"

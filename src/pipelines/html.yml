@@ -104,21 +104,6 @@ engine:
             guide:
                 template: docs.guide.default
 
-assets:
-    properties:
-        - action: add
-          property: js
-          resolvePath: true
-          input:
-            name: main
-            ext: js
-        - action: add
-          property: css
-          resolvePath: true
-          input:
-            name: style
-            ext: css
-
 output:
     path: "{{slug}}"
     file: index
