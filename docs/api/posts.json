@@ -11,14 +11,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -86,15 +80,9 @@
           ],
           "readingTime" : 2
         },
-        "css" : [
-
-        ],
         "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
         "featured" : true,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 18, 2025",
@@ -149,14 +137,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -224,35 +206,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, April 23, 2025",
+                "long" : "April 23, 2025",
+                "medium" : "Apr 23, 2025",
+                "short" : "4/23/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-04-23T11:30:50.251Z",
+                "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+                "sitemap" : "2025-04-23",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "11:30:50 AM Greenwich Mean Time",
+                "long" : "11:30:50 AM GMT",
+                "medium" : "11:30:50 AM",
+                "short" : "11:30 AM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1745407850.2509928
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -288,14 +264,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -337,14 +307,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -381,15 +345,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -445,14 +403,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -494,14 +446,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -538,15 +484,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -602,14 +542,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -651,14 +585,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -726,15 +654,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -790,14 +712,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -842,14 +758,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -891,14 +801,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -966,35 +870,29 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
-            "full" : "Tuesday, April 22, 2025",
-            "long" : "April 22, 2025",
-            "medium" : "Apr 22, 2025",
-            "short" : "4/22/25"
+            "full" : "Wednesday, April 23, 2025",
+            "long" : "April 23, 2025",
+            "medium" : "Apr 23, 2025",
+            "short" : "4/23/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-22T11:36:07.234Z",
-            "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-            "sitemap" : "2025-04-22",
+            "iso8601" : "2025-04-23T11:30:50.251Z",
+            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+            "sitemap" : "2025-04-23",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:36:07 AM Greenwich Mean Time",
-            "long" : "11:36:07 AM GMT",
-            "medium" : "11:36:07 AM",
-            "short" : "11:36 AM"
+            "full" : "11:30:50 AM Greenwich Mean Time",
+            "long" : "11:30:50 AM GMT",
+            "medium" : "11:30:50 AM",
+            "short" : "11:30 AM"
           },
-          "timestamp" : 1745321767.234027
+          "timestamp" : 1745407850.2509928
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -1029,14 +927,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -1104,15 +996,9 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -1168,14 +1054,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1217,14 +1097,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1261,15 +1135,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -1325,14 +1193,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1374,14 +1236,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1418,15 +1274,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -1482,14 +1332,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1531,14 +1375,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1606,15 +1444,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -1670,14 +1502,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -1722,14 +1548,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -1771,14 +1591,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -1815,15 +1629,9 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 18, 2025",
@@ -1878,14 +1686,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -1953,15 +1755,9 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -2017,14 +1813,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2066,14 +1856,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -2141,35 +1925,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, April 23, 2025",
+                "long" : "April 23, 2025",
+                "medium" : "Apr 23, 2025",
+                "short" : "4/23/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-04-23T11:30:50.251Z",
+                "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+                "sitemap" : "2025-04-23",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "11:30:50 AM Greenwich Mean Time",
+                "long" : "11:30:50 AM GMT",
+                "medium" : "11:30:50 AM",
+                "short" : "11:30 AM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1745407850.2509928
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -2205,14 +1983,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2254,14 +2026,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2298,15 +2064,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -2362,14 +2122,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2411,14 +2165,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2486,15 +2234,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -2550,14 +2292,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2602,14 +2338,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -2651,14 +2381,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -2695,15 +2419,9 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 4, 2025",
@@ -2758,14 +2476,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -2833,15 +2545,9 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -2897,14 +2603,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -2946,14 +2646,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -3021,35 +2715,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, April 23, 2025",
+                "long" : "April 23, 2025",
+                "medium" : "Apr 23, 2025",
+                "short" : "4/23/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-04-23T11:30:50.251Z",
+                "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+                "sitemap" : "2025-04-23",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "11:30:50 AM Greenwich Mean Time",
+                "long" : "11:30:50 AM GMT",
+                "medium" : "11:30:50 AM",
+                "short" : "11:30 AM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1745407850.2509928
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -3085,14 +2773,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3134,14 +2816,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3178,15 +2854,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -3242,14 +2912,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3291,14 +2955,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3366,15 +3024,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -3430,14 +3082,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3482,14 +3128,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -3531,14 +3171,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -3606,15 +3240,9 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "Toucan 1.0.0-alpha.3 is now released, this article will help you to understand the changes and to migrate your site from alpha 2.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 4, 2025",
@@ -3669,14 +3297,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -3744,15 +3366,9 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -3808,14 +3424,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -3857,14 +3467,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -3932,35 +3536,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, April 23, 2025",
+                "long" : "April 23, 2025",
+                "medium" : "Apr 23, 2025",
+                "short" : "4/23/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-04-23T11:30:50.251Z",
+                "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+                "sitemap" : "2025-04-23",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "11:30:50 AM Greenwich Mean Time",
+                "long" : "11:30:50 AM GMT",
+                "medium" : "11:30:50 AM",
+                "short" : "11:30 AM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1745407850.2509928
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -3996,14 +3594,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4045,14 +3637,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4089,15 +3675,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -4153,14 +3733,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4202,14 +3776,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4246,15 +3814,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -4310,14 +3872,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4362,14 +3918,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -4411,14 +3961,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
             "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -4486,15 +4030,9 @@
           ],
           "readingTime" : 2
         },
-        "css" : [
-
-        ],
         "description" : "Here’s how you can try out Toucan, our brand-new static site generator, developed entirely in Swift.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 4, 2025",
@@ -4549,14 +4087,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former Android Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/gabor-lengyel/gabor-lengyel.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -4624,15 +4156,9 @@
               ],
               "readingTime" : 2
             },
-            "css" : [
-
-            ],
             "description" : "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features.",
             "featured" : true,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -4688,14 +4214,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4737,14 +4257,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Former iOS Developer, co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 18, 2025",
@@ -4812,35 +4326,29 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The third beta release of Toucan is now ready try. New pipelines, queries, iterators and more.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
-                "full" : "Tuesday, April 22, 2025",
-                "long" : "April 22, 2025",
-                "medium" : "Apr 22, 2025",
-                "short" : "4/22/25"
+                "full" : "Wednesday, April 23, 2025",
+                "long" : "April 23, 2025",
+                "medium" : "Apr 23, 2025",
+                "short" : "4/23/25"
               },
               "formats" : {
-                "iso8601" : "2025-04-22T11:36:07.234Z",
-                "rss" : "Tue, 22 Apr 2025 11:36:07 +0000",
-                "sitemap" : "2025-04-22",
+                "iso8601" : "2025-04-23T11:30:50.251Z",
+                "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
+                "sitemap" : "2025-04-23",
                 "year" : "2025"
               },
               "time" : {
-                "full" : "11:36:07 AM Greenwich Mean Time",
-                "long" : "11:36:07 AM GMT",
-                "medium" : "11:36:07 AM",
-                "short" : "11:36 AM"
+                "full" : "11:30:50 AM Greenwich Mean Time",
+                "long" : "11:30:50 AM GMT",
+                "medium" : "11:30:50 AM",
+                "short" : "11:30 AM"
               },
-              "timestamp" : 1745321767.234027
+              "timestamp" : 1745407850.2509928
             },
             "permalink" : "https://toucansites.com/beta-3-is-out/",
             "publication" : {
@@ -4876,14 +4384,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4925,14 +4427,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -4969,15 +4465,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "The second beta release of Toucan is now available. This release includes many improvements and some new features.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 18, 2025",
@@ -5033,14 +4523,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -5082,14 +4566,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Tibor is a member of the Swift Server Workgroup (SSWG), he is the co-founder of Binary Birds Kft.",
                 "image" : "https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg",
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -5126,15 +4604,9 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Toucan 1.0.0-beta.1 has been released, featuring custom block directives and other minor enhancements.",
             "featured" : false,
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -5190,14 +4662,8 @@
                   ],
                   "readingTime" : 1
                 },
-                "css" : [
-
-                ],
                 "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
                 "image" : null,
-                "js" : [
-
-                ],
                 "lastUpdate" : {
                   "date" : {
                     "full" : "Friday, April 4, 2025",
@@ -5242,14 +4708,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Stay informed about Toucan’s latest releases, updates, and features for building better static sites.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -5291,14 +4751,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Andris, a marketing and sales specialist, passionate about game development and project management.",
             "image" : "https://toucansites.com/assets/authors/andris-sipos/andris-sipos.webp",
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -5390,15 +4844,9 @@
           ],
           "readingTime" : 1
         },
-        "css" : [
-
-        ],
         "description" : "We're thrilled to announce the development of Toucan, our new lightweight static site generator built using Swift.",
         "featured" : false,
         "image" : null,
-        "js" : [
-
-        ],
         "lastUpdate" : {
           "date" : {
             "full" : "Friday, April 4, 2025",
@@ -5457,14 +4905,8 @@
               ],
               "readingTime" : 1
             },
-            "css" : [
-
-            ],
             "description" : "Get the latest updates, features, and news about our static site generator. Stay informed with the newest developments.",
             "image" : null,
-            "js" : [
-
-            ],
             "lastUpdate" : {
               "date" : {
                 "full" : "Friday, April 4, 2025",
@@ -5506,13 +4948,7 @@
       ],
       "readingTime" : 1
     },
-    "css" : [
-
-    ],
     "image" : null,
-    "js" : [
-
-    ],
     "lastUpdate" : {
       "date" : {
         "full" : "Friday, April 18, 2025",
@@ -5544,24 +4980,24 @@
     "description" : "The Markdown-based static site generator written in Swift",
     "generation" : {
       "date" : {
-        "full" : "Tuesday, April 22, 2025",
-        "long" : "April 22, 2025",
-        "medium" : "Apr 22, 2025",
-        "short" : "4/22/25"
+        "full" : "Monday, May 12, 2025",
+        "long" : "May 12, 2025",
+        "medium" : "May 12, 2025",
+        "short" : "5/12/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-22T13:28:08.443Z",
-        "rss" : "Tue, 22 Apr 2025 13:28:08 +0000",
-        "sitemap" : "2025-04-22",
+        "iso8601" : "2025-05-12T08:39:58.571Z",
+        "rss" : "Mon, 12 May 2025 08:39:58 +0000",
+        "sitemap" : "2025-05-12",
         "year" : "2025"
       },
       "time" : {
-        "full" : "1:28:08 PM Greenwich Mean Time",
-        "long" : "1:28:08 PM GMT",
-        "medium" : "1:28:08 PM",
-        "short" : "1:28 PM"
+        "full" : "8:39:58 AM Greenwich Mean Time",
+        "long" : "8:39:58 AM GMT",
+        "medium" : "8:39:58 AM",
+        "short" : "8:39 AM"
       },
-      "timestamp" : 1745328488.443328
+      "timestamp" : 1747039198.570578
     },
     "generator" : {
       "link" : "https://github.com/toucansites/toucan",
