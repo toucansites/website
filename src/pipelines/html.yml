@@ -1,7 +1,9 @@
 id: html
 scopes:
 
-assets:    
+assets:
+    behaviors:
+        - id: copy
     properties:
         - action: add
           property: css
