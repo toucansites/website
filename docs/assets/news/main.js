@@ -37,7 +37,7 @@ async function handleFormSubmit(event) {
 
         const responseData = await postFormDataAsJson({ url });
 
-        const innerHTML = responseData.context.posts
+        const innerHTML = responseData
         .filter(function(item) {
             return item.title.toLowerCase().includes(term) || 
                 item.description.toLowerCase().includes(term);
@@ -54,8 +54,8 @@ async function handleFormSubmit(event) {
             }));
             const html = createPostCard({
                 featured: item.featured,
-                date: item.publication.html,
-                readingTime: `${item.readingTime} min read`,
+                date: item.publication.date.short,
+                readingTime: `${item.contents.readingTime} min read`,
                 title: item.title,
                 link: item.permalink,
                 summary: item.description,
@@ -92,7 +92,6 @@ function createPostCard({
     return `
         <div class="post card">
             ${featured ? `<span class="featured">featured</span>` : ""}
-            
             <div class="meta">
                 <time datetime="${date}">${date}</time>
                 · <span class="reading-time">${readingTime}</span>

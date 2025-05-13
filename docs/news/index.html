@@ -153,7 +153,13 @@
 
     <main id="page-container">
     
-    <h1>News</h1><p>Latest news</p>
+    <h1>News</h1><p>Latest news</p><form action="/api/posts.json" id="search-form">
+    <label for="term">
+        <input type="text" name="term" id="term" placeholder="Search article">
+    </label>
+    <input type="submit" value="Search">
+</form>
+    
     
     <div id="blog" class="wrapper">
     

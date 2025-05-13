@@ -1,7 +1,9 @@
 id: html
 scopes:
 
-assets:    
+assets:
+    behaviors:
+        - id: copy
     properties:
         - action: add
           property: css
@@ -103,6 +105,7 @@ engine:
                 template: "docs.category.default"
             guide:
                 template: docs.guide.default
+
 output:
     path: "{{slug}}"
     file: index
