@@ -1,5 +1,5 @@
 id: sitemap
-
+definesType: true
 iterators:
     post.pagination:
         contentType: post
@@ -8,7 +8,7 @@ iterators:
         orderBy:
             - key: publication
               direction: desc
-              
+
 queries:
     pages:
         contentType: page
