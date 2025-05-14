@@ -83,24 +83,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 18, 2025",
-        "long" : "April 18, 2025",
-        "medium" : "Apr 18, 2025",
-        "short" : "4/18/25"
+        "full" : "Wednesday, May 14, 2025",
+        "long" : "May 14, 2025",
+        "medium" : "May 14, 2025",
+        "short" : "5/14/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-18T12:45:44.843Z",
-        "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-        "sitemap" : "2025-04-18",
+        "iso8601" : "2025-05-14T06:50:08.281Z",
+        "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+        "sitemap" : "2025-05-14",
         "year" : "2025"
       },
       "time" : {
-        "full" : "12:45:44 PM Greenwich Mean Time",
-        "long" : "12:45:44 PM GMT",
-        "medium" : "12:45:44 PM",
-        "short" : "12:45 PM"
+        "full" : "6:50:08 AM Greenwich Mean Time",
+        "long" : "6:50:08 AM GMT",
+        "medium" : "6:50:08 AM",
+        "short" : "6:50 AM"
       },
-      "timestamp" : 1744980344.842554
+      "timestamp" : 1747205408.2806888
     },
     "permalink" : "https://toucansites.com/beta-3-migration-guide/",
     "publication" : {
@@ -209,24 +209,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Wednesday, April 23, 2025",
-            "long" : "April 23, 2025",
-            "medium" : "Apr 23, 2025",
-            "short" : "4/23/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-23T11:30:50.251Z",
-            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-            "sitemap" : "2025-04-23",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:30:50 AM Greenwich Mean Time",
-            "long" : "11:30:50 AM GMT",
-            "medium" : "11:30:50 AM",
-            "short" : "11:30 AM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1745407850.2509928
+          "timestamp" : 1747205408.280563
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -873,24 +873,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, April 23, 2025",
-        "long" : "April 23, 2025",
-        "medium" : "Apr 23, 2025",
-        "short" : "4/23/25"
+        "full" : "Wednesday, May 14, 2025",
+        "long" : "May 14, 2025",
+        "medium" : "May 14, 2025",
+        "short" : "5/14/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-23T11:30:50.251Z",
-        "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-        "sitemap" : "2025-04-23",
+        "iso8601" : "2025-05-14T06:50:08.281Z",
+        "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+        "sitemap" : "2025-05-14",
         "year" : "2025"
       },
       "time" : {
-        "full" : "11:30:50 AM Greenwich Mean Time",
-        "long" : "11:30:50 AM GMT",
-        "medium" : "11:30:50 AM",
-        "short" : "11:30 AM"
+        "full" : "6:50:08 AM Greenwich Mean Time",
+        "long" : "6:50:08 AM GMT",
+        "medium" : "6:50:08 AM",
+        "short" : "6:50 AM"
       },
-      "timestamp" : 1745407850.2509928
+      "timestamp" : 1747205408.280563
     },
     "permalink" : "https://toucansites.com/beta-3-is-out/",
     "publication" : {
@@ -999,24 +999,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1747205408.2806888
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -1758,24 +1758,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1747205408.2806888
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -1928,24 +1928,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Wednesday, April 23, 2025",
-            "long" : "April 23, 2025",
-            "medium" : "Apr 23, 2025",
-            "short" : "4/23/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-23T11:30:50.251Z",
-            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-            "sitemap" : "2025-04-23",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:30:50 AM Greenwich Mean Time",
-            "long" : "11:30:50 AM GMT",
-            "medium" : "11:30:50 AM",
-            "short" : "11:30 AM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1745407850.2509928
+          "timestamp" : 1747205408.280563
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -2548,24 +2548,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1747205408.2806888
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -2718,24 +2718,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Wednesday, April 23, 2025",
-            "long" : "April 23, 2025",
-            "medium" : "Apr 23, 2025",
-            "short" : "4/23/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-23T11:30:50.251Z",
-            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-            "sitemap" : "2025-04-23",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:30:50 AM Greenwich Mean Time",
-            "long" : "11:30:50 AM GMT",
-            "medium" : "11:30:50 AM",
-            "short" : "11:30 AM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1745407850.2509928
+          "timestamp" : 1747205408.280563
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -3369,24 +3369,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1747205408.2806888
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -3539,24 +3539,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Wednesday, April 23, 2025",
-            "long" : "April 23, 2025",
-            "medium" : "Apr 23, 2025",
-            "short" : "4/23/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-23T11:30:50.251Z",
-            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-            "sitemap" : "2025-04-23",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:30:50 AM Greenwich Mean Time",
-            "long" : "11:30:50 AM GMT",
-            "medium" : "11:30:50 AM",
-            "short" : "11:30 AM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1745407850.2509928
+          "timestamp" : 1747205408.280563
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
@@ -4033,24 +4033,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Friday, April 4, 2025",
-        "long" : "April 4, 2025",
-        "medium" : "Apr 4, 2025",
-        "short" : "4/4/25"
+        "full" : "Wednesday, May 14, 2025",
+        "long" : "May 14, 2025",
+        "medium" : "May 14, 2025",
+        "short" : "5/14/25"
       },
       "formats" : {
-        "iso8601" : "2025-04-04T10:12:17.469Z",
-        "rss" : "Fri, 04 Apr 2025 10:12:17 +0000",
-        "sitemap" : "2025-04-04",
+        "iso8601" : "2025-05-14T06:50:08.281Z",
+        "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+        "sitemap" : "2025-05-14",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:12:17 AM Greenwich Mean Time",
-        "long" : "10:12:17 AM GMT",
-        "medium" : "10:12:17 AM",
-        "short" : "10:12 AM"
+        "full" : "6:50:08 AM Greenwich Mean Time",
+        "long" : "6:50:08 AM GMT",
+        "medium" : "6:50:08 AM",
+        "short" : "6:50 AM"
       },
-      "timestamp" : 1743761537.469172
+      "timestamp" : 1747205408.2809854
     },
     "permalink" : "https://toucansites.com/toucan-is-now-ready-for-alpha-testing/",
     "publication" : {
@@ -4159,24 +4159,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Friday, April 18, 2025",
-            "long" : "April 18, 2025",
-            "medium" : "Apr 18, 2025",
-            "short" : "4/18/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-18T12:45:44.843Z",
-            "rss" : "Fri, 18 Apr 2025 12:45:44 +0000",
-            "sitemap" : "2025-04-18",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "12:45:44 PM Greenwich Mean Time",
-            "long" : "12:45:44 PM GMT",
-            "medium" : "12:45:44 PM",
-            "short" : "12:45 PM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1744980344.842554
+          "timestamp" : 1747205408.2806888
         },
         "permalink" : "https://toucansites.com/beta-3-migration-guide/",
         "publication" : {
@@ -4329,24 +4329,24 @@
         "image" : null,
         "lastUpdate" : {
           "date" : {
-            "full" : "Wednesday, April 23, 2025",
-            "long" : "April 23, 2025",
-            "medium" : "Apr 23, 2025",
-            "short" : "4/23/25"
+            "full" : "Wednesday, May 14, 2025",
+            "long" : "May 14, 2025",
+            "medium" : "May 14, 2025",
+            "short" : "5/14/25"
           },
           "formats" : {
-            "iso8601" : "2025-04-23T11:30:50.251Z",
-            "rss" : "Wed, 23 Apr 2025 11:30:50 +0000",
-            "sitemap" : "2025-04-23",
+            "iso8601" : "2025-05-14T06:50:08.281Z",
+            "rss" : "Wed, 14 May 2025 06:50:08 +0000",
+            "sitemap" : "2025-05-14",
             "year" : "2025"
           },
           "time" : {
-            "full" : "11:30:50 AM Greenwich Mean Time",
-            "long" : "11:30:50 AM GMT",
-            "medium" : "11:30:50 AM",
-            "short" : "11:30 AM"
+            "full" : "6:50:08 AM Greenwich Mean Time",
+            "long" : "6:50:08 AM GMT",
+            "medium" : "6:50:08 AM",
+            "short" : "6:50 AM"
           },
-          "timestamp" : 1745407850.2509928
+          "timestamp" : 1747205408.280563
         },
         "permalink" : "https://toucansites.com/beta-3-is-out/",
         "publication" : {
