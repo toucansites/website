@@ -1,11 +1,8 @@
 ---
-id: "macos"
 category: "installation"
-order: 1
-################################################################################
 title: "macOS"
 description: "Learn how to install Toucan on macOS with simple steps. Follow this guide to set up and start using Toucan easily"
-
+order: 1
 ---
 
 # macOS

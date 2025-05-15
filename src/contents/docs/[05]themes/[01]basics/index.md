@@ -1,10 +1,8 @@
 ---
-id: "basics"
 category: "themes"
-order: 1
-################################################################################
 title: "Basics"
 description: "Learn the basics of Toucan themes for easy customization and design"
+order: 1
 ---
 
 # Basics

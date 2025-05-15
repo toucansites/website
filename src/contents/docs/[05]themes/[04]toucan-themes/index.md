@@ -1,10 +1,8 @@
 ---
-id: "toucan-themes"
 category: "themes"
-order: 4
-################################################################################
 title: "Toucan themes"
 description: "Toucan themes offer a streamlined approach, using Mustache, for building, customizing, and designing static sites to meet various needs and styles"
+order: 4
 ---
 
 # Toucan templates

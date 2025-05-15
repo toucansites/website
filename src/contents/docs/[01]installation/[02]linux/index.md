@@ -1,10 +1,8 @@
 ---
-id: "linux"
 category: "installation"
-order: 2
-################################################################################
 title: "Linux"
 description: "Learn how to install Toucan on Linux with simple steps. Follow this guide to set up and start using Toucan easily"
+order: 2
 ---
 
 # Linux

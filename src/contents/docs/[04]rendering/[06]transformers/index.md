@@ -1,10 +1,8 @@
 ---
-id: "transformers"
 category: "rendering"
-order: 6
-################################################################################
 title: "Transformers"
 description: "Transformers are used to process content and generate the final output"
+order: 6
 ---
 
 # Transformers

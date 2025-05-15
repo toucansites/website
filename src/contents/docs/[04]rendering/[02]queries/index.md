@@ -1,10 +1,8 @@
 ---
-id: "queries"
 category: "rendering"
-order: 2
-################################################################################
 title: "Queries"
 description: ""
+order: 2
 ---
 
 # Queries

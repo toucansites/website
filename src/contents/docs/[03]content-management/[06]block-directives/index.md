@@ -1,10 +1,8 @@
 ---
-id: "block-directives"
 category: "content-management"
-order: 6
-################################################################################
 title: "Block directives"
 description: "A markdown block directive is a feature that allows embedding custom content within a markdown file."
+order: 6
 ---
 
 # Block directives

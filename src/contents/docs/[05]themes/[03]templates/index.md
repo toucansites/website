@@ -1,10 +1,8 @@
 ---
-id: "templates"
 category: "themes"
-order: 3
-################################################################################
 title: "Templates"
 description: "This is a basic guide on how to use Mustache for creating static site templates for Toucan"
+order: 3
 ---
 
 # Templates

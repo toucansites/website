@@ -1,10 +1,8 @@
 ---
-id: "config"
 category: "getting-started"
-order: 2
-################################################################################
 title: "Config"
 description: "Customize your Toucan site with the config file to modify default locations, naming conventions, and enhance your website effortlessly."
+order: 2
 ---
 
 # Config

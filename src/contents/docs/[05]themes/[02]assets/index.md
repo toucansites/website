@@ -1,10 +1,8 @@
 ---
-id: "assets"
 category: "themes"
-order: 2
-################################################################################
 title: "Assets"
 description: "Theme assets are static files that are copied recursively to the root folder of the generated site"
+order: 2
 ---
 
 # Assets

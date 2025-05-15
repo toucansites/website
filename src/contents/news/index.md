@@ -1,5 +1,4 @@
 ---
-slug: news
 title: "Latest news and updates"
 description: "Stay updated with the latest news, features, and updates about our static site generator. Discover what’s new and exciting."
 image: "{{baseUrl}}/images/defaults/default.jpg"

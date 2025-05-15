@@ -1,10 +1,8 @@
 ---
-id: "iterators"
 category: "rendering"
-order: 4
-################################################################################
 title: "Iterators"
 description: ""
+order: 4
 ---
 
 # Iterators
