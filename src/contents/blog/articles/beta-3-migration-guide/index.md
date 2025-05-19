@@ -7,7 +7,7 @@ tags:
 - releases
 authors:
 - gabor-lengyel
-featured: true
+featured: false
 ---
 
 Here's a list of the most important changes in [this](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.3) release:
