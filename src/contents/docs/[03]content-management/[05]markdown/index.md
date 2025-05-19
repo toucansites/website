@@ -1,10 +1,8 @@
 ---
-id: "markdown"
 category: "content-management"
-order: 5
-################################################################################
 title: "Markdown"
 description: "Understand the basics of Markdown and front matter for simple and effective formatting"
+order: 5
 ---
 
 # Markdown

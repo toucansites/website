@@ -1,10 +1,8 @@
 ---
-id: "commands"
 category: "getting-started"
-order: 2
-################################################################################
 title: "Commands"
 description: "Toucan CLI commands for static site generation, hosting, and deployment"
+order: 2
 ---
 
 # Commands

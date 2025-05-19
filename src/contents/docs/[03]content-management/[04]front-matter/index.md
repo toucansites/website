@@ -1,10 +1,8 @@
 ---
-id: "front-matter"
 category: "content-management"
-order: 4
-################################################################################
 title: "Front Matter"
 description: "Front Matter is used to define metadata and settings for content."
+order: 4
 ---
 
 # Front Matter

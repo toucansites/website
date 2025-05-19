@@ -1,10 +1,8 @@
 ---
-id: "pipelines"
 category: "rendering"
-order: 1
-################################################################################
 title: "Pipelines"
 description: ""
+order: 1
 ---
 
 # Pipelines

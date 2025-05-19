@@ -1,10 +1,8 @@
 ---
-id: "site-settings"
 category: "content-management"
-order: 1
-################################################################################
 title: "Site settings"
 description: "The site file for Toucan handles settings for your static site and is stored in a YAML file"
+order: 1
 ---
 
 # Settings

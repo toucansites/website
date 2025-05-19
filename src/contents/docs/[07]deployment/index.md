@@ -1,10 +1,8 @@
 ---
 type: "category"
-id: "deployment"
-order: 7
-################################################################################
 title: "Deployment"
 description: "Guidance on deployment processes and best practices."
+order: 7
 ---
 
 # Deployment

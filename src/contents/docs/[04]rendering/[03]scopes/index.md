@@ -1,10 +1,8 @@
 ---
-id: "scopes"
 category: "rendering"
-order: 3
-################################################################################
 title: "Scopes"
 description: ""
+order: 3
 ---
 
 # Scopes

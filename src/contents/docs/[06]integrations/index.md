@@ -1,10 +1,8 @@
 ---
 type: "category"
-id: "integrations"
-order: 6
-################################################################################
 title: "Integrations"
 description: "Discover third-party integrations to enhance functionality and workflows"
+order: 6
 ---
 
 # Integrations

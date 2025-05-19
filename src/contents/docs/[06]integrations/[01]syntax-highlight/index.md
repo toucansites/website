@@ -1,10 +1,8 @@
 ---
-id: "syntax-highlight"
 category: "integrations"
-order: 1
-################################################################################
 title: "Syntax highlight"
 description: "Syntax highlighting for better code readability and organization"
+order: 1
 ---
 
 # Syntax highlight

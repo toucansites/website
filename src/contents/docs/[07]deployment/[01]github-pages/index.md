@@ -1,10 +1,8 @@
 ---
-id: "github-pages"
 category: "deployment"
-order: 1
-################################################################################
 title: "GitHub Pages"
 description: "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site"
+order: 1
 ---
 
 # GitHub Pages

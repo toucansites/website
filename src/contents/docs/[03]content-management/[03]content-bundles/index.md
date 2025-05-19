@@ -1,10 +1,8 @@
 ---
-id: "content-bundles"
 category: "content-management"
-order: 3
-################################################################################
 title: "Content Bundles"
 description: "Content bundles are used to efficiently manage and structure content"
+order: 3
 ---
 
 # Content Bundles

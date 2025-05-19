@@ -1,10 +1,8 @@
 ---
-id: "basics"
 category: "getting-started"
-order: 1
-################################################################################
 title: "Basics"
 description: "Learn the basics and fundamentals to get started easily"
+order: 1
 ---
 
 # Basics

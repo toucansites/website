@@ -1,11 +1,8 @@
 ---
 type: "category"
-id: "rendering"
-slug: "docs/rendering"
-order: 4
-################################################################################
 title: "Rendering"
 description: ""
+order: 4
 ---
 
 # Rendering

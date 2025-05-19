@@ -1,10 +1,8 @@
 ---
-id: "content-types"
 category: "content-management"
-order: 2
-################################################################################
 title: "Content Types"
 description: "Custom content types are defined in the types folder as YAML files, with paths or front matter used to identify the type."
+order: 2
 ---
 
 # Content types
