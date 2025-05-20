@@ -227,7 +227,7 @@
     post:
         run:
             - name: swiftinit
-              url: src/transformers
+              path: src/transformers
         isMarkdownResult: false
 </code></pre><p>Given the above configuration in the pipeline config, Toucan will execute the <code>swiftinit</code> script for each <code>post</code> content type. The transformer script should be located in the <code>transformers</code> folder and should be named <code>swiftinit</code> and it should be an executable file. Here’s the original <a href="https://github.com/swift-on-server/site/blob/main/src/transformers/swiftinit" target="_blank">swiftinit transformer script</a>.</p><p>Each transformer script is executed with the following arguments:</p><ul><li><code>--file</code>: The path to the file to be processed.</li><li><code>--id</code>: The id of the content.</li><li><code>--slug</code>: The slug of the content.</li></ul><p>The file argument is the path to the processed markdown file for the content type. Script authors should use this file URL to generate the final output.</p><p>Here’s an example of a transformer script, written in bash, that processes the arguments and simply outputs the markdown file by replacing the word “hello” with “hi”:</p><pre><code class="language-bash">#!/bin/bash
 

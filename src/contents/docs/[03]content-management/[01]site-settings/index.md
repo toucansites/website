@@ -10,7 +10,7 @@ order: 1
 
 The site settings file defines global settings and properties for the website.
 
-In Toucan, it is always located at `src/contents/site.yml` (or `.yaml` if preferred).
+In Toucan, it is always located at `src/site.yml` (or `.yaml` if preferred).
 
 ## Example
 
