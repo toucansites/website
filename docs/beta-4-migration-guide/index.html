@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="???">
+    <meta name="description" content="Migration guide for Toucan Beta 4">
     
     <meta property="og:url" content="https://toucansites.com/beta-4-migration-guide/">
     <meta property="og:title" content="Beta 4 migration guide">
-    <meta property="og:description" content="???">
+    <meta property="og:description" content="Migration guide for Toucan Beta 4">
     
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Beta 4 migration guide">
-    <meta name="twitter:description" content="???">
+    <meta name="twitter:description" content="Migration guide for Toucan Beta 4">
     
     
     <meta name="mobile-web-app-capable" content="yes">
@@ -157,19 +157,62 @@
         <header>
             
             <div class="meta">
-                <time datetime="2025-05-19T10:00:00.000Z">5/19/25 10:00 AM</time>
+                <time datetime="2025-05-20T10:00:00.000Z">5/20/25 10:00 AM</time>
                  &middot; <span class="reading-time">1 min read</span>
             </div>
             <h1>Beta 4 migration guide</h1>
             <hr>
-            <p class="excerpt">???</p>
+            <p class="excerpt">Migration guide for Toucan Beta 4</p>
             
             
         </header>
     
         <section>
         
-        <p>// TODO: write article</p>
+        <p>Here’s a list of the most important changes in <a href="https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.4" target="_blank">this</a> release:</p><h2 id="optional-type-file-removal-via-pipelines">Optional Type File Removal via Pipelines</h2><p>Toucan now allows pipelines to define their own types. This means you can <strong>remove separate type files</strong> like <code>api.yml</code>, <code>rss.yml</code>, or or <code>sitemap.yml</code> <strong>if</strong>:</p><ul><li>You add <code>definesType: true</code> to the corresponding pipeline</li><li>You <strong>move the <code>queries:</code> block</strong> from the type file into the pipeline</li></ul><pre><code class="language-yaml">definesType: true
+queries:
+  - from: ...
+</code></pre><blockquote><p>You can continue using separate type files — they are <strong>not deprecated</strong>. This is an optional simplification that reduces the number of files by allowing fewer type files.</p></blockquote><hr><h2 id="file-and-directory-restructuring">File and Directory Restructuring</h2><p>To align with the updated conventions in Beta 4, migrate files as follows:</p><table><thead><td><strong>From</strong></td><td><strong>To</strong></td></thead><tbody><tr><td><code>src/themes/default/types/</code></td><td><code>src/types/</code></td></tr><tr><td><code>src/themes/default/blocks/</code></td><td><code>src/blocks/</code></td></tr><tr><td><code>src/contents/assets/</code></td><td><code>src/assets/</code></td></tr><tr><td><code>src/contents/site.yml</code></td><td><code>src/site.yml</code></td></tr></tbody></table><hr><h2 id="home-content-migration">Home Content Migration</h2><p>In Beta 4, the <code>home/</code> directory is no longer special. To migrate:</p><ul><li><strong>Move all content</strong> from:<pre><code class="language-yaml">src/contents/home/
+</code></pre>to:<pre><code class="language-yaml">src/contents/
+</code></pre></li><li><strong>Delete</strong> the <code>slug: ""</code> field from the home page frontmatter.</li><li>In the corresponding type file <code>src/types/page.yml</code>, add (if missing):<pre><code class="language-yaml">default: true
+</code></pre>This declares the <code>page</code> type as the default, which Toucan will use for the homepage.</li></ul><hr><h2 id="required-asset-configuration-in-pipelines">Required Asset Configuration in Pipelines</h2><p>Asset handling must be explicitly defined in your pipelines if your project uses stylesheets, scripts, or images. The following are <strong>standard configuration examples</strong> that should be included as needed.</p><h3 id="sample-for-html-pipeline">Sample for HTML Pipeline</h3><pre><code class="language-yaml">assets:
+  behaviors:
+    - id: copy
+  properties:
+    - action: add
+      property: css
+      resolvePath: true
+      input:
+        name: "style"
+        ext: "css"
+    - action: add
+      property: js
+      resolvePath: true
+      input:
+        name: "main"
+        ext: "js"
+    - action: set
+      property: image
+      resolvePath: true
+      input:
+        name: "cover"
+        ext: "jpg"
+</code></pre><h3 id="sample-for-api-pipeline-if-images-are-used">Sample for API Pipeline (if images are used)</h3><pre><code class="language-yaml">assets:
+  properties:
+    - action: set
+      property: image
+      resolvePath: true
+      input:
+        name: "cover"
+        ext: "*"
+</code></pre><blockquote><p>These configurations are <strong>examples only</strong>. Use or adapt them as needed based on your pipeline’s behavior.</p></blockquote><hr><h2 id="transformer-update">Transformer Update</h2><p>The <code>url</code> transformer has been renamed to <code>path</code>. Update your pipeline files accordingly:</p><pre><code class="language-yaml">transformers:
+    post:
+        run: 
+            - name: swiftinit
+              path: src/transformers
+              arguments: {}
+        isMarkdownResult: false
+</code></pre>
             
         </section>
     
@@ -204,6 +247,30 @@
                     <div class="author-list">
                         <a href="https://toucansites.com/authors/ferenc-viasz-kadi/">
                         <img class="small rounded" src="https://toucansites.com/assets/authors/ferenc-viasz-kadi/ferenc-viasz-kadi.jpg" alt="Ferenc Viasz-Kadi">
+                        </a>
+                    </div>
+                    
+                    <div class="tag-list">
+                        <a href="https://toucansites.com/tags/releases/"><small>Releases</small></a>
+                    </div>
+                </div>
+            </div>
+        <div class="post card">
+                <span class="featured">featured</span>
+            
+                <div class="meta">
+                    <time datetime="2025-04-30T16:01:00.000Z">4/30/25</time>
+                     &middot; <span class="reading-time">1 min read</span>
+                </div>
+                
+                <h2 class="title"><a href="https://toucansites.com/introducing-try-o/" target="">TRY-O Template Release</a></h2>
+                <hr>
+                <p>Introducing TRY-O: The first and free blog template for Toucan.</p>
+                
+                <div class="grid grid-221">
+                    <div class="author-list">
+                        <a href="https://toucansites.com/authors/andris-sipos/">
+                        <img class="small rounded" src="https://toucansites.com/assets/authors/andris-sipos/andris-sipos.webp" alt="Andris Sipos">
                         </a>
                     </div>
                     
@@ -260,30 +327,6 @@
                     </div>
                 </div>
             </div>
-        <div class="post card">
-                
-            
-                <div class="meta">
-                    <time datetime="2024-12-15T00:00:00.000Z">12/15/24</time>
-                     &middot; <span class="reading-time">1 min read</span>
-                </div>
-                
-                <h2 class="title"><a href="https://toucansites.com/beta-2-is-now-avaiable/" target="">Beta 2 is now available</a></h2>
-                <hr>
-                <p>The second beta release of Toucan is now available. This release includes many improvements and some new features.</p>
-                
-                <div class="grid grid-221">
-                    <div class="author-list">
-                        <a href="https://toucansites.com/authors/tibor-bodecs/">
-                        <img class="small rounded" src="https://toucansites.com/assets/authors/tibor-bodecs/tibor-bodecs.jpg" alt="Tibor Bödecs">
-                        </a>
-                    </div>
-                    
-                    <div class="tag-list">
-                        <a href="https://toucansites.com/tags/releases/"><small>Releases</small></a>
-                    </div>
-                </div>
-            </div>
         </div>
         </section>
     
@@ -291,6 +334,30 @@
     
     <div class="fixed-toc">
     <aside>
+        <h4>On this page</h4>
+        <ul>
+            <li class="level-2">
+                <a href="#optional-type-file-removal-via-pipelines">Optional Type File Removal via Pipelines</a>
+            </li>
+        <li class="level-2">
+                <a href="#file-and-directory-restructuring">File and Directory Restructuring</a>
+            </li>
+        <li class="level-2">
+                <a href="#home-content-migration">Home Content Migration</a>
+            </li>
+        <li class="level-2">
+                <a href="#required-asset-configuration-in-pipelines">Required Asset Configuration in Pipelines</a>
+            </li>
+        <li class="level-3">
+                <a href="#sample-for-html-pipeline">Sample for HTML Pipeline</a>
+            </li>
+        <li class="level-3">
+                <a href="#sample-for-api-pipeline-if-images-are-used">Sample for API Pipeline (if images are used)</a>
+            </li>
+        <li class="level-2">
+                <a href="#transformer-update">Transformer Update</a>
+            </li>
+        </ul>
     </aside>
     </div>
     
