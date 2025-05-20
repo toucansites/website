@@ -23,11 +23,11 @@ It’s also possible to separate the content and front matter by using both `ind
 
 The slug of the page is determined by the directory name. The `contents` directory is always set as the home page of the website, and the "not found" page is typically placed in a `404` folder.
 
-These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is `/a/b/c` with an`index.md` file inside `c`, the slug would be `/a/b/c/`.
+These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is `/a/b/c` with an `index.md` file inside `c`, the slug would be `/a/b/c/`.
 
 To exclude a path component from the slug, place an empty `noindex.yml` file in that directory. For instance, if `noindex.yml` is added to the `b` directory, the slug would become `/a/c/`.
 
-You can use square brackets with a number in your folder names to have ordered contents. Squared brackets will be trimmied yet your content keeps the desired order.
+You can use square brackets with a number in your folder names to have ordered contents. Square brackets will be trimmed, yet your content will keep the desired order.
 
 ```sh
 .
