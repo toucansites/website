@@ -22,6 +22,12 @@ To install Toucan, you can compile it from source. Ensure that Swift and Xcode a
 git clone https://github.com/toucansites/toucan.git
 # install the toucan binary
 make install
+
+# The installation process now internally calls sudo to copy the necessary Toucan binaries to the /usr/local/bin folder.
+
+#If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:
+./scripts/run-chmod.sh
+
 # verify the installation
 which toucan
 ```

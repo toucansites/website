@@ -235,6 +235,12 @@ brew install toucan
 git clone https://github.com/toucansites/toucan.git
 cd toucan
 make install
+
+# The installation process now internally calls sudo to copy the necessary Toucan binaries to the /usr/local/bin folder.
+
+#If you encounter permission issues during installation, it’s possible that the install-toucan.sh script is not marked as executable. Fix this by running:
+./scripts/run-chmod.sh
+
 # verify installation
 which toucan
 </code></pre><p>That’s it, the <code>toucan</code> command should now be ready to use.</p><h3 id="installation-steps">Installation Steps</h3><p>Follow these steps to install Toucan.</p><h4>Clone the Toucan Repository</h4><p>Open your terminal and run the following command to clone the Toucan repository from <a href="https://github.com/toucansites/toucan" target="_blank">GitHub</a>:</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
