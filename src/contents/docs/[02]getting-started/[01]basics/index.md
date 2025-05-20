@@ -59,32 +59,28 @@ The `src` directory serves as the foundation of your website, housing all the es
 
 ```sh
 .
-├── config.yml
-├── contents
-│   ├── assets
-│   │   ├── CNAME
-│   │   ├── css
-│   │   │   └── style.css
-│   │   └── images
-│   │       └── logo.png
-│   ├── 404
-│   │   └── index.md
-│   ├── about
-│   │   └── index.md
-│   ├── home
-│   │   └── index.md
-│   ├── sitemap.xml
-│   │   └── index.yml
-│   └── site.yml
-├── pipelines
-├── types
-├── blocks
-└── themes
+└── src
+    ├── assets
+    ├── blocks
+    ├── config.yml
+    ├── contents
+    │   ├── 404
+    │   │   └── index.md
+    │   ├── assets
+    │   ├── index.md
+    │   ├── about
+    │   │   └── index.yml
+    │   └── sitemap.xml
+    │       └── index.yml
+    ├── pipelines
+    ├── site.yml
+    ├── themes
+    └── types
 ```
 
 - The `config.yml` file contains Toucan-specific configurations. You can learn more about it in the next guide.
 - The `contents` folder is where you store Markdown files and public assets, such as JavaScript, CSS, or images. For example:
-    - `home/index.md` serves as your home page.
+    - `index.md` serves as your home page toghether with the `assets` folder.
     - `about/index.md` represents an about page.
     - `404/index.md` corresponds to the "not found" page.
 - The `sitemap.xml` directory, with its `index.yml` file, provides a basic sitemap for your website.

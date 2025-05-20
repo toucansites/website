@@ -67,6 +67,46 @@ In this example:
 - The standard page content types will be excluded.
 - The post content type will be used to determine the lastUpdate time of the site.
 
+## Virtual Content Types
+
+The `defineTypes` boolean flag tells Toucan to create a virtual type with the name of the pipeline. The new type won't have any properties, just an `id`. Virtual types are typically created for single-type pipelines, like `api`, `sitemap` or `rss`.
+
+## Assets
+
+### Asset properties
+
+With `Asset Properties` it is possible to inject your assets into the front matter. 
+The `property` field decide which property we inject into. `resolvePath` help to replace `{{baseUrl}}` in your path if needed. `input` specifies the file we use. You can use `*` to refer to all files with the given extension.
+
+#### Actions
+
+There are 4 action types supported. `add` will simply add the new file while keeping other elements, `set` will override existing elements and keep only the new file, `load` will get the contents of a file and store it in the front matter (e.g. an `svg`) and `parse` will decode YAML and attach its contents as it was in your front matter.
+
+```yaml
+assets:
+    properties:
+        - action: add
+          property: css
+          resolvePath: true
+          input:
+                name: "style" 
+                ext: "css"
+```
+
+### Asset Behaviors
+
+In Toucan, asset behaviors define how specific files — such as stylesheets — are processed during the pipeline execution. There are 3 behaviors supported for now:
+- `compile-sass` - Helps to support `Syntactically Awesome Stylesheets`.
+- `minify-css` - Minifies CSS files.
+- `copy` - Simply copies an asset files into the destionation.
+
+```yaml
+assets:
+    behaviors:
+        - id: compile-sass
+```
+
+
 ## Engine
 
 The `engine` section defines the [rendering engine](/docs/rendering/engines/) used to generate the final output.
@@ -93,7 +133,7 @@ engine:
 
 You can read more about engines [here](/docs/rendering/engines/).
 
-### Output
+## Output
 
 The `output` section defines how the final output files are created.
 It consists of:
@@ -111,7 +151,12 @@ output:
     ext: html
 ```
 
-### Queries
+The following template variables are also supported to make paginated outputs possible: 
+- `{{iterator.current}}`
+- `{{iterator.total}}`
+- `{{iterator.limit}}`
+
+## Queries
 
 Render pipelines can define queries to provide additional context for Mustache templates during rendering.
 
@@ -136,7 +181,7 @@ In this example, a query named `featured` is defined. This query selects all pos
 
 You can read more about queries [here](/docs/rendering/queries/).
 
-### Data Types
+## Data Types
 
 Toucan allows customization of data types within render pipelines.
 Currently, custom date formats can be defined using the `dataTypes` section of the pipeline configuration.
@@ -151,7 +196,7 @@ dataTypes:
 
 In this example, a custom date format named full is defined. This allows date properties to be rendered using the specified format. For example, to render a post’s publication date in the full format: `{{publication.formats.full}}`.
 
-### Iterators
+## Iterators
 
 Toucan has built-in support for pagination through iterators.
 
@@ -179,7 +224,7 @@ During rendering, Toucan will generate one file per page using the iterator cont
 
 You can read more about iterators [here](/docs/rendering/iterators/).
 
-### Transformers
+## Transformers
 
 Transformers allow processing content in a custom way during the rendering process.
 

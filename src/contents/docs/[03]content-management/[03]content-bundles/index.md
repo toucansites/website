@@ -21,17 +21,37 @@ It’s also possible to separate the content and front matter by using both `ind
 
 ## Slug Management
 
-The slug of the page is determined by the directory name. The `home` directory is always set as the home page of the website, and the "not found" page is typically placed in a `404` folder.
+The slug of the page is determined by the directory name. The `contents` directory is always set as the home page of the website, and the "not found" page is typically placed in a `404` folder.
 
 These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is `/a/b/c` with an`index.md` file inside `c`, the slug would be `/a/b/c/`.
 
 To exclude a path component from the slug, place an empty `noindex.yml` file in that directory. For instance, if `noindex.yml` is added to the `b` directory, the slug would become `/a/c/`.
 
+You can use square brackets with a number in your folder names to have ordered contents. Squared brackets will be trimmied yet your content keeps the desired order.
+
+```sh
+.
+├── [01]installation
+│   ├── [01]macos
+│   │   └── index.md
+│   ├── [02]linux
+│   │   └── index.md
+│   ├── [03]windows
+│   │   └── index.md
+│   └── index.md
+├── [02]getting-started
+│   ├── [01]basics
+│   │   └── index.md
+│   ├── [02]commands
+│   │   └── index.md
+│   ├── [03]config
+│   │   └── index.md
+│   └── index.md
+```
+
 ## Asset Management
 
 Each page bundle can include its own assets, which can be referenced in markdown files using relative paths, such as `./assets/my-picture.png`.
-
-If a `style.css` file is placed in the assets folder, it will automatically be loaded and applied to the page. Similarly, placing a `main.js` file in the assets folder will automatically load and execute the JavaScript on the page.
 
 ## Markdown
 

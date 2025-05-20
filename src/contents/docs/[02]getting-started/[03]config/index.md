@@ -34,12 +34,8 @@ themes:
         path: assets
     templates:
         path: templates
-    types:
-        path: types
     overrides:
         path: overrides
-    blocks:
-        path: blocks
 dateFormats:
     input:
         format: yyyy-MM-dd'T'HH:mm:ss.SSS'Z'

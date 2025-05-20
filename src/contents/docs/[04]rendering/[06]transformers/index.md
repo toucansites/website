@@ -19,7 +19,7 @@ transformers:
     post:
         run:
             - name: swiftinit
-              url: src/transformers
+              path: src/transformers
         isMarkdownResult: false
 ```
 

@@ -4,7 +4,7 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>http://localhost:3000</link>
     <language>en-US</language>
-    <lastBuildDate>Mon, 19 May 2025 09:17:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 18:42:18 +0000</lastBuildDate>
     <pubDate>Fri, 18 Apr 2025 12:45:44 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
