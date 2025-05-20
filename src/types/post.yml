@@ -1,5 +1,4 @@
 id: post
-api: posts
 paths:
     - blog/posts
 

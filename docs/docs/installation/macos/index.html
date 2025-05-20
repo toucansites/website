@@ -223,17 +223,25 @@
             <article>
                 <a href="https://toucansites.com/docs/installation/">Installation</a>
                 
-                <h1>macOS</h1><hr><p>During the beta release, Toucan can be installed on macOS by compiling from source. Support for <a href="https://brew.sh/" target="_blank">Brew</a> and <a href="https://github.com/yonaskolb/Mint" target="_blank">Mint</a> package managers is coming soon.</p><h2 id="quick-install">Quick install</h2><p>Here’s a quick snippet to install Toucan on macOS. Simply run the following commands. Please note that both Swift and Xcode must be installed on your machine before executing the commands.</p><pre><code class="language-swift"># clone the repository & install toucan
+                <h1>macOS</h1><hr><p>You can install Toucan on macOS using one of the following methods:</p><ul><li><a href="https://brew.sh/" target="_blank">Homebrew</a></li><li><a href="https://github.com/yonaskolb/Mint" target="_blank">Mint</a></li><li>Prebuilt Binary from GitHub Releases (available from 1.0.0.beta.4)</li><li>Downloadable <code>.pkg</code> installer from GitHub Releases (available from version 1.0.0.beta.4)</li><li>Compile from source (for development or custom builds)</li></ul><h2 id="install-with-homebrew">Install with Homebrew</h2><p>If you have Homebrew installed, you can install Toucan using the <a href="https://github.com/toucansites/homebrew-toucan" target="_blank">official tap</a>:</p><pre><code class="language-sh">brew tap toucansites/toucan
+brew install toucan
+</code></pre><p>Or install directly without tapping:</p><pre><code class="language-sh">brew install toucansites/toucan/toucan
+</code></pre><p>To verify:</p><pre><code class="language-sh">toucan --help
+</code></pre><hr><h2 id="install-with-mint">Install with Mint</h2><p>If you prefer Mint, you can install Toucan as a SwiftPM-compatible CLI tool:</p><pre><code class="language-sh">mint install toucansites/toucan
+</code></pre><p>Or run it without global install:</p><pre><code class="language-sh">mint run toucansites/toucan
+</code></pre><hr><h2 id="prebuilt-binary-from-github-releases">Prebuilt Binary from GitHub Releases</h2><p>You can also download Toucan directly from <a href="https://github.com/toucansites/toucan/releases" target="_blank">GitHub Releases</a>. This includes a prebuilt universal binaries for macOS.</p><h3 id="available-artifact-from-1.0.0.beta.4">Available Artifact from 1.0.0.beta.4</h3><ul><li><code>toucan-macos-1.0.0.beta.4.zip</code></li></ul><p>This archive contains the full CLI suite:</p><ul><li><code>toucan</code></li><li><code>toucan-init</code></li><li><code>toucan-generate</code></li><li><code>toucan-serve</code></li><li><code>toucan-watch</code></li></ul><hr><h2 id="install-with-pkg-installer">Install with PKG Installer</h2><p>From version <code>1.0.0.beta.4</code>, Toucan is also available as a macOS <code>.pkg</code> installer.</p><p>You can download the <code>.pkg</code> file from the <a href="https://github.com/toucansites/toucan/releases" target="_blank">GitHub Releases page</a>, then install it using Finder or from the terminal:</p><h3 id="manual-install-via-finder">Manual install (via Finder)</h3><ol><li>Download <code>toucan-macos-1.0.0.beta.4.pkg</code></li><li>Double-click the file to run the macOS Installer</li><li>Follow the installation prompts</li></ol><h3 id="terminal-install">Terminal install</h3><pre><code class="language-sh">sudo installer -pkg toucan-1.0.0-beta.4.pkg -target /
+</code></pre><p>The installer will place the <code>toucan</code> CLI tools into <code>/usr/local/bin</code>.</p><p>Once installed, verify:</p><pre><code class="language-sh">toucan --help
+</code></pre><hr><h2 id="compile-from-source">Compile from Source</h2><p>It is possible to install Toucan by compiling it from <a href="https://github.com/toucansites/toucan" target="_blank">source</a>.</p><h3 id="prerequisites">Prerequisites</h3><p>Before installing Toucan, ensure Swift 6.0 or a later version is installed on your Linux distribution. Refer to the Swift <a href="https://swift.org/install/linux/#platforms" target="_blank">installation guide</a> on <a href="https://swift.org" target="_blank">swift.org</a> for detailed instructions on installing Swift.</p><h3 id="quick-install">Quick install</h3><p>Here’s a quick snippet to install Toucan on macOS. Simply run the following commands. Please note that both Swift and Xcode must be installed on your machine before executing the commands.</p><pre><code class="language-swift"># clone the repository & install toucan
 git clone https://github.com/toucansites/toucan.git
 cd toucan
 make install
 # verify installation
 which toucan
-</code></pre><p>That’s it, the <code>toucan</code> command should now be ready to use.</p><h2 id="compile-from-source">Compile from source</h2><p>It is possible to install Toucan by compiling it from <a href="https://github.com/toucansites/toucan" target="_blank">source</a>.</p><h3 id="prerequisites">Prerequisites</h3><p>Before installing Toucan, ensure Swift 5.10 or a later version is installed on your Linux distribution. Refer to the Swift <a href="https://swift.org/install/linux/#platforms" target="_blank">installation guide</a> on <a href="https://swift.org" target="_blank">swift.org</a> for detailed instructions on installing Swift.</p><h3 id="installation-steps">Installation Steps</h3><p>Follow these steps to install Toucan.</p><h4>Clone the Toucan Repository</h4><p>Open your terminal and run the following command to clone the Toucan repository from <a href="https://github.com/toucansites/toucan" target="_blank">GitHub</a>:</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
+</code></pre><p>That’s it, the <code>toucan</code> command should now be ready to use.</p><h3 id="installation-steps">Installation Steps</h3><p>Follow these steps to install Toucan.</p><h4>Clone the Toucan Repository</h4><p>Open your terminal and run the following command to clone the Toucan repository from <a href="https://github.com/toucansites/toucan" target="_blank">GitHub</a>:</p><pre><code class="language-sh">git clone https://github.com/toucansites/toucan.git
 </code></pre><p>This command will download the Toucan repository from GitHub to your local machine.</p><h4>Navigate to the Toucan Directory</h4><p>Change to the Toucan directory by running:</p><pre><code class="language-sh">cd toucan
 </code></pre><p>This will set your current directory to the Toucan project directory.</p><h4>Build Toucan</h4><p>Compile Toucan in release mode by executing:</p><pre><code class="language-sh">swift build -c release
 </code></pre><p>This command will build the Toucan project, creating the necessary executable files.</p><h4>Install Toucan</h4><p>Install the compiled Toucan binary to /usr/local/bin:</p><pre><code class="language-sh">install ./.build/release/toucan-cli /usr/local/bin/toucan
-</code></pre><p>This step places the Toucan executable in a directory included in your system’s PATH, making it easy to run.</p><h2 id="verification">Verification</h2><p>To verify that Toucan is installed correctly, run the following command:</p><pre><code class="language-sh">which toucan
+</code></pre><p>This step places the Toucan executable in a directory included in your system’s PATH, making it easy to run.</p><h3 id="verification">Verification</h3><p>To verify that Toucan is installed correctly, run the following command:</p><pre><code class="language-sh">which toucan
 </code></pre><p>This should output the path to the toucan executable, confirming that the installation was successful.</p><pre><code class="language-sh"># tib@~: which toucan
 /usr/local/bin/toucan
 </code></pre>
@@ -254,18 +262,39 @@ which toucan
                 <h4>On this page</h4>
                 <ul>
                     <li class="level-2">
-                        <a href="#quick-install">Quick install</a>
+                        <a href="#install-with-homebrew">Install with Homebrew</a>
                     </li>
         <li class="level-2">
-                        <a href="#compile-from-source">Compile from source</a>
+                        <a href="#install-with-mint">Install with Mint</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#prebuilt-binary-from-github-releases">Prebuilt Binary from GitHub Releases</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#available-artifact-from-1.0.0.beta.4">Available Artifact from 1.0.0.beta.4</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#install-with-pkg-installer">Install with PKG Installer</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#manual-install-via-finder">Manual install (via Finder)</a>
+                    </li>
+        <li class="level-3">
+                        <a href="#terminal-install">Terminal install</a>
+                    </li>
+        <li class="level-2">
+                        <a href="#compile-from-source">Compile from Source</a>
                     </li>
         <li class="level-3">
                         <a href="#prerequisites">Prerequisites</a>
                     </li>
         <li class="level-3">
+                        <a href="#quick-install">Quick install</a>
+                    </li>
+        <li class="level-3">
                         <a href="#installation-steps">Installation Steps</a>
                     </li>
-        <li class="level-2">
+        <li class="level-3">
                         <a href="#verification">Verification</a>
                     </li>
                 </ul>
