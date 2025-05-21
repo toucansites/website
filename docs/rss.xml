@@ -4,7 +4,7 @@
     <description>The Markdown-based static site generator written in Swift</description>
     <link>https://toucansites.com</link>
     <language>en-US</language>
-    <lastBuildDate>Wed, 30 Apr 2025 13:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 16:38:58 +0000</lastBuildDate>
     <pubDate>Mon, 28 Apr 2025 08:56:46 +0000</pubDate>
     <ttl>250</ttl>
     <atom:link href="https://toucansites.com/rss.xml" rel="self" type="application/rss+xml"/>
@@ -29,6 +29,20 @@
     <description><![CDATA[ Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features. ]]></description>
     <link>https://toucansites.com/beta-3-migration-guide/</link>
     <pubDate>Tue, 15 Apr 2025 14:00:00 +0000</pubDate>
+</item>
+<item>
+    <guid isPermaLink="true">https://toucansites.com/beta-4-is-available/</guid>
+    <title><![CDATA[ Beta 4 is available ]]></title>
+    <description><![CDATA[ Better control over your assets and content. Improved API support. ]]></description>
+    <link>https://toucansites.com/beta-4-is-available/</link>
+    <pubDate>Mon, 19 May 2025 10:00:00 +0000</pubDate>
+</item>
+<item>
+    <guid isPermaLink="true">https://toucansites.com/beta-4-migration-guide/</guid>
+    <title><![CDATA[ Beta 4 migration guide ]]></title>
+    <description><![CDATA[ Migration guide for Toucan Beta 4 ]]></description>
+    <link>https://toucansites.com/beta-4-migration-guide/</link>
+    <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
 </item>
 <item>
     <guid isPermaLink="true">https://toucansites.com/first-beta-release/</guid>

@@ -116,8 +116,6 @@
         media="(prefers-color-scheme: dark)"
     >
 
-    <link rel="stylesheet" href="https://toucansites.com/css/style.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 
@@ -259,7 +257,7 @@ title: "..."
 description: "..."
 ...
 ---
-</code></pre><p>Since there may be many posts, it’s more convenient to define their path once in the <code>src/themes/types/post.yml</code> file.</p><pre><code class="language-yaml">id: post
+</code></pre><p>Since there may be many posts, it’s more convenient to define their path once in the <code>src/types/post.yml</code> file.</p><pre><code class="language-yaml">id: post
 paths:
     - blog/posts
 </code></pre><p>Iterator bundles often created in this context, so you need to specify their type explicitly. If you don’t, <em>Toucan</em> will infer the type from the path, which can lead to the wrong type and template being used.</p>

@@ -116,8 +116,6 @@
         media="(prefers-color-scheme: dark)"
     >
 
-    <link rel="stylesheet" href="https://toucansites.com/css/style.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 
@@ -225,7 +223,24 @@
             <article>
                 <a href="https://toucansites.com/docs/content-management/">Content Management</a>
                 
-                <h1>Content Bundles</h1><hr><p>Content bundles are used to render every page on the website. A page bundle is essentially a folder containing an <code>index</code> file. The file extension can be:</p><ul><li><code>.md</code></li><li><code>.markdown</code></li><li><code>.yml</code></li><li><code>.yaml</code></li></ul><p>When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter.</p><p>It’s also possible to separate the content and front matter by using both <code>index.yml</code> for front matter and <code>index.md</code> for content.</p><h2 id="slug-management">Slug Management</h2><p>The slug of the page is determined by the directory name. The <code>home</code> directory is always set as the home page of the website, and the “not found” page is typically placed in a <code>404</code> folder.</p><p>These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is <code>/a/b/c</code> with an<code>index.md</code> file inside <code>c</code>, the slug would be <code>/a/b/c/</code>.</p><p>To exclude a path component from the slug, place an empty <code>noindex.yml</code> file in that directory. For instance, if <code>noindex.yml</code> is added to the <code>b</code> directory, the slug would become <code>/a/c/</code>.</p><h2 id="asset-management">Asset Management</h2><p>Each page bundle can include its own assets, which can be referenced in markdown files using relative paths, such as <code>./assets/my-picture.png</code>.</p><p>If a <code>style.css</code> file is placed in the assets folder, it will automatically be loaded and applied to the page. Similarly, placing a <code>main.js</code> file in the assets folder will automatically load and execute the JavaScript on the page.</p><h2 id="markdown">Markdown</h2><p>The <a href="https://toucansites.com/docs/content-management/markdown/">next section</a> covers how to utilize markdown files, front matter, and custom block directives to enhance and enrich your content effectively.</p>
+                <h1>Content Bundles</h1><hr><p>Content bundles are used to render every page on the website. A page bundle is essentially a folder containing an <code>index</code> file. The file extension can be:</p><ul><li><code>.md</code></li><li><code>.markdown</code></li><li><code>.yml</code></li><li><code>.yaml</code></li></ul><p>When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter.</p><p>It’s also possible to separate the content and front matter by using both <code>index.yml</code> for front matter and <code>index.md</code> for content.</p><h2 id="slug-management">Slug Management</h2><p>The slug of the page is determined by the directory name. The <code>contents</code> directory is always set as the home page of the website, and the “not found” page is typically placed in a <code>404</code> folder.</p><p>These paths can be customized using a configuration file, and all other pages will have slugs based on the directory structure. For example, if the structure is <code>/a/b/c</code> with an <code>index.md</code> file inside <code>c</code>, the slug would be <code>/a/b/c/</code>.</p><p>To exclude a path component from the slug, place an empty <code>noindex.yml</code> file in that directory. For instance, if <code>noindex.yml</code> is added to the <code>b</code> directory, the slug would become <code>/a/c/</code>.</p><p>You can use square brackets with a number in your folder names to have ordered contents. Square brackets will be trimmed, yet your content will keep the desired order.</p><pre><code class="language-sh">.
+├── [01]installation
+│   ├── [01]macos
+│   │   └── index.md
+│   ├── [02]linux
+│   │   └── index.md
+│   ├── [03]windows
+│   │   └── index.md
+│   └── index.md
+├── [02]getting-started
+│   ├── [01]basics
+│   │   └── index.md
+│   ├── [02]commands
+│   │   └── index.md
+│   ├── [03]config
+│   │   └── index.md
+│   └── index.md
+</code></pre><h2 id="asset-management">Asset Management</h2><p>Each page bundle can include its own assets, which can be referenced in markdown files using relative paths, such as <code>./assets/my-picture.png</code>.</p><h2 id="markdown">Markdown</h2><p>The <a href="https://toucansites.com/docs/content-management/markdown/">next section</a> covers how to utilize markdown files, front matter, and custom block directives to enhance and enrich your content effectively.</p>
     
     
                 <section>

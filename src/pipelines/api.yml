@@ -1,4 +1,5 @@
 id: api
+definesType: true
 
 queries: 
     posts:
@@ -8,12 +9,14 @@ queries:
             - key: publication
               direction: desc
 
-contentTypes: 
+contentTypes:
     include:
         - api
 
 engine: 
     id: json
+    options:
+        keyPath: "context.posts"
 
 output:
     path: "api"
