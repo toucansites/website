@@ -2,12 +2,12 @@
 <channel>
     <title>{{site.name}}</title>
     <description>{{site.description}}</description>
-    <link>{{site.baseUrl}}</link>
+    <link>{{baseUrl}}</link>
     <language>{{site.locale}}</language>
-    <lastBuildDate>{{site.generation.formats.rss}}</lastBuildDate>
+    <lastBuildDate>{{generation.formats.rss}}</lastBuildDate>
     <pubDate>{{site.lastUpdate.formats.rss}}</pubDate>
     <ttl>250</ttl>
-    <atom:link href="{{site.baseUrl}}/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{baseUrl}}/rss.xml" rel="self" type="application/rss+xml"/>
 
 {{#context.posts}}
 <item>

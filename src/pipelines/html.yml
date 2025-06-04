@@ -65,9 +65,11 @@ queries:
 
 dataTypes:
     date:
-        dateFormats:
+        formats:
             full: 
                 format: "yyyy/MM/dd"
+            year: 
+                format: "y"
 
 contentTypes: 
     include:
