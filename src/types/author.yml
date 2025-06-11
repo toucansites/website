@@ -3,6 +3,9 @@ path:
     - blog/authors
 
 properties:
+    image:
+        type: asset
+        required: true
     order:
         type: int
         required: true
