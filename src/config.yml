@@ -1,6 +1,4 @@
-dateFormats:
-    input:
-        format: "yyyy-MM-dd HH:mm:ss"
-    output:
-        year: 
-            format: "y"
+dataTypes:
+    date:
+        input:
+            format: "yyyy-MM-dd HH:mm:ss"
