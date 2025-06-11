@@ -6,4 +6,3 @@ properties:
     title:
         type: string
         required: true
-        default: null

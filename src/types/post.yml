@@ -12,7 +12,7 @@ properties:
     featured:
         type: bool
         required: false
-        default: false
+        defaultValue: false
 
 relations:
     authors:

@@ -1,11 +1,11 @@
 name: link
 parameters:
   - label: url
-    default: ""
+    defaultValue: ""
   - label: class
-    default: ""
+    defaultValue: ""
   - label: target
-    default: "_blank"
+    defaultValue: "_blank"
 removesChildParagraph: true
 tag: a
 attributes:

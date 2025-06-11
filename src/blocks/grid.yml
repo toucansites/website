@@ -1,13 +1,13 @@
 name: grid
 parameters:
   - label: desktop
-    default: "2"
+    defaultValue: "2"
   - label: tablet
-    default: "2"
+    defaultValue: "2"
   - label: mobile
-    default: "1"
+    defaultValue: "1"
   - label: class
-    default: ""
+    defaultValue: ""
 #requiresParentDirective: faq
 #output: "<div>{{contents}} - {{desktop}}</div>" 
 tag: div
