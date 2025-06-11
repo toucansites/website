@@ -51,6 +51,12 @@ contentTypes:
     include:
         - sitemap
 
+dataTypes:
+    date: 
+        formats:
+            sitemap:
+                format: "yyyy-MM-dd"
+
 engine: 
     id: mustache
     options:

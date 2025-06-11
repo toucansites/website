@@ -8,6 +8,9 @@ dev:
 dist:
 	toucan generate ./src ./docs
 
+diff:
+	diff --color=always -r docs-v4 docs --exclude=api || true
+
 watch:
 	toucan watch ./src ./docs --base-url http://localhost:3000/
 
