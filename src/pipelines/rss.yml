@@ -25,7 +25,7 @@ engine:
     options:
         contentTypes: 
             rss:
-                template: "rss"
+                view: "rss"
 
 output:
     path: ""

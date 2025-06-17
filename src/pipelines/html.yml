@@ -96,17 +96,17 @@ engine:
     options:
         contentTypes: 
             page:
-                template: "pages.default"
+                view: "pages.default"
             author:
-                template: "blog.author.default"
+                view: "blog.author.default"
             tag:
-                template: "blog.tag.default"
+                view: "blog.tag.default"
             post:
-                template: "blog.post.default"
+                view: "blog.post.default"
             category:
-                template: "docs.category.default"
+                view: "docs.category.default"
             guide:
-                template: docs.guide.default
+                view: docs.guide.default
 
 output:
     path: "{{slug}}"

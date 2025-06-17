@@ -4,7 +4,7 @@ home: articles/page
 slug: articles/page/{{post.pagination}}
 title: "Latest news, page {{number}} of {{total}}"
 description: "Stay updated with the latest news and updates. Page {{number}} of {{total}}."
-template: blog.posts
+view: blog.posts
 ---
 
 # Articles

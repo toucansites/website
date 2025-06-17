@@ -16,7 +16,7 @@ engine:
     options:
         contentTypes: 
             not-found:
-                template: "pages.404"
+                view: "pages.404"
 
 output:
     path: ""

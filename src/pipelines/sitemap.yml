@@ -62,7 +62,7 @@ engine:
     options:
         contentTypes: 
             sitemap:
-                template: "sitemap"
+                view: "sitemap"
 output:
     path: ""
     file: sitemap
