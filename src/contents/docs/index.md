@@ -1,6 +1,7 @@
 ---
 type: page
-view: docs.home
+views:
+    html: docs.home
 title: "Documentation"
 description: "Access the complete user documentation for the Toucan Static Site Generator. Learn how to create and manage static websites efficiently."
 ---
