@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy-page:
-    uses: BinaryBirds/github-workflows/.github/workflows/deploy.yml@main
+    uses: toucansites/github-workflows/.github/workflows/deploy.yml@main
     permissions:
       contents: read
       pages: write
