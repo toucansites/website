@@ -1,5 +1,5 @@
 <div class="post card">
-    {{#featured}}<span class="featured">featured</span>{{/featured}}
+    
 
     {{#image}}
     <a href="{{permalink}}" target="">
@@ -25,6 +25,7 @@
         </div>
         
         <div class="tag-list">
+        {{#featured}}<a href="{{permalink}}"><small>Featured</small></a>{{/featured}}
         {{#tags}}
             <a href="{{permalink}}"><small>{{title}}</small></a>
         {{/tags}}

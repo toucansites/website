@@ -1,0 +1,75 @@
+title: "Toucan - The markdown-based static site generator written in Swift"
+description: "Markdown-based static site generator written in Swift for fast, customizable, and efficient website creation."
+image: "/images/defaults/default.jpg"
+keyword: "static site generator"
+views:
+    html: "pages.home"
+# ------------------------------------------------------------------------------
+# content
+# ------------------------------------------------------------------------------
+
+hero:
+    title: "Toucan"
+    description: "The Markdown-based <br>static site generator <br>written in Swift"
+    cta:
+        label: "Build your first site"
+        url: "https://github.com/"
+    note: "It only takes two minutes."
+
+features:
+    title: "Fast, modern, easy to use"
+    description: "Elevate your website with Toucan — a powerful new static site generator that transforms your content into beautifully crafted web pages with customizable templates and flexible build pipelines."
+    items:
+        - id: swift
+          title: Swift
+          description: "<strong>Swift</strong>’s speed, safety, and modern syntax make it the perfect choice for powering our <strong>static site generator</strong>."
+        - id: markdown
+          title: "Markdown"
+          description: "<strong>Markdown</strong> is simple, clear, and lightweight — making it ideal for building websites using <strong>Toucan</strong>."
+        - id: flexibility
+          title: "Flexible"
+          description: "Custom <strong>templates</strong> and build pipelines give you the freedom to craft a unique style for <strong>any use case</strong>."
+        - id: openness
+          title: "Open"
+          description: "Completely <strong>open source</strong> and free to use forever, with <strong>zero hosting fees</strong> when deployed on GitHub Pages."
+
+roadmap:
+    title: "Long story short"
+    description: "Toucan is actively developed by a small, dedicated team. We keep improving it and listen to what our users need. As we finish the beta phase and get ready for our first public release, your feedback helps us make Toucan even better."
+
+    entries:
+        - date: "Apr, 2023"
+          contents: |
+            <p>The idea of a static site generator was born, Tibor Bödecs created the first version of Toucan.</p>
+        - date: "May, 2023"
+          contents: |
+            <p>theswiftdev.com is powered by Toucan</p>
+        - date: "September, 2024"
+          contents: |
+            <p>First alpha version and public introduction at server side swift conference</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FuTpnddLhpU?si=Bf6ILbZEV-oFz6yI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        - date: "October, 2024"
+          contents: |
+            <p>First beta version, beta testing period started.</p>
+        - date: "July, 2025"
+          contents: |
+            <p>RC</p>
+        - date: "October, 2025"
+          contents: |
+            <p>Release 1.x</p>
+        - date: "Future plans"
+          contents: |
+            <p>v2.x</p>
+            <p>Professional themes</p>
+            <p>Template subsystem, bring your own template engine</p>
+            <p>Database middle layer</p>
+
+showcase:
+    title: "Use-cases"
+    description: "Toucan is growing fast, and people are already using it to create unique websites and impressive projects. If you want us to help turn your ideas into reality, don’t hesitate to reach out. We’d love to hear from you."
+
+news:
+    title: "Latest news"
+    description: "Updates about our static site generator, dev blog, user guides and more."

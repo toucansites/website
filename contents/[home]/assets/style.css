@@ -1,0 +1,146 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    background: linear-gradient(to bottom, #fff 0px, var(--color-background-v1) 200px);
+}
+.hero .aside {
+    display: block;
+    width: 40%;
+    height: auto;
+    padding: 1.5rem 3rem;
+}
+.hero h1 {
+    position: relative;
+}
+hr {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(45deg, #FF3F21, #FD8B02, #FECD03, #45DF3B, #28D1D6, #04498E, #061E38);
+  border-radius: 10px;
+}
+hr.medium {
+    width: 50%;
+}
+hr.short {
+    width: 25%;
+}
+.caption {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #073552;
+}
+.hero p, .spacer > p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #444;
+}
+.hero small {
+    display: block;
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.features .feature {
+    background: var(--color-background-v1);
+    border-radius: 32px;
+    padding: 24px;
+}
+.feature img {
+    border-radius: 24px;
+}
+.feature.swift img {
+    background: #FF492C;
+}
+.feature.markdown img {
+    background: #FECF01;
+}
+.feature.flexibility img {
+    background: #28D1D6;
+}
+.feature.openness img {
+    background: #4FE143;
+}
+
+.story, .news {
+    /* background: linear-gradient(45deg, #FF3F21, #FD8B02, #FECD03, #45DF3B, #28D1D6, #04498E, #061E38); */
+    background: var(--color-background-v1);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-container ul {
+  display: inline-flex;
+  gap: 4.5rem;
+}
+
+.scroll-container ul li {
+  width: 640px;
+  display: inline-block;
+  white-space: normal;
+}
+
+.roadmap {
+  position: relative;
+  border-top: 4px dashed #ccc;
+}
+
+.roadmap span {
+    position: relative;
+}
+.roadmap hr {
+    width: 50%;
+}
+.roadmap span::before {
+    content: '';
+    position: absolute;
+    left: 0rem;
+    top: -3.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: purple;
+    border-radius: 50%;
+    background: radial-gradient(circle, red 0%, red 25%, white 25%, white 100%);
+    border: 2px solid red;
+}
+.roadmap .entry {
+    /* border-left: 4px solid #073552; */
+    display: block;
+    background: #fff;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 32px;
+}
+
+img.small {
+    width: 64px;
+}
+img.rounded {
+    border-radius: 50%;
+}
+
+iframe {
+    border-radius: 16px;
+}
