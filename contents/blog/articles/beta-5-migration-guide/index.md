@@ -38,7 +38,7 @@ The only required argument is the working directory, which defaults to your curr
 ```yaml
 targets:
     - name: "live"
-      config: "./config.live.yml"
+      config: "./config-live.yml"
       url: "https://toucansites.com"
       input: "./src"
       output: "./dist"
