@@ -47,7 +47,7 @@ targets:
 
 Each target has a unique name and can include a default flag to mark it as the default for your project. You can also set other options, such as custom configuration files, input and output directories, and base URLs for each target.
 
-> note: Configuration files will be automatically detected based on your target name (e.g. `config.live.yml`). If there is no config file with the target name as a suffix, Toucan will use the default config file named: `config⁠.yml`.
+> note: Configuration files will be automatically detected based on your target name (e.g. `config-live.yml`). If there is no config file with the target name as a suffix, Toucan will use the default config file named: `config⁠.yml`.
 
 ## Site yaml updates
 
