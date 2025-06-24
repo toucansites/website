@@ -8,6 +8,8 @@ navigation:
       url: "/docs/"
     - label: "FAQ"
       url: "/faq/"
+    - label: "Templates"
+      url: "/templates/"
     - label: "Showcases"
       url: "/showcases/"
     - label: "Contact"
