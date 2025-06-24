@@ -1,7 +1,7 @@
 ---
 type: post
 title: "Beta 5 migration guide"
-description: "Migration guide for Toucan Beta 5"
+description: "This guide explains the most important changes in Toucan Beta 5 and helps you update your project."
 publication: "2025-07-02 10:00:00"
 tags:
     - releases
@@ -16,7 +16,7 @@ Here's a list of the most important changes in [this](https://github.com/toucans
 
 ## Target support
 
-Toucan now allows developers to create build targets. This simplifies the process of generating multiple variants of the same site by leveraging targets. you can specify custom targets via the `toucan.yml` file in your site's root directory:
+Toucan now allows you to create separate build targets, making it much easier to generate different versions of your site. You can define these custom targets in the `toucan.yml` file located in your site’s root directory.:
 
 ```yaml
 targets:
@@ -27,13 +27,13 @@ targets:
       url: "https://toucansites.com/"
 ```
 
-The input, output directory arguments and the baseUrl option was removed both from the `watch` and `generate` commands. Now you can specify a target option instead:
+The `input` and output `directory` arguments, along with the `baseUrl` option, have been removed from the `watch`⁠ and `⁠generate`⁠ commands. Now, you should use the target option and define your settings in the new target file. Then, run the generate command with the `target` option to build your site for the chosen target:
 
 ```sh
 toucan generate . --target live
 ```
 
-The only argument is always the working directory, defaults to the current working directory and the target option represents which target to build. If you wish to use custom input & output sources, use your target definition file:
+The only required argument is the working directory, which defaults to your current directory. The `target` option tells Toucan which build target to use. If you want to set custom input and output directories, define them in your target file, alongside your target-based configuration:
 
 ```yaml
 targets:
@@ -45,11 +45,13 @@ targets:
       default: false
 ```
 
-Targets can specify their own configruation files, custom input & output directories and the base url. We've more or less moved all the command arguments to the target file. This feature will allows us to build for different environments.
+Each target has a unique name and can include a default flag to mark it as the default for your project. You can also set other options, such as custom configuration files, input and output directories, and base URLs for each target.
+
+> note: Configuration files will be automatically detected based on your target name (e.g. `config.live.yml`). If there is no config file with the target name as a suffix, Toucan will use the default config file named: `config⁠.yml`.
 
 ## Site yaml updates
 
-Previously the site.yml file was the place to specify a locale & timezone and the baseUrl, but now we have targets, so these keys are moved away:
+In the past, the `site.yml`⁠ file was used to set the locale, timezone, and baseUrl. Now, with the introduction of targets, these settings have been moved out of `site.yml⁠` and are managed in the target and configuration files instead. Feel free to remove these keys from your `site.yml` file:
 
 ```yaml
 # baseUrl: "https://toucansites.com/"
@@ -59,13 +61,13 @@ description: "The Markdown-based static site generator written in Swift"
 language: "en-US" # still available in the templates
 ```
 
-The locale & timezone settings are move to the configuration file. The base URL is now specified in the target file.
+The locale and timezone settings are now set in the configuration file under the data type settings. The base URL should be set in the target file.
 
 ## Date format updates
 
-Both for the pipelines & configuration, we've enhanced date management, also changed how you can configure custom date formats.
+We have improved date management in both the pipeline and the configuration settings. The way you set up custom date formats has also changed.
 
-Here's an example config file with the new input date format structure:
+Here is an example of the new input date format structure in a configuration file:
 
 ```yaml
 dataTypes:
@@ -84,7 +86,7 @@ dataTypes:
 #                timeZone: "GMT"
 ```
 
-We've introduced a similar structure for build pipelines to specify output date formats:
+We’ve adopted a similar structure for build pipelines, allowing you to define output date formats in a uniform way:
 
 ```yaml
 dataTypes:
@@ -95,7 +97,9 @@ dataTypes:
 
 ```
 
-ISO8601 is now a standard format, built in to the core date context object
+ISO8601 is now a standard format and is built directly into the core date context object.
+
+When using date types in your templates, you can now simply use the `.iso8601` key on the date itself:
 
 ```html
 Built-in iso8601 date format:
@@ -105,22 +109,22 @@ Custom year format:
 {{page.publication.formats.year}}
 ```
 
-All the other custom formats are available on the `formats` property just like before.
+All other custom formats are still available under the `formats`⁠ property, just as before.
 
 ## Template updates
 
-We've got some simple, but solid updates for the template system.
+We’ve made some straightforward but important improvements to the template system.
 
 ### Themes vs templates 
 
-We've got an internal debate for quite a long time now, and we've made the conclusion that we are going to refer themes as templates and templates (mustache files) as views from now on. 
+After much discussion, we have decided to refer to themes as templates and to call template files (mustache files) views from now on.
 
-We've spent countless hours on this and we believe that this is going to be the correct approach, to reflect these changes, we've also updated our directory structure as follows:
+We spent a lot of time on this decision and believe it is the right approach. To match these changes, we have also updated our directory structure as follows:
 
 - `src/themes/default/assets/` is now `src/templates/default/assets`
 - `src/themes/default/templates/` is now `src/templates/default/views` 
 
-Please note that custom template keys should also be updated in the pipeline file in the engine section:
+Please remember to update your custom template keys in the pipeline file, specifically in the engine section:
 
 ```yaml
 engine: 
@@ -142,7 +146,7 @@ engine:
                 view: docs.guide.default
 ```
 
-Additionally if you had a custom view template set in your content, now you should use this format:
+If you previously set a custom view template in your content, you should now use the following format:
 
 ```yaml
 type: page
@@ -153,11 +157,13 @@ title: "Documentation"
 description: "Access the complete user documentation for the Toucan Static Site Generator. Learn how to create and manage static websites efficiently."
 ```
 
-The `views` property can now support multiple pipelines, so in this case we only specify the template for the `html` pipeline. 
+The `⁠views`⁠ property now supports multiple pipelines. In this example, we only specify the template for the `html` pipeline.
 
 ### Template metadata support
 
-We now require templates to specify basic metadata information for Toucan. This is a step forward to ensure long-term template compatibility with all the future Toucan SSG versions. This is how a sample `template.yml` file looks like, you should place this file inside your template's root folder:
+Templates are now required to include basic metadata for Toucan. This change helps ensure your templates remain compatible with future versions of the Toucan SSG. 
+
+Here is an example of a `⁠template.yml`⁠ file, which should be placed in your template’s root folder:
 
 ```yaml
 # templates/default/template.yml
@@ -184,17 +190,17 @@ tags:
     - "website"
 ```
 
-We highly encourage you to fill out these fields and provide a demo url for your template. Also we're looking forward to showcase your templates, so please don't hesitate to submit them to us. 
+We strongly encourage you to provide all these fields and include a demo URL for your template. We are excited to showcase your templates, so please feel free to submit them to us if you have one.
 
 
 ### Context changes
 
-We've dropped the site prefix for baseUrl and generator info, so from now on you can simply use them as `{{baseUrl}}` and `{{generation.formats.year}}`.
+We’ve removed the site prefix from baseUrl and generator info, so you can now use them directly as `{{baseUrl}}` and `{{generation.formats.year}}`.
 
 
 ## Block parameter default values
 
-We've updated block parameter the default value key, to match properties. From now on, please use `defaultValue` as the key everywhere, e.g.:
+We have updated the default value key for block parameters to match the property naming. From now on, always use `⁠defaultValue`⁠ as the key, for example:
 
 ```yaml
 name: column
@@ -210,11 +216,11 @@ attributes:
     value: "column {{class}}"
 ```
 
-We hope that this change will lead to a more unified developer experience.
+We hope this change will create a more consistent and user-friendly experience for developers.
 
 ## New property type: asset
 
-We're also introducing a brand new property type called `asset`, these properties will automatically resolve the file path when providing context for the templates, here's how to define an image asset:
+We are also adding a new property type called `⁠asset`⁠. These properties will automatically resolve the file path for use in your templates. Here is how you can define an image asset:
 
 ```yaml
 # post type definition
@@ -224,13 +230,19 @@ properties:
         required: true
 ```
 
-Now inside the template, this will contain the full path of the asset.
+In your content file, you can set the asset value like this:
+
+```yaml
+image: ./assets/cover.jpg
+```
+
+Now, in the template, this will give you the full path to the asset:
 
 ```
-<img src="{{post.image}}">
+<img src="{{page.image}}">
 ```
 
-We really hope that these changes will benefit Toucan on the long term, we're eager to build some cool websites & APIs using our static site generator, can't wait to share more goodies with you. 
+We hope these changes will benefit Toucan in the long run. We are excited to build new websites and APIs with our static site generator, and we look forward to sharing more updates with you.
 
-If you have issues with the migration please let us know, we're here to help you. Start a new discussion on GitHub if you have questions.
+If you have any issues with the migration, please let us know. We are here to help. Start a new [discussion on GitHub](https://github.com/toucansites/toucan/discussions) if you have any questions.
 
