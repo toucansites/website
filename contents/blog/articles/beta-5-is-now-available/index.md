@@ -19,7 +19,7 @@ Toucan [1.0.0-beta.5](https://github.com/toucansites/toucan/releases/tag/1.0.0-b
 - **Dependency upgrades**: All package dependencies have been updated.
 - **New date formatter**: There are new mechanics for formatting input and output dates, with better support for time zones and localization.
 - **Better error reporting**: Errors are now reported more clearly, and build errors are preferred over log messages.
-- **Target support**: create separate build targets, making it much easier to generate different versions of your site.
+- **Target support**: Create separate build targets, making it much easier to generate different versions of your site.
 - **Naming changes**: The ⁠docs⁠ directory is now called ⁠dist⁠, and we refer ⁠theme⁠s as templates & mustache files as views⁠.
 - **Improvements and bug fixes**: Other under the hood improvements and bug fixes have also been made to make Toucan more stable and reliable.
 
