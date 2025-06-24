@@ -21,6 +21,6 @@ Take a look at our official starter templates below:
         [
             ![T-Doc template](./assets/t-doc.jpg)
         ](https://github.com/toucansites/t-doc-template)
-        [T-Doc](https://github.com/toucansites/t-doc-template)
+        [Download](https://github.com/toucansites/t-doc-template) | [Live demo](https://colonel323.github.io/T_Docs_Demo/)
     }
 }
