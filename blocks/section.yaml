@@ -1,0 +1,9 @@
+name: section
+parameters:
+  - label: class
+    defaultValue: ""
+
+tag: section
+attributes:
+  - name: class
+    value: "{{class}}"

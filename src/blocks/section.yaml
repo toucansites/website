@@ -1,9 +1,0 @@
-name: section
-parameters:
-  - label: class
-    default: ""
-
-tag: section
-attributes:
-  - name: class
-    value: "{{class}}"

@@ -1,0 +1,60 @@
+{{<html}}
+{{$main}}
+<article class="post">
+    
+    <header>
+        {{#page.image}}<img src="{{page.image}}" alt="{{page.title}}">{{/page.image}}
+        <div class="meta">
+            <time datetime="{{page.publication.iso8601}}">{{page.publication.date.short}} {{page.publication.time.short}}</time>
+            {{#page.contents.readingTime}} &middot; <span class="reading-time">{{.}} min read</span>{{/page.contents.readingTime}}
+        </div>
+        <h1>{{page.title}}</h1>
+        <hr>
+        <p class="excerpt">{{page.description}}</p>
+        
+        
+    </header>
+
+    <section>
+    
+    {{& page.contents.html}}
+        
+    </section>
+
+    <footer class="grid grid-221">
+        <div class="author-list">
+        {{#page.authors}}
+            <a href="{{permalink}}">
+            {{#image}}<img class="medium rounded" src="{{image}}" alt="{{title}}">{{/image}}
+            </a>
+        {{/page.authors}}
+        </div>
+        <div class="tag-list">
+        {{#page.tags}}
+            <a href="{{permalink}}"><small>{{title}}</small></a>
+        {{/page.tags}}
+        </div>
+    </footer>
+    
+    <section>
+    {{#empty(page.related)}}
+    {{/empty(page.related)}}
+    {{^empty(page.related)}}
+    <h4>Related articles</h4>
+    <br>
+    <div class="grid grid-221">
+    {{#page.related}}
+        {{> partials.blog.post}}
+    {{/page.related}}
+    </div>
+    {{/empty(page.related)}}
+    </section>
+
+</article>
+
+<div class="fixed-toc">
+{{> partials.outline }}
+</div>
+
+{{/main}}
+{{/html}}
