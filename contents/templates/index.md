@@ -14,13 +14,13 @@ Take a look at our official starter templates below:
     @Column {
         [
             ![Try-O template](./assets/try-o.jpg)
-        ](https://github.com/toucansites/try-o-template)
-        [Download](https://binarybirds.gumroad.com/l/TRY-O) | [Live demo](https://colonel323.github.io/Demo_Site/)
+        ](https://binarybirds.gumroad.com/l/TRY-O)
+        [Download](https://binarybirds.gumroad.com/l/TRY-O) | [Source](https://github.com/toucansites/try-o-template) | [Live demo](https://colonel323.github.io/Demo_Site/)
     }
     @Column {
         [
             ![T-Doc template](./assets/t-doc.jpg)
-        ](https://github.com/toucansites/t-doc-template)
-        [Download](https://github.com/toucansites/t-doc-template) | [Live demo](https://colonel323.github.io/T_Docs_Demo/)
+        ](https://binarybirds.gumroad.com/l/T_Doc)
+        [Download](https://binarybirds.gumroad.com/l/T_Doc) | [Source](https://github.com/toucansites/t-doc-template) | [Live demo](https://colonel323.github.io/T_Docs_Demo/)
     }
 }
