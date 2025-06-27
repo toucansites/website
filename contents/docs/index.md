@@ -18,4 +18,4 @@ You don’t have to worry about heavy traffic crashing your database. There’s 
 
 Static sites are generally faster because they consist of pre-built HTML files, which reduces the need for server-side processing and database queries. Static sites are highly scalable and can handle high traffic volumes efficiently, especially when served through a content delivery network (CDN).This leads to faster speeds, better reliability, and an easier experience for developers.
 
-After this brief introduction, let’s get started with Toucan. You can begin by following the installation guide to learn how to install Toucan, or you can jump straight into the getting started guide to create your very first Toucan-based website.
+After this brief introduction, let’s get started with Toucan. You can begin by following the [installation](/docs/installation/) guide to learn how to install Toucan, or you can jump straight into the [getting started](/docs/getting-started/) guide to create your very first Toucan-based website.

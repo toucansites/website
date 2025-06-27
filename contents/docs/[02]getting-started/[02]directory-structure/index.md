@@ -1,11 +1,11 @@
 ---
 category: "getting-started"
-title: "Config"
+title: "Directory structure"
 description: "Customize your Toucan site with the config file to modify default locations, naming conventions, and enhance your website effortlessly."
 order: 2
 ---
 
-# Config
+# Directory structure
 ---
 
 Defines the primary configuration for the entire site. In Toucan, these settings are specified in the `config.yml` file located in the project’s root directory. This file is optional; if it is not present, Toucan will automatically fall back to the default configuration values.

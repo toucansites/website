@@ -1,20 +1,48 @@
 ---
 category: "getting-started"
-title: "Basics"
+title: "Quickstart"
 description: "Learn the basics and fundamentals to get started easily"
 order: 1
 ---
 
-# Basics
+# Quickstart
 ---
 
 Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.
 
 ## Prerequisites
 
-Before you start this guide, you must install the Toucan binary by following the provided [installation](/docs/installation/) guide.
-
 Familiarity with using the command line is highly recommended, as many of the steps in this guide involve executing commands in a terminal. If you're new to the command line, consider reviewing a basic tutorial to get comfortable with navigating directories and running commands.
+
+- [Homebrew](https://brew.sh/)
+- [Docker](https://www.docker.com/)
+
+Install the command line utility or use the official Docker image to generate a static website using Toucan. To install Toucan, run the following commands:
+
+```sh
+# macOS
+brew install toucansites/toucan/toucan
+
+# Linux (deb)
+wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.5/toucan-linux-amd64-1.0.0.beta.5.deb
+sudo dpkg -i toucan-linux-amd64-1.0.0.beta.5.deb
+
+# Linux (rpm)
+wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.5/toucan-linux-x86_64-1.0.0.beta.5.rpm
+sudo rpm -i toucan-linux-x86_64-1.0.0.beta.5.rpm
+
+# verify installation
+toucan --version
+```
+
+Alternatively, you can use Docker to run the static site generation without installing Toucan. Make sure you have docker up and running on your system.
+
+```sh
+# verify docker installation
+docker --version
+```
+
+If you don't know how to install brew or Docker, please refer to our complete installation guide.
 
 ## Minimal example
 

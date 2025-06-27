@@ -2,7 +2,7 @@
 category: "getting-started"
 title: "Commands"
 description: "Toucan CLI commands for static site generation, hosting, and deployment"
-order: 2
+order: 4
 ---
 
 # Commands
