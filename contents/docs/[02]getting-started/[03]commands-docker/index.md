@@ -10,12 +10,6 @@ order: 3
 
 Toucan CLI is fully available via Docker using the [`toucansites/toucan`](https://hub.docker.com/repository/docker/toucansites/toucan/general) image. This method eliminates the need for local installation and ensures a consistent environment across different systems.
 
-All commands use the following Docker pattern:
-
-```sh
-docker run --rm -v $(pwd):/app -w /app toucansites/toucan <command>
-```
-
 ## Init TODO
 
 ## Generate
@@ -31,7 +25,18 @@ docker run --rm -v $(pwd):/app/site \
  generate /app/site
 ```
 
-## Watch TODO
+## Watch
+
+The `watch` command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.
+
+Execute the following:
+
+```sh
+docker run --rm -v $(pwd):/app/site \
+  --entrypoint toucan \
+  toucansites/toucan:latest \
+  watch /app/site
+```
 
 ## Serve
 
