@@ -1,56 +1,61 @@
 ---
 category: "github-pages"
 title: "Configuring GitHub Pages Environment"
-description: "Set up the github-pages environment required for tag-based GitHub Actions deployments."
+description: "Define the github-pages environment in your repository settings and authorize deployments triggered by tags or branches in GitHub Actions."
 order: 4
 ---
 
 # Configuring GitHub Pages Environment
 
-If your deployment workflow uses **tag-based or branch-based triggers**, GitHub requires a dedicated environment named `github-pages`.
+If your GitHub Actions workflow deploys on a tag or branch trigger and targets an environment named `github-pages`, you must explicitly configure that environment in your repository settings.
+
+Failing to configure the environment correctly will result in GitHub blocking the deployment due to protection rules.
 
 ## Setup Steps
 
-1. Go to your GitHub repo → **Settings** → **Environments**.
-2. Click **New environment**, and name it `github-pages`:
+1. Open your GitHub repository. Navigate to **Settings** → **Environments** under the **Code and automation** section.
+
+2. Click **New environment** and set the name exactly as:
+
+   ```text
+   github-pages
+   ```
+
    ![image-add](./assets/image-add.png)
 
-3. In the environment view:
-   - Under **Deployment branches and tags**, click the dropdown
-   - Select **Selected branches and tags**
-    ![image-drop](./assets/image-drop.png)
+3. In the newly created environment:
 
-   - Click **Add deployment branch or tag rule**
-   - Set `Ref type` to `Tag`
-   - Enter a name pattern:
-     - `*` (all tags)
+   - Under **Deployment branches and tags**, click the dropdown and select **Selected branches and tags**.
+     ![image-drop](./assets/image-drop.png)
+
+   - Click **Add deployment branch or tag rule**.
+   - Set the **Ref type** to `Tag` or `Branch`.
+   - Enter a name pattern such as:
+     - `*` — to allow all tags
+     - `*/*` — to support namespaced tags like `release/v1.0.0`  
+     You may include both if needed.
      ![image-pat](./assets/image-pat.png)
-     - or `*/*` (for namespaced tags like `release/v1.0.0`)
-     - Optionally add both
 
-4. Click **Add rule**
+4. Click **Add rule** to confirm the configuration.
 
-## Example Workflow
+## Example Trigger Patterns
+
+If your workflow uses tags or branches, your trigger might look like:
 
 ```yaml
 on:
-  push:
-    tags:
-      - 'v*'
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - uses: actions/checkout@v4
-      - name: Deploy site
-        run: echo "Deploying..."
+push:
+ tags:
+   - 'v*'      # example: v1.0.0
+ branches:
+   - main      # example: main branch
 ```
+
+> If your repository does not include the `deploy.yml` file, you can find an example at:  
+> [toucansites/github-workflows](https://github.com/toucansites/github-workflows)
 
 ## Important
 
-If this environment isn’t configured, deployments will fail with:
+If the environment is not properly configured, deployments will be blocked with an error such as:
 
-> "Tag "1.0.0-beta.2" is not allowed to deploy to github-pages due to environment protection rules."
+> Tag `1.0.0-beta.2` is not allowed to deploy to github-pages due to environment protection rules.
