@@ -118,8 +118,6 @@ That’s how content types and relations work in Toucan.
 
 ## Reference
 
-
-
 ### Properties
 
 #### Property types

@@ -1,16 +1,16 @@
 ---
-category: "themes"
-title: "Templates"
-description: "This is a basic guide on how to use Mustache for creating static site templates for Toucan"
+category: "templates"
+title: "Views"
+description: "Basic guide on how to use Mustache for creating static site templates for Toucan"
 order: 3
 ---
 
-# Templates
+# Views
 ---
 
-[Mustache](https://mustache.github.io/mustache.5.html) is a logic-less template system. Toucan uses Mustache templates to render Markdown files and generate the final HTML content.
+[Mustache](https://mustache.github.io/mustache.5.html) is a logic-less template system. Toucan uses Mustache templates to render Markdown files and generate the final HTML content and refers them as `views`.
 
-This is a basic guide on how to use Mustache for creating templates.
+This is a basic guide on how to use Mustache for creating views.
 
 ## Context variables
 
@@ -24,20 +24,20 @@ For example, given a Mustache template:
 
 And a context object:
 ```yaml
-name: "Tibor"
+name: "Toucan"
 ```
 
 The rendered output would be:
 
 ```html
-<h1>Hello, Tibor!</h1>
+<h1>Hello, Toucan!</h1>
 ```
 
 Context variables can be dictionaries or hash maps, allowing key-value pairs to be accessed within a Mustache file using dot notation.
 
 ## Blocks
 
-A block begins with a dollar and ends with a slash. Mustache has no concept of if-else statements, but it's possible to check for `false` / `nil` values using blocks:
+A block begins with a # (hash) and ends with a / (slash). Mustache has no concept of if-else statements, but it's possible to check for `false` / `nil` values using blocks:
 
 ```html
 <html{{#site.language}} lang="{{.}}"{{/site.language}}>
@@ -92,37 +92,34 @@ The rendered output:
 <p>This is the second post excerpt.</p>
 ```
 
-
 ## Partials
 
-Mustache partial templates are reusable template fragments that can be included within other Mustache templates. Partials are referenced using the `{{> partialName}}` syntax.
+Partials are reusable pieces of markup that can be inserted into other Mustache files. You include them using the {{> partialName}} syntax.
 
-A template can include another one, using the partial syntax:
+For example:
 ```html
 <h1>Hello, World!</h1>
 {{> reusableParagraph}}
 ```
 
-This is the `reusableParagraph.mustache` template file:
+The file named reusableParagraph.mustache might look like this:
 ```html
 <p>This is a reusable paragraph</p>
 ```
 
-This is the rendered output:
+The final output after rendering would be:
 ```html
 <h1>Hello, World!</h1>
 <p>This is a reusable paragraph</p>
 ```
 
-Partials help modularize and organize code by allowing common elements, such as headers or footers, to be defined once and used across multiple templates.
-
+Partials help keep your codebase organized and maintainable by allowing commonly used sections—like headers, footers, or paragraphs—to be defined once and reused wherever needed.
 
 ## Parents
 
-Using a parent template in Mustache promotes consistency and reusability by providing a common structure, allowing blocks within the parent to be overridden by other templates.
+Using a **parent** in Mustache helps you create a shared layout that can be reused across different pages. It defines a common structure, while allowing parts of it to be replaced by a **child**. This is useful for keeping your layout consistent and avoiding repetition.
 
-Here’s a simple example of using a Mustache parent template to define a `main` block, that can be overridden from a child template:
-
+Here’s an example of a parent that defines a main section that can be customized:
 ```html
 <!DOCTYPE html>
 <html>
@@ -147,7 +144,7 @@ Here’s a simple example of using a Mustache parent template to define a `main`
 </html>
 ```
 
-The child template for the page:
+And here’s the child that uses this structure and provides its own content for the main section:
 ```
 {{<html}}
 {{$main}}
@@ -156,10 +153,9 @@ The child template for the page:
 
 {{/main}}
 {{/html}}
-
 ```
 
-The context:
+The context passed in looks like this:
 ```yaml
 title: "My Website"
 header: "Welcome to My Website"
@@ -167,8 +163,7 @@ contents: "This is the main content of the page."
 footer: "© 2024 My Website"
 ```
 
-The rendered output, when using the child template:
-
+After rendering, the final output is:
 ```html
 <!DOCTYPE html>
 <html>
@@ -190,5 +185,8 @@ The rendered output, when using the child template:
 </body>
 </html>
 ```
+This feature makes it easy to define a page layout once in the parent and fill in the unique parts from the child wherever needed.
 
-That was a brief introduction to the Mustache template engine. For more detailed information, refer to [the official manuals](https://mustache.github.io/mustache.5.html). To learn about Toucan themes, proceed to the [Toucan themes](/docs/themes/toucan-themes/) section.
+---
+
+That was a brief introduction to the Mustache template engine. For more detailed information, refer to [the official manuals](https://mustache.github.io/mustache.5.html). To learn about Toucan templates, proceed to the [Toucan templates](/docs/templates/toucan-templates/) section.

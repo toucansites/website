@@ -81,7 +81,7 @@ description: "..."
 ...
 ---
 ```
-Since there may be many posts, it’s more convenient to define their path once in the `src/types/post.yml` file.
+Since there may be many posts, it’s more convenient to define their path once in the `types/post.yml` file.
 
 ```yaml
 id: post

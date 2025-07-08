@@ -110,8 +110,9 @@ The Toucan query language comes with filters that allow you to filter data based
 
 Filters can be simple fields, or complex conditions using the `and` and `or` statements. Each filter condition consists of a key, an operator, and a value. The key usually refers to the front matter key, the operator represents a criteria, and the value is a generic value to match against.
 
+> `{{date.now}}` will be resolved
 
-Supported filter operators:
+### Filter operators
 
 @FAQ {
     @Question {
@@ -137,6 +138,7 @@ Supported filter operators:
         ```
     }
 }
+
 @FAQ {
     @Question {
      `notEquals`
@@ -161,6 +163,7 @@ Supported filter operators:
         ```
     }
 }
+
 @FAQ {
     @Question {
         `lessThan`
@@ -367,7 +370,7 @@ Supported filter operators:
 }
 
 
-Supported logical operators:
+### Logical operators
 
 @FAQ {
     @Question {
@@ -416,7 +419,9 @@ Supported logical operators:
     }
 }
 
-Here's another query that demonstrates the use of the `lessThan` operator using a complex filter condition:
+### Examples
+
+Here's a query that demonstrates the use of the `lessThan` operator using a complex filter condition:
 
 ```yaml
 prev:
