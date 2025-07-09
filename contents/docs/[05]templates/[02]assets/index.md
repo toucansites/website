@@ -8,11 +8,13 @@ order: 2
 # Assets
 ---
 
-Template assets are static files that are copied recursively to the root folder of the generated site.
+Template assets are static files—such as CSS, JavaScript, images, or fonts — that are bundled with your template and copied to the output directory during site generation.
 
-Subfolders can be freely created inside the assets directory, and the entire structure will be preserved.
+All files located in the assets directory are recursively copied to the root of the generated site. The internal folder structure is preserved exactly as defined in the template.
 
-For example, a template can include additional images, JavaScript, or CSS files using the following structure:
+## Example
+
+A typical asset structure might look like this:
 
 ```sh
 .
@@ -27,7 +29,7 @@ For example, a template can include additional images, JavaScript, or CSS files 
         └── baz.png
 ```
 
-The site can reference these assets, both from Markdown and Mustache files, as if they are located at the root level.
+In the final build, these files will be available at:
 
 ```sh
 /css/theme.css
@@ -37,4 +39,8 @@ The site can reference these assets, both from Markdown and Mustache files, as i
 /images/baz.png
 ```
 
-If the site has a global asset with the same name as a template asset, it will override the template asset. This allows for easy customization when needed.
+> Assets can be referenced from both Markdown content and Mustache templates using these root-relative paths.
+
+## Overriding Assets
+
+If a site-level asset shares the same path and filename as a template asset, the site-level version will take precedence. This allows developers to override default template assets without modifying the template itself — making customization straightforward.

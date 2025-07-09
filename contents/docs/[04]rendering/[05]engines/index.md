@@ -1,23 +1,24 @@
 ---
 category: "rendering"
 title: "Engines"
-description: ""
+description: "Configure template engines in Toucan pipelines to render HTML or JSON output."
 order: 5
 ---
 
 # Engines
 ---
 
-Toucan currently supports two template engines:
+Toucan supports two rendering engines for generating output:
+- `mustache` — Renders text-based output using Mustache [views](/docs/templates/views).
+- `json` — Produces structured JSON output, typically used for APIs.
 
-- `mustache` — renders text output using Mustache templates
-- `json` — renders raw JSON output
-
-Template engines are configured within the render pipeline.
+Engines are defined in each render pipeline using the `engine` key.
 
 ## Mustache
 
-Mustache is the most commonly used engine in Toucan's rendering system. To implement this engine in your project, specify the id mustache in your pipeline configuration under the engine key.
+The `mustache` engine is Toucan’s primary rendering engine for generating HTML or text-based content.
+
+To configure it, set the engine `id` in your pipeline:
 
 ```yml
 engine: 
@@ -26,7 +27,7 @@ engine:
 
 ### Options
 
-Currently, Toucan supports a single option for this engine: contentTypes. This map binds content types to template views, allowing Toucan to determine the default view during rendering when you haven't specified a custom `view` or generic `views` in your [front matter](/docs/content-management/front-matter). Define a content type as a key and specify the corresponding view under the view key.
+The Mustache engine supports a single `contentTypes` option. This maps content types to views, which Toucan uses as a fallback if no `view` or `views` override is defined in the content’s [front matter](/docs/content-management/front-matter).
 
 ```yml
 engine: 
@@ -40,11 +41,11 @@ engine:
       ...
 ```
 
-> In this example, the `page` content type will be rendered using the `pages.default` view from the template.
+> In this example, `page` content is rendered using the `pages.default` view, and `author` content uses `blog.author.default`.
 
 ## JSON
 
-The `json` engine is used to generate raw JSON output, primarily consumed by APIs. These files typically serve as a "database" and are dynamically filtered using JS scripts to implement search functionality.
+The `json` engine generates raw JSON output. It’s commonly used for API responses or static data files that power search, filtering, or indexing.
 
 ```yml
 engine: 
@@ -53,11 +54,9 @@ engine:
 
 ### Options
 
-The `keyPath` option defines which data will be extracted during the rendering process. The extracted data will be presented as top-level objects in the output JSON. This option is particularly useful when you need to:
+*KeyPath*
 
-- Generate a clean array without system metadata
-- Filter specific data from the result set
-- Restructure the output for API consumption
+Use `keyPath` to extract a single object or array from the rendering context. This is useful for trimming metadata and isolating relevant data structures.
 
 ```yml
 engine: 
@@ -66,7 +65,7 @@ engine:
     keyPath: "context.posts"
 ```
 
-When implementing the configuration shown above, the resulting JSON will be structured as follows:
+This configuration outputs a JSON array in a post query:
 
 ```json
 [
@@ -76,9 +75,9 @@ When implementing the configuration shown above, the resulting JSON will be stru
 ]
 ```
 
----
+*KeyPaths*
 
-The `keyPaths` option works the same way, but with multiple keys. In this 
+To extract multiple context values, use `keyPaths`. This allows you to map specific paths to custom top-level keys in the output.
 
 ```yml
 engine: 
@@ -89,7 +88,7 @@ engine:
       "generator": "info"
 ```
 
-This configuration produces a JSON object with the specified top-level keys as defined in the keyPaths option:
+This produces a structured JSON object:
 
 ```json
 {
@@ -100,7 +99,7 @@ This configuration produces a JSON object with the specified top-level keys as d
 
 ### API Output Example
 
-The following example demonstrates how to configure a pipeline for rendering content as an API response:
+The following example defines a pipeline that renders an array of posts as a JSON API endpoint:
 
 ```yaml
 id: api
@@ -131,8 +130,8 @@ output:
 
 The pipeline configuration above accomplishes the following:
 
-- Defines a virtual content type called `api` with `definesType`, eliminating the need for manual type definition
-- Executes a query to retrieve all posts
-- Applies filtering to include only content with `contentType: api`
-- Implements the `json` engine to generate output as an array, extracting data from the "context.posts" keyPath
-- Outputs the result to `api/posts.json`
+- Defines a virtual `api` content type (definesType: true)
+- Queries all `post` content, sorted by publication
+- Filters pipeline execution to only include content of type `api`
+- Extracts `context.posts` as the top-level JSON array
+- Writes the output to `api/posts.json`

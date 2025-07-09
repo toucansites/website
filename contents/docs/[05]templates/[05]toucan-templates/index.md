@@ -1,7 +1,7 @@
 ---
 category: "templates"
 title: "Toucan templates"
-description: "Toucan tempplates offer a streamlined approach, using Mustache, for building, customizing, and designing static sites to meet various needs and styles"
+description: "Toucan tempplates offer a streamlined approach, using Mustache, for building, customizing, and designing static sites to meet various needs and styles."
 order: 4
 ---
 
@@ -10,13 +10,29 @@ order: 4
 
 ## Template Structure
 
-A Toucan template is made up of three main components: `metadata`, `views`, and `assets`. While you can organize your templates however you like, we recommend following this structure for clarity, reusability, and compatibility with Toucan’s built-in features.
+Toucan templates provide a structured, flexible system for building static websites using the Mustache templating engine. 
 
-This guide introduces the purpose of each part and how they work together to render your static site.
+Each template is composed of three core parts:
+- Metadata (template.yml)
+- Assets (CSS, JS, images, etc.)
+- Views (Mustache templates)
+
+```sh
+my-template/
+├── template.yml    # metadata
+├── views/          # layout and page templates
+└── assets/         # static files (css, js, images)
+```
+
+While Toucan allows freedom in how you organize your templates, we recommend following a consistent layout to achieve clarity, reusability and take full advantage of built-in features.
+
+This guide covers the recommended structure, purpose of each component, and best practices for building and customizing templates in Toucan.
 
 ## Metadata
 
-Every Toucan template must include a `template.yml` file at its root. This file describes the template and provides important configuration details. Here’s a minimal example with the required fields:
+Every template must include a template.yml file located at its root. This file defines essential metadata that describes the template and ensures compatibility with Toucan’s generator version. It also provides attribution details and tags for classification.
+
+Here’s a minimal example:
 
 ```yaml
 name: "Toucan website"
@@ -28,7 +44,7 @@ tags:
   - "website"
 ```
 
-You can learn more in the [metadata section](/docs/templates/metadata).
+> For a complete breakdown of supported fields and usage, refer to the [Metadata](/docs/templates/metadata) documentation.
 
 ## Assets
 

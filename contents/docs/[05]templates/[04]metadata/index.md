@@ -7,9 +7,11 @@ order: 4
 
 # Metadata
 
-Each template in Toucan includes a `template.yml` file located in the root of the template directory. This file provides essential metadata that describes the template and is used by the Toucan system to ensure compatibility and attribution.
+Every template in Toucan includes a `template.yml` file located at the root of the template directory. This file defines essential metadata that describes the template and is used by Toucan to ensure compatibility and provide attribution.
 
-Below is an example `template.yml` file and a breakdown of each field:
+## Example
+
+Below is a sample `template.yml` file:
 
 ```yml
 name: "Try-O template"
@@ -32,14 +34,18 @@ tags:
   - "template"
 ```
 
-### Field Reference
+## Validation
+
+Toucan validates the metadata at template load time. If the template.yml file is missing, malformed, or lacks required fields, the template will be rejected and excluded from the rendering process.
+
+## Field Reference
 
 @FAQ {
     @Question {
         `name`
     }
     @Answer {
-        The name of the template. Should be unique and descriptive.
+        The unique name of the template. Should be clear and descriptive for identification.
     }
 }
 
@@ -48,7 +54,7 @@ tags:
         `description`
     }
     @Answer {
-        A short summary of what the template is for or what makes it unique.
+        A short explanation of the template’s purpose, features, or distinguishing characteristics.
     }
 }
 
@@ -57,7 +63,7 @@ tags:
         `version`
     }
     @Answer {
-        The current version of the template using [Semantic Versioning](https://semver.org/).
+        The version of the template, following [Semantic Versioning](https://semver.org/).
     }
 }
 
@@ -66,7 +72,7 @@ tags:
         `generatorVersions`
     }
     @Answer {
-        A list of Toucan generator versions this template supports or is compatible with.
+        A list of Toucan generator versions the template is compatible with. Toucan uses this to ensure compatibility during rendering.
     }
 }
 
@@ -75,7 +81,7 @@ tags:
         `authors`
     }
     @Answer {
-        One or more authors or organizations who created the template. Each entry includes the `name` field which refers to the name of the author or organization and the `url` field to their profile or website.
+        One or more authors or organizations responsible for the template. Each entry includes a `name` and an optional `url` pointing to a profile or website.
     }
 }
 
@@ -84,7 +90,7 @@ tags:
         `license`
     }
     @Answer {
-        Information about the template’s license. Includes the on the license and an optional URL where one can learn more about it.
+        The `name` of the license under which the template is released. You may also provide a `url` pointing to the license text or repository.
     }
 }
 
@@ -93,7 +99,7 @@ tags:
         `tags`
     }
     @Answer {
-        A list of tags used for classifying and discovering templates (e.g. type, technology, features).
+        A list of tags that categorize the template — for example, by type, framework, or intended use case. Used for classifying and discovering templates.
     }
 }
 
@@ -102,7 +108,7 @@ tags:
         `url` *(Optional)*
     }
     @Answer {
-        A direct URL for the repository or homepage for the template.
+        A direct link to the template’s homepage or repository.
     }
 }
 
@@ -111,8 +117,6 @@ tags:
         `demo` *(Optional)*
     }
     @Answer {
-         A live preview URL for the template.
+        A URL pointing to a live demo of the template in use.
     }
 }
-
-Toucan will validate the metadata during template loading. Missing file or required fields will result in template rejection.

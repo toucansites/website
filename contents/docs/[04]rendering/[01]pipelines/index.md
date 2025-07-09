@@ -1,7 +1,7 @@
 ---
 category: "rendering"
 title: "Pipelines"
-description: ""
+"description": "Learn how to define and configure render pipelines in Toucan to transform content into HTML, JSON, and other output formats."
 order: 1
 ---
 

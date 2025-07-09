@@ -1,7 +1,7 @@
 ---
 category: "rendering"
 title: "Queries"
-description: ""
+description: "Learn how to use Toucan's query language to filter, sort, and retrieve content with powerful conditions and logic."
 order: 2
 ---
 
@@ -418,7 +418,7 @@ Filters can be simple fields, or complex conditions using the `and` and `or` sta
 				This is useful when filtering content that can match any of the given conditions.
 
 				Example:
-				
+
 				```yaml
 				filter:
 					or:

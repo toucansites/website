@@ -1,21 +1,16 @@
 ---
 category: "templates"
 title: "Basics"
-description: "Learn the basics of Toucan templates for easy customization and design"
+description: "Learn the basics of Toucan templates for easy customization and design."
 order: 1
 ---
 
 # Basics
 ---
 
-Toucan templates are typically located in the `templates` directory in your project.
+Templates in Toucan define the structure and styling used to render your site. A template typically includes `views`, static `assets`, and a `metadata` file. By default, templates are stored in the `templates` directory of your project.
 
-A template consists of the following components:
-- Assets
-- Views
-- Metadata
-
-Here’s a tree view of the directory structure:
+Here’s an example directory structure:
 
 ```sh
 .
@@ -27,7 +22,9 @@ Here’s a tree view of the directory structure:
         └── views
 ```
 
-The default template, located in the `templates/default` folder, is used when rendering the site. However, this can be modified via the configuration file.
+The default template is located at `templates/default` and is used automatically unless overridden in your configuration file.
+
+To use a custom template, update your configuration:
 
 ```yml
 templates:
@@ -37,23 +34,41 @@ templates:
 
 ## Assets
 
-Each template can provide static asset files within the `assets` folder. All files inside the `assets` directory will be recursively copied to the root folder of the generated site.
+The `assets` folder contains static files (e.g. CSS, JavaScript, images) that should be included in the final site.
+
+During rendering, all files within assets are recursively copied to the root of the output directory, preserving their relative paths.
 
 ## Views
 
-Toucan uses the Mustache template engine to render HTML from Markdown files and refers them as `views`. They are located in the `views` folder of the template and use the `.mustache` extension.
+Toucan uses `Mustache` as its template engine. Views are `.mustache` files stored under the views folder in your template.
 
-When referencing a view in your content's front matter: delete the file extension, convert slashes to dots in the file path. Add the pipeline name where you need this view, or use * for all pipelines.
+Views define how individual content types are rendered using context data generated during the pipeline phase.
+
+When referencing a view in front matter or pipeline configuration:
+- Remove the file extension
+- Replace slashes with dots
+- Scope the view to a specific pipeline or use `*` for all
+
+Example:
 
 ```yaml
 views: 
   html: "pages.home"
-# References:
-# pages/home.mustache
 ```
 
-If Toucan cannot find a template by reference, it will emit a warning during site generation.
+This maps to the file:
+
+```sh
+views/pages/home.mustache
+```
+
+If Toucan cannot resolve a view reference, a warning will be emitted during site generation.
 
 ## Metadata
 
-Each template in Toucan includes a `template.yml` file located in the root of the template directory. This file provides essential metadata that describes the template and is used by the Toucan system to ensure compatibility and attribution.
+Each template must include a `template.yml` file at its root. This file provides metadata about the template, including:
+- Template name and version
+- Author information
+- Compatibility flags
+
+The metadata file is used by the Toucan system to identify and validate templates at runtime.

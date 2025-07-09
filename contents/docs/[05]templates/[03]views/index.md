@@ -8,13 +8,13 @@ order: 3
 # Views
 ---
 
-[Mustache](https://mustache.github.io/mustache.5.html) is a logic-less template system. Toucan uses Mustache templates to render Markdown files and generate the final HTML content and refers them as `views`.
+Toucan uses the [Mustache](https://mustache.github.io/mustache.5.html) template engine to render Markdown content into static HTML. In Toucan, these templates are referred to as **views**.
 
-This is a basic guide on how to use Mustache for creating views.
+This guide introduces the basic building blocks of Mustache and how to use them to create reusable, logic-less templates for your site.
 
 ## Context variables
 
-Mustache context variables are placeholders within a template that get replaced with actual values when rendering.
+Mustache templates use **placeholders** — known as context variables — to inject values from the content context into the HTML output.
 
 For example, given a Mustache template:
 
@@ -34,17 +34,17 @@ The rendered output would be:
 <h1>Hello, Toucan!</h1>
 ```
 
-Context variables can be dictionaries or hash maps, allowing key-value pairs to be accessed within a Mustache file using dot notation.
+Context variables support nested objects and can be accessed using dot notation, making it easy to structure and reference complex data.
 
 ## Blocks
 
-A block begins with a # (hash) and ends with a / (slash). Mustache has no concept of if-else statements, but it's possible to check for `false` / `nil` values using blocks:
+Blocks are used to conditionally render content or repeat elements. They begin with # (hash) and end with / (slash). Mustache doesn’t include logic like if-else, but falsy values (such as null or false) can be handled with inverted blocks.
 
 ```html
 <html{{#site.language}} lang="{{.}}"{{/site.language}}>
 ```
 
-Given the following context:
+Given this context:
 
 ```yaml
 site:
@@ -57,11 +57,13 @@ The rendered output would be:
 <html>
 ```
 
-The current value in a block can be accessed using `{{.}}`.
+The special variable {{.}} refers to the current value within the block.
 
 ## Loops
 
-Here’s a simple example of how to loop through a posts array in Mustache to render the title and excerpt, the snippet also handles an empty case:
+Mustache handles looping with blocks as well. If the block variable is an array, Mustache will iterate over it. You can also include an inverted block (^) to handle empty results.
+
+Example:
 
 ```html
 {{#posts}}
@@ -73,7 +75,7 @@ Here’s a simple example of how to loop through a posts array in Mustache to re
 {{/posts}}
 ```
 
-The context as an array of dictionaries:
+Context:
 
 ```yaml
 posts:
@@ -83,7 +85,7 @@ posts:
     excerpt: "This is the second post excerpt."
 ```
 
-The rendered output:
+Output:
 
 ```html
 <h2>First Post</h2>
@@ -95,35 +97,38 @@ The rendered output:
 
 ## Partials
 
-Partials are reusable pieces of markup that can be inserted into other Mustache files. You include them using the {{> partialName}} syntax.
+Partials allow you to include and reuse snippets of markup across multiple templates. This helps keep your templates clean and organized.
 
-For example:
+You include them using the {{> partialName}} syntax.
 
 ```html
 <h1>Hello, World!</h1>
 {{> reusableParagraph}}
 ```
 
-The file named reusableParagraph.mustache might look like this:
+If `reusableParagraph.mustache` contains:
 
 ```html
 <p>This is a reusable paragraph</p>
 ```
 
-The final output after rendering would be:
+Then the rendered output will be:
 
 ```html
 <h1>Hello, World!</h1>
 <p>This is a reusable paragraph</p>
 ```
 
-Partials help keep your codebase organized and maintainable by allowing commonly used sections—like headers, footers, or paragraphs—to be defined once and reused wherever needed.
+Partials are ideal for repeating elements like headers, footers, or reusable components.
 
 ## Parents
 
-Using a **parent** in Mustache helps you create a shared layout that can be reused across different pages. It defines a common structure, while allowing parts of it to be replaced by a **child**. This is useful for keeping your layout consistent and avoiding repetition.
+Using a **parent** in Mustache helps you define a shared layout that can be reused across multiple views. This allows you to keep your templates consistent, modular, and easier to maintain. A parent typically defines the outer HTML structure—such as the `head`, header, footer, and layout blocks—while child templates can override specific sections as needed.
 
-Here’s an example of a parent that defines a main section that can be customized:
+**child** templates can override named blocks by providing content with the same block name. This allows them to replace sections defined in the parent template.
+
+Here’s an example of a parent template that defines the overall structure of a page, including a `main` block that can be replaced by a `child` view:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -148,7 +153,9 @@ Here’s an example of a parent that defines a main section that can be customiz
 </html>
 ```
 
-And here’s the child that uses this structure and provides its own content for the main section:
+In this example, the {{$main}}...{{/main}} block provides a placeholder that can be filled in by a `child` template. If no content is supplied, the fallback `No content.` will be rendered instead.
+
+The corresponding `child` template can extend the parent and provide custom content for the `main` block:
 
 ```
 {{<html}}
@@ -160,7 +167,9 @@ And here’s the child that uses this structure and provides its own content for
 {{/html}}
 ```
 
-The context passed in looks like this:
+This tells Mustache to use the **html parent** template and inject the child content into the named main block.
+
+To render the above templates correctly, a context object like this might be passed in:
 
 ```yaml
 title: "My Website"
@@ -169,7 +178,7 @@ contents: "This is the main content of the page."
 footer: "© 2024 My Website"
 ```
 
-After rendering, the final output is:
+After rendering, the final HTML would be:
 
 ```html
 <!DOCTYPE html>
@@ -193,8 +202,10 @@ After rendering, the final output is:
 </html>
 ```
 
-This feature makes it easy to define a page layout once in the parent and fill in the unique parts from the child wherever needed.
+This feature is especially useful for defining base layouts — such as for blog posts, documentation pages, or landing pages — and customizing the content area while preserving a consistent structure across your site. By using parents and blocks, you can reduce duplication and keep your templates clean and modular.
 
 ---
 
-That was a brief introduction to the Mustache template engine. For more detailed information, refer to [the official manuals](https://mustache.github.io/mustache.5.html). To learn about Toucan templates, proceed to the [Toucan templates](/docs/templates/toucan-templates/) section.
+This guide introduced the core features of the Mustache template engine and how it is used in Toucan to define views. Mustache’s logic-less approach ensures templates remain clean, readable, and easy to maintain.
+
+To dive deeper into Mustache syntax and capabilities, visit the [official Mustache documentation](https://mustache.github.io/mustache.5.html) or continue with the [Toucan templates](/docs/templates/toucan-templates/) guide.
