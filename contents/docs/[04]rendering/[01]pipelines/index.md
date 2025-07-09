@@ -94,7 +94,7 @@ A typical site uses the following pipelines:
         [assets](#assets)
     }
     @Answer {
-        `Asset Property` and `Asset Behaviour` options to define how asset are processed during pipeline execution. 
+        `Asset Property` and `Asset Behavior` options to define how asset are processed during pipeline execution. 
     }
 }
 
@@ -319,7 +319,7 @@ You can read more about iterators [here](https://www.notion.so/docs/rendering/it
 
 ## Assets
 
-Define your asset properties and asset behaviours under the `assets` key of your pipeline. 
+Define your asset properties and asset behaviors under the `assets` key of your pipeline. 
 
 ### Asset properties
 
@@ -379,20 +379,33 @@ The `property` field decide which property we inject into.
 
 ### Asset Behaviors
 
-TODO
-
-In Toucan, asset behaviors define how specific files — such as stylesheets — are processed during the pipeline execution. There are 3 behaviors supported available:
+In Toucan, asset behaviors define how specific files — such as stylesheets — are processed during the pipeline execution. There are 3 behaviors available:
 
 - `compile-sass` - Helps to support `Syntactically Awesome Stylesheets`.
 - `minify-css` - Minifies CSS files.
 - `copy` - Simply copies an asset files into the destionation.
 
+Specify behaviors under the `assets/behaviors` keys using their name as identifier. It is used to all your content assets by default.
+
+```yaml
+assets:
+    behaviors:
+        - id: copy
+```
+
+You can also specify custom `input` files using the `path`, `name` and `ext` fields if you want to limit what assets should be used in the behavior. It is possible to set a custom `output` `name` and extension (`ext`) as well. "*" is supported as a wildcard character.
+
 ```yaml
 assets:
     behaviors:
         - id: compile-sass
-        input???
-        output???
+          input:
+            path: "css/"
+            name: "process-by-behavior"
+            ext: "css"
+          output:
+            name: "processed-by-behavior"
+            ext: "css"
 ```
 
 ## Transformers
