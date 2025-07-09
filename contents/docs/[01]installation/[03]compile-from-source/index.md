@@ -11,11 +11,12 @@ Toucan can also be installed by compiling it from [source](https://github.com/to
 
 ## Prerequisites
 
-Before installing Toucan, verify that Swift 6.0 or later is installed on your **macOS or Linux** system. For detailed installation instructions, consult the Swift [installation guide](https://swift.org/install/linux/#platforms) on [swift.org](https://swift.org).
+Before installing Toucan, verify that Swift 6.0 or later is installed on your **macOS or Linux** system and any required developer tools (such as **Xcode** on macOS or **build-essential** on Linux) are installed beforehand.
+For detailed installation instructions, consult the Swift [installation guide](https://swift.org/install/linux/#platforms) on [swift.org](https://swift.org).
 
 ## Quick install
 
-To install Toucan on **macOS or Linux**, run the following commands in your terminal. Make sure that **Swift** and any required developer tools (such as **Xcode** on macOS or **build-essential** on Linux) are installed beforehand.
+To install Toucan on **macOS or Linux**, run the following commands in your terminal.
 
 ```swift
 # clone the repository & install toucan

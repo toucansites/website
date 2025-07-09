@@ -18,20 +18,20 @@ Toucan can be installed on Linux using one of the following methods:
 
 ## Recommended: Install with Native Linux Packages
 
-From version `1.0.0.beta.4`, Toucan provides native packages for popular Linux distributions. Download them from the [GitHub Releases](https://github.com/toucansites/toucan/releases) page.
+Toucan provides native packages for popular Linux distributions, starting from version `1.0.0.beta.4`. Download them from the [GitHub Releases](https://github.com/toucansites/toucan/releases) page.
 
 ### Debian / Ubuntu (.deb)
 
 ```sh
-wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.4/toucan-linux-amd64-1.0.0.beta.4.deb
-sudo dpkg -i toucan-linux-amd64-1.0.0.beta.4.deb
+wget https://github.com/toucansites/toucan/releases/download/<version>/toucan-linux-amd64-<version>.deb
+sudo dpkg -i toucan-linux-amd64-<version>.deb
 ```
 
 ### RHEL / Fedora / openSUSE (.rpm)
 
 ```sh
-wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.4/toucan-linux-x86_64-1.0.0.beta.4.rpm
-sudo rpm -i toucan-linux-x86_64-1.0.0.beta.4.rpm
+wget https://github.com/toucansites/toucan/releases/download/<version>/toucan-linux-x86_64-<version>.rpm
+sudo rpm -i toucan-linux-x86_64-<version>.rpm
 ```
 
 After installation:

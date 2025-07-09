@@ -48,7 +48,7 @@ To use Toucan with Mint, install it as a SwiftPM-compatible CLI tool:
 mint install toucansites/toucan
 ```
 
-Or run it without global install:
+Or run it without a global install:
 
 ```sh
 mint run toucansites/toucan
@@ -58,13 +58,9 @@ mint run toucansites/toucan
 
 ## Prebuilt Binary from GitHub Releases
 
-Toucan is also available for direct download from [GitHub Releases](https://github.com/toucansites/toucan/releases), which includes prebuilt universal binaries for macOS.
+Toucan is available for direct download via [GitHub Releases](https://github.com/toucansites/toucan/releases), offering prebuilt universal binaries for macOS.
 
-### Available Artifact from 1.0.0.beta.4
-
-- `toucan-macos-1.0.0.beta.4.zip or a newer version`
-
-This archive contains the full CLI suite:
+Each release archive includes the full CLI suite:
 
 - `toucan`
 - `toucan-init`
@@ -76,18 +72,18 @@ This archive contains the full CLI suite:
 
 ## Install with PKG Installer
 
-Starting with version `1.0.0.beta.4`, Toucan is distributed as a macOS `.pkg` installer. Download the `.pkg` file from the [GitHub Releases page](https://github.com/toucansites/toucan/releases) and install it via Finder or the terminal.
+Toucan is distributed as a macOS `.pkg` installer. Download the `.pkg` file from the [GitHub Releases page](https://github.com/toucansites/toucan/releases) and install it via Finder or the terminal.
 
 ### Manual install (via Finder)
 
-1. Download `toucan-macos-1.0.0.beta.4.pkg` or a newer version
+1. Download the `.pkg` file for the desired version
 2. Double-click the file to run the macOS Installer
 3. Follow the installation prompts
 
 ### Terminal install
 
 ```sh
-sudo installer -pkg toucan-1.0.0-beta.4.pkg -target /
+sudo installer -pkg toucan-<version>.pkg -target /
 ```
 
 The installer will place the `toucan` CLI tools into `/usr/local/bin`.
