@@ -313,7 +313,6 @@ iterators:
     orderBy:
       - key: publication
         direction: desc
-
 ```
 You can read more about iterators [here](https://www.notion.so/docs/rendering/iterators/).
 
@@ -389,23 +388,23 @@ Specify behaviors under the `assets/behaviors` keys using their name as identifi
 
 ```yaml
 assets:
-    behaviors:
-        - id: copy
+  behaviors:
+    - id: copy
 ```
 
 You can also specify custom `input` files using the `path`, `name` and `ext` fields if you want to limit what assets should be used in the behavior. It is possible to set a custom `output` `name` and extension (`ext`) as well. "*" is supported as a wildcard character.
 
 ```yaml
 assets:
-    behaviors:
-        - id: compile-sass
-          input:
-            path: "css/"
-            name: "process-by-behavior"
-            ext: "css"
-          output:
-            name: "processed-by-behavior"
-            ext: "css"
+  behaviors:
+    - id: compile-sass
+      input:
+        path: "css/"
+        name: "process-by-behavior"
+        ext: "css"
+      output:
+        name: "processed-by-behavior"
+        ext: "css"
 ```
 
 ## Transformers
@@ -443,10 +442,9 @@ All of these values can use template variables, such as `{{slug}}`, to dynamical
 
 ```yaml
 output:
-    path: "{{slug}}"
-    file: index
-    ext: html
-
+  path: "{{slug}}"
+  file: index
+  ext: html
 ```
 
 The following template variables are also supported to make paginated outputs possible:

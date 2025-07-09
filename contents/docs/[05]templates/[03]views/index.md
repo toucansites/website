@@ -23,6 +23,7 @@ For example, given a Mustache template:
 ```
 
 And a context object:
+
 ```yaml
 name: "Toucan"
 ```
@@ -97,17 +98,20 @@ The rendered output:
 Partials are reusable pieces of markup that can be inserted into other Mustache files. You include them using the {{> partialName}} syntax.
 
 For example:
+
 ```html
 <h1>Hello, World!</h1>
 {{> reusableParagraph}}
 ```
 
 The file named reusableParagraph.mustache might look like this:
+
 ```html
 <p>This is a reusable paragraph</p>
 ```
 
 The final output after rendering would be:
+
 ```html
 <h1>Hello, World!</h1>
 <p>This is a reusable paragraph</p>
@@ -145,6 +149,7 @@ Here’s an example of a parent that defines a main section that can be customiz
 ```
 
 And here’s the child that uses this structure and provides its own content for the main section:
+
 ```
 {{<html}}
 {{$main}}
@@ -156,6 +161,7 @@ And here’s the child that uses this structure and provides its own content for
 ```
 
 The context passed in looks like this:
+
 ```yaml
 title: "My Website"
 header: "Welcome to My Website"
@@ -164,6 +170,7 @@ footer: "© 2024 My Website"
 ```
 
 After rendering, the final output is:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -185,6 +192,7 @@ After rendering, the final output is:
 </body>
 </html>
 ```
+
 This feature makes it easy to define a page layout once in the parent and fill in the unique parts from the child wherever needed.
 
 ---

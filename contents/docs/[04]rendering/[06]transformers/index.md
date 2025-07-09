@@ -16,11 +16,11 @@ To use a transformer, you need to define the pipeline in the [configuration](/do
 
 ```yaml
 transformers:
-    post:
-        run:
-            - name: swiftinit
-              path: transformers
-        isMarkdownResult: false
+  post:
+    run:
+      - name: swiftinit
+        path: transformers
+    isMarkdownResult: false
 ```
 
 Given the above configuration in the pipeline config, Toucan will execute the `swiftinit` script for each `post` content type. The transformer script should be located in the `transformers` folder and should be named `swiftinit` and it should be an executable file. Here's the original [swiftinit transformer script](https://github.com/swift-on-server/site/blob/main/transformers/swiftinit).

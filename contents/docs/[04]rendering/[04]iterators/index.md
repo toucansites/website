@@ -16,20 +16,20 @@ You can define an iterator in a pipeline under the `iterators` key. Each iterato
 
 ```yml
 iterators:
-    <iterator_key>: <query>
+	<iterator_key>: <query>
 ```
 
 Here’s a real example from this site:
 
 ```yml
 iterators:
-    post.pagination:
-        contentType: post
-        scope: detail
-        limit: 12
-        orderBy:
-            - key: publication
-              direction: desc
+	post.pagination:
+		contentType: post
+			scope: detail
+			limit: 12
+			orderBy:
+				- key: publication
+					direction: desc
 ```
 
 > This page focuses on iterators. If you’re unfamiliar with queries, check out the [Queries](/docs/rendering/queries/) page first.
@@ -40,7 +40,7 @@ After defining your iterator, you just have to tell *Toucan* how to render each 
 
 You will most likely create a content bundle of type page with a separate template. Define your slug; the `{{iterator_id}}` will be replaced with the current page number. You can also refer to `{{number}}` and `{{total}}` to display additional information in the title, for example.
 
-```yml
+```md
 ---
 type: page
 home: articles/page
@@ -53,21 +53,21 @@ template: blog.posts
 # Articles
 
 Browse all articles.
-
 ```
+
 > The Markdown content defined in the bundle will be rendered on each generated page.
 
 ## Results
 
 After generating the site, check the output folder to see the pages.
 
-```text
+```sh
 articles
 └── page
-    ├── 1
-    │   └── index.html
-    └── 2
-        └── index.html
+		├── 1
+		│   └── index.html
+		└── 2
+				└── index.html
 ```
 
 ## Troubleshooting
@@ -81,12 +81,13 @@ description: "..."
 ...
 ---
 ```
+
 Since there may be many posts, it’s more convenient to define their path once in the `types/post.yml` file.
 
 ```yaml
 id: post
 paths:
-    - blog/posts
+	- blog/posts
 ```
 
 Iterator bundles often created in this context, so you need to specify their type explicitly. If you don’t, *Toucan* will infer the type from the path, which can lead to the wrong type and template being used.

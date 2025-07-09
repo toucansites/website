@@ -31,8 +31,8 @@ The default template, located in the `templates/default` folder, is used when re
 
 ```yml
 templates:
-    current: 
-        path: try-o-template
+  current: 
+    path: try-o-template
 ```
 
 ## Assets
@@ -47,7 +47,7 @@ When referencing a view in your content's front matter: delete the file extensio
 
 ```yaml
 views: 
-    html: "pages.home"
+  html: "pages.home"
 # References:
 # pages/home.mustache
 ```
