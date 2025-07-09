@@ -28,7 +28,7 @@ To embed Google Analytics, use the official `gtag.js` snippet provided by Google
 
 Open your site's `html.mustache` layout template.
 
-### Insert the Analytics Snippet Inside the `head`
+### Insert the Analytics Snippet Inside the `&lt;head&gt;`
 
 Replace `G-XXXXXXXXXX` with your actual Measurement ID:
 
@@ -50,7 +50,7 @@ This script asynchronously loads the Google Analytics library and initializes tr
 
 ## Best Practices
 
-- For accurate tracking and performance metrics, insert the snippet **at the top of the `head`** section.
+- For accurate tracking and performance metrics, insert the snippet **at the top of the `&lt;head&gt;`** section.
 - Avoid enabling Google Analytics on development or staging environments:
 
   ```html

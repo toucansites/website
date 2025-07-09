@@ -28,6 +28,29 @@ Choose how you want GitHub Pages to deploy your site:
   Select a specific branch (e.g., `main`) and optionally a folder (e.g., `/dist`) to publish static content directly.  
   ![image-fb](./assets/image-fb.png)
 
+## Deployment Targets (GitHub Actions)
+
+When deploying with GitHub Actions, the workflow will automatically select either:
+
+- the `default` target defined in your toucan.yml file, or
+- the explicit target specified in the `GitHub Actions workflow` trigger.
+
+Ensure that your toucan.yml is correctly configured and that the appropriate target is used when initiating a deployment.
+
+Example toucan.yml configuration:
+
+```bash
+targets:
+    - name: dev
+      default: true
+    
+    - name: live
+      output: /tmp/output
+      url: "https://toucansites.com/"
+```
+
+Refer to the official reusable workflow: [toucansites/github-workflows](https://github.com/toucansites/github-workflows)
+
 ## Confirm the Site URL
 
 After selecting a source, GitHub will generate and display a public URL for your site, typically in the format:

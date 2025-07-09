@@ -8,7 +8,7 @@ order: 4
 
 # Facebook Pixel
 
-Integrate Facebook Pixel into your Toucan site allows you to track visitor actions, measure the effectiveness of your ad campaigns, and build custom audiences for remarketing directly from your Toucan site.
+Integrating Facebook Pixel into your Toucan site allows you to track visitor actions, measure the effectiveness of your ad campaigns, and build custom audiences for remarketing directly from your Toucan site.
 
 ---
 
@@ -26,9 +26,9 @@ Integrate Facebook Pixel into your Toucan site allows you to track visitor actio
 
 Open your site's base layout file: `html.mustache`.
 
-### Insert Facebook Pixel Code in `head`
+### Insert Facebook Pixel Code in `&lt;head&gt;`
 
-Add this snippet to the `head` section of your page:
+Add this snippet to the `&lt;head&gt;` section of your page:
 
 ```html
 <!-- Facebook Pixel Code -->

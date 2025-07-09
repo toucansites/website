@@ -46,9 +46,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 ---
 
-### Add the `noscript` Fallback Immediately After `body` tag
+### Add the `noscript` Fallback Immediately After `&lt;body&gt;` tag
 
-Insert this **second snippet** right after the opening `body` tag to ensure tracking still works for users with JavaScript disabled:
+Insert this **second snippet** right after the opening `&lt;body&gt;` tag to ensure tracking still works for users with JavaScript disabled:
 
 ```html
 <!-- Google Tag Manager (noscript) -->

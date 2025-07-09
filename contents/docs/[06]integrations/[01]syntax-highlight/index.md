@@ -59,7 +59,8 @@ const greet = () => console.log("Hello, world!");
 
 ## Theme Customization
 
-To apply a different visual theme, replace the stylesheet URLs with one from the official list, browse available styles here: [CDN Highlight.js Themes](https://cdnjs.com/libraries/highlight.js/11.9.0)
+To apply a different visual theme, replace the stylesheet URLs with one from the official list.
+Browse available styles here: [CDN Highlight.js Themes](https://cdnjs.com/libraries/highlight.js/11.9.0)
 
 **Popular Alternatives**:
 
@@ -84,7 +85,7 @@ To avoid unnecessary script loading on pages without code blocks, implement cond
 </script>
 ```
 
-This approach reduces initial page load time, especially beneficial for large content sites.
+This approach reduces initial page load time, which is especially beneficial for large content sites.
 
 ---
 

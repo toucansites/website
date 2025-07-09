@@ -20,7 +20,7 @@ To host a Toucan-generated website on GitHub Pages, begin by creating a new repo
    ![image2](./assets/image2.png)
 
 3. Enter a repository name:
-   - For personal or organization-wide sites, the repository **must** be named `username.github.io` or `orgname.github.io`
+   - For personal or organization-wide sites, the repository can be named `username.github.io` or `orgname.github.io`
    - Ensure the name is entirely lowercase
    ![image3](./assets/image3.png)
 
