@@ -436,6 +436,7 @@ assets:
       output:
         name: "theme.compiled"
         ext: "css"
+```
 
 ## Transformers
 
