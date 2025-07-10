@@ -1,9 +1,11 @@
 ---
 category: "getting-started"
 title: "Docker Commands"
-description: "Toucan CLI commands via Docker for static site generation, hosting, and deployment"
+description: "Learn how to use Toucan CLI with Docker to easily build and deploy static sites on any system"
 order: 3
 ---
+
+
 
 # Docker Commands
 ---
