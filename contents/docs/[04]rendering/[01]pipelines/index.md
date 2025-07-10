@@ -269,8 +269,8 @@ dataTypes:
         format: "y"
 ```
 
-Custom formats can be accessed in your views using dot notation, appended to the property name: {{&lt;property&gt;.formats.&lt;format-name&gt;}}.
-For example, using {{publication.formats.full}} will render the publication date using the format `yyyy/MM/dd` with the `hu-HU` locale and the `Europe/Budapest` time zone.
+Custom formats can be accessed in your views using dot notation, appended to the property name: `{{&lt;property&gt;.formats.&lt;format-name&gt;}}`.
+For example, using `{{publication.formats.full}}` will render the publication date using the format `yyyy/MM/dd` with the `hu-HU` locale and the `Europe/Budapest` time zone.
 
 This approach provides flexibility in how date values are presented across your site.
 
