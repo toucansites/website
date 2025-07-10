@@ -57,16 +57,6 @@ Add this snippet to the `&lt;head&gt;` section of your page:
 
 ## Best Practices
 
-- Load Pixel Only in Production
-
-  Avoid skewing analytics with test data. Use conditional rendering:
-
-  ```mustache
-  {{#production}}
-  <!-- Facebook Pixel Code Here -->
-  {{/production}}
-  ```
-
 - Track Custom Events (Optional)
 
   You can track conversions or actions like button clicks:

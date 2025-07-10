@@ -43,9 +43,9 @@ This configuration ensures:
 
 ---
 
-## Required HTML Structure
+## Markdown snippet example
 
-To ensure proper rendering, structure code blocks as follows:
+To highlight a block in Markdown, use the following format:
 
 ```html
 <pre><code class="language-javascript">
@@ -54,6 +54,8 @@ const greet = () => console.log("Hello, world!");
 ```
 
 > **Note**: Always include the `language-<lang>` class to inform Highlight.js of the code language. This ensures accurate syntax rendering.
+
+For a list of supported languages, refer to the official [Highlight.js documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html).
 
 ---
 

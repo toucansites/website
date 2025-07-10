@@ -61,20 +61,6 @@ Insert this **second snippet** right after the opening `&lt;body&gt;` tag to ens
 
 ---
 
-## Best Practices
-
-- Prevent GTM from loading in non-production environments:
-
-  ```mustache
-  {{#production}}
-    <!-- GTM Script Here -->
-  {{/production}}
-  ```
-
-  This ensures staging or development traffic does not contaminate production analytics.
-
----
-
 ## Additional Resources
 
 - [Tag Manager Developer Guide](https://developers.google.com/tag-platform/tag-manager)
