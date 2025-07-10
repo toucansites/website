@@ -167,17 +167,18 @@ A mapping of content type keys to filtering conditions. Each key represents a co
 
 ```yml
 contentTypes:
-  post:
-    and:
-      - key: draft
-        operator: equals
-        value: false
-      - key: publication
-        operator: lessThanOrEquals
-        value: "{{date.now}}"
-      - key: expiration
-        operator: greaterThanOrEquals
-        value: "{{date.now}}"
+  filterRules:
+    post:
+      and:
+        - key: draft
+          operator: equals
+          value: false
+        - key: publication
+          operator: lessThanOrEquals
+          value: "{{date.now}}"
+        - key: expiration
+          operator: greaterThanOrEquals
+          value: "{{date.now}}"
 ```
 
 See the [Queries](/docs/rendering/queries) guide for more on filter conditions.
