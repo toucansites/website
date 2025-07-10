@@ -1,16 +1,16 @@
 ---
 category: "content-management"
 title: "Front Matter"
-description: "Front Matter is used to define metadata and settings for content."
+description: "Front matter defines metadata and content settings in markdown files."
 order: 4
 ---
 
 # Front Matter
 ---
 
-Front matter is a section at the beginning of a markdown file, where key-value pairs can be defined to influence the rendering process. This provides flexibility for setting metadata or custom properties.
+Front matter is a section at the top of a markdown file enclosed between two `---` lines. It contains key-value pairs that define metadata and configuration for how the content should be processed and rendered.
 
-## Example
+All front matter fields are automatically exposed as context variables and can be accessed in your [views](/docs/templates/views/).
 
 ```yaml
 ---
@@ -24,4 +24,54 @@ custom: "This is a custom front matter value"
 This is my page
 ```
 
-Every user-defined front matter property is accessible as a [context variable](/docs/themes/mustache-templates/) within your page template.
+## Reserved keys
+
+Some front matter keys are reserved for internal use during content processing. It’s acceptable to override them when used intentionally and with a clear understanding of their purpose, but avoid repurposing these keys for unrelated use — they have specific behavior in the rendering pipeline.
+
+### Id
+
+A globally unique identifier for the content item. Toucan typically infers this from the file path, but you can override it manually — useful in advanced cases such as when working with [transformers](/docs/rendering/transformers).
+
+```md
+---
+id: "my-custom-id"
+---
+```
+
+### Type
+
+Specifies the [content type](/docs/content-management/content-types) of the item. Defining a type allows Toucan to validate properties and relations.
+
+```md
+---
+type: "author"
+---
+```
+
+### Slug
+
+Defines the canonical URL path (slug) for the content. By default, the slug is derived from the project structure, but you can override it with this field. See [slug management](/docs/content-management/content-bundles#slug-management) for more details.
+
+```md
+---
+slug: "new/slug/to/use"
+---
+```
+
+### Views
+
+Maps rendering pipelines to specific [views](/docs/templates/views) using key-value pairs. This is a convenient way to override view selection defined in your [mustache engine](/docs/rendering/engines#mustache) configuration.
+
+```md
+---
+views: 
+  <pipeline-id>: "<view-keyPath>"
+---
+
+You can also use a wildcard (*) to apply a view to all pipelines:
+
+```md
+---
+views:
+  "*": "pages.context"
+---

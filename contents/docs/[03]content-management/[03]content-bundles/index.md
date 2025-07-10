@@ -53,6 +53,6 @@ You can use square brackets with a number in your folder names to have ordered c
 
 Each page bundle can include its own assets, which can be referenced in markdown files using relative paths, such as `./assets/my-picture.png`.
 
-## Markdown
+---
 
-The [next section](/docs/content-management/markdown/) covers how to utilize markdown files, front matter, and custom block directives to enhance and enrich your content effectively.
+To dive deeper, start with the [Front Matter](/docs/content-management/front-matter/) section, then explore how to structure [Markdown content](/docs/content-management/markdown/) and extend it using custom [blocks](/docs/content-management/block-directives/).

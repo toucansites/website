@@ -5,7 +5,7 @@ description: "The site file for Toucan handles settings for your static site and
 order: 1
 ---
 
-# Settings
+# Site settings
 ---
 
 The site settings file defines global settings and properties for the website.
