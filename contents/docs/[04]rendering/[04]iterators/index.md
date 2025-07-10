@@ -74,11 +74,10 @@ After the site is rendered, the output folder will contain one directory per pag
 ```sh
 articles
 └── page
-		├── 1
-		│   └── index.html
-		└── 2
-				└── index.html
-```
+	├── 1
+	│   └── index.html
+	└── 2
+		└── index.html
 
 Each folder corresponds to one page in the paginated result. Toucan automatically replaces `{{post.pagination}}` in the slug with the current page number during generation.
 
