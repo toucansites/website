@@ -153,7 +153,7 @@ Here’s an example of a parent template that defines the overall structure of a
 </html>
 ```
 
-In this example, the {{$main}}...{{/main}} block provides a placeholder that can be filled in by a `child` template. If no content is supplied, the fallback `No content.` will be rendered instead.
+In this example, the `{{$main}}...{{/main}}` block provides a placeholder that can be filled in by a `child` template. If no content is supplied, the fallback `No content.` will be rendered instead.
 
 The corresponding `child` template can extend the parent and provide custom content for the `main` block:
 
