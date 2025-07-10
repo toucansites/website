@@ -2,7 +2,7 @@
 category: "getting-started"
 title: "Config"
 description: "Customize your Toucan site with the config file to modify default locations, naming conventions, and enhance your website effortlessly."
-order: 2
+order: 4
 ---
 
 # Config
