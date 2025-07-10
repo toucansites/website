@@ -5,18 +5,14 @@ version: "1.0.0-beta.5"
 generatorVersions:
     - "1.0.0-beta.5"
     - "1.0.0-beta.6"
-    
 demo:
     url: "https://toucansites.com/"
-
 authors:
     - name: "Binary Birds Kft."
       url: "https://binarybirds.com/"
-
 license:
     name: "MIT license"
     url: "https://github.com/toucansites/website?tab=MIT-1-ov-file#readme"
-
 tags:
     - "toucan"
     - "website"
