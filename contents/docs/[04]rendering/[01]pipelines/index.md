@@ -430,13 +430,12 @@ assets:
   behaviors:
     - id: compile-sass
       input:
-        path: "css/"
-        name: "process-by-behavior"
-        ext: "css"
+        path: "sass/"
+        name: "theme"
+        ext: "sass"
       output:
-        name: "processed-by-behavior"
+        name: "theme.compiled"
         ext: "css"
-```
 
 ## Transformers
 
