@@ -174,12 +174,18 @@ engine:
   id: mustache
   options:
     contentTypes:
-      page: "pages.default"
-      author: "blog.author.default"
-      tag: "blog.tag.default"
-      post: "blog.post.default"
-      category: "docs.category.default"
-      guide: "docs.guide.default"
+      page: 
+        view: "pages.default"
+      author: 
+        view: "blog.author.default"
+      tag: 
+        view: "blog.tag.default"
+      post: 
+        view: "blog.post.default"
+      category: 
+        view: "docs.category.default"
+      guide: 
+        view: "docs.guide.default"
 ```
 
 This tells Toucan which view to use when rendering each content type.
