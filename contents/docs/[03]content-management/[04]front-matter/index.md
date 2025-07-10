@@ -69,7 +69,8 @@ views:
 
 You can also use a wildcard (*) to apply a view to all pipelines:
 
-```yml
+```md
+---
 views:
   "*": "pages.context"
-```
+---
