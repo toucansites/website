@@ -277,18 +277,18 @@ This approach provides flexibility in how date values are presented across your 
 In addition to custom formats, Toucan also provides several built-in representations out of the box. These include:
 
 - Localized formats under the `.date` and `.time` keys:
-  - {{<property>.date.short}}
-	- {{<property>.date.medium}}
-	- {{<property>.date.full}}
-	- {{<property>.date.long}}
-	- {{<property>.time.short}}
-  - {{<property>.time.medium}}
-  - {{<property>.time.full}}
-  - {{<property>.time.long}}
+  - `{{<property>.date.short}}`
+  - `{{<property>.date.medium}}`
+  - `{{<property>.date.full}}`
+  - `{{<property>.date.long}}`
+  - `{{<property>.time.short}}`
+  - `{{<property>.time.medium}}`
+  - `{{<property>.time.full}}`
+  - `{{<property>.time.long}}`
 
 - Raw formats:
-	- {{<property>.timestamp}} – Unix timestamp
-	- {{<property>.iso8601}} – **ISO 8601** string
+	- `{{<property>.timestamp}}` – Unix timestamp
+	- `{{<property>.iso8601}}` – **ISO 8601** string
 
 These format variants allow for rich and consistent date rendering across HTML, RSS feeds, JSON APIs, and more.
 

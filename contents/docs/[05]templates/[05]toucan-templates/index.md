@@ -140,7 +140,7 @@ The views folder contains all Mustache templates used to render content. These a
 
 ### Base view
 
-The root layout of most Toucan templates is defined in `views/html.mustache`. This acts as the wrapper for all other views and includes the site’s shared structure—such as the `head`, `navigation`, and `footer`. It also defines Mustache blocks (e.g. {{$main}}) that child views can override.
+The root layout of most Toucan templates is defined in `views/html.mustache`. This acts as the wrapper for all other views and includes the site’s shared structure—such as the `head`, `navigation`, and `footer`. It also defines Mustache blocks (e.g. `{{$main}}`) that child views can override.
 
 > For more on how inheritance and block injection works, see the [Views](/docs/templates/views) article.
 
