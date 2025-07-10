@@ -8,7 +8,7 @@ order: 4
 # Front Matter
 ---
 
-Front matter is a section at the top of a markdown file enclosed between two --- lines. It contains key-value pairs that define metadata and configuration for how the content should be processed and rendered.
+Front matter is a section at the top of a markdown file enclosed between two `---` lines. It contains key-value pairs that define metadata and configuration for how the content should be processed and rendered.
 
 All front matter fields are automatically exposed as context variables and can be accessed in your [views](/docs/templates/views/).
 
