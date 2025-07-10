@@ -207,7 +207,7 @@ dataTypes:
     input:
       locale: "hu-HU"
       timeZone: "Europe/Budapest"
-      format: "asdf"
+      format: "yyyy-MM-dd"
 ```
 
 @FAQ {
