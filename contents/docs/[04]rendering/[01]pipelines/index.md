@@ -8,23 +8,22 @@ order: 1
 # Pipelines
 ---
 
-Toucan uses render pipelines to generate the final output from source materials.
-Render pipelines are responsible for transforming content into the desired output format.
+Toucan uses render pipelines to transform source content into final output formats such as HTML or JSON. Pipelines provide a highly customizable framework for defining how content should be processed, enabling static site generation, API creation, and other content workflows.
 
-Pipelines are highly customizable, providing full control over the rendering process.
-Toucan can generate static websites or APIs by using different render pipelines.
 
-Each pipeline is defined in a YAML file and stored in the `pipelines` directory.
+Each pipeline is defined in a YAML file and located in the `pipelines` directory.
 
 A typical site uses the following pipelines:
 - **html.yml** - Renders the main content of the site.
-- **api.yml** - Generates a JSON file to support search.
+- **api.yml** - Outputs JSON for APIs, often used in search.
 - **404.yml** - Renders the `Not Found` page.
-- **sitemap.yml** - Creates the `sitemap.xml` file.
-- **rss.yml** - Creates the `rss.xml` file.
+- **sitemap.yml** - Generates the `sitemap.xml` file.
+- **rss.yml** - Generates an RSS 2.0 feed.
 - **redirect.yml** - Renders pages with the `redirect` content type.
 
 ## Field Reference
+
+Each pipeline may define the following fields:
 
 @FAQ {
     @Question {
@@ -67,7 +66,7 @@ A typical site uses the following pipelines:
         [engine](#engine)
     }
     @Answer {
-        Defines the [rendering engine](https://www.notion.so/docs/rendering/engines/) used to generate the final output.
+        Defines the [rendering engine](/docs/rendering/engines/) used to generate the final output.
     }
 }
 
@@ -118,21 +117,21 @@ A typical site uses the following pipelines:
 
 ## Identifier
 
-Every pipeline must have a unique `id` to identify it. We suggest to choose short and descriptive identifiers because in some cases you have to refer to them. 
+Every pipeline must include a unique `id`:
 
 ```yaml
 id: html
 ```
 
-> `Pipelines` are processed in alphabetical order based on the `id` field.
+Pipelines are processed in alphabetical order based on this `id`. Keep identifiers short and descriptive, as you may need to reference them in views or configuration files.
 
 ## Content Types
 
-The content types sections allows you to specify which content types will be used to generate the output of the pipeline.
+The contentTypes section determines which types of content are included in the pipeline output.
 
 ### `include`
 
-A list of content types to explicitly include during pipeline execution. If empty, all content types are included unless excluded.
+Specifies which content types to process. If omitted, all types are included by default (unless excluded explicitly):
 
 ```yml
 contentTypes:
@@ -142,7 +141,7 @@ contentTypes:
 
 ### `exclude`
 
-A list of content types to explicitly exclude during pipeline execution. These override entries in `include` and are always filtered out.
+Excludes specific content types from the pipeline. These override the `include` list:
 
 ```yml
 contentTypes:
@@ -152,13 +151,15 @@ contentTypes:
 
 ### `lastUpdate`
 
-List of content types that should be tracked for last update timestamps used in your sitemap and rss files. If not specified, all content type will be used.
+Identifies which content types are tracked for “last updated” timestamps, used in feeds and sitemaps:
 
 ```yml
 contentTypes:
   lastUpdate:
     - post
 ```
+
+If not specified, all content type will be used.
 
 ### `filterRules`
 
@@ -179,20 +180,25 @@ contentTypes:
         value: "{{date.now}}"
 ```
 
-If you want to learn more about query conditions, check the [Queries](/docs/rendering/queries) section.
+See the [Queries](/docs/rendering/queries) guide for more on filter conditions.
 
 ## Virtual Content Types
 
-The `definesType` boolean flag tells Toucan to create a virtual type with the name of the pipeline. The new type won't have any properties, just an `id`. Virtual types are typically created for single-type pipelines, like `api`, `sitemap` or `rss`.
+Use `definesType: true` to define a **virtual content type** named after the pipeline itself. This is useful for pipelines that generate output not tied to existing content types (e.g., rss, sitemap, or api):
+
+```yml
+definesType: true
+```
 
 ## Data Types
 
-Toucan allows customization of data types within render pipelines.
-Currently, only custom date formats can be defined using the `date` key under the `dataTypes` section of the pipeline. Dates 
+The dataTypes section allows customization of how `date` values are parsed and formatted.
 
 ### Input
 
-Toucan uses a localized date format to parse date objects from your content files. By default it will use the format `yyyy-MM-dd'T'HH:mm:ss.SSS'Z'` with `en-US` locale and `GMT` time zone. You can specify custom values at the `input` key if you want to provide data in a different format/locale/time zone.
+Toucan parses date objects from content files using a localized format. By default, it expects the **ISO 8601** format `yyyy-MM-dd'T'HH:mm:ss.SSS'Z'`, with the locale set to `en-US` and the time zone set to `GMT`.
+
+To support alternative formats, locales, or time zones, you can override these defaults using the `input` field under `dataTypes.date` in your pipeline configuration. This allows you to align date parsing with your content’s regional or formatting requirements.
 
 ```yml
 dataTypes:
@@ -232,7 +238,9 @@ dataTypes:
 
 ### Output
 
-`output` defines date localization for your content rendering. Use `locale` and `timeZone` like described in the `input` section. In your content context multiple date formats will be available for each date object, so no need to specify the `format` key here.
+The `output` section controls how dates are localized during content rendering. You can configure the `locale` and `timeZone` here — using the same structure as described under the input section.
+
+There is no need to define a format, as Toucan automatically generates multiple localized representations for each date object. These include commonly used formats such as `short`, `medium`, `long`, and `full`, all of which are accessible in the content context.
 
 ```yml
 dataTypes:
@@ -244,7 +252,9 @@ dataTypes:
 
 ### Formats
 
-Under the `formats` key, you can define named custom date configurations. These will be added to the system provided date configurations. During the rendering process each date object will be converted into `DateContext`s, which contains all formats - system provided and user defined - prepared to use in your final content.
+During rendering, each date object is transformed into a `DateContext`, which includes a comprehensive set of format variants — both system-defined and custom-defined — for use in your templates.
+
+You can define additional named formats under the `formats` key in your pipeline configuration. These will be merged with the system-provided date formats and made available in the content context.
 
 ```yaml
 dataTypes:
@@ -258,21 +268,40 @@ dataTypes:
         format: "y"
 ```
 
-You can reference these formats in your views with dot syntax after the property name: `{{&lt;property&gt;.formats.&lt;format-name&gt;}}`. In this case the `full` format of the `publication` property will be available with the `{{publication.formats.full}}` reference and will be rendered with the `yyyy/MM/dd` format with the `hu-HU` locale in the `Europe/Budapest` time zone.
+Custom formats can be accessed in your views using dot notation, appended to the property name: {{&lt;property&gt;.formats.&lt;format-name&gt;}}.
+For example, using {{publication.formats.full}} will render the publication date using the format `yyyy/MM/dd` with the `hu-HU` locale and the `Europe/Budapest` time zone.
 
-This gives you felxibilty on how you can represent Date objects, however many built in date format are available out of the box. You can access `short`, `medium`, `full` and `long` styles under the `date` and `time` keys of the `DateContext` objects (`{{&lt;property&gt;.date.medium}}`, `{{&lt;property&gt;.time.short}}`). A `timestamp` and an `ISO8601` formatted date is also available (`{{&lt;property&gt;.timestamp}}`, `{{&lt;property&gt;.iso8601}}`).
+This approach provides flexibility in how date values are presented across your site.
+
+In addition to custom formats, Toucan also provides several built-in representations out of the box. These include:
+
+- Localized formats under the `.date` and `.time` keys:
+  - {{<property>.date.short}}
+	- {{<property>.date.medium}}
+	- {{<property>.date.full}}
+	- {{<property>.date.long}}
+	- {{<property>.time.short}}
+  - {{<property>.time.medium}}
+  - {{<property>.time.full}}
+  - {{<property>.time.long}}
+
+- Raw formats:
+	- {{<property>.timestamp}} – Unix timestamp
+	- {{<property>.iso8601}} – **ISO 8601** string
+
+These format variants allow for rich and consistent date rendering across HTML, RSS feeds, JSON APIs, and more.
 
 ## Engine
 
-The `engine` section defines the [rendering engine](https://www.notion.so/docs/rendering/engines/) used to generate the final output.
+The engine section specifies which [rendering engine](/docs/rendering/engines/) Toucan should use to produce the final output files.
 
-Toucan currently supports two engines:
+Toucan currently supports the following engines:
+	•	`mustache` — for rendering text-based output (typically HTML) using Mustache templates.
+	•	`json` — for generating raw JSON output, often used in API responses or search.
 
-- `mustache`
-- `json`
+Each engine type can be configured with its own set of options, depending on the output format and content requirements.
 
-Each engine can have its own set of options.
-You can read more about engines [here](https://www.notion.so/docs/rendering/engines/).
+To learn more about how each engine works and how to configure them, see the [engines](/docs/rendering/engines/) documentation.
 
 ## Queries
 
@@ -295,7 +324,7 @@ queries:
         direction: desc
 ```
 
-You can read more about queries [here](https://www.notion.so/docs/rendering/queries/).
+You can read more about queries [here](/docs/rendering/queries/).
 
 ## Iterators
 
@@ -314,7 +343,7 @@ iterators:
       - key: publication
         direction: desc
 ```
-You can read more about iterators [here](https://www.notion.so/docs/rendering/iterators/).
+You can read more about iterators [here](/docs/rendering/iterators/).
 
 ## Assets
 
@@ -322,7 +351,7 @@ Define your asset properties and asset behaviors under the `assets` key of your 
 
 ### Asset properties
 
-With `Asset Properties` it is possible to inject your assets into the front matter.
+The `assets.properties` section allows you to inject asset references into the front matter during pipeline execution.
 
 ```yaml
 assets:
@@ -334,11 +363,10 @@ assets:
         name: "style"
         ext: "css"
 ```
-
-The `property` field decide which property we inject into.
-`resolvePath` helps to replace `{{baseUrl}}` in your path if needed.
-`input` specifies the file we use. You can use `*` to refer to all files with the given extension.
-`action` defines what happens with your asset and front matter. There are 4 action types supported.
+- `property` – Specifies the front matter property into which the asset will be injected (e.g., css or js).
+- `resolvePath` – If true, Toucan will resolve the asset path and replace `{{baseUrl}}` accordingly.
+- `input` – Defines the file to use. You can use wildcards (*) to match multiple files by extension or name.
+- `action` – Determines how the asset should be applied to the front matter. Toucan supports four action types:
 
 @FAQ {
     @Question {
@@ -378,13 +406,15 @@ The `property` field decide which property we inject into.
 
 ### Asset Behaviors
 
-In Toucan, asset behaviors define how specific files — such as stylesheets — are processed during the pipeline execution. There are 3 behaviors available:
+In Toucan, asset behaviors define how specific files — such as stylesheets — are handled during the rendering process. These behaviors can transform, optimize, or simply transfer asset files to the output directory.
 
-- `compile-sass` - Helps to support `Syntactically Awesome Stylesheets`.
-- `minify-css` - Minifies CSS files.
-- `copy` - Simply copies an asset files into the destionation.
+Toucan currently supports the following behavior types:
 
-Specify behaviors under the `assets/behaviors` keys using their name as identifier. It is used to all your content assets by default.
+- `compile-sass` - Compiles `Syntactically Awesome Stylesheets` files.
+- `minify-css` - Reduces the size of CSS files by removing whitespace, comments, and redundant code.
+- `copy` - Copies the original asset file directly to the output destination without modification.
+
+Behaviors are configured under the `assets.behaviors` key in your pipeline file. If no additional input filters are defined, the behavior is applied to all matching asset files by default.
 
 ```yaml
 assets:
@@ -392,7 +422,7 @@ assets:
     - id: copy
 ```
 
-You can also specify custom `input` files using the `path`, `name` and `ext` fields if you want to limit what assets should be used in the behavior. It is possible to set a custom `output` `name` and extension (`ext`) as well. "*" is supported as a wildcard character.
+You can target specific files for processing by defining an input block using the `path`, `name`, and `ext` fields. This lets you limit the scope of a behavior to certain assets. You can also configure an `output` block to control the resulting file’s name and extension.
 
 ```yaml
 assets:
@@ -409,12 +439,9 @@ assets:
 
 ## Transformers
 
-Transformers allow processing content in a custom way during the rendering process.
+Transformers allow you to dynamically generate or modify content during the rendering process using external scripts.
 
-A transformer is an external script or program that generates content dynamically.
-Transformers can be written in any programming language, as long as they can be executed by the operating system.
-
-They are useful when content is not available locally, needs to be fetched from external sources — for example, pulling articles from a 3rd-party API or service.
+A transformer is an external program or script — written in any language executable by the operating system — that is run as part of a pipeline. This is particularly useful when content must be fetched or computed at build time, such as retrieving articles from a third-party API, generating content from a headless CMS, or performing custom data transformations.
 
 ```yaml
 transformers:
@@ -425,18 +452,24 @@ transformers:
     isMarkdownResult: false
 ```
 
-The example above runs a script named `swiftinit` located in `transformers` directory. The `isMarkdownResult: false` line indicates that the result is already in the desired format, there is no need to call the markdown rendering step on it.
+In this example:
+- The run block defines what script to execute.
+- The `swiftinit` script is located in the `transformers` directory.
+- The `isMarkdownResult: false` flag tells Toucan that the script’s output is already in its final format (HTML), and should not be processed by the Markdown renderer.
 
-Read the detailed guide about transformers [here](https://www.notion.so/docs/rendering/transformers/).
+> If `isMarkdownResult` were true (or omitted), Toucan would treat the transformer output as raw Markdown and process it accordingly.
+
+For a complete walkthrough refer to the [Transformers](/docs/rendering/transformers/) guide.
 
 ## Output
 
-The `output` section defines how the final output files are created.
-It consists of:
+The `output` section defines how and where the final rendered files are written to disk. It controls the output directory structure, filenames, and file extensions for each rendered page.
 
-- `path` — the folder structure for the output
-- `file` — the filename
-- `ext` — the file extension
+This section consists of three keys:
+
+- `path` — the output folder relative to the site root
+- `file` — the output file name (without extension)
+- `ext` — the file extension (e.g. html, json)
 
 All of these values can use template variables, such as `{{slug}}`, to dynamically generate folder structures and filenames during rendering. Any front matter key from the content can be referenced as a template variable in the output configuration.
 
@@ -447,20 +480,20 @@ output:
   ext: html
 ```
 
-The following template variables are also supported to make paginated outputs possible:
+The following template variables are also supported to support paginated outputs:
 
-- `{{iterator.current}}`
-- `{{iterator.total}}`
-- `{{iterator.limit}}`
+- `{{iterator.current}}` - current page number in pagination
+- `{{iterator.total}}` - total number of pages
+- `{{iterator.limit}}` - items per page
 
 ## Examples
 
 @FAQ {
     @Question {
-        A simple 404 pipeline
+        Simple 404 pipeline
     }
     @Answer {
-        Includes only the `not-found` content type. Commonly you only create a single content with that type (`contents/404/index.md`) which will be rendered with the `pages.404` view.
+        This pipeline is responsible for rendering the site’s 404.html page. It includes only the `not-found` content type — typically a single content bundle like `contents/404/index.md` — and uses the `pages.404` view for rendering.
 
         ```yml
         id: not-found
@@ -482,7 +515,7 @@ The following template variables are also supported to make paginated outputs po
           ext: html
         ```
 
-        The result is a single `404.html` file.
+        This configuration generates a single output file: `404.html` in the root of the site.
     }
 }
 
@@ -491,7 +524,7 @@ The following template variables are also supported to make paginated outputs po
         API pipeline to list all posts in a JSON file.
     }
     @Answer {
-        This pipeline defines its own virtual type, manual creation is unnecessary. As additional context it runs a query to list all posts using the `mustache` engine and a keyPath to receive a simplified result.
+        This pipeline is configured to output a JSON file containing all post entries, sorted by publication date. It defines its own virtual content type via `definesType: true`, so no manual type declaration is required elsewhere.
 
         ```yml
         id: api
@@ -520,16 +553,16 @@ The following template variables are also supported to make paginated outputs po
           ext: json
         ```
 
-        The result is a `posts.json` file in the `api` directory containing an array of post items sorted by publication in descending order extracted from the `context.posts` keyPath.
+        The output is a `posts.json` file placed in the `api` directory. It contains an array of `post` entries, sorted by the publication date in descending order, extracted from the `context.posts` keyPath.
     }
 }
 
 @FAQ {
     @Question {
-        API pipeline to list all posts in a JSON file.
+        Redirect pipeline for rendering per-content pages
     }
     @Answer {
-        Renders only the `redirect` contents with the `redirect` view. This pipeline defines its own virtual type, manual creation is unnecessary. As additional context it runs a query to list all posts using the `mustache` engine and a keyPath to receive a simplified result.
+        This pipeline renders all content items with the `redirect` type using the `redirect` view.
 
         ```yml
         id: redirect
@@ -550,6 +583,6 @@ The following template variables are also supported to make paginated outputs po
           ext: html
         ```
 
-        The result is an `index.html` file under the directory structure based on the slug for each `redirect` content.
+        Each `redirect` content item is rendered to an `index.html` file placed under a `path` derived from its `slug`, creating a clean per-entry directory structure.
     }
 }
