@@ -42,7 +42,7 @@ id: "my-custom-id"
 
 Specifies the [content type](/docs/content-management/content-types) of the item. Defining a type allows Toucan to validate properties and relations.
 
-```yml
+```md
 ---
 type: "author"
 ---
