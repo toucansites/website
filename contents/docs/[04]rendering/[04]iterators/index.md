@@ -41,7 +41,8 @@ In this example, Toucan will paginate over all post items, 12 per page, sorted b
 ## Iterator bundle
 
 To render the paginated output, you need to create a content bundle that references the iterator. This is done by using the iterator’s identifier enclosed in double curly braces as the filename or slug:
-{{iterator_id}}
+
+`{{iterator_id}}`
 
 For instance, the `post.pagination` iterator would correspond to `{{post.pagination}}`.
 
