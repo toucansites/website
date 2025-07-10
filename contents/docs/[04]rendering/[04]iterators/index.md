@@ -103,9 +103,9 @@ However, iterator bundles are generated dynamically and are often placed alongsi
 
 To avoid this, always define the type explicitly in iterator bundles:
 
+```md
 ---
 type: page
-...
 ---
 
 This ensures the correct template is applied and avoids accidental inheritance of unrelated paths from other content types.
