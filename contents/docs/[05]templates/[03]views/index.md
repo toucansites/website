@@ -57,7 +57,7 @@ The rendered output would be:
 <html>
 ```
 
-The special variable {{.}} refers to the current value within the block.
+The special variable `{{.}}` refers to the current value within the block.
 
 ## Loops
 
