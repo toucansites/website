@@ -62,10 +62,11 @@ slug: "new/slug/to/use"
 
 Maps rendering pipelines to specific [views](/docs/templates/views) using key-value pairs. This is a convenient way to override view selection defined in your [mustache engine](/docs/rendering/engines#mustache) configuration.
 
-```yml
+```md
+---
 views: 
   <pipeline-id>: "<view-keyPath>"
-```
+---
 
 You can also use a wildcard (*) to apply a view to all pipelines:
 
