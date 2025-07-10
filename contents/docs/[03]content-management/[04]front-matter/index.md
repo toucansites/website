@@ -52,7 +52,7 @@ type: "author"
 
 Defines the canonical URL path (slug) for the content. By default, the slug is derived from the project structure, but you can override it with this field. See [slug management](/docs/content-management/content-bundles#slug-management) for more details.
 
-```yml
+```md
 ---
 slug: "new/slug/to/use"
 ---
