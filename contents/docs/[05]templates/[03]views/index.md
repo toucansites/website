@@ -99,7 +99,7 @@ Output:
 
 Partials allow you to include and reuse snippets of markup across multiple templates. This helps keep your templates clean and organized.
 
-You include them using the {{> partialName}} syntax.
+You include them using the `{{> partialName}}` syntax.
 
 ```html
 <h1>Hello, World!</h1>
