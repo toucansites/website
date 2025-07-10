@@ -32,7 +32,7 @@ Some front matter keys are reserved for internal use during content processing. 
 
 A globally unique identifier for the content item. Toucan typically infers this from the file path, but you can override it manually — useful in advanced cases such as when working with [transformers](/docs/rendering/transformers).
 
-```yml
+```md
 ---
 id: "my-custom-id"
 ---
