@@ -1,7 +1,7 @@
 ---
 category: "templates"
 title: "Views"
-description: "Basic guide on how to use Mustache for creating static site templates for Toucan"
+description: "Basic guide on how to use Mustache for creating static site templates for Toucan."
 order: 3
 ---
 

@@ -48,18 +48,18 @@ tags:
 
 ## Assets
 
-Assets typically live in a directory called assets, and include subfolders for `css` and `js`.
+Static assets such as CSS, JavaScript and images live inside the assets directory. The entire directory is recursively copied to the output root during site generation, preserving the structure.
 
 ### CSS files
 
-Toucan templates split styles into modular CSS files for maintainability. Here are the most common files and what they do:
+CSS files are organized into functional modules for better maintainability and reusability. Toucan templates often include the following standard stylesheets:
 
 @FAQ {
     @Question {
         `variables.css`
     }
     @Answer {
-        Defines color tokens, spacing, typography, and theme variables for light/dark mode.
+        Defines color tokens, typography, spacing units, and theme variables (e.g., light/dark mode support).
     }
 }
 
@@ -68,7 +68,7 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `theme.css`
     }
     @Answer {
-        Template-specific visual styles, including buttons, pagination, callouts, and layout spacing.
+        Contains theme-specific styling including UI elements like buttons, cards, callouts, and page spacing.
     }
 }
 
@@ -77,7 +77,7 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `base.css`
     }
     @Answer {
-        Provides foundational styles for typography elements like paragraphs, links, lists, and headings.
+        Sets up foundational styles for text elements like headings, lists, links, and paragraphs.
     }
 }
 
@@ -86,7 +86,7 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `grid.css`
     }
     @Answer {
-        Defines utility classes for responsive grid layouts (e.g. grid-2, grid-321, grid-421).
+        Provides utility classes for building responsive layouts (e.g. grid-2, grid-321, grid-421).
     }
 }
 
@@ -95,7 +95,7 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `navigation.css`
     }
     @Answer {
-        Styles the primary navigation menu, including layout, hover/focus states, and mobile toggle.
+        Handles layout and behavior of the site’s navigation bar, including mobile toggling and focus states.
     }
 }
 
@@ -104,7 +104,7 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `footer.css`
     }
     @Answer {
-        Handles footer layout, link styling, and responsive spacing in the bottom section of the page.
+        Styles the footer section, including spacing, layout, and link appearance.
     }
 }
 
@@ -122,25 +122,27 @@ Toucan templates split styles into modular CSS files for maintainability. Here a
         `modern-base.css`
     }
     @Answer {
-        Adds light opinionated improvements like better focus outlines, selection styling, and readability tweaks.
+        Adds a few light, opinionated improvements like focus outlines, selection highlights, and general readability/accessibility tweaks.
     }
 }
 
-Keeping styles modular helps you reason about changes and avoids unexpected side effects across the site.
+Splitting styles into logical modules makes templates easier to customize and debug.
 
 ### JS files
 
-A `js` folder is optional, but commonly used for site-wide interactivity. A good example is the [T-Doc template](https://github.com/toucansites/t-doc-template), where the JS folder contains the logic for toggling navigation or enabling client-side search.
+Templates may include a js directory for JavaScript functionality such as mobile navigation toggles or search. While optional, it’s common in interactive templates.
+
+For reference, see the [T-Doc template](https://github.com/toucansites/t-doc-template), which includes JS modules for site navigation and client-side searching.
 
 ## Views
 
-The views folder contains all the Mustache templates used to render content. These are organized in subfolders like pages, blog, docs, or partials, based on content type.
+The views folder contains all Mustache templates used to render content. These are organized by purpose or content type — typically into subdirectories like `pages/`, `blog/`, `docs/`, and `partials/`.
 
 ### Base view
 
-At the core of every template is the `html.mustache` file. It defines the shared HTML structure — like the <head>, metadata, navigation, and footer — and uses a parent/child block pattern for injecting content.
+The root layout of most Toucan templates is defined in `views/html.mustache`. This acts as the wrapper for all other views and includes the site’s shared structure—such as the `head`, `navigation`, and `footer`. It also defines Mustache blocks (e.g. {{$main}}) that child views can override.
 
-For an explanation of layout inheritance, see the [Views](/docs/templates/views) article.
+> For more on how inheritance and block injection works, see the [Views](/docs/templates/views) article.
 
 ### Page views
 
@@ -151,7 +153,7 @@ Page templates are grouped in folders by type, mimicking the site’s structure.
         `docs/category/default.mustache`
     }
     @Answer {
-        Template for documentation categories
+        Renders documentation category pages.
     }
 }
 
@@ -160,13 +162,12 @@ Page templates are grouped in folders by type, mimicking the site’s structure.
         `blog/post/default.mustache`
     }
     @Answer {
-        Template for blog posts.
+        Renders blog post pages.
     }
 }
 
-This structure reflects the content hierarchy and makes it easier to locate or override templates.
-
-In your template’s config, these views are mapped using the engine settings:
+This structure reflects the content hierarchy and makes it easier to locate or override views.
+In your pipeline configuration, these views are mapped using the engine settings:
 
 ```yml
 engine:
@@ -190,7 +191,7 @@ By convention, views for top-level pages live in the `pages` directory. Here are
         `Default page`
     }
     @Answer {
-        `pages/default.mustache` - used for most general pages.
+        `pages/default.mustache` — generic page layout used for most standard content.
     }
 }
 
@@ -199,7 +200,7 @@ By convention, views for top-level pages live in the `pages` directory. Here are
         `Home page`
     }
     @Answer {
-        `pages/home.mustache` - custom layout for the landing page.
+         `pages/home.mustache` — specialized layout for the site’s landing page.
     }
 }
 
@@ -208,22 +209,24 @@ By convention, views for top-level pages live in the `pages` directory. Here are
         `404 page`
     }
     @Answer {
-        `pages/404.mustache` - view for handling not found errors.
+        `pages/404.mustache` — used for rendering error pages when content isn’t found.
     }
 }
 
 You can customize or add more views depending on your site’s needs.
 
+### Partials
+
 The `partials` folder contains reusable components that can be included in any view using Mustache’s `{{> name}}` syntax. These help keep your templates modular.
 
-Some common partials include:
+Common examples include:
 
 @FAQ {
     @Question {
         `navigation.mustache`
     }
     @Answer {
-        Contains the main site navigation and mobile menu toggle.
+        Defines the main navigation bar and mobile menu. Included in most top-level layouts.
     }
 }
 
@@ -232,15 +235,15 @@ Some common partials include:
         `footer.mustache`
     }
     @Answer {
-        Includes the footer links, GitHub reference, and credits.
+        Renders the footer section, including links, social icons, and licensing info.
     }
 }
 
-These partials are automatically included in views like `html.mustache`, so updates here will propagate across all pages.
+These partials are included in views like `html.mustache`, so updates here will propagate across all pages.
 
 You can also define your own partials for things like cards, callouts, pagination controls, or buttons — and reuse them across blog posts, documentation, or other content views.
 
-## Other top level views
+## Utility views
 
 Some files exist outside the main content tree but are essential for generating common site infrastructure:
 
@@ -348,6 +351,15 @@ Toucan templates also support progressive web app (PWA) metadata and light/dark 
 <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="/manifest.json">
+```
+
+```css
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000;
+    --text-color: #ccc;
+  }
+}
 ```
 
 This enhances mobile experience and adds support for installable apps and proper browser theming.
@@ -482,25 +494,3 @@ Core spacing and visual consistency come from:
 }
 
 Using custom properties (CSS variables) allows template authors and site owners to easily override styles without touching the entire CSS stack.
-
-### Theme support
-
-Toucan templates also support dark mode out of the box using the `prefers-color-scheme` media query:
-
-```css
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #000;
-    --text-color: #ccc;
-  }
-}
-```
-
-The base layout (html.mustache) includes color-specific <meta> tags to enhance native browser theming:
-
-```html
-<meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
-```
-
-This approach provides a polished experience across devices without JavaScript toggles or client-side themes.

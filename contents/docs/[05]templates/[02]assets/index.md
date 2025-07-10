@@ -1,7 +1,7 @@
 ---
 category: "templates"
 title: "Assets"
-description: "Template assets are static files that are copied recursively to the root folder of the generated site"
+description: "Template assets are static files that are copied recursively to the root folder of the generated site."
 order: 2
 ---
 
