@@ -64,7 +64,7 @@ You can set up different build target configurations for your project. By defaul
 
 Toucan is also smart enough to find target-specific configuration files based on the target name. 
 
-For example, if you create files like `config.dev.yml` and `config.live.yml`, you can have different settings for each target, such as localization, file paths, and more.
+For example, if you create files like `config-dev.yml` and `config-live.yml`, you can have different settings for each target, such as localization, file paths, and more.
 
 In the [next section](/docs/getting-started/configuration/), we will explain in detail how configuration works and how you can use it to customize your project.
 
