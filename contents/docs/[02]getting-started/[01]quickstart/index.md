@@ -23,7 +23,7 @@ You can either install the command line utility or use the [official Docker imag
 brew install toucansites/toucan/toucan
 
 # Linux (deb)
-wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.5/toucan-linux-amd64-1.0.0.beta.5.deb
+wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.6/toucan-linux-amd64-1.0.0.beta.6.deb
 sudo dpkg -i toucan-linux-amd64-1.0.0.beta.5.deb
 
 # Linux (rpm)
