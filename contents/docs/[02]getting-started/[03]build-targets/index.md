@@ -60,7 +60,9 @@ These files are ready to be published on GitHub Pages or any other static file h
 
 You can set up different build target configurations for your project. By default, Toucan uses the `config.yml` file and looks for it in the working directory, which you specify with the target’s input key.
 
-> tip: Toucan is also smart enough to find target-specific configuration files based on the target name. 
+### Target-specific configuration
+
+Toucan is also smart enough to find target-specific configuration files based on the target name. 
 
 For example, if you create files like `config.dev.yml` and `config.live.yml`, you can have different settings for each target, such as localization, file paths, and more.
 
