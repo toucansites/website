@@ -96,7 +96,7 @@ By setting both the input and output locale and time zone, you can easily add pr
 If you want to learn more about working with content and localization, you can continue with the content management guides or check out our open-source example projects. These resources will help you understand how to manage your website’s content and support multiple languages easily.
 
 
-## Specification 
+## Reference 
 
 Below is a breakdown of each key in the configuration file, organized by section for easy reference:
 
