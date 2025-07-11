@@ -27,7 +27,7 @@ wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.6/toucan
 sudo dpkg -i toucan-linux-amd64-1.0.0.beta.5.deb
 
 # Linux (rpm)
-wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.5/toucan-linux-x86_64-1.0.0.beta.5.rpm
+wget https://github.com/toucansites/toucan/releases/download/1.0.0.beta.6/toucan-linux-x86_64-1.0.0.beta.6.rpm
 sudo rpm -i toucan-linux-x86_64-1.0.0.beta.5.rpm
 
 # verify installation
