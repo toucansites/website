@@ -34,11 +34,11 @@ The following YAML configuration can be used to create a custom `Link` element:
 name: link
 parameters:
   - label: url
-    default: ""
+    defaultValue: ""
   - label: class
-    default: ""
+    defaultValue: ""
   - label: target
-    default: "_blank"
+    defaultValue: "_blank"
 removesChildParagraph: true
 #requiresParentDirective: myContainer
 #output: "<a class="{{class}}" href="{{url}}" target="{{target}}">{{contents}}</a>"
@@ -80,7 +80,7 @@ Additional block directive examples can be found in the site’s source code on 
         Defines custom parameters for the block directive.
 
         - **label** - The parameter label.
-        - **default** - The default value if the parameter is not provided.
+        - **defaultValue** - The default value if the parameter is not provided.
     }
 }
 

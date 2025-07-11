@@ -6,8 +6,6 @@ navigation:
       url: "/news/"
     - label: "Docs"
       url: "/docs/"
-    - label: "FAQ"
-      url: "/faq/"
     - label: "Templates"
       url: "/templates/"
     - label: "Showcases"

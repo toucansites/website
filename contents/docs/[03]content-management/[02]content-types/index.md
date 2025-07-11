@@ -14,7 +14,7 @@ Custom content types are defined in the `types` folder as simple YAML files.
 
 Each content type defines its own properties, relations and queries.
 
-## Basics, and properties
+## Basics and properties
 
 Here's an example content type:
 
@@ -117,8 +117,6 @@ For example, `{{authors}}` will contain author objects sorted by name.
 That’s how content types and relations work in Toucan.
 
 ## Reference
-
-
 
 ### Properties
 

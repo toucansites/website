@@ -1,7 +1,7 @@
 ---
 category: "deployment"
 title: "GitHub Pages"
-description: "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site"
+description: "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site."
 order: 1
 ---
 
@@ -9,123 +9,176 @@ order: 1
 
 Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.
 
-## Creating a repository for your site
 
----
+## Creating a Repository
 
-You can either create a repository or choose an existing repository for your site.
+To host a Toucan-generated website on GitHub Pages, begin by creating a new repository or selecting an existing one. If you are working within an existing repository, proceed directly to the [Deploying with GitHub Pages](/docs/deployment/github-pages/#deploy-using-github-actions) guide.
 
-If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.
+Navigate to the upper-right corner of any GitHub page. Click the `+` icon, then select **New repository**:
 
-If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.
+![GitHub create new repository](./assets/github-create-new-repository.png)
 
-If you want to create a site in an existing repository, skip to the [Creating your site](/docs/deployment/github-pages#creating-your-site) section.
 
-1. In the upper-right corner of any page, select `+` , then click **New repository**.
-    ![image1](./assets/image1.png)
+> note: The GitHub Pages URL of your website is going to be (without using a custom domain): `https://owner.github.io/repository-name/`.
 
-2. Use the Owner dropdown menu to select the account you want to own the repository.
-    ![image2](./assets/image2.png)
+From the **Owner** dropdown, select the user or organization account that will own the repository. Enter a custom name for the repository:
 
-    <user>.github.io or <organization>.github.io
+![GitHub enter repository name](./assets/github-enter-repository-name.png)
 
-3. Type a name for your repository and an optional description. If you're creating a user or organization site, your repository must be named `user.github.io` or `organization.github.io`. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
-![image3](./assets/image3.png)
 
-4. For the repository visibility, choose **public**. For more information, see [About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility).
+Set the repository visibility to **Public**. Refer to [About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility) for details.
 
-5. Select **Initialize this repository with a README**.
+> note: GitHub requires public visibility for Pages sites hosted under Free or Free for Organizations plans.
 
-6. Click **Create repository**.
+Click **Create repository** to complete setup.
 
-## Add content to the repository
 
----
+## Adding Content to Your Repository
 
-1. Clone the Repository locally to your computer, if not already done:
+Once your repository is set up, commit the necessary files. 
 
-    ```
-    git clone https://github.com/your-username/your-repository.git
-    ```
+Clone the repository to your local machine:
 
-2. Navigate to the local repository folder and copy the `src` folder with all the content.
-    Use the generator’s serve command:
+```bash
+git clone https://github.com/owner/repository-name.git
+```
 
-    ```
-    toucan generate
-    ```
+Copy your website’s source files into the repository, or use the repository to create a new site directly. 
 
-    After succesfull generation all the data is generated inside the `docs` folder by Toucan.
+Add, commit and push the source files to the repository, use the main branch:
 
-3. Push all the content to GitHub, add and commit files:
+```bash
+git add .
+git commit -m "Add site source"
+git push origin main
+```
 
-    ```
-    git add .
-    git commit -m "Add generated site content"
-    git push origin main
-    ```
+After you've pushed the content files and folders should appear on the GitHub repository. Now you are ready to deploy your website using GitHub Actions.
 
-## Creating your site
 
----
+## Deploy using GitHub Actions 
 
-Before you can create your site, you must have a repository for your site on GitHub. If you're not creating your site in an existing repository, see [Creating a repository for your site](/docs/deployment/github-pages#creating-a-repository-for-your-site).
 
-1. On GitHub, navigate to your site's repository.
+After pushing your content to GitHub, configure GitHub Pages to publish your website using one of the supported deployment methods.
 
-2. Under your repository name, click `Settings`. If you cannot see the `Settings` tab, select the `...` dropdown menu, then click `Settings`.
+Navigate to your repository on GitHub. In the top menu, go to **Settings** → **Pages** under the **Build and deployment** section.
 
-3. In the `Code and automation` section of the sidebar, click `Pages`.
+Choose how you want GitHub Pages to deploy your site, select the **GitHub Actions** option:
 
-4. Under Source, leave the option `Deploy from a branch`.
-    ![image4](./assets/image4.png)
+![GitHub pages deploy using actions](./assets/github-pages-deploy-using-actions.png)
 
-5. Under Branch:
-     ![image5](./assets/image5.png)
-    - Select the branch where you committed your files (e.g., main).
-    - Choose the **/docs** folder as the source.
-    - Click Save.
 
-6. Check the published site, GitHub will provide a public URL for your site, such as:
+Verify that `.github/workflows/deploy.yml` exists in the repository. If your repository does not include the `deploy.yml` file, you can find an example at:  [toucansites/github-workflows](https://github.com/toucansites/github-workflows):
 
-    ```text
-    https://your-username.github.io/my-github-page/
-    ```
+```yml
+name: Build and Deploy with Toucan
 
-## Managing a custom domain
+on:
+  push:
+    tags:
+        - 'v*'
+        - '[0-9]*'
+    branches:
+        - main
 
----
+jobs:
+  build-with-toucan:
+    uses: toucansites/github-workflows/.github/workflows/deploy.yml@main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    with:
+      #version: "1.0.0-beta.6"
+      target: "github-deploy"
+```
 
-You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.
+Add, commit and push this file to your to your repository.
 
-1. On GitHub, navigate to your site's repository.
+When deploying with GitHub Actions, the workflow will automatically select either:
 
-2. Under your repository name, click `Settings`. If you cannot see the `Settings` tab, select the `...` dropdown menu, then click `Settings`.
+- the `default` target defined in your toucan.yml file, or
+- the explicit target specified in the `GitHub Actions workflow` trigger.
 
-3. In the `Code and automation` section of the sidebar, click `Pages`.
+Ensure that your `toucan.yml` is correctly configured and that the appropriate target is used when initiating a deployment:
 
-4. Under `Custom domain`, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a `CNAME` file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no `CNAME` file is created, so you need to create one manually (containing only a line of text with your custom domain).
-    ![image6](./assets/image6.png)
+```bash
+targets:
+    - name: dev
+      default: true
+    
+    - name: "github-deploy"
+      output: "/tmp/output"
+      url: "https://owner.github.io/repository-name/"
+```
 
-5. Navigate to your DNS provider (e.g., Namecheap, GoDaddy, Cloudflare) and update the DNS records.
 
-    For Apex Domains (e.g., example.com), set up an `A` record pointing to GitHub’s IP addresses:
+By default the GitHub pages has a protection rule, that only allows deployments from the main branch. If you are planning to deploy after you publish a release or tag the repository, you have to change this protection rule.
 
-    ```text
-    185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
-    ```
+Navigate to the repository **Settings** click on the **Environments** menu item:
 
-    For Subdomains (e.g., www.example.com), set up a `CNAME` record pointing to:
+![GitHub settings environments](./assets/github-settings-environments.png)
 
-    ```text
-    username.github.io
-    ```
+Click on **github-pages**, under the **Deployment branches and tags** section, select **Add deployment branch or tag rule** and set the **Ref type** to `Tag`:
 
-    (Replace “username” with your GitHub username)
+![GitHub environment rule](./assets/github-environment-rule.png)
 
-6. Enforce HTTPS (Optional but Recommended)
-    - After DNS propagation (may take a few minutes to 24 hours), go back to GitHub Pages settings.
-    - Ensure `Enforce HTTPS` is enabled
+Enter a name pattern such as:
+ - `*` — to allow all tags
+ - `*/*` — to support namespaced tags like `release/v1.0.0`  
+ - `v*-b*` - to support beta releases, like `v1.0.0-beta.1`
+
+Click **Add rule** to confirm the configuration.
+
+> warn: If the environment is not properly configured, deployments will be blocked with an error such as: Tag `1.0.0-beta.2` is not allowed to deploy to github-pages due to environment protection rules.
+
+To trigger the GitHub Actions deployment workflow, create a new release or add a tag to your repository.
+
+## Using a Custom Domain
+
+You can configure your GitHub Pages site to be served from a [custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), such as `example.com`, instead of the default GitHub URL.
+
+Navigate to your repository on GitHub. Go to **Settings** → **Pages**.
+
+Under the **Custom domain** section, enter your domain name and click **Save**:
+
+![GitHub pages custom domain](./assets/github-pages-custom-domain.png)
+
+
+
+Make sure a `CNAME` file is in the deployed directory (usually `dist/`) when you deploy your site. To do this, create a `CNAME` file in the top-level `assets` directory with the following content:
+
+```text
+example.com
+```
+
+Toucan will automatically move this `CNAME` file to the `dist` folder when your site is generated.
+
+
+### DNS Configuration
+
+For Apex Domains (`example.com`), create the following **A records** in your DNS provider’s configuration:
+
+```bash
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
+
+For Subdomains (`www.example.com`), create a **CNAME** record pointing to your GitHub Pages URL:
+
+```bash
+owner.github.io
+```
+
+Replace `owner` with your actual GitHub repository owner name.
+
+
+### Enforce HTTPS
+
+After DNS propagation is complete (which can take anywhere from a few minutes to 24 hours):
+
+- Return to **Settings → Pages** in your GitHub repository.
+- Enable the **Enforce HTTPS** checkbox to ensure secure access to your site.
+
