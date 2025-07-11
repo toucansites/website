@@ -1,7 +1,7 @@
 ---
 category: "installation"
-title: "Compile from source"
-description: "Learn how to compile and install Toucan from source on macOS or Linux."
+title: "Source"
+description: "Learn how to compile and install Toucan from source."
 order: 4
 ---
 
