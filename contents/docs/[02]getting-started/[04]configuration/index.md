@@ -12,7 +12,7 @@ The configuration file sets the main options for the current target. It controls
 
 ## Default values
 
-This file is optional. If you do not have a config file, Toucan will use its built-in default values. The default configuration values are listed below:
+This file is optional. If you do not have a config file, Toucan will use its built-in default values:
 
 ```yaml
 site:
