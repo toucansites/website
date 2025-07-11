@@ -12,6 +12,13 @@ order: 6
 
 Toucan CLI is fully available via Docker using the [`toucansites/toucan`](https://hub.docker.com/repository/docker/toucansites/toucan/general) image. This method eliminates the need for local installation and ensures a consistent environment across different systems.
 
+Make sure Docker is installed and running on your system and please refer to our Docker guide for more information.
+
+```sh
+docker --version
+# Docker version 28.3.0, build 38b7060
+```
+
 ## Init
 
 The `init` command initializes a new Toucan project. It takes an optional argument for the project directory name (defaults to `site` if not specified). It creates the necessary directories and files for your project inside the specified directory.

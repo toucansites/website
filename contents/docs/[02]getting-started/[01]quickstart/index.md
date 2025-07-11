@@ -8,16 +8,15 @@ order: 1
 # Quickstart
 ---
 
-Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a theme.
+Toucan is a modern static site generator, written in Swift, that converts Markdown files into HTML files using a template.
 
 ## Prerequisites
 
-Familiarity with using the command line is highly recommended, as many of the steps in this guide involve executing commands in a terminal. If you're new to the command line, consider reviewing a basic tutorial to get comfortable with navigating directories and running commands.
+It is highly recommended that you are comfortable using the command line, as many steps in this guide require running commands in a terminal. If you are new to the command line, consider reviewing a basic tutorial to help you learn how to navigate directories and execute commands.
 
-- [Homebrew](https://brew.sh/)
-- [Docker](https://www.docker.com/)
+> note: If you are unsure how to install [Homebrew](https://brew.sh/) or [Docker](https://www.docker.com/), please see our complete [installation guide](/docs/installation/) for step-by-step instructions.
 
-Install the command line utility or use the official Docker image to generate a static website using Toucan. To install Toucan, run the following commands:
+You can either install the command line utility or use the [official Docker image](https://hub.docker.com/r/toucansites/toucan) to generate a static website with Toucan. To install Toucan, run the following commands, depending on your environment:
 
 ```sh
 # macOS
@@ -35,49 +34,46 @@ sudo rpm -i toucan-linux-x86_64-1.0.0.beta.5.rpm
 toucan --version
 ```
 
-Alternatively, you can use Docker to run the static site generation without installing Toucan. Make sure you have docker up and running on your system.
+If you don't want to install Toucan on your computer, you can use our Docker images to create your static site instead. In that case, check our [Docker guide](/docs/getting-started/docker/) for the commands you need.
 
-```sh
-# verify docker installation
-docker --version
-```
-
-If you don't know how to install brew or Docker, please refer to our complete installation guide.
 
 ## Minimal example
 
-To get started with Toucan, let's create a minimal example project as a foundation.
-
-Run the following command to initialize a new site:
+To get started with Toucan, let's make a simple example site. Run the command below to set up your new site:
 
 ```sh
 toucan init
 ```
 
-This command will download a minimal starter theme and set up a basic website within a newly created `site` directory, providing everything you need to begin.
+This command downloads a basic starter template and creates a new `site` folder, giving you everything you need to get started.
 
-> **Tip:** Use `toucan init my-site` to create a custom folder named `my-site` instead of the default `site`.
+> tip: Use `toucan init my-site` to create a custom folder named `my-site` instead of the default `site`.
 
-The newly created `site` directory will include all the source materials for your website, such as the `src` directory, which contains contents, pipelines, themes, and content type definitions. To generate the final website, you need to render the source materials. This process converts the Markdown files and other assets into the final HTML files using the render pipeline.
+The new `site` folder will have all the files you need for your website. Your content, pipelines, themes, and content type definitions are all stored in this main folder.
 
-To generate the final website content, execute the following commands:
+To turn these source files into your finished website, you need to run a few more commands. The next step is to convert your Markdown files and other assets into final HTML files using the render pipeline.
+
+To generate your website, use the following command:
 
 ```sh
-# Navigate to the site directory
+# navigate to the site directory
 cd site
-# Generate the final website
+
+# generate the final website
 toucan generate
-#2025-04-15T18:03:52+0200 info toucan : baseUrl=nil input=./src output=./docs [toucan_generate] Site generated successfully.
 ```
 
-The generated website files will be located in a newly created `docs` folder. You can host these files on a file server or use a static website hosting provider, such as GitHub Pages. If you choose to host the site, ensure that the correct [base URL](/docs/getting-started/commands/) is configured, which corresponds to your domain name. 
+The generated website files will be located in a newly created `dist` folder. 
 
-Currently, the `docs` folder contains a local development version of the website. To preview it, run the following command:
+> note: You can host these files on a file server or with a static website provider like GitHub Pages. If you decide to publish your site, make sure you built it with the right [target](/docs/getting-started/build-targets/) for your hosting service.
+
+Right now, the `dist` folder has a local version of your website for development. To see it in your browser, run this command:
 
 ```sh
 toucan serve
 ```
-Now, navigate to [http://localhost:3000](http://localhost:3000) in your browser to view your newly created website. You should see a basic static website generated by Toucan. 
 
-Congratulations! You've successfully built your first static website using Toucan.
+Now, open [http://localhost:3000](http://localhost:3000) in your browser to view your new website. You should see a simple static site created by Toucan. Congratulations! You have successfully built your first static website using Toucan.
+
+In the [next guide](/docs/getting-started/directory-structure/), we will take a closer look at the contents of the site folder and show you how to make basic changes to your website.
 
