@@ -52,7 +52,7 @@ toucan generate --target live
 
 This will put all the generated files into a folder called `live`. 
 
-The output will use toucansites.com as the base URL, so when you use `{{baseUrl}}` in your templates, your links will work correctly in production.
+The output will use `toucansites.com` as the base URL, so when you use `{{baseUrl}}` in your templates, your links will work correctly in production.
 
 These files are ready to be published on GitHub Pages or any other static file hosting service.
 
