@@ -66,7 +66,7 @@ For example, if you create files like `config.dev.yml` and `config.live.yml`, yo
 
 In the [next section](/docs/getting-started/configuration/), we will explain in detail how configuration works and how you can use it to customize your project.
 
-## Target specification
+## Specification
 
 Here are the keys you can use when setting up a build target:
 

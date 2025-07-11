@@ -5,14 +5,14 @@ description: "Learn how to use Toucan CLI with Docker to easily build and deploy
 order: 6
 ---
 
-
-
 # Docker
 ---
 
-Toucan CLI is fully available via Docker using the [`toucansites/toucan`](https://hub.docker.com/repository/docker/toucansites/toucan/general) image. This method eliminates the need for local installation and ensures a consistent environment across different systems.
+Toucan is available via Docker using the official [`toucansites/toucan`](https://hub.docker.com/repository/docker/toucansites/toucan/general) image. 
 
-Make sure Docker is installed and running on your system and please refer to our Docker guide for more information.
+This approach removes the need to install anything locally and provides a consistent environment on any system.
+
+Before running the following commands, please make sure [Docker is installed](https://docs.docker.com/engine/install/) and running on your computer:
 
 ```sh
 docker --version
@@ -21,9 +21,7 @@ docker --version
 
 ## Init
 
-The `init` command initializes a new Toucan project. It takes an optional argument for the project directory name (defaults to `site` if not specified). It creates the necessary directories and files for your project inside the specified directory.
-
-Execute the following:
+The `init` command initializes a new Toucan project. It takes an optional argument for the project directory name (defaults to `site` if not specified). It creates the necessary directories and files for your project inside the specified directory:
 
 ```sh
 docker run --rm -v $(pwd):/app/site \
@@ -34,9 +32,7 @@ docker run --rm -v $(pwd):/app/site \
 
 ## Generate
 
-The `generate` command compiles your project's content and templates into static site files. This is a required step before serving or deploying your website.
-
-Execute the following:
+The `generate` command compiles your project's content and templates into static site files. This is a required step before serving or deploying your website:
 
 ```sh
 docker run --rm -v $(pwd):/app/site \
@@ -47,9 +43,7 @@ docker run --rm -v $(pwd):/app/site \
 
 ## Watch
 
-The `watch` command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected.
-
-Execute the following:
+The `watch` command monitors a source directory for changes and automatically rebuilds the distribution files, regenerating the site whenever changes are detected:
 
 ```sh
 docker run --rm -v $(pwd):/app/site \
@@ -60,9 +54,7 @@ docker run --rm -v $(pwd):/app/site \
 
 ## Serve
 
-The `serve` command launches a local web server for previewing the generated site.
-
-Execute the following:
+The `serve` command launches a local web server for previewing the generated site:
 
 ```sh
 docker run --rm -v $(pwd):/app/site -p 3000:3000 \
@@ -71,4 +63,4 @@ docker run --rm -v $(pwd):/app/site -p 3000:3000 \
   serve --hostname "0.0.0.0" --port 3000 ./site/dist
 ```
 
-After running the above, your site will be accessible at `http://localhost:3000`.
+Once you run the command above, you will be able to access your site at [http://localhost:3000](http://localhost:3000/).
