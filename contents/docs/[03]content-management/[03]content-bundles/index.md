@@ -27,7 +27,7 @@ about           # about is the slug of your page
 └── index.yml   # contains the front matter
 ```
 
-Inside the about folder, there are two files:
+Inside the `about` folder, there are two files:
 
 - `index.md`: This file contains the main markdown content for the page, such as text, images, and formatting.
 - `index.yml`: This file holds the front matter keys, which are the metadata for the page (like the title, description, or custom key-value pairs).
