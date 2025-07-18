@@ -19,7 +19,7 @@ A page bundle is essentially a folder containing an `index` file. The file exten
 
 When using markdown files, front matter properties can be added at the top of the file. If using a YAML file, it will be parsed as the front matter. It’s also possible to separate the content and front matter by using both `index.yml` for front matter and `index.md` for content.
 
-In this example, you have a folder named about. The name of the folder becomes the slug:
+In this example, you have a folder named `about`. The name of the folder becomes the slug:
 
 ```text
 about           # about is the slug of your page
