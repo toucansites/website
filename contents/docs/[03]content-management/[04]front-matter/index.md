@@ -12,7 +12,7 @@ Front matter is a section at the top of a markdown file enclosed between two `--
 
 All front matter fields are automatically exposed as context variables and can be accessed in your [views](/docs/templates/views/).
 
-```yaml
+```text
 ---
 title: "My Page"
 description: "This is my page"
@@ -32,7 +32,7 @@ Some front matter keys are reserved for internal use during content processing. 
 
 A globally unique identifier for the content item. Toucan typically infers this from the file path, but you can override it manually — useful in advanced cases such as when working with [transformers](/docs/rendering/transformers).
 
-```md
+```text
 ---
 id: "my-custom-id"
 ---
@@ -42,7 +42,7 @@ id: "my-custom-id"
 
 Specifies the [content type](/docs/content-management/content-types) of the item. Defining a type allows Toucan to validate properties and relations.
 
-```md
+```text
 ---
 type: "author"
 ---
@@ -52,7 +52,7 @@ type: "author"
 
 Defines the canonical URL path (slug) for the content. By default, the slug is derived from the project structure, but you can override it with this field. See [slug management](/docs/content-management/content-bundles#slug-management) for more details.
 
-```md
+```text
 ---
 slug: "new/slug/to/use"
 ---
@@ -62,16 +62,18 @@ slug: "new/slug/to/use"
 
 Maps rendering pipelines to specific [views](/docs/templates/views) using key-value pairs. This is a convenient way to override view selection defined in your [mustache engine](/docs/rendering/engines#mustache) configuration.
 
-```md
+```text
 ---
 views: 
   <pipeline-id>: "<view-keyPath>"
 ---
+```
 
 You can also use a wildcard (*) to apply a view to all pipelines:
 
-```md
+```text
 ---
 views:
   "*": "pages.context"
 ---
+```

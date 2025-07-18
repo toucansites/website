@@ -77,7 +77,9 @@ Each property defined in this section will be validated against the content’s 
 
 ## Relations
 
-A blog post usually can have one or more authors or tags. You can define an individual author type and a tag type, then create relationships between the post, author, and tag using the relations section like this:
+Relations in Toucan are always one-way. They let you link your content types by defining how one type connects to another. This approach helps you organize your data and create clear, meaningful connections between different pieces of content.
+
+For example, a blog post can have one or more authors or tags. You can define a separate author type and a tag type, then create relationships between the post, author, and tag using the relations section like this:
 
 ```yaml
 relations:
@@ -100,7 +102,7 @@ The reference key is the identifier for the related content type. The type shows
 
 ## Example content
 
-Here is how a content markdown file for a blog post might look:
+Here is an example of what a content markdown file for a blog post might look like, based on the properties and relations we described earlier:
 
 ```text
 ---
@@ -125,7 +127,9 @@ The front matter keys must match the property names defined in the content type.
 
 ## Queries
 
-Toucan allows content types to form relations with each other. In some cases, it may be useful to fetch related data when rendering a page. For example, displaying all posts written by a specific author on an author detail page. This can be done using queries.
+Since relations in Toucan are _always_ one-way, you cannot automatically access related objects in both directions. Queries solve this problem by letting you fetch related items from the opposite direction. 
+
+For example, if a post references an author, you can use a query on the author type to get all posts written by that author. This makes it easy to display collections of related content, even when the relationship is only defined in one place.
 
 ```yaml
 id: author
@@ -197,7 +201,9 @@ In the snippet above:
 Relation fields appear in front matter as string references. In templates, they resolve to full objects.
 For example, `{{authors}}` will contain author objects sorted by name.
 
-That’s how content types and relations work in Toucan.
+You always define your relations using the front matter, but you never reference queries within your content. Queries are not included in the content itself; instead, they provide context variables when rendering your template files. This means that while relations help link content items together, queries allow you to fetch and display related data dynamically in your templates, giving you more flexibility and control over how your content appears on the site.
+
+That’s how content types work in Toucan.
 
 ## Reference
 
