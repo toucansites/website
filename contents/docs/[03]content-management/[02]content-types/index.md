@@ -8,42 +8,128 @@ order: 2
 # Content types
 ---
 
-A [content type](/docs/content-management/content-types/) serves as a template for your content. A site can ship multiple content types. For instance, a blog site might need content types for posts, authors, and tags.
+A content type acts as a skeleton for your content. A site can have several content types. For example, a blog might use content types for posts, authors, and tags.
 
-Custom content types are defined in the `types` folder as simple YAML files.
+You define custom content types in the **types** folder using simple YAML files.
 
-Each content type defines its own properties, relations and queries.
+## Basics
 
-## Basics and properties
-
-Here's an example content type:
+Here's an example content type that defines a blog post, we're going to explain the properties relations and queries, later on:
 
 ```yaml
-id: page
-default: true
+id: post
+default: false
+paths:
+    - blog/posts
 
+properties:
+    # list of properties
+
+relations:
+    # list of relations
+
+queries:
+    # list of queries    
+```
+
+The YAML file defines a content type with the following structure:
+
+- `id`: A unique identifier for the content type (for example, `post`).
+- `default`: Marks this as the default content type if set to true. Only one content type can be set as the default. If you mark a type as default: true, it will be the fallback for any content that doesn’t match other types. This helps Toucan know which structure to use when there’s ambiguity.
+- `paths`: The list of file paths, where this type of contents are stored, Toucan will automatically match files in these locations to this content type.
+- `properties`: Lists the fields for this content type.
+- `relations`: Describes the connections with other content types.
+- `queries`: Specifies any additional objects to be queried for this content type.
+
+When you create new content, the content type acts as its backbone. Each content type sets its own properties, relationships, and queries. The path and id help locate and identify each piece of content, making it easier to form relationships and query additional objects for every item.
+
+
+## Properties
+
+For example, a blog post might include a `title`, `description`, `image`, `publication` date, and a flag to mark the article as `featured`. Here’s how you can represent these fields using the content type definition YAML file:
+
+```yaml
 properties:
     title:
         type: string
         required: true
-
     description:
         type: string
         required: true
+    image:
+        type: asset
+        required: true
+    publication:
+        type: date
+        config: 
+            format: "yyyy-MM-dd HH:mm:ss"
+            locale: en-US
+            timeZone: EST
+        required: true
+    featured:
+        type: bool
+        required: false
+        default: false
 ```
 
-This YAML defines a content type with the following structure:
-- `id`: Identifier for the content type (`page`).
-- `default`: Marks this as the default content type, if `true`.
-- `properties`: Defines the fields for this content type:
-    - `title`: A required string field.
-    - `description`: Another required string field.
+Each property defined in this section will be validated against the content’s front matter. If a property is marked as `required`, Toucan will warn you if it’s missing or invalid. Properties can also be used to query your content.
 
-When creating new content, the content type serves as a backbone. Each property defined here will be validated against the content’s front matter. If a property is marked as required, Toucan will warn you if it’s missing. Properties can also be used to query your content.
 
-## Relations and Queries
+## Relations
 
-Toucan allows content types to form relations with each other. In some cases, it may be useful to fetch related data when rendering a page. For example, displaying all posts written by a specific author on an author detail page. This can be done using queries.
+Relations in Toucan are always one-way. They let you link your content types by defining how one type connects to another. This approach helps you organize your data and create clear, meaningful connections between different pieces of content.
+
+For example, a blog post can have one or more authors or tags. You can define a separate author type and a tag type, then create relationships between the post, author, and tag using the relations section like this:
+
+```yaml
+relations:
+    authors:
+        references: author
+        type: many
+        order:
+            key: title
+            direction: asc
+    tags:
+        references: tag
+        type: many
+        order:
+            key: title
+            direction: asc
+```
+
+The reference key is the identifier for the related content type. The type shows if the association is `one` or `many`. You can also set a custom order for each field by giving a `key` and a `direction`.
+
+
+## Example content
+
+Here is an example of what a content markdown file for a blog post might look like, based on the properties and relations we described earlier:
+
+```text
+---
+type: post
+title: "Example post title"
+description: "Example post description"
+publication: "2024-12-15 00:00:00"
+tags: 
+    - releases
+authors:
+    - tibor-bodecs
+# featured: true
+---
+
+# This is an example
+
+Just an example blog post.
+```
+
+The front matter keys must match the property names defined in the content type. All values should be valid. The "featured" field is optional and will default to false if not set. All other fields are required because they use the "required" property in the example definition. Toucan will parse every piece of content and validate it against your content types. This helps you keep your content consistent and well-structured.
+
+
+## Queries
+
+Since relations in Toucan are _always_ one-way, you cannot automatically access related objects in both directions. Queries solve this problem by letting you fetch related items from the opposite direction. 
+
+For example, if a post references an author, you can use a query on the author type to get all posts written by that author. This makes it easy to display collections of related content, even when the relationship is only defined in one place.
 
 ```yaml
 id: author
@@ -89,6 +175,7 @@ properties:
         required: true
     publication:
         type: date
+        
         required: true
     featured:
         type: bool
@@ -114,7 +201,9 @@ In the snippet above:
 Relation fields appear in front matter as string references. In templates, they resolve to full objects.
 For example, `{{authors}}` will contain author objects sorted by name.
 
-That’s how content types and relations work in Toucan.
+You always define your relations using the front matter, but you never reference queries within your content. Queries are not included in the content itself; instead, they provide context variables when rendering your template files. This means that while relations help link content items together, queries allow you to fetch and display related data dynamically in your templates, giving you more flexibility and control over how your content appears on the site.
+
+That’s how content types work in Toucan.
 
 ## Reference
 
@@ -162,16 +251,32 @@ The following property types are available:
 
 @FAQ {
     @Question {
-        **`date`** – A date value with optional formatting.
+        **`asset`** – Asset reference stored as a string value.
     }
     @Answer {
-        Represents a date. Optionally to define the `format` string, `locale`, and `timeZone`.
+        Represents an asset from the content's assets folder. The value of this property will be resolved to a full path when rendering the contents.
+
+        Example:
+        ```yaml
+        type: asset
+        ```
+    }
+}
+
+@FAQ {
+    @Question {
+        **`date`** – A date value with optional configuration.
+    }
+    @Answer {
+        Represents a date with an optional custom configuration. Optionally to define the `format` string, `locale`, and `timeZone` as a config object.
+        
         Example:
         ```yaml
         type: date
-        format: "dd/MM/yyyy"
-        locale: "en-US"
-        timeZone: "PST"
+        config: 
+            format: "ymd"
+            locale: en-US
+            timeZone: EST
         ```
     }
 }
@@ -182,10 +287,12 @@ The following property types are available:
     }
     @Answer {
         Represents an array. The `of` parameter defines the type of its elements.
+
         Example:
         ```yaml
         type: array
-        of: string
+        of: 
+            type: string
         ```
     }
 }
