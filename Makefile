@@ -9,7 +9,7 @@ dist:
 	toucan generate . --target live
 
 diff:
-	diff --color=always -r docs-v4 docs --exclude=api || true
+	diff --color=always -r docs-live docs --exclude=api || true
 
 watch:
 	toucan watch .
