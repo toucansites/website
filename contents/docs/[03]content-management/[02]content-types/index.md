@@ -43,10 +43,19 @@ The YAML file defines a content type with the following structure:
 
 When you create new content, the content type acts as its backbone. Each content type sets its own properties, relationships, and queries. The path and id help locate and identify each piece of content, making it easier to form relationships and query additional objects for every item.
 
-
 ## Properties
 
-For example, a blog post might include a `title`, `description`, `image`, `publication` date, and a flag to mark the article as `featured`. Here’s how you can represent these fields using the content type definition YAML file:
+Properties for a content type are declared under the `properties` field within the content type definition. Each property must define a `type`, which corresponds to a `PropertyType`.
+
+In addition to the type, you can optionally:
+- Mark the property as `required`.
+- Specify a `defaultValue` to be used when the property is not provided.
+
+Every property defined in the content type is automatically validated against the content’s front matter. If a property is marked as `required`, Toucan will emit a warning when the property is missing or contains invalid data.
+
+Properties are also queryable, allowing you to filter or retrieve content items based on their property values.
+
+### Example
 
 ```yaml
 properties:
@@ -69,11 +78,27 @@ properties:
     featured:
         type: bool
         required: false
-        default: false
+        defaultValue: false
 ```
 
-Each property defined in this section will be validated against the content’s front matter. If a property is marked as `required`, Toucan will warn you if it’s missing or invalid. Properties can also be used to query your content.
+### System Properties
 
+The following properties are automatically included in every content type in Toucan, regardless of whether you explicitly define them:
+- `id`: A unique identifier for the content.
+- `slug`: A URL-friendly string used to identify the object.
+- `type`: The associated `ContentType` for the content.
+- `lastUpdate`: A timestamp indicating when the object was last modified.
+
+These properties are required for the content generation process.
+
+By default, Toucan automatically assigns values to these properties. However, you can override `id`, `slug`, and `type` as needed. Overriding is most commonly used when explicitly specifying a `type` for your content.
+
+```yml
+---
+type: page
+title: "Toucan Examples"
+---
+```
 
 ## Relations
 
@@ -180,7 +205,7 @@ properties:
     featured:
         type: bool
         required: false
-        default: false
+        defaultValue: false
 
 relations:
     authors:
