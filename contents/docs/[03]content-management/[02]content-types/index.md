@@ -87,7 +87,7 @@ relations:
         references: author
         type: many
         order:
-            key: title
+            key: name
             direction: asc
     tags:
         references: tag

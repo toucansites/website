@@ -3,7 +3,7 @@ paths:
     - blog/authors
 
 properties:
-    title:
+    name:
         type: string
         required: true
     image:
