@@ -3,5 +3,6 @@
 .vscode
 .build
 /docs
+/docs-live
 /dist
 
