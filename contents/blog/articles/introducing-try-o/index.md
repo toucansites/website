@@ -7,8 +7,6 @@ tags:
     - releases
 authors: 
     - andris-sipos
-featured: true
-
 ---
 
 ## Introducing TRY-O: The first and free blog template for Toucan

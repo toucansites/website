@@ -7,7 +7,6 @@ tags:
     - releases
 authors:
     - tibor-bodecs
-featured: false
 ---
 
 Toucan is now ready for [beta](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.1) testing. During this phase, the focus will be on bug fixes and overall quality-of-life improvements.

@@ -8,8 +8,6 @@ tags:
     - migration-guide
 authors:
     - tibor-bodecs
-featured: true
-
 ---
 
 Here's a list of the most important changes in [this](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.5) release:

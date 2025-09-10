@@ -7,7 +7,6 @@ tags:
     - releases
 authors:
     - tibor-bodecs
-featured: true
 ---
 
 Toucan [1.0.0-beta.5](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.5) is a big update with many improvements and new features. Here are the most important changes in this release:

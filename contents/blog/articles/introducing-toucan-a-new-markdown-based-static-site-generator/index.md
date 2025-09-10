@@ -7,7 +7,6 @@ tags:
     - news
 authors: 
     - andris-sipos
-featured: false
 ---
 
 This exciting project is set to revolutionize the way you create and deploy websites, making the process faster, easier, and more secure than ever before. Here’s a closer look at what makes Toucan the perfect choice for your web development needs.

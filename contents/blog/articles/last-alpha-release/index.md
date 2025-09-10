@@ -7,7 +7,6 @@ tags:
     - releases
 authors:
     - tibor-bodecs
-featured: false
 ---
 
 The alpha testing phase for Toucan is now finished with the release of the final alpha version, [1.0.0-alpha.3](https://github.com/toucansites/toucan/releases). We are preparing to begin the beta release cycle shortly.
