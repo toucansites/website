@@ -14,14 +14,52 @@ Take a look at our official starter templates below:
     @Column {
         [
             ![Try-O template](./assets/try-o.jpg)
-        ](https://binarybirds.gumroad.com/l/TRY-O)
-        [Download](https://binarybirds.gumroad.com/l/TRY-O) | [Source](https://github.com/toucansites/try-o-template) | [Live demo](https://toucansites.github.io/try-o-template-demo/)
+        ](https://toucansites.github.io/try-o-template-demo/)
+        [Live demo](https://toucansites.github.io/try-o-template-demo/) | [GitHub](https://github.com/toucansites/try-o-template)
         
+    }
+    @Column {
+        **Use cases**
+        Documentation, Knowledge base, wiki, course material, support portal, tutorial
+
+        **Creator**
+        Binary Birds
+        
+        **License**
+        MIT
+
+        **Features**
+        2-level hierarchy (category + guide)
+        Search
+        Back-Next navigation between guides
+        Guide outlines (Table of Contents)
+        Custom page support
+        Customization
     }
     @Column {
         [
             ![T-Doc template](./assets/t-doc.jpg)
-        ](https://binarybirds.gumroad.com/l/T_Doc)
-        [Download](https://binarybirds.gumroad.com/l/T_Doc) | [Source](https://github.com/toucansites/t-doc-template) | [Live demo](https://toucansites.github.io/t-doc-template-demo/)
+        ](https://toucansites.github.io/t-doc-template-demo/)
+        [Live demo](https://toucansites.github.io/t-doc-template-demo/) | [GitHub](https://github.com/toucansites/t-doc-template)
+        
+    }
+    @Column {
+        
+        **Use cases**
+        Documentation, Knowledge base, wiki, course material, support portal, tutorial
+
+        **Creator**
+        Binary Birds
+        
+        **License**
+        MIT
+
+        **Features**
+        2-level hierarchy (category + guide)
+        Search
+        Back-Next navigation between guides
+        Guide outlines (Table of Contents)
+        Custom page support
+        Customization
     }
 }

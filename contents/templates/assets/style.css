@@ -6,5 +6,5 @@ main .grid div img:hover {
     border: 8px solid var(--primary-background-color);
 }
 main .grid .column {
-    text-align: center;
+    text-align: left;
 }
