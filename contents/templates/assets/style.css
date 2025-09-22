@@ -7,4 +7,70 @@ main .grid div img:hover {
 }
 main .grid .column {
     text-align: left;
+    align-self: start;
+    justify-self: start;
+}
+
+main .grid .column p {
+    margin: 0;
+}
+main .grid .column br {
+    visibility: hidden;
+    display: none;
+}
+
+dl > div {
+    display: grid;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    grid-gap: 1em;
+}
+
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0;
+    grid-column: 2;
+}
+a.cta {
+    padding: 8px 12px;
+    margin-right: 8px;
+}
+.cta.primary {
+    /* background: green; */
+}
+.cta.secondary {
+    background: none;
+}
+
+dl > div {
+    grid-template-columns: 1fr;
+    margin-top: 32px;
+}
+dd {
+    grid-column: 1; 
+}
+dl > div.features div.list dd {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+dl > div.actions {
+    text-align: center;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 600px) {
+    dl > div {
+        grid-template-columns: minmax(100px, 20%) auto;
+        margin-top: 0px;
+    }
+    dd {
+        grid-column: 2; 
+    }
+    dl > div.actions {
+        text-align: left;
+        margin-top: 32px;
+    }
 }

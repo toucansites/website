@@ -13,53 +13,84 @@ Take a look at our official starter templates below:
 @Grid {
     @Column {
         [
-            ![Try-O template](./assets/try-o.jpg)
-        ](https://toucansites.github.io/try-o-template-demo/)
-        [Live demo](https://toucansites.github.io/try-o-template-demo/) | [GitHub](https://github.com/toucansites/try-o-template)
-        
-    }
-    @Column {
-        **Use cases**
-        Documentation, Knowledge base, wiki, course material, support portal, tutorial
-
-        **Creator**
-        Binary Birds
-        
-        **License**
-        MIT
-
-        **Features**
-        2-level hierarchy (category + guide)
-        Search
-        Back-Next navigation between guides
-        Guide outlines (Table of Contents)
-        Custom page support
-        Customization
-    }
-    @Column {
-        [
             ![T-Doc template](./assets/t-doc.jpg)
         ](https://toucansites.github.io/t-doc-template-demo/)
-        [Live demo](https://toucansites.github.io/t-doc-template-demo/) | [GitHub](https://github.com/toucansites/t-doc-template)
+    }
+    @Column {
+        <dl>
+            <div>
+                <dt>Use cases</dt>
+                <dd>Documentation, Knowledge base, wiki, course material, support portal, tutorial</dd>
+            </div>
+            <div>
+                <dt>Creator</dt>
+                <dd>Binary Birds</dd>
+            </div>
+            <div>
+                <dt>License</dt>
+                <dd>MIT</dd>
+            </div>
+            <div class="features">
+                <dt>Features</dt>
+                <div class="list">
+                    <dd>2-level hierarchy (category + guide)</dd>
+                    <dd>Back-Next navigation between guides</dd>
+                    <dd>Guide outlines (Table of Contents)</dd>
+                    <dd>Custom page support</dd>
+                    <dd>Customization</dd>
+                </div>
+            </div>
+            <div class="actions">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <a class="cta primary" href="https://toucansites.github.io/t-doc-template-demo/">Live demo</a><a class="cta secondary" href="https://github.com/toucansites/t-doc-template">GitHub</a>
+                </dd>
+            </div>
+        </dl>
+
+        
+    }
+    
+    @Column {
+        [
+            ![Try-O template](./assets/try-o.jpg)
+        ](https://toucansites.github.io/try-o-template-demo/)
+        
         
     }
     @Column {
-        
-        **Use cases**
-        Documentation, Knowledge base, wiki, course material, support portal, tutorial
+        <dl>
+            <div>
+                <dt>Use cases</dt>
+                <dd>Documentation, Knowledge base, wiki, course material, support portal, tutorial</dd>
+            </div>
+            <div>
+                <dt>Creator</dt>
+                <dd>Binary Birds</dd>
+            </div>
+            <div>
+                <dt>License</dt>
+                <dd>MIT</dd>
+            </div>
+            <div class="features">
+                <dt>Features</dt>
+                <div class="list">
+                    <dd>2-level hierarchy (category + guide)</dd>
+                    <dd>Back-Next navigation between guides</dd>
+                    <dd>Guide outlines (Table of Contents)</dd>
+                    <dd>Custom page support</dd>
+                    <dd>Customization</dd>
+                </div>
+            </div>
+            <div class="actions">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <a class="cta primary" href="https://toucansites.github.io/try-o-template-demo/">Live demo</a><a class="cta secondary" href="https://github.com/toucansites/try-o-template">GitHub</a>
+                </dd>
+            </div>
+        </dl>
 
-        **Creator**
-        Binary Birds
         
-        **License**
-        MIT
-
-        **Features**
-        2-level hierarchy (category + guide)
-        Search
-        Back-Next navigation between guides
-        Guide outlines (Table of Contents)
-        Custom page support
-        Customization
     }
+    
 }
