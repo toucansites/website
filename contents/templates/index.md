@@ -22,6 +22,16 @@ Take a look at our official starter templates below:
                 <dt>Use cases</dt>
                 <dd>Documentation, Knowledge base, wiki, course material, support portal, tutorial</dd>
             </div>
+            <div class="features">
+                <dt>Features</dt>
+                <div class="list">
+                    <dd>2-level hierarchy (category, guide)</dd>
+                    <dd>Navigation between guides</dd>
+                    <dd>Guide outlines (Table of Contents)</dd>
+                    <dd>Custom page support</dd>
+                    <dd>Customization</dd>
+                </div>
+            </div>
             <div>
                 <dt>Creator</dt>
                 <dd>Binary Birds</dd>
@@ -29,16 +39,6 @@ Take a look at our official starter templates below:
             <div>
                 <dt>License</dt>
                 <dd>MIT</dd>
-            </div>
-            <div class="features">
-                <dt>Features</dt>
-                <div class="list">
-                    <dd>2-level hierarchy (category + guide)</dd>
-                    <dd>Back-Next navigation between guides</dd>
-                    <dd>Guide outlines (Table of Contents)</dd>
-                    <dd>Custom page support</dd>
-                    <dd>Customization</dd>
-                </div>
             </div>
             <div class="actions">
                 <dt>&nbsp;</dt>
@@ -62,7 +62,17 @@ Take a look at our official starter templates below:
         <dl>
             <div>
                 <dt>Use cases</dt>
-                <dd>Documentation, Knowledge base, wiki, course material, support portal, tutorial</dd>
+                <dd>Blog, articles, stories, updates, insights.</dd>
+            </div>
+            <div class="features">
+                <dt>Features</dt>
+                <div class="list">
+                    <dd>Author, tag and article support with search</dd>
+                    <dd>Navigation between articles</dd>
+                    <dd>Share articles on social media</dd>
+                    <dd>Custom page support</dd>
+                    <dd>Customization</dd>
+                </div>
             </div>
             <div>
                 <dt>Creator</dt>
@@ -71,16 +81,6 @@ Take a look at our official starter templates below:
             <div>
                 <dt>License</dt>
                 <dd>MIT</dd>
-            </div>
-            <div class="features">
-                <dt>Features</dt>
-                <div class="list">
-                    <dd>2-level hierarchy (category + guide)</dd>
-                    <dd>Back-Next navigation between guides</dd>
-                    <dd>Guide outlines (Table of Contents)</dd>
-                    <dd>Custom page support</dd>
-                    <dd>Customization</dd>
-                </div>
             </div>
             <div class="actions">
                 <dt>&nbsp;</dt>

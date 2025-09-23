@@ -1,3 +1,6 @@
+main .grid {
+    row-gap: 0;
+}
 main .grid div img {
     border: 8px solid var(--primary-text-color);
 }
@@ -23,9 +26,11 @@ dl > div {
     display: grid;
     padding-top: .25em;
     padding-bottom: .25em;
-    grid-gap: 1em;
 }
 
+dl {
+    font-size: 1.25rem;
+}
 dt {
     font-weight: bold;
 }
@@ -59,9 +64,13 @@ dl > div.features div.list dd {
 dl > div.actions {
     text-align: center;
     margin-top: 0;
+    margin-bottom: 96px;
 }
 
 @media screen and (min-width: 600px) {
+    main .grid {
+        row-gap: 96px;
+    }
     dl > div {
         grid-template-columns: minmax(100px, 20%) auto;
         margin-top: 0px;
