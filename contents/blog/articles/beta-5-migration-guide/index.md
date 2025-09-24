@@ -4,8 +4,7 @@ title: "Beta 5 migration guide"
 description: "This guide explains the most important changes in Toucan Beta 5 and helps you update your project."
 publication: "2025-07-02 10:00:00"
 tags:
-    - releases
-    - migration-guide
+    - migration-guides
 authors:
     - tibor-bodecs
 ---

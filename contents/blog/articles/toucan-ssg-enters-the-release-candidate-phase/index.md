@@ -2,7 +2,7 @@
 type: post
 title: "Toucan SGG enters the release candidate phase"
 description: "After multiple alpha and beta releases, Toucan, the Swift-based static site generator, has entered its Release Candidate phase."
-publication: "2025-09-11 00:00:00"
+publication: "2025-09-24 12:00:00"
 tags: 
     - releases
 authors:

@@ -4,7 +4,7 @@ title: "Beta 3 migration guide"
 description: "Migration guide for Toucan Beta 3: covering changes to content structure, theme changes and rendering features."
 publication: "2025-04-15 14:00:00"
 tags:
-    - releases
+    - migration-guides
 authors:
     - gabor-lengyel
 ---
