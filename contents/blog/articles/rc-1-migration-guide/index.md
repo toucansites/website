@@ -11,8 +11,6 @@ authors:
 
 Here’s a list of the most important changes in [this](https://github.com/toucansites/toucan/releases/tag/1.0.0-rc.1) release, mostly focused on bug fixes and general improvements:
 
-Here's a list of the most important changes in  release, mostly containing bug fixes and other improvements:
-
 - Fix ordered list start index
 - Fix angle bracket issues
 - FileManagerKit updates & fixes
