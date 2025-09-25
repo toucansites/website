@@ -28,7 +28,7 @@ queries:
     posts:
         contentType: post
         scope: detail
-        limit: 12
+        limit: 3
         orderBy:
             - key: publication
               direction: desc

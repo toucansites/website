@@ -7,8 +7,6 @@ tags:
     - releases
 authors:
     - ferenc-viasz-kadi
-featured: true
-draft: true
 ---
 
 ## Asset Properties

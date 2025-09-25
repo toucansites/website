@@ -4,12 +4,9 @@ title: "Beta 4 migration guide"
 description: "Migration guide for Toucan Beta 4"
 publication: "2025-05-20 10:00:00"
 tags:
-- releases
+    - migration-guides
 authors:
-- gabor-lengyel
-featured: true
-draft: true
-
+    - gabor-lengyel
 ---
 
 Here's a list of the most important changes in [this](https://github.com/toucansites/toucan/releases/tag/1.0.0-beta.4) release:

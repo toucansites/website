@@ -4,11 +4,9 @@ title: "TRY-O Template Release"
 description: "Introducing TRY-O: The first and free blog template for Toucan."
 publication: "2025-04-30 16:01:00"
 tags:
-    - releases
+    - templates
 authors: 
     - andris-sipos
-featured: true
-
 ---
 
 ## Introducing TRY-O: The first and free blog template for Toucan
