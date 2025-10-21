@@ -7,6 +7,4 @@ description: "Have questions about Toucan, the Markdown-based static site genera
 
 Reach out with any questions about Toucan, the Markdown-based static site generator. Feel free to send an inquiry if you’re looking to build a website with Toucan.
 
-<a href="mailto:support@binarybirds.com" class="cta">Contact us</a>
-
-
+@CTA(email: "support@binarybirds.com") { Contact us }

@@ -1,0 +1,12 @@
+name: cta
+tag: a
+removesChildParagraph: true
+parameters:
+  - label: email
+  - label: class
+    defaultValue: "cta"
+attributes:
+  - name: href
+    value: "mailto:{{email}}"
+  - name: class
+    value: "{{class}}"
