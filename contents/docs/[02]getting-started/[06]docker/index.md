@@ -60,7 +60,7 @@ The `serve` command launches a local web server for previewing the generated sit
 docker run --rm -v $(pwd):/app/site -p 3000:3000 \
   --entrypoint toucan \
   toucansites/toucan:latest \
-  serve --hostname "0.0.0.0" --port 3000 ./site/dist
+  serve --address "0.0.0.0" --port 3000 ./site/dist
 ```
 
 Once you run the command above, you will be able to access your site at [http://localhost:3000](http://localhost:3000/).
