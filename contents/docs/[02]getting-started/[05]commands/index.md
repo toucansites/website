@@ -39,10 +39,10 @@ toucan watch --target dev
 The `serve` command starts a local web server to host a specified directory. It allows serving a folder with an optional port number. By default, your site will be accessible at `http://localhost:3000/` if run as follows:
 
 ```sh
-toucan serve ./dist -h localhost -p 3000
+toucan serve ./dist -a localhost -p 3000
 ```
 
-You can specify a hostname and port parameter to bind your web server to a given address. This allows you to preview your website at [http://localhost:3000/](http://localhost:3000/).
+You can specify an address (`--address`, `-a`) and port (`--port`, `-p`) parameter to bind your web server to a given hostname. This allows you to preview your website at [http://localhost:3000/](http://localhost:3000/).
 
 You can also run Toucan commands using Docker. For more information on how to do this, please refer to the [next guide](/docs/getting-started/docker/).
 
