@@ -98,4 +98,4 @@ toucan --help
 
 ## Compile from source
 
-For instructions on compiling from source, see [Compile from source](/docs/installation/compile-from-source/).
+For instructions on compiling from source, see [Compile from source](/docs/installation/source/).
