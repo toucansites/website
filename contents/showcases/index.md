@@ -39,4 +39,10 @@ Toucan is used by the following websites. Feel free to [contact us](/contact/) i
         ](https://theswiftdev.com/)
         [The.Swift.Dev](https://theswiftdev.com/)
     }
+    @Column {
+        [
+            ![Awesome Swift Charts](./assets/awesome-swift-charts.jpg)
+        ](https://artemnovichkov.github.io/awesome-swift-charts/)
+        [Awesome Swift Charts](https://artemnovichkov.github.io/awesome-swift-charts/)
+    }
 }
